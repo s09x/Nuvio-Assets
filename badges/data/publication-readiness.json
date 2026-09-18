@@ -1,5 +1,5 @@
 {
-  "status": "ready-for-authorized-publication",
+  "status": "published-and-verified",
   "version": "2.0.0",
   "base_commit": "3e032e36db159ae7ee25a6efff0fd90dfcb95852",
   "user_approved_publication": true,
@@ -38,5 +38,8 @@
   },
   "synthetic_import_cases_passed": 22,
   "gallery_static_links_and_javascript_syntax": "passed",
-  "manifest_versions_match_all_delivered_images": true
+  "manifest_versions_match_all_delivered_images": true,
+  "asset_publication_commit": "1aca4f876e7140a3501b4826f13d6fc078b9ae99",
+  "manifest_http_status": 200,
+  "anonymous_image_downloads_verified": 180
 }

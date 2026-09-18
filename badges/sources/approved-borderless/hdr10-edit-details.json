@@ -29,7 +29,7 @@
   "requested_model": "gpt-image-2.5-sunburst",
   "kind": "user-requested derivative of the supplied HDR10+ reference",
   "publication_approved": true,
-  "status": "approved-for-publication",
+  "status": "published-and-verified",
   "execution_mode": "bundled imagegen CLI / Images API edit",
   "model_output_dimensions": [
     1672,
@@ -73,6 +73,7 @@
     "hdr10-final-app.webp": "333fe0f2916bbb060e3c5bc14efca6f3fbe2c4d63fdf00717e41c0804e08596f"
   },
   "repository_modified": true,
-  "uploaded": false,
-  "approval_text": "perfekt, freigegeben"
+  "uploaded": true,
+  "approval_text": "perfekt, freigegeben",
+  "asset_publication_commit": "1aca4f876e7140a3501b4826f13d6fc078b9ae99"
 }

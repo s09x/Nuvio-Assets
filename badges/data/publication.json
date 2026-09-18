@@ -7,5 +7,9 @@
   "manifest_format": "Nuvio/Fusion filters and groups",
   "image_use": "Cropped app images for stream chips; lossless 4K masters retained separately.",
   "version": "2.0.0",
-  "design": "Approved borderless original logos and neutral typography"
+  "design": "Approved borderless original logos and neutral typography",
+  "status": "published-and-verified",
+  "asset_publication_commit": "1aca4f876e7140a3501b4826f13d6fc078b9ae99",
+  "manifest_version": "2.0.0",
+  "manifest_http_status": 200
 }
