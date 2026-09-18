@@ -1,0 +1,2 @@
+# Preserve original SVG bytes across platforms.
+collections/hosted/**/*.svg -text

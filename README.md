@@ -1,6 +1,6 @@
 # Nuvio Assets
 
-Custom artwork for Nuvio.
+Custom artwork and hosted collection assets for Nuvio.
 
 ## Year collections
 
@@ -26,6 +26,12 @@ Custom artwork for Nuvio.
 
 [`collections/film-collections/de`](collections/film-collections/de) contains 249 film-collection covers and the eleven available hover variants. Collection labels and other accompanying text are in German; film and franchise names retain their established titles.
 
+## Additional collection assets
+
+[`collections/hosted`](collections/hosted) contains 714 original image files: title logos, hero backdrops, and the remaining streaming-service, studio, and anime covers and hover images. Files are grouped by collection in `discover`, `streaming-services`, `genres`, `moods`, `studios`, `by-year`, `anime`, and `film-collections`.
+
+These assets retain their original file contents, dimensions, and transparency in PNG, JPEG, WebP, or SVG format. The [manifest](collections/hosted/manifest.json) records each file's source, format, dimensions, checksum, and collection references.
+
 ## Using the images
 
 The images are publicly accessible without authentication. Use the **raw image URL**, rather than a GitHub file-view page, in your Nuvio collection configuration.
@@ -41,4 +47,6 @@ For example, these fields configure the Action folder's images:
 }
 ```
 
-Images are supplied as WebP files. Landscape cards are 3840 × 2160 pixels. Portrait posters retain their original aspect ratio with a 3840-pixel long edge. Each collection directory includes a `manifest.json` with asset names, dimensions, and checksums. URLs using `main` follow the current version; replace `main` with a commit SHA to reference a fixed version.
+The custom covers and hover variants are supplied as WebP files. Landscape cards are 3840 × 2160 pixels. Portrait posters retain their original aspect ratio with a 3840-pixel long edge. Their directories include a `manifest.json` with asset names, dimensions, and checksums. Original assets in `collections/hosted` retain their source resolution; SVG files are scalable.
+
+URLs using `main` follow the current version; replace `main` with a commit SHA to reference a fixed version.
