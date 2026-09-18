@@ -1,0 +1,105 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "method": "Image API edits with supplied design and film references",
+  "assets": [
+    {
+      "file": "2026-cover.webp",
+      "visibleYear": "2026",
+      "period": "2026",
+      "motif": "Project Hail Mary",
+      "motifReleaseYear": "2026",
+      "backdropUrl": "https://image.tmdb.org/t/p/w1280/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
+      "width": 1280,
+      "height": 720,
+      "sha256": "7dd36e8b83c3045c6943dfcbe49211644d3420f6c7cec6597c6dcca2584bdff0"
+    },
+    {
+      "file": "2025-cover.webp",
+      "visibleYear": "2025",
+      "period": "2025",
+      "motif": "F1",
+      "motifReleaseYear": "2025",
+      "backdropUrl": "https://image.tmdb.org/t/p/w1280/lkDYN0whyE82mcM20rwtwjbniKF.jpg",
+      "width": 1280,
+      "height": 720,
+      "sha256": "1a28824164cce37212df81900168a6a94857353d8dc8c8a911f21e4aa75c8923"
+    },
+    {
+      "file": "2024-cover.webp",
+      "visibleYear": "2024",
+      "period": "2024",
+      "motif": "Dune: Part Two",
+      "motifReleaseYear": "2024",
+      "backdropUrl": "https://image.tmdb.org/t/p/w1280/eZ239CUp1d6OryZEBPnO2n87gMG.jpg",
+      "width": 1280,
+      "height": 720,
+      "sha256": "735f5dd57f5e81236d58bb5a3bd65864eac38e7c13b6fccb622f50e5cef96b43"
+    },
+    {
+      "file": "2023-cover.webp",
+      "visibleYear": "2023",
+      "period": "2023",
+      "motif": "Oppenheimer",
+      "motifReleaseYear": "2023",
+      "backdropUrl": "https://image.tmdb.org/t/p/w1280/7CENyUim29IEsaJhUxIGymCRvPu.jpg",
+      "width": 1280,
+      "height": 720,
+      "sha256": "e908d5ab2c4be6625693dd0fe603b39b03cfaa9ed1dd5858062ba1124e2a5264"
+    },
+    {
+      "file": "2022-cover.webp",
+      "visibleYear": "2022",
+      "period": "2022",
+      "motif": "Top Gun: Maverick",
+      "motifReleaseYear": "2022",
+      "backdropUrl": "https://image.tmdb.org/t/p/w1280/AaV1YIdWKnjAIAOe8UUKBFm327v.jpg",
+      "width": 1280,
+      "height": 720,
+      "sha256": "bae467fdc83df81ac8fc1197a6710cd506d2dce96e8c8c644558b1754744e02e"
+    },
+    {
+      "file": "2021-cover.webp",
+      "visibleYear": "2021",
+      "period": "2021",
+      "motif": "No Time to Die",
+      "motifReleaseYear": "2021",
+      "backdropUrl": "https://image.tmdb.org/t/p/w1280/bz7pwNGCbV576COsDcYN9MbEACC.jpg",
+      "width": 1280,
+      "height": 720,
+      "sha256": "2e45077ce71f8165029e7891c0c2f01e29a7bd200d05a6ae9cf34741b52292f9"
+    },
+    {
+      "file": "2020-cover.webp",
+      "visibleYear": "2020",
+      "period": "2020",
+      "motif": "Tenet",
+      "motifReleaseYear": "2020",
+      "backdropUrl": "https://image.tmdb.org/t/p/w1280/mQOUyqDybTqxl73hO5LujCZsM1o.jpg",
+      "width": 1280,
+      "height": 720,
+      "sha256": "e020a65421032503783ef834bb406ad28d0628097a1acd9a4de423ff87b29c30"
+    },
+    {
+      "file": "2015-2019-cover.webp",
+      "visibleYear": "2015",
+      "period": "2015-2019",
+      "motif": "La La Land",
+      "motifReleaseYear": "2016",
+      "backdropUrl": "https://image.tmdb.org/t/p/w1280/nlPCdZlHtRNcF6C9hzUH4ebmV1w.jpg",
+      "width": 1280,
+      "height": 720,
+      "sha256": "2a5488ca3a7d27b0d0bec7a0855285552baa1cc3ba9e6dcdbe025e0810c6628d"
+    },
+    {
+      "file": "2010-2014-cover.webp",
+      "visibleYear": "2010",
+      "period": "2010-2014",
+      "motif": "Interstellar",
+      "motifReleaseYear": "2014",
+      "backdropUrl": "https://image.tmdb.org/t/p/w1280/vgnoBSVzWAV9sNQUORaDGvDp7wx.jpg",
+      "width": 1280,
+      "height": 720,
+      "sha256": "5f774b685755de206f16c11c5886bcc4aa7b2dc1a9a63574f32d59cffd1f83f1"
+    }
+  ]
+}
