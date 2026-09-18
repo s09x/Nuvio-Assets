@@ -1,0 +1,25 @@
+{
+  "status": "approved-for-production-and-publication",
+  "user_approval": "perfekt, freigegeben",
+  "scope": "Original marks, neutral borderless labels, centered static language flags and the approved HDR10 derivative.",
+  "sample_source": "User-approved 16-item centered sample; HDR10 replaced by the separately approved edit.",
+  "seed_assets": {
+    "picture-brand/dolby-vision": "dolby-vision",
+    "audio-brand/dolby-atmos": "dolby-atmos",
+    "disc-brand/blu-ray": "blu-ray",
+    "picture-brand/hdr10plus": "hdr10plus",
+    "audio-brand/dts": "dts",
+    "video-codec/av1": "av1",
+    "audio-codec/opus": "opus",
+    "resolution/4k": "4k",
+    "resolution/1080p": "1080p",
+    "resolution/720p": "720p",
+    "source/remux": "remux",
+    "source/web-dl": "web-dl",
+    "audio-channel/5-1": "5-1",
+    "language/de": "de",
+    "language/en": "en"
+  },
+  "font_sha256": "f80b4f9da5682df6b451e4fc02062a2ca80405039aa31fdec517b1f092f43421",
+  "font_software_redistributed": false
+}

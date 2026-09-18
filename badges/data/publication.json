@@ -5,5 +5,7 @@
   "import_url": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/manifest.json",
   "asset_root_url": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/",
   "manifest_format": "Nuvio/Fusion filters and groups",
-  "image_use": "Cropped app images for stream chips; lossless 4K masters retained separately."
+  "image_use": "Cropped app images for stream chips; lossless 4K masters retained separately.",
+  "version": "2.0.0",
+  "design": "Approved borderless original logos and neutral typography"
 }

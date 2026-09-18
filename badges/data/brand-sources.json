@@ -6,7 +6,8 @@
     "bytes": 7244,
     "content_type": "image/svg+xml",
     "original_file": "sources/brands/dolby-atmos.svg",
-    "original_sha256": "aff0886d9058ad5d6f363c0459a206c501346937d156c6502e25a66a81eb1521"
+    "original_sha256": "aff0886d9058ad5d6f363c0459a206c501346937d156c6502e25a66a81eb1521",
+    "classification": "original-logo"
   },
   "audio-brand/dolby-digital-plus": {
     "id": "dolby-digital-plus",
@@ -18,7 +19,8 @@
     "source_page": "https://commons.wikimedia.org/wiki/File:Dolby-Digital-Plus.svg",
     "original_credit": "Dolby Laboratories, Inc.",
     "original_file": "sources/brands/dolby-digital-plus.svg",
-    "original_sha256": "a2f3b84070cdedd60cc4721c265fc1a423a670b72920b0faa2489ee827b431c8"
+    "original_sha256": "a2f3b84070cdedd60cc4721c265fc1a423a670b72920b0faa2489ee827b431c8",
+    "classification": "original-logo"
   },
   "audio-brand/dolby-digital": {
     "id": "dolby-digital",
@@ -27,7 +29,8 @@
     "provenance": "official-artwork-mirror",
     "original_credit": "Dolby Laboratories; original vector artwork referenced by Wikimedia Commons metadata",
     "original_file": "sources/brands/dolby-digital.svg",
-    "original_sha256": "8e8d73750c5dcfa7c14929c5d59b33c557167937adbbd6799cb3b3d00fc0c815"
+    "original_sha256": "8e8d73750c5dcfa7c14929c5d59b33c557167937adbbd6799cb3b3d00fc0c815",
+    "classification": "original-logo"
   },
   "audio-brand/dolby-truehd": {
     "id": "dolby-truehd",
@@ -36,7 +39,8 @@
     "provenance": "official-artwork-mirror",
     "original_credit": "Dolby Laboratories; original vector artwork referenced by Wikimedia Commons metadata",
     "original_file": "sources/brands/dolby-truehd.svg",
-    "original_sha256": "41a13b3b99138d13d83262aaa3acdfa8f1e736024327e1601eabc937fdb4ca2a"
+    "original_sha256": "41a13b3b99138d13d83262aaa3acdfa8f1e736024327e1601eabc937fdb4ca2a",
+    "classification": "original-logo"
   },
   "audio-brand/dolby": {
     "id": "dolby",
@@ -45,7 +49,8 @@
     "bytes": 3698,
     "content_type": "image/svg+xml",
     "original_file": "sources/brands/dolby.svg",
-    "original_sha256": "f22a696cb2c15818f2c980da683aac44b05d8b6607ae5d3a8072053b84c9d710"
+    "original_sha256": "f22a696cb2c15818f2c980da683aac44b05d8b6607ae5d3a8072053b84c9d710",
+    "classification": "original-logo"
   },
   "audio-brand/dts-hd-ma": {
     "id": "dts-hd-ma",
@@ -57,7 +62,8 @@
     "source_page": "https://commons.wikimedia.org/wiki/File:DTS-HD-MA.svg",
     "original_credit": "DTS, Inc., SVG by Locke Cole extracted from [2]",
     "original_file": "sources/brands/dts-hd-ma.svg",
-    "original_sha256": "07965a85011102d5135d4f2a193508c49e5b36465c4bfa5000dd7d94dc8c8f08"
+    "original_sha256": "07965a85011102d5135d4f2a193508c49e5b36465c4bfa5000dd7d94dc8c8f08",
+    "classification": "original-logo"
   },
   "audio-brand/dts-x": {
     "id": "dts-x",
@@ -74,7 +80,8 @@
     },
     "note": "Original mark supplied by DTS. The publicly supplied raster has 132 x 132 pixels; 4K export does not add original detail.",
     "original_file": "sources/brands/dts-x.png",
-    "original_sha256": "f0ba9a6afbd138f3581de97101656aedc57442ab5c8835781af6b50e8b501488"
+    "original_sha256": "f0ba9a6afbd138f3581de97101656aedc57442ab5c8835781af6b50e8b501488",
+    "classification": "original-logo"
   },
   "audio-brand/dts": {
     "id": "dts",
@@ -83,7 +90,8 @@
     "bytes": 1709,
     "provenance": "official-site",
     "original_file": "sources/brands/dts.svg",
-    "original_sha256": "9eb8c2318d14d5d4aff3e914535f4a57118d3885101d01590542561f68c69406"
+    "original_sha256": "9eb8c2318d14d5d4aff3e914535f4a57118d3885101d01590542561f68c69406",
+    "classification": "original-logo"
   },
   "disc-brand/blu-ray-3d": {
     "id": "blu-ray-3d",
@@ -92,7 +100,8 @@
     "bytes": 4245,
     "content_type": "image/svg+xml",
     "original_file": "sources/brands/blu-ray-3d.svg",
-    "original_sha256": "c54bc37bffddc116a4e005963dcdaf1ab6f57334c8b9d5ce42be239db24fead6"
+    "original_sha256": "c54bc37bffddc116a4e005963dcdaf1ab6f57334c8b9d5ce42be239db24fead6",
+    "classification": "original-logo"
   },
   "disc-brand/blu-ray-4k": {
     "id": "blu-ray-4k",
@@ -101,7 +110,8 @@
     "bytes": 1469,
     "content_type": "image/svg+xml",
     "original_file": "sources/brands/blu-ray-4k.svg",
-    "original_sha256": "a4a411da0dd459ac7942431abdf888c6e84ba54607cc3fbb9af7acb348d7a45b"
+    "original_sha256": "a4a411da0dd459ac7942431abdf888c6e84ba54607cc3fbb9af7acb348d7a45b",
+    "classification": "original-logo"
   },
   "disc-brand/blu-ray": {
     "id": "blu-ray",
@@ -110,7 +120,8 @@
     "bytes": 3894,
     "content_type": "image/svg+xml",
     "original_file": "sources/brands/blu-ray.svg",
-    "original_sha256": "162f2a10eddfc47b469b214df8df297461e62cd6f7f1c2885c59dbbb09bbc244"
+    "original_sha256": "162f2a10eddfc47b469b214df8df297461e62cd6f7f1c2885c59dbbb09bbc244",
+    "classification": "original-logo"
   },
   "disc-brand/dvd": {
     "id": "dvd",
@@ -122,7 +133,8 @@
     "source_page": "https://commons.wikimedia.org/wiki/File:DVD_logo.svg",
     "original_credit": "Fleshgrinder",
     "original_file": "sources/brands/dvd.svg",
-    "original_sha256": "a11fcc392c029e6496a76a493702c030f91f07bf112cccdf232d92b6b3fd065c"
+    "original_sha256": "a11fcc392c029e6496a76a493702c030f91f07bf112cccdf232d92b6b3fd065c",
+    "classification": "original-logo"
   },
   "disc-brand/uhd-blu-ray": {
     "id": "uhd-blu-ray",
@@ -131,7 +143,8 @@
     "bytes": 4237,
     "content_type": "image/svg+xml",
     "original_file": "sources/brands/uhd-blu-ray.svg",
-    "original_sha256": "522097b22d1dc46968440776eb3cf293e17da06b27369e07d668b2b15225ac37"
+    "original_sha256": "522097b22d1dc46968440776eb3cf293e17da06b27369e07d668b2b15225ac37",
+    "classification": "original-logo"
   },
   "edition-brand/criterion-collection": {
     "id": "criterion-collection",
@@ -149,7 +162,8 @@
       "flags": []
     },
     "original_file": "sources/brands/criterion-collection.svg",
-    "original_sha256": "f2d4b6908fe37e3d5446646ca1766df715d0ccf4be8ca853711fd18d5b83ea1d"
+    "original_sha256": "f2d4b6908fe37e3d5446646ca1766df715d0ccf4be8ca853711fd18d5b83ea1d",
+    "classification": "original-logo"
   },
   "picture-brand/dolby-vision": {
     "id": "dolby-vision",
@@ -158,7 +172,8 @@
     "bytes": 7048,
     "content_type": "image/svg+xml",
     "original_file": "sources/brands/dolby-vision.svg",
-    "original_sha256": "d5aa4ed83f327dbce3b006ba65b94b5009f4b74825711706d2e2b5d972e05cdc"
+    "original_sha256": "d5aa4ed83f327dbce3b006ba65b94b5009f4b74825711706d2e2b5d972e05cdc",
+    "classification": "original-logo"
   },
   "picture-brand/hdr10plus-advanced": {
     "id": "hdr10plus-advanced",
@@ -167,7 +182,8 @@
     "bytes": 19402,
     "content_type": "image/png",
     "original_file": "sources/brands/hdr10plus-advanced.png",
-    "original_sha256": "49be0373edaa628ed2e6ea3d229fd094515ba1c29424f476e6329fb429743798"
+    "original_sha256": "49be0373edaa628ed2e6ea3d229fd094515ba1c29424f476e6329fb429743798",
+    "classification": "original-logo"
   },
   "picture-brand/hdr10plus-gaming": {
     "id": "hdr10plus-gaming",
@@ -176,7 +192,8 @@
     "bytes": 25770,
     "content_type": "image/png",
     "original_file": "sources/brands/hdr10plus-gaming.png",
-    "original_sha256": "4154cdc8de7e1e7b54e75278597fae216d34a73ba0d84ce30f76832c0dc7fcf1"
+    "original_sha256": "4154cdc8de7e1e7b54e75278597fae216d34a73ba0d84ce30f76832c0dc7fcf1",
+    "classification": "original-logo"
   },
   "picture-brand/hdr10plus": {
     "id": "hdr10plus",
@@ -185,7 +202,8 @@
     "bytes": 31690,
     "content_type": "image/png",
     "original_file": "sources/brands/hdr10plus.png",
-    "original_sha256": "b179e72d889f23eec7cfbb471d8df1d8312839fa034ac387edcbeffd9219acff"
+    "original_sha256": "b179e72d889f23eec7cfbb471d8df1d8312839fa034ac387edcbeffd9219acff",
+    "classification": "original-logo"
   },
   "picture-brand/imax-enhanced": {
     "id": "imax-enhanced",
@@ -194,7 +212,8 @@
     "bytes": 45005,
     "provenance": "official-site",
     "original_file": "sources/brands/imax-enhanced.svg",
-    "original_sha256": "890343c49523e41c230c054c83465400f79597386ff3a881f8322851b5b93f77"
+    "original_sha256": "890343c49523e41c230c054c83465400f79597386ff3a881f8322851b5b93f77",
+    "classification": "original-logo"
   },
   "picture-brand/imax": {
     "id": "imax",
@@ -214,7 +233,8 @@
       "flags": []
     },
     "original_file": "sources/brands/imax.svg",
-    "original_sha256": "2b276f66362bece821ad2f46280a3b3d273613029846b7608f31ae0b3a2907f0"
+    "original_sha256": "2b276f66362bece821ad2f46280a3b3d273613029846b7608f31ae0b3a2907f0",
+    "classification": "original-logo"
   },
   "provider/aiostreams": {
     "id": "aiostreams",
@@ -230,7 +250,8 @@
       ]
     },
     "original_file": "sources/brands/aiostreams.png",
-    "original_sha256": "ae98e0d095b58e497da9cb9ebbbc7d29bb91b409deed02ba470a2e3ad56bfc12"
+    "original_sha256": "ae98e0d095b58e497da9cb9ebbbc7d29bb91b409deed02ba470a2e3ad56bfc12",
+    "classification": "original-logo"
   },
   "provider/all-debrid": {
     "id": "all-debrid",
@@ -246,7 +267,8 @@
       ]
     },
     "original_file": "sources/brands/all-debrid.png",
-    "original_sha256": "64a8a9cc15904b579598824f23eb4c6643e52f942621bc94f6b312721b9c26e0"
+    "original_sha256": "64a8a9cc15904b579598824f23eb4c6643e52f942621bc94f6b312721b9c26e0",
+    "classification": "original-logo"
   },
   "provider/altmount": {
     "id": "altmount",
@@ -262,7 +284,8 @@
       ]
     },
     "original_file": "sources/brands/altmount.png",
-    "original_sha256": "21337312636fb46fb9f968b3d54c2da1638f767afb78f04a2d408fb1e91b995e"
+    "original_sha256": "21337312636fb46fb9f968b3d54c2da1638f767afb78f04a2d408fb1e91b995e",
+    "classification": "original-logo"
   },
   "provider/debrid-link": {
     "id": "debrid-link",
@@ -275,7 +298,8 @@
       "viewBox": "0 0 1000 1000"
     },
     "original_file": "sources/brands/debrid-link.svg",
-    "original_sha256": "fdb1dd56a14be719b6858de98c607dfeed941f2acb4775383371cefa8fc10942"
+    "original_sha256": "fdb1dd56a14be719b6858de98c607dfeed941f2acb4775383371cefa8fc10942",
+    "classification": "original-logo"
   },
   "provider/debrider": {
     "id": "debrider",
@@ -288,7 +312,8 @@
       "viewBox": "0 0 200 200"
     },
     "original_file": "sources/brands/debrider.svg",
-    "original_sha256": "f0c14c175c3de5d165010cad164c8c8fcb00726481499faf722e8d79cdae98fb"
+    "original_sha256": "f0c14c175c3de5d165010cad164c8c8fcb00726481499faf722e8d79cdae98fb",
+    "classification": "original-logo"
   },
   "provider/easydebrid": {
     "id": "easydebrid",
@@ -304,7 +329,8 @@
       ]
     },
     "original_file": "sources/brands/easydebrid.png",
-    "original_sha256": "1818066cfccf45455e34b16a6e306f26e041c2d2ef4db8bae8b8fa13263e3cc1"
+    "original_sha256": "1818066cfccf45455e34b16a6e306f26e041c2d2ef4db8bae8b8fa13263e3cc1",
+    "classification": "original-logo"
   },
   "provider/easynews": {
     "id": "easynews",
@@ -320,7 +346,8 @@
       ]
     },
     "original_file": "sources/brands/easynews.png",
-    "original_sha256": "abc95455868cfebfc2fa35fec017659bfd48655c37fd7894b3fb8aa094fffeaa"
+    "original_sha256": "abc95455868cfebfc2fa35fec017659bfd48655c37fd7894b3fb8aa094fffeaa",
+    "classification": "original-logo"
   },
   "provider/nzbdav": {
     "id": "nzbdav",
@@ -333,7 +360,8 @@
       "viewBox": "0 0 1000 1143.43"
     },
     "original_file": "sources/brands/nzbdav.svg",
-    "original_sha256": "3487430d855755f1fb892add55c428671af2d721f8ec8dfdb1db4e4be9ded167"
+    "original_sha256": "3487430d855755f1fb892add55c428671af2d721f8ec8dfdb1db4e4be9ded167",
+    "classification": "original-logo"
   },
   "provider/offcloud": {
     "id": "offcloud",
@@ -349,7 +377,8 @@
       ]
     },
     "original_file": "sources/brands/offcloud.png",
-    "original_sha256": "f223351f478347129cc64debcf78331ad73e00b9f084778f28d9a77bb66fb35c"
+    "original_sha256": "f223351f478347129cc64debcf78331ad73e00b9f084778f28d9a77bb66fb35c",
+    "classification": "original-logo"
   },
   "provider/pikpak": {
     "id": "pikpak",
@@ -365,7 +394,8 @@
       ]
     },
     "original_file": "sources/brands/pikpak.png",
-    "original_sha256": "c73796c91af6cfed34bf42feadad2d0a0a26ef151ace4646c9635da8f7fc0a8a"
+    "original_sha256": "c73796c91af6cfed34bf42feadad2d0a0a26ef151ace4646c9635da8f7fc0a8a",
+    "classification": "original-logo"
   },
   "provider/premiumize": {
     "id": "premiumize",
@@ -378,7 +408,8 @@
       "viewBox": "0 0 240.00002 239.99999"
     },
     "original_file": "sources/brands/premiumize.svg",
-    "original_sha256": "acdbd146aab30ee4bb799258d399703e987aa1b37712a03f4ea2db0c7df2928a"
+    "original_sha256": "acdbd146aab30ee4bb799258d399703e987aa1b37712a03f4ea2db0c7df2928a",
+    "classification": "original-logo"
   },
   "provider/put-io": {
     "id": "put-io",
@@ -394,7 +425,8 @@
       ]
     },
     "original_file": "sources/brands/put-io.png",
-    "original_sha256": "60d7bccb2996e8d2cbea3b5e6c797858401895d57a3089b3e2e75d5a39d43725"
+    "original_sha256": "60d7bccb2996e8d2cbea3b5e6c797858401895d57a3089b3e2e75d5a39d43725",
+    "classification": "original-logo"
   },
   "provider/real-debrid": {
     "id": "real-debrid",
@@ -410,7 +442,8 @@
       ]
     },
     "original_file": "sources/brands/real-debrid.png",
-    "original_sha256": "b001f407c3d37011814262645f012511e24364ffc69b44b285b26992ad3e37e3"
+    "original_sha256": "b001f407c3d37011814262645f012511e24364ffc69b44b285b26992ad3e37e3",
+    "classification": "original-logo"
   },
   "provider/seedr": {
     "id": "seedr",
@@ -426,7 +459,8 @@
       "flags": []
     },
     "original_file": "sources/brands/seedr.svg",
-    "original_sha256": "7bb1d5e12969624ae35cf6d3e8be1a76d55c4253c59983067ed49a0e90956f14"
+    "original_sha256": "7bb1d5e12969624ae35cf6d3e8be1a76d55c4253c59983067ed49a0e90956f14",
+    "classification": "original-logo"
   },
   "provider/stremio-nntp": {
     "id": "stremio-nntp",
@@ -442,7 +476,8 @@
       ]
     },
     "original_file": "sources/brands/stremio-nntp.png",
-    "original_sha256": "6064892dee30843cb11c762a3709e706cdcfa86ecc200831394f5a7f12ecab17"
+    "original_sha256": "6064892dee30843cb11c762a3709e706cdcfa86ecc200831394f5a7f12ecab17",
+    "classification": "original-logo"
   },
   "provider/stremthru-newz": {
     "id": "stremthru-newz",
@@ -459,7 +494,8 @@
     },
     "note": "Upstream-configured sparkle symbol; not an independently claimed official corporate logo.",
     "original_file": "sources/brands/stremthru-newz.png",
-    "original_sha256": "843fd6a11a44eadd389e508ef691db5dbfbe07c3dc67c29ba408945be1cd08cf"
+    "original_sha256": "843fd6a11a44eadd389e508ef691db5dbfbe07c3dc67c29ba408945be1cd08cf",
+    "classification": "original-logo"
   },
   "provider/torbox": {
     "id": "torbox",
@@ -472,7 +508,8 @@
       "viewBox": "367 308 766 884"
     },
     "original_file": "sources/brands/torbox.svg",
-    "original_sha256": "bb7a95799250d1bd5b1a626d781fc5033cef31930a9d74f8a4ab8fd54b892160"
+    "original_sha256": "bb7a95799250d1bd5b1a626d781fc5033cef31930a9d74f8a4ab8fd54b892160",
+    "classification": "original-logo"
   },
   "provider/torrin": {
     "id": "torrin",
@@ -488,7 +525,8 @@
       ]
     },
     "original_file": "sources/brands/torrin.png",
-    "original_sha256": "3c2afd996a3f784d0594231aee2e01b24fa4eb0ade20afb098209cea0f65c269"
+    "original_sha256": "3c2afd996a3f784d0594231aee2e01b24fa4eb0ade20afb098209cea0f65c269",
+    "classification": "original-logo"
   },
   "service/adult-swim": {
     "id": "adult-swim",
@@ -508,7 +546,8 @@
       "flags": []
     },
     "original_file": "sources/brands/adult-swim.svg",
-    "original_sha256": "e63f8dc0abd10ee607452f59a36483745b3c9f99dd384c613b108353c33deb82"
+    "original_sha256": "e63f8dc0abd10ee607452f59a36483745b3c9f99dd384c613b108353c33deb82",
+    "classification": "original-logo"
   },
   "service/amc-plus": {
     "id": "amc-plus",
@@ -525,7 +564,8 @@
       ]
     },
     "original_file": "sources/brands/amc-plus.png",
-    "original_sha256": "a7e7b7bb42a99101a65426ad6acb5bf2c32ee406f854474730a82054794f5f45"
+    "original_sha256": "a7e7b7bb42a99101a65426ad6acb5bf2c32ee406f854474730a82054794f5f45",
+    "classification": "original-logo"
   },
   "service/amc": {
     "id": "amc",
@@ -540,7 +580,8 @@
       "flags": []
     },
     "original_file": "sources/brands/amc.svg",
-    "original_sha256": "cce77d3e5921b0a73647beeb616d4b09710b8dc5991bb68edd3e2a7966921b1a"
+    "original_sha256": "cce77d3e5921b0a73647beeb616d4b09710b8dc5991bb68edd3e2a7966921b1a",
+    "classification": "original-logo"
   },
   "service/animal-planet": {
     "id": "animal-planet",
@@ -555,7 +596,8 @@
       "flags": []
     },
     "original_file": "sources/brands/animal-planet.svg",
-    "original_sha256": "c26e9f3ce4ff0fa641f9afe1084c5c1c1bddb0015b56fbfd347a58611c068b06"
+    "original_sha256": "c26e9f3ce4ff0fa641f9afe1084c5c1c1bddb0015b56fbfd347a58611c068b06",
+    "classification": "original-logo"
   },
   "service/apple-tv": {
     "id": "apple-tv",
@@ -564,7 +606,8 @@
     "bytes": 1633,
     "content_type": "image/svg+xml",
     "original_file": "sources/brands/apple-tv.svg",
-    "original_sha256": "288efa17f5fb8788c4c9d9e9c494faa59b69ff71c5b4ad4c25aad3b94b819f4b"
+    "original_sha256": "288efa17f5fb8788c4c9d9e9c494faa59b69ff71c5b4ad4c25aad3b94b819f4b",
+    "classification": "original-logo"
   },
   "service/ard": {
     "id": "ard",
@@ -584,7 +627,8 @@
       "flags": []
     },
     "original_file": "sources/brands/ard.svg",
-    "original_sha256": "e54db79889b65f6781371496fe979fb9271c3cc626f3033025f29e662f4beab4"
+    "original_sha256": "e54db79889b65f6781371496fe979fb9271c3cc626f3033025f29e662f4beab4",
+    "classification": "original-logo"
   },
   "service/arte": {
     "id": "arte",
@@ -602,7 +646,8 @@
       "flags": []
     },
     "original_file": "sources/brands/arte.svg",
-    "original_sha256": "e54e5274de6ff7a7127d89c156d5590d37e1d285827556c8ed4479395a8b8ab0"
+    "original_sha256": "e54e5274de6ff7a7127d89c156d5590d37e1d285827556c8ed4479395a8b8ab0",
+    "classification": "original-logo"
   },
   "service/canal-plus": {
     "id": "canal-plus",
@@ -620,7 +665,8 @@
       "flags": []
     },
     "original_file": "sources/brands/canal-plus.svg",
-    "original_sha256": "fe6d163767195aec51eb3168604f37191af6194577dca83205684ebb411b3c43"
+    "original_sha256": "fe6d163767195aec51eb3168604f37191af6194577dca83205684ebb411b3c43",
+    "classification": "original-logo"
   },
   "service/cartoon-network": {
     "id": "cartoon-network",
@@ -635,7 +681,8 @@
       "flags": []
     },
     "original_file": "sources/brands/cartoon-network.svg",
-    "original_sha256": "2b0a719d5d695bf27588d085dd41941a0eb5d7875ee145f5edd500ccc4ef7604"
+    "original_sha256": "2b0a719d5d695bf27588d085dd41941a0eb5d7875ee145f5edd500ccc4ef7604",
+    "classification": "original-logo"
   },
   "service/cbs": {
     "id": "cbs",
@@ -655,7 +702,8 @@
       "flags": []
     },
     "original_file": "sources/brands/cbs.svg",
-    "original_sha256": "f64403725d80fc17c356cfdd45adbdc78056feb77da702c2096ebadc1d633f5f"
+    "original_sha256": "f64403725d80fc17c356cfdd45adbdc78056feb77da702c2096ebadc1d633f5f",
+    "classification": "original-logo"
   },
   "service/crave": {
     "id": "crave",
@@ -675,7 +723,8 @@
       "flags": []
     },
     "original_file": "sources/brands/crave.svg",
-    "original_sha256": "695bd542897d958f705cbe1acb345ca5d0859741231ea63945f3db2cd371c8de"
+    "original_sha256": "695bd542897d958f705cbe1acb345ca5d0859741231ea63945f3db2cd371c8de",
+    "classification": "original-logo"
   },
   "service/crunchyroll": {
     "id": "crunchyroll",
@@ -697,7 +746,8 @@
       ]
     },
     "original_file": "sources/brands/crunchyroll.png",
-    "original_sha256": "1fc93d35b40b0dbc703b26192cd42695badb504f30a8a26dc902c1bf42447672"
+    "original_sha256": "1fc93d35b40b0dbc703b26192cd42695badb504f30a8a26dc902c1bf42447672",
+    "classification": "original-logo"
   },
   "service/dazn": {
     "id": "dazn",
@@ -715,7 +765,8 @@
       "flags": []
     },
     "original_file": "sources/brands/dazn.svg",
-    "original_sha256": "6f49fbde94ed941caab7d360b3b2e9beaf4ca8acd8a3cafbe33a2556e854ad29"
+    "original_sha256": "6f49fbde94ed941caab7d360b3b2e9beaf4ca8acd8a3cafbe33a2556e854ad29",
+    "classification": "original-logo"
   },
   "service/discovery-plus": {
     "id": "discovery-plus",
@@ -737,7 +788,8 @@
       ]
     },
     "original_file": "sources/brands/discovery-plus.svg",
-    "original_sha256": "82e7691ac5bf8e9ac5d76bf707f81efe81ed2ee0c12272ed8082e12acaaaa064"
+    "original_sha256": "82e7691ac5bf8e9ac5d76bf707f81efe81ed2ee0c12272ed8082e12acaaaa064",
+    "classification": "original-logo"
   },
   "service/disney-plus": {
     "id": "disney-plus",
@@ -746,7 +798,8 @@
     "bytes": 19841,
     "content_type": "image/png",
     "original_file": "sources/brands/disney-plus.png",
-    "original_sha256": "0762101fc520aad6328704f376c231ddf67760ed8ca366929088bb78661835a2"
+    "original_sha256": "0762101fc520aad6328704f376c231ddf67760ed8ca366929088bb78661835a2",
+    "classification": "original-logo"
   },
   "service/disney": {
     "id": "disney",
@@ -764,7 +817,8 @@
       "flags": []
     },
     "original_file": "sources/brands/disney.svg",
-    "original_sha256": "3c9c188e0231e7292b95944a765f1155df79ab7147fa18dca51045aa4519d072"
+    "original_sha256": "3c9c188e0231e7292b95944a765f1155df79ab7147fa18dca51045aa4519d072",
+    "classification": "original-logo"
   },
   "service/hallmark": {
     "id": "hallmark",
@@ -779,7 +833,8 @@
       "flags": []
     },
     "original_file": "sources/brands/hallmark.svg",
-    "original_sha256": "56b79b31416b5f53b06df2d1e1ac6fc4b56d1b65ad5c147a3ec3d6645dd0e38c"
+    "original_sha256": "56b79b31416b5f53b06df2d1e1ac6fc4b56d1b65ad5c147a3ec3d6645dd0e38c",
+    "classification": "original-logo"
   },
   "service/hbo-max": {
     "id": "hbo-max",
@@ -791,7 +846,8 @@
     "extraction": "svg[aria-labelledby=\"bundle-logo-max-title\"]",
     "normalization": "Standalone XML namespace added; paths and declared colors unchanged.",
     "original_file": "sources/brands/hbo-max.svg",
-    "original_sha256": "d48f7e46e70fa650c78ddd4e8f9b24803fd26f69486854c70389a6b3807ac902"
+    "original_sha256": "d48f7e46e70fa650c78ddd4e8f9b24803fd26f69486854c70389a6b3807ac902",
+    "classification": "original-logo"
   },
   "service/hbo": {
     "id": "hbo",
@@ -806,7 +862,8 @@
       "flags": []
     },
     "original_file": "sources/brands/hbo.svg",
-    "original_sha256": "ff3b394544e418078da83e1dc1e733547d1e2efa5354dd5e5d2bde1d6a65a9b1"
+    "original_sha256": "ff3b394544e418078da83e1dc1e733547d1e2efa5354dd5e5d2bde1d6a65a9b1",
+    "classification": "original-logo"
   },
   "service/hulu": {
     "id": "hulu",
@@ -815,7 +872,8 @@
     "bytes": 2208,
     "content_type": "image/png",
     "original_file": "sources/brands/hulu.png",
-    "original_sha256": "7ee1bce0fac393f5d2a74dc403e2dd408a4092d8f10d2b6d5afc4ee2c6369af3"
+    "original_sha256": "7ee1bce0fac393f5d2a74dc403e2dd408a4092d8f10d2b6d5afc4ee2c6369af3",
+    "classification": "original-logo"
   },
   "service/iqiyi": {
     "id": "iqiyi",
@@ -824,7 +882,8 @@
     "bytes": 5066,
     "provenance": "official-site",
     "original_file": "sources/brands/iqiyi.png",
-    "original_sha256": "7187e7a188a8c75124adff73e3fb69597a0245dcee3017fa46e3034b4fae36ca"
+    "original_sha256": "7187e7a188a8c75124adff73e3fb69597a0245dcee3017fa46e3034b4fae36ca",
+    "classification": "original-logo"
   },
   "service/itunes": {
     "id": "itunes",
@@ -841,7 +900,8 @@
       ]
     },
     "original_file": "sources/brands/itunes.png",
-    "original_sha256": "d85561f327a019a418dcbf87b71e5399257bffc320444eedc437d1e62e782ed9"
+    "original_sha256": "d85561f327a019a418dcbf87b71e5399257bffc320444eedc437d1e62e782ed9",
+    "classification": "original-logo"
   },
   "service/ivi": {
     "id": "ivi",
@@ -850,7 +910,8 @@
     "bytes": 5838,
     "content_type": "image/png",
     "original_file": "sources/brands/ivi.png",
-    "original_sha256": "d48114ac38d1a2290140d4cbd12922a6b576d1d1e563312de92f89db2a07610c"
+    "original_sha256": "d48114ac38d1a2290140d4cbd12922a6b576d1d1e563312de92f89db2a07610c",
+    "classification": "original-logo"
   },
   "service/joyn": {
     "id": "joyn",
@@ -865,7 +926,8 @@
       "flags": []
     },
     "original_file": "sources/brands/joyn.svg",
-    "original_sha256": "a5b387fbb02c2be6c1408e0d56d4c4ee32fd19eaf86a776fa05de38d6afb0570"
+    "original_sha256": "a5b387fbb02c2be6c1408e0d56d4c4ee32fd19eaf86a776fa05de38d6afb0570",
+    "classification": "original-logo"
   },
   "service/magenta-tv": {
     "id": "magenta-tv",
@@ -874,7 +936,8 @@
     "bytes": 4200,
     "content_type": "image/png",
     "original_file": "sources/brands/magenta-tv.png",
-    "original_sha256": "d1f90d2b1d83a5d2f4c85db49217d5ca2aad494adfd57d150fbf8917a2c47698"
+    "original_sha256": "d1f90d2b1d83a5d2f4c85db49217d5ca2aad494adfd57d150fbf8917a2c47698",
+    "classification": "original-logo"
   },
   "service/megogo": {
     "id": "megogo",
@@ -883,7 +946,8 @@
     "bytes": 4905,
     "content_type": "image/png",
     "original_file": "sources/brands/megogo.png",
-    "original_sha256": "11e365ea23664d9e2ebd5c0a3ccd0f95234c646c04b01129b53d5ae49e6157bf"
+    "original_sha256": "11e365ea23664d9e2ebd5c0a3ccd0f95234c646c04b01129b53d5ae49e6157bf",
+    "classification": "original-logo"
   },
   "service/mubi": {
     "id": "mubi",
@@ -901,7 +965,8 @@
       "flags": []
     },
     "original_file": "sources/brands/mubi.svg",
-    "original_sha256": "1c2db2ecf58d03bd6e0c72ae30c3448548f18845ede47f3f82a1e39259592885"
+    "original_sha256": "1c2db2ecf58d03bd6e0c72ae30c3448548f18845ede47f3f82a1e39259592885",
+    "classification": "original-logo"
   },
   "service/nbc": {
     "id": "nbc",
@@ -916,7 +981,8 @@
       "flags": []
     },
     "original_file": "sources/brands/nbc.svg",
-    "original_sha256": "2ede99ada4ef0d72631591f251a2d9e4083ce8d8a81755638f0e36be341b9e62"
+    "original_sha256": "2ede99ada4ef0d72631591f251a2d9e4083ce8d8a81755638f0e36be341b9e62",
+    "classification": "original-logo"
   },
   "service/netflix": {
     "id": "netflix",
@@ -925,7 +991,8 @@
     "bytes": 10776,
     "content_type": "image/png",
     "original_file": "sources/brands/netflix.png",
-    "original_sha256": "78190e7e6650291d5366ec7eb2df4e1b01617b1668ddac381c0461f8fd441503"
+    "original_sha256": "78190e7e6650291d5366ec7eb2df4e1b01617b1668ddac381c0461f8fd441503",
+    "classification": "original-logo"
   },
   "service/nickelodeon": {
     "id": "nickelodeon",
@@ -940,7 +1007,8 @@
       "flags": []
     },
     "original_file": "sources/brands/nickelodeon.svg",
-    "original_sha256": "dca7311909063a914375a193c519baf4de3390af9cac90a0b544922ee0067fde"
+    "original_sha256": "dca7311909063a914375a193c519baf4de3390af9cac90a0b544922ee0067fde",
+    "classification": "original-logo"
   },
   "service/now": {
     "id": "now",
@@ -960,7 +1028,8 @@
       "flags": []
     },
     "original_file": "sources/brands/now.svg",
-    "original_sha256": "bafb2f754fd40f68a256ce3c38a556943f22199e003bcce5c1e503df95e0d94b"
+    "original_sha256": "bafb2f754fd40f68a256ce3c38a556943f22199e003bcce5c1e503df95e0d94b",
+    "classification": "original-logo"
   },
   "service/paramount-plus": {
     "id": "paramount-plus",
@@ -969,7 +1038,8 @@
     "bytes": 6949,
     "content_type": "image/png",
     "original_file": "sources/brands/paramount-plus.png",
-    "original_sha256": "2e2e5283856ea2894db81fde1059cfa309dcd7552e4789fd9e827845cf6e1a0b"
+    "original_sha256": "2e2e5283856ea2894db81fde1059cfa309dcd7552e4789fd9e827845cf6e1a0b",
+    "classification": "original-logo"
   },
   "service/pbs": {
     "id": "pbs",
@@ -984,7 +1054,8 @@
       "flags": []
     },
     "original_file": "sources/brands/pbs.svg",
-    "original_sha256": "f363193bd3e1ff6ce50816b26c81f657213b566ff119f5d53c982cc6d9713d17"
+    "original_sha256": "f363193bd3e1ff6ce50816b26c81f657213b566ff119f5d53c982cc6d9713d17",
+    "classification": "original-logo"
   },
   "service/peacock": {
     "id": "peacock",
@@ -1004,7 +1075,8 @@
       "flags": []
     },
     "original_file": "sources/brands/peacock.svg",
-    "original_sha256": "bf53d69c5deda4de4db1997d0616cfc43ede490f5634003bfcc5094477595f2c"
+    "original_sha256": "bf53d69c5deda4de4db1997d0616cfc43ede490f5634003bfcc5094477595f2c",
+    "classification": "original-logo"
   },
   "service/plex": {
     "id": "plex",
@@ -1024,7 +1096,8 @@
       "flags": []
     },
     "original_file": "sources/brands/plex.svg",
-    "original_sha256": "bbedc53fa89bb5c6c8f1128080c841ad82f5788da07ae3f899b2f91560c33a6d"
+    "original_sha256": "bbedc53fa89bb5c6c8f1128080c841ad82f5788da07ae3f899b2f91560c33a6d",
+    "classification": "original-logo"
   },
   "service/pluto-tv": {
     "id": "pluto-tv",
@@ -1039,7 +1112,8 @@
       "flags": []
     },
     "original_file": "sources/brands/pluto-tv.svg",
-    "original_sha256": "83466b718e9e5894901c7cdfec38bb7f795135bc54f9b89cdee4c94ee03b99b1"
+    "original_sha256": "83466b718e9e5894901c7cdfec38bb7f795135bc54f9b89cdee4c94ee03b99b1",
+    "classification": "original-logo"
   },
   "service/prime-video": {
     "id": "prime-video",
@@ -1048,7 +1122,8 @@
     "bytes": 6385,
     "content_type": "image/png",
     "original_file": "sources/brands/prime-video.png",
-    "original_sha256": "0ae92aff1eb445f117272c0649fcd7d85f8157123a99e8baf9ddd9543de8e9dd"
+    "original_sha256": "0ae92aff1eb445f117272c0649fcd7d85f8157123a99e8baf9ddd9543de8e9dd",
+    "classification": "original-logo"
   },
   "service/rakuten-tv": {
     "id": "rakuten-tv",
@@ -1057,7 +1132,8 @@
     "bytes": 5815,
     "content_type": "image/png",
     "original_file": "sources/brands/rakuten-tv.png",
-    "original_sha256": "74ab145531e58dea64fa35b6e35014ed554d4309c594b022322fb3b19ffff5c4"
+    "original_sha256": "74ab145531e58dea64fa35b6e35014ed554d4309c594b022322fb3b19ffff5c4",
+    "classification": "original-logo"
   },
   "service/rtl-plus": {
     "id": "rtl-plus",
@@ -1077,7 +1153,8 @@
       "flags": []
     },
     "original_file": "sources/brands/rtl-plus.svg",
-    "original_sha256": "4f28b89be7c76acec5b467e66df51fb332ea0c46a9cde4f3be6fb5270c105884"
+    "original_sha256": "4f28b89be7c76acec5b467e66df51fb332ea0c46a9cde4f3be6fb5270c105884",
+    "classification": "original-logo"
   },
   "service/showtime": {
     "id": "showtime",
@@ -1094,7 +1171,8 @@
     },
     "note": "Existing monochrome Showtime SHO mark. Geometry and colors are preserved; no AI drawing.",
     "original_file": "sources/brands/showtime.svg",
-    "original_sha256": "1090ebed81ad9345620b37ac40cb27d229096596f28baf4e5d913de9bc93f4b4"
+    "original_sha256": "1090ebed81ad9345620b37ac40cb27d229096596f28baf4e5d913de9bc93f4b4",
+    "classification": "original-logo"
   },
   "service/sky": {
     "id": "sky",
@@ -1111,7 +1189,8 @@
       ]
     },
     "original_file": "sources/brands/sky.svg",
-    "original_sha256": "8f4858060b020ec836cbc3f256bb98c7139ef0094c8498018c456f482d796c4a"
+    "original_sha256": "8f4858060b020ec836cbc3f256bb98c7139ef0094c8498018c456f482d796c4a",
+    "classification": "original-logo"
   },
   "service/sony": {
     "id": "sony",
@@ -1129,7 +1208,8 @@
       "flags": []
     },
     "original_file": "sources/brands/sony.svg",
-    "original_sha256": "f6191bc69f8df259c86a13dc9582ba9ed2e0101d4452ba3f1d33ec8e907ddda0"
+    "original_sha256": "f6191bc69f8df259c86a13dc9582ba9ed2e0101d4452ba3f1d33ec8e907ddda0",
+    "classification": "original-logo"
   },
   "service/stan": {
     "id": "stan",
@@ -1151,7 +1231,8 @@
       ]
     },
     "original_file": "sources/brands/stan.png",
-    "original_sha256": "5fc7c9b5d9bbe433fbae3d740c0c4a5f567fa65fa1d150b1f7ceae46412a3e64"
+    "original_sha256": "5fc7c9b5d9bbe433fbae3d740c0c4a5f567fa65fa1d150b1f7ceae46412a3e64",
+    "classification": "original-logo"
   },
   "service/tubi": {
     "id": "tubi",
@@ -1171,7 +1252,8 @@
       "flags": []
     },
     "original_file": "sources/brands/tubi.svg",
-    "original_sha256": "21b9e92e2ec906ee68cce47d818369afaed5813b850e535c87d2aa4c7976c6d9"
+    "original_sha256": "21b9e92e2ec906ee68cce47d818369afaed5813b850e535c87d2aa4c7976c6d9",
+    "classification": "original-logo"
   },
   "service/tving": {
     "id": "tving",
@@ -1180,7 +1262,8 @@
     "bytes": 3053,
     "content_type": "image/png",
     "original_file": "sources/brands/tving.png",
-    "original_sha256": "4acdec1d619d29f9b81243ad45d80797cf044f484c2de66da12384adc8fd9e44"
+    "original_sha256": "4acdec1d619d29f9b81243ad45d80797cf044f484c2de66da12384adc8fd9e44",
+    "classification": "original-logo"
   },
   "service/vice": {
     "id": "vice",
@@ -1196,7 +1279,8 @@
       ]
     },
     "original_file": "sources/brands/vice.png",
-    "original_sha256": "b490e408428e487ac893738eb7376934a65a652aafb2f2f3399276a316f09f1b"
+    "original_sha256": "b490e408428e487ac893738eb7376934a65a652aafb2f2f3399276a316f09f1b",
+    "classification": "original-logo"
   },
   "service/watcha": {
     "id": "watcha",
@@ -1205,7 +1289,8 @@
     "bytes": 4838,
     "content_type": "image/png",
     "original_file": "sources/brands/watcha.png",
-    "original_sha256": "f5fb2341ee38f91644faee5586759c645da779777377c1a5b406990816ac7b12"
+    "original_sha256": "f5fb2341ee38f91644faee5586759c645da779777377c1a5b406990816ac7b12",
+    "classification": "original-logo"
   },
   "service/wow": {
     "id": "wow",
@@ -1225,7 +1310,8 @@
       "flags": []
     },
     "original_file": "sources/brands/wow.svg",
-    "original_sha256": "066d674b47b97c8861b46d046d16d47c8b1b292830150ab768e39ced159258a7"
+    "original_sha256": "066d674b47b97c8861b46d046d16d47c8b1b292830150ab768e39ced159258a7",
+    "classification": "original-logo"
   },
   "service/youtube": {
     "id": "youtube",
@@ -1234,7 +1320,8 @@
     "bytes": 5004,
     "content_type": "image/png",
     "original_file": "sources/brands/youtube.png",
-    "original_sha256": "77091fe487d653f79dfd2e38462a44aa754e6810bd995795d9cda2cb956532c0"
+    "original_sha256": "77091fe487d653f79dfd2e38462a44aa754e6810bd995795d9cda2cb956532c0",
+    "classification": "original-logo"
   },
   "service/zdf": {
     "id": "zdf",
@@ -1249,6 +1336,49 @@
       "flags": []
     },
     "original_file": "sources/brands/zdf.svg",
-    "original_sha256": "7471f5af586aced02cdb64766aef527e042999e2af13114c00d8c0e767061ed9"
+    "original_sha256": "7471f5af586aced02cdb64766aef527e042999e2af13114c00d8c0e767061ed9",
+    "classification": "original-logo"
+  },
+  "dynamic-range/hdr10": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/HDR10%2B_Logo.png",
+    "original_file": "sources/approved-borderless/source-reference.png",
+    "original_sha256": "b8f998774bd35016459474edbe4de2431f7e7e4325877eb71c9acc4103361243",
+    "classification": "user-approved derivative; not an issuer-provided official HDR10 logo"
+  },
+  "video-codec/av1": {
+    "url": "https://aomedia.org/assets/images/specifications/av1_logo_rgb_002.png",
+    "original_file": "sources/brands/av1-original.png",
+    "original_sha256": "bb23eb38cf5fbbcbb18796a2bf904a4c8f51f9afdcae9d41a057ae7e54864aa5",
+    "classification": "original-logo"
+  },
+  "video-codec/divx": {
+    "url": "https://www.divx.com/wp-content/uploads/2018/08/divx_logo.png",
+    "original_file": "sources/brands/divx-original.png",
+    "original_sha256": "bdef26d0411d03826064f7df55cf1d7737abebbea1d2e2d2531ec39860b04122",
+    "classification": "original-logo"
+  },
+  "video-codec/theora": {
+    "url": "https://theora.org/images/logos/fish_theora_org.png",
+    "original_file": "sources/brands/theora-original.png",
+    "original_sha256": "c6d7639a109903ecae748994a53ebf063f118fd2ebe97590c826a19b542570bc",
+    "classification": "original-logo"
+  },
+  "audio-codec/flac": {
+    "url": "https://xiph.org/flac/images/logo130.gif",
+    "original_file": "sources/brands/flac-original.gif",
+    "original_sha256": "42d50acd99b09ff7d49a902807e4d8750c0dd363f24120d3a3de32f730148f40",
+    "classification": "original-logo"
+  },
+  "audio-codec/opus": {
+    "url": "https://opus-codec.org/assets/img/opus-logo.svg",
+    "original_file": "sources/brands/opus-original.svg",
+    "original_sha256": "ab2480e12b99807f8124fec7bf218ac8a41995b0ba7d51fef4100a21b2bbb2e4",
+    "classification": "original-logo"
+  },
+  "audio-codec/speex": {
+    "url": "https://www.speex.org/images/logos/parrot_speex_org-3.png",
+    "original_file": "sources/brands/speex-original.png",
+    "original_sha256": "f498bf01ceb93363b80b1eb75e2705bba2bba96a05839a98ba9f39a842e94994",
+    "classification": "original-logo"
   }
 }

@@ -1,2377 +1,1064 @@
 {
-  "status": "approved-for-publication",
-  "selected_languages": 50,
-  "master_files": 50,
-  "app_files": 50,
-  "master_dimensions": [
-    3840,
-    2160
-  ],
-  "format": "lossless WebP RGBA",
-  "all_requested_assets_present": true,
-  "all_selected_file_hashes_verified": true,
-  "all_flag_interiors_opaque": true,
-  "all_approved_foreground_contours_unchanged": true,
-  "all_exterior_pixels_unchanged": true,
+  "status": "passed",
+  "version": "2.0.0",
+  "languages": 50,
   "india_flag_assignments": 0,
-  "approved_de_files_byte_identical": true,
-  "assets": [
+  "field_size": [
+    3200,
+    1600
+  ],
+  "letter_centering_checks": [
     {
-      "id": "language/de",
-      "label": "DE",
-      "master": "masters/language/de.webp",
-      "web": "web/language/de.webp",
-      "sha256": "82c50cc202f44b82280c6ac47e2f047c517f8b8d658fc76347b4c151ebaca3da",
-      "web_sha256": "f60f7048bfac5b8aad4acef4ec9b92b142917fca594bd54f753e9517f1272cb6",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "DE",
-        "name": "Germany",
-        "placement": "full badge interior behind the approved foreground",
-        "palette": [
-          "#000000",
-          "#DD0000",
-          "#FFCE00"
-        ],
-        "source": "sources/flags/de.svg",
-        "source_sha256": "37c5f45cfe415ed8ede71a3ffa422978b7d4850e6972fb0bc23d0eec117c9664",
-        "construction": "Three equal horizontal bands: black, red, gold.",
-        "fabric_effects": false,
-        "flag_shadows": false
+      "id": "de",
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        800,
+        352,
+        2400,
+        1248
+      ],
+      "margins_px": {
+        "left": 800,
+        "right": 800,
+        "top": 352,
+        "bottom": 352
       },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 4549373,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          3428,
-          1841
-        ]
-      }
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
-      "id": "language/en",
-      "label": "EN",
-      "master": "masters/language/en.webp",
-      "web": "web/language/en.webp",
-      "sha256": "0df80553a10507d46db9f2d886a4105e556e4f6d7c017947b32f28bd7439df45",
-      "web_sha256": "15d0e342306d921f5f68dc79c289315dff0cb0520ac0ceea7a51fedde6d16131",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "GB",
-        "name": "United Kingdom",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/gb.svg",
-        "source_sha256": "c8be1e7208798a4ae692ee1e937065d498bb29e741943f6172b29118b8ed8066",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/gb.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "id": "en",
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        816,
+        352,
+        2384,
+        1248
+      ],
+      "margins_px": {
+        "left": 816,
+        "right": 816,
+        "top": 352,
+        "bottom": 352
       },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 4487526,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          3470,
-          1841
-        ]
-      }
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/fr",
-      "label": "FR",
-      "master": "masters/language/fr.webp",
-      "web": "web/language/fr.webp",
-      "sha256": "85507bd278d793f092e28612de6df2f7b0a49d17fa5e6479f3a80ca56ce48b61",
-      "web_sha256": "26616e7562e86bc80af2201d5dd665caa36baf675ed583233268a7b65ab19097",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "FR",
-        "name": "France",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/fr.svg",
-        "source_sha256": "a526851c372e3372b1596be71af355ea72b1650bbc4c06e6e2c226900d3de6cc",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/fr.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 4097351,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          3238,
-          1841
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        872,
+        352,
+        2328,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        872,
+        872,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/es",
-      "label": "ES",
-      "master": "masters/language/es.webp",
-      "web": "web/language/es.webp",
-      "sha256": "db4206b4c0a4e7c8a92276a210dd49130d11e4d6321487ed32799340a949776f",
-      "web_sha256": "63421f30264b28bc7a8d42ada242cd5bde6fbe251199c79f90523b5417741b01",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "ES",
-        "name": "Spain",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/es.svg",
-        "source_sha256": "f9cfaff858e95f830733ade9591037b5322dfb5827a53b70956a3d190bb49b9a",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/es.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 4814635,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          3431,
-          1841
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        908,
+        352,
+        2292,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        908,
+        908,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/it",
-      "label": "IT",
-      "master": "masters/language/it.webp",
-      "web": "web/language/it.webp",
-      "sha256": "3d68ddbe7e61a382ffdb8e7e67843881da9302da8985bfa0fc210e9a481abd41",
-      "web_sha256": "c3356cdd8627ec35b7a40819101afd59154c421a71fa3099cd3ada03e92392b3",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "IT",
-        "name": "Italy",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/it.svg",
-        "source_sha256": "9fa88118818d9b64838f578e2babcca3d0630aed21b5c33b34aff7ac5ce506bc",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/it.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 2611552,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          2287,
-          1841
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        1089,
+        352,
+        2111,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        1089,
+        1089,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/pt",
-      "label": "PT",
-      "master": "masters/language/pt.webp",
-      "web": "web/language/pt.webp",
-      "sha256": "207674b340bcbf253c049a98a84baac093953fdb23e9f3c6080ee44cbe8c34a1",
-      "web_sha256": "036821fa3c607d6ba8858b571cf5c7864c61851d453f458b4474c6ef9571e2dd",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "PT",
-        "name": "Portugal",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/pt.svg",
-        "source_sha256": "a7a2cf0b44aaaaf4f3bdc0ee0fa308ec7085bdfedd3f72da1473d43fd2a569fb",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/pt.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3755341,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          3452,
-          1841
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        871,
+        352,
+        2329,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        871,
+        871,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/ja",
-      "label": "JA",
-      "master": "masters/language/ja.webp",
-      "web": "web/language/ja.webp",
-      "sha256": "9bca1706daf7682e0dd2e7e174e482cb5fe33b478023f5960c619be898a814f0",
-      "web_sha256": "fca463dea06619d9b4f0deb8a11296d7c8ad1d8eb8896a877d1b13c433136751",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "JP",
-        "name": "Japan",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/jp.svg",
-        "source_sha256": "bfea80baf9989383dc4bf7ca594ed95be0df0ff125bfc88d0bfa878eb0198022",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/jp.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, complete source flag contained within an extended matching solid-color field",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3621684,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          3460,
-          1841
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        912,
+        352,
+        2288,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        912,
+        912,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/zh",
-      "label": "ZH",
-      "master": "masters/language/zh.webp",
-      "web": "web/language/zh.webp",
-      "sha256": "846100543697deb0120e71d378399a2014c745e248e41d33129be0960e2587ec",
-      "web_sha256": "0bf58b22eeea87a74a83bd6542694368ba606913faed11fae97fbbc3f4702503",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "CN",
-        "name": "China",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/cn.svg",
-        "source_sha256": "981da9bdf82d48e31691f20578cefcb26cf7d0bd95e4ebd5c0df00bdfe988c1a",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/cn.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, complete source flag contained within an extended matching solid-color field",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#ee1c25",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 4203901,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          157,
-          157,
-          3521,
-          1822
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        805,
+        352,
+        2395,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        805,
+        805,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/ko",
-      "label": "KO",
-      "master": "masters/language/ko.webp",
-      "web": "web/language/ko.webp",
-      "sha256": "5d4cc0fac5ef2d235ca6237521f21eef6b4a0d4cb4a841f42e04044088bca3de",
-      "web_sha256": "b1945c0d63434edb796e0e9bcdce2afff831bdb1060e5134205eb79221bb4852",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "KR",
-        "name": "South Korea",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/kr.svg",
-        "source_sha256": "7a6cd5b51d0e2841ed8b79b1147ad8a66cf3c09f6344d4a63b5e4413ffa5d15b",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/kr.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, complete source flag contained within an extended matching solid-color field",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 4117258,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          155,
-          155,
-          3524,
-          1799
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        796,
+        352,
+        2404,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        796,
+        796,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/ru",
-      "label": "RU",
-      "master": "masters/language/ru.webp",
-      "web": "web/language/ru.webp",
-      "sha256": "2cadca7a7eeb86bac7b7e5277e4b4801c217e59174766926cc7a13a04a82aa07",
-      "web_sha256": "756062856449a05546146e19916d9ab97404b4bba8716c2ea908ae41f1016bbf",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "RU",
-        "name": "Russia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/ru.svg",
-        "source_sha256": "7100aaae51ff3b6a2bf0ca932b3bc518bdc760814725e7cca31d821a26c3dd7c",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ru.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 4227477,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          157,
-          157,
-          3522,
-          1829
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        822,
+        352,
+        2378,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        822,
+        822,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/ar",
-      "label": "AR",
-      "master": "masters/language/ar.webp",
-      "web": "web/language/ar.webp",
-      "sha256": "04f664dfe6082cc527e52ed09a5dd5d8a2e72cc1533d1586e85c4cdf068186dc",
-      "web_sha256": "7bfed9b3017d3c94368968955e7eb026dec5a1f1ff6e10eeab4cb98d17bdaee6",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "SA",
-        "name": "Saudi Arabia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/sa.svg",
-        "source_sha256": "5738c8cfca5fea63587cbcf69237996c8ce6283f8016853150686f37311b620e",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/sa.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, complete source flag contained within an extended matching solid-color field",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#165d31",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3921436,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          151,
-          151,
-          3528,
-          1757
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        773,
+        352,
+        2427,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        773,
+        773,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/bn",
-      "label": "BN",
-      "master": "masters/language/bn.webp",
-      "web": "web/language/bn.webp",
-      "sha256": "2b6877ad246960ce78bf333a542883ddcedf7fbf455f60877780250dc40037a5",
-      "web_sha256": "127d6eabfd4e3ff1c11edddc8893b0485c5e7bbfcbc5d0267fdc817e355b5538",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "BD",
-        "name": "Bangladesh",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/bd.svg",
-        "source_sha256": "1aabb4a772651fb9a673660233d5bc6f3d78dfc71df09d567769bc97b9eb554f",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/bd.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, complete source flag contained within an extended matching solid-color field",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#006a4e",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 4433112,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          152,
-          152,
-          3526,
-          1771
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        798,
+        352,
+        2402,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        798,
+        798,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/th",
-      "label": "TH",
-      "master": "masters/language/th.webp",
-      "web": "web/language/th.webp",
-      "sha256": "60784787e827f70c51dd8491045229fb58be33652c56f657a56ced8fb644001a",
-      "web_sha256": "9b3ab9e2fbaeb44884b7577a01fbd59807928bb35a24142092a74fd31cba8652",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "TH",
-        "name": "Thailand",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/th.svg",
-        "source_sha256": "329cc0d520536d6eb4b9304105f23650c2d02bbdba8f8696e996dbf166de6f2e",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/th.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3757405,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          3506,
-          1841
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        809,
+        352,
+        2391,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        809,
+        809,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/vi",
-      "label": "VI",
-      "master": "masters/language/vi.webp",
-      "web": "web/language/vi.webp",
-      "sha256": "e7ba3a0f7df311d3542f6eca247afbba5bf736664f3fac9b3851d9c442fce8fa",
-      "web_sha256": "1ff4f5c51f92685177b0f64409d16b7e71cd657d4c376d5cba34d05458f22c47",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "VN",
-        "name": "Vietnam",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/vn.svg",
-        "source_sha256": "2355037201315d74581ab0ad60b5587a29a087d26b0525bdeb8676e64fae5b86",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/vn.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, complete source flag contained within an extended matching solid-color field",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#da251d",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 2761017,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          2426,
-          1841
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        1043,
+        352,
+        2157,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        1043,
+        1043,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/id",
-      "label": "ID",
-      "master": "masters/language/id.webp",
-      "web": "web/language/id.webp",
-      "sha256": "bd73e0a7633c0c5bf205631a178c968f9ff65e0670b37131b104076945deaba6",
-      "web_sha256": "49885b2aafeb3f34671a04e487126c679650e6ae26ca4371d89cd4cde6df0a59",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "ID",
-        "name": "Indonesia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/id.svg",
-        "source_sha256": "5cd3acc4939dd7eae6318c8d75df8c0d1733f650e2504a2635b0dbf3dfabb040",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/id.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3254354,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          2404,
-          1841
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        1019,
+        352,
+        2181,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        1019,
+        1019,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/tr",
-      "label": "TR",
-      "master": "masters/language/tr.webp",
-      "web": "web/language/tr.webp",
-      "sha256": "3f85738b3dd7ab1ccf125dbae3725bd7a30b350878b2825808c821a654de6670",
-      "web_sha256": "13bf81e872e7390211ec2022942f18aa9c31bb85b8d45296ef51dbb1943e091c",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "TR",
-        "name": "Türkiye",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/tr.svg",
-        "source_sha256": "256a1d6afbedb9f731566982331a1cd1ad14aba211b8a61d338855879505e74f",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/tr.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, complete source flag contained within an extended matching solid-color field",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#e30a17",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3936644,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          3452,
-          1841
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        823,
+        352,
+        2377,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        823,
+        823,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/he",
-      "label": "HE",
-      "master": "masters/language/he.webp",
-      "web": "web/language/he.webp",
-      "sha256": "1d76cfc196af69a246b072321de783bfd43fc97281e7fb008a0645defdbde305",
-      "web_sha256": "4d89e8dd3483cda05675c1444c3878d8a41ee9727547268a4bb74e43824d83cf",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "IL",
-        "name": "Israel",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/il.svg",
-        "source_sha256": "04a099ac4370b5e856f5f8d44ce0822ec47a6d3bc395a7d048d3a46d69274d68",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/il.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 4301477,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          3360,
-          1841
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        798,
+        352,
+        2402,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        798,
+        798,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/fa",
-      "label": "FA",
-      "master": "masters/language/fa.webp",
-      "web": "web/language/fa.webp",
-      "sha256": "6c68dbfd75bb24a2921f52dcdd8fb00a35ffec7918e11d322e3919cbe0f15252",
-      "web_sha256": "a048ab15faf2d1137074bb0b133f22064a5be0bcc74aa668231c861cf84d44fa",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "IR",
-        "name": "Iran",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/ir.svg",
-        "source_sha256": "cb363e09bafbff6de7c2fba6a002ca33f0563dc83a2328d34adb492cf80ca629",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ir.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3889961,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          3489,
-          1841
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        853,
+        352,
+        2347,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        853,
+        853,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/uk",
-      "label": "UK",
-      "master": "masters/language/uk.webp",
-      "web": "web/language/uk.webp",
-      "sha256": "ae20419fa764fd69ea6b93ad567309b0a5db00e35d27b67dd2775bbad1fa4cf2",
-      "web_sha256": "852847f5daa85ab7f5bbb42df7b3185aad90711fdd11caf8c0b701a37fed273e",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "UA",
-        "name": "Ukraine",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/ua.svg",
-        "source_sha256": "b7892e2bee1b25eb5407d6f5249b020dcece29ee1c9cc1a8a6a10c4f38ce6801",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ua.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3969073,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          156,
-          156,
-          3523,
-          1814
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        779,
+        352,
+        2421,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        779,
+        779,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/el",
-      "label": "EL",
-      "master": "masters/language/el.webp",
-      "web": "web/language/el.webp",
-      "sha256": "166330fe4d979808b566164d120702b52721f0e7a3c48425a156bcfdec375946",
-      "web_sha256": "d12f29c080404f41fef559a408d79d7d5bd96c060a61978bb2cfcd218be7b58d",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "GR",
-        "name": "Greece",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/gr.svg",
-        "source_sha256": "a184070f7678b06777be8ac38cb05ba41829591a6dac9b64b2b72db66aec82f5",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/gr.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "nine complete horizontal bands and a square five-band canton; equal-width cross arms preserved from the source grid",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false,
-        "layout_source": "sources/flags/adaptive/gr.svg",
-        "layout_source_sha256": "3c8139042236b093e8c236fe20b1e446dd91db1a2d7414c4b6622a954e0cc44d"
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3749420,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          3066,
-          1841
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        888,
+        352,
+        2312,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        888,
+        888,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/lt",
-      "label": "LT",
-      "master": "masters/language/lt.webp",
-      "web": "web/language/lt.webp",
-      "sha256": "61a88014b5045efdc6479dc565371ec7b8d58404aac026bec60936888aa06f67",
-      "web_sha256": "78218b6d043d07cc10bf6bbe6f68baebde0a2117f34dd28ccd561c2d899403c0",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "LT",
-        "name": "Lithuania",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/lt.svg",
-        "source_sha256": "dc0401993f6e14b3a58fa496d874b95dfcb58614052a868b14492166782c1006",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/lt.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3203804,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          3213,
-          1841
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        974,
+        352,
+        2226,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        974,
+        974,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/lv",
-      "label": "LV",
-      "master": "masters/language/lv.webp",
-      "web": "web/language/lv.webp",
-      "sha256": "722a2be83e9ce1d21e3d5810736ae00abf38ae8b87b30c348dbf735673d8a7bb",
-      "web_sha256": "00335c5676f5380497cba1d7d3800ca61272fbda56c385aae116be47ca2255d4",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "LV",
-        "name": "Latvia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/lv.svg",
-        "source_sha256": "d0d1ac1c0e301f808be3db32bcd7cdbc8986b6ec15574f557f440caed8b7bb31",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/lv.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3353271,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          3352,
-          1841
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        893,
+        352,
+        2307,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        893,
+        893,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/et",
-      "label": "ET",
-      "master": "masters/language/et.webp",
-      "web": "web/language/et.webp",
-      "sha256": "b4eb39faf3caecc44b7c6c1688cc2f5ced58aa877d9ef022effa198a6bc8ce43",
-      "web_sha256": "e80d06f19cb6d8d3ff5e29ba0f48adac39811c846c177e7757712fc16d4bc970",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "EE",
-        "name": "Estonia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/ee.svg",
-        "source_sha256": "25642310e287fbdc02e1ac3e0e08fadca9a32eae195f67b6863bf0fc6247176b",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ee.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3906572,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          3311,
-          1841
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        867,
+        352,
+        2333,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        867,
+        867,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/pl",
-      "label": "PL",
-      "master": "masters/language/pl.webp",
-      "web": "web/language/pl.webp",
-      "sha256": "c7877f0e667c0203db19048b1b33c7cb266591f6e8626edea08e4f04b798c761",
-      "web_sha256": "49dbf32742b7fb56996e242cd6361010ea29990743d6035199dbe6eef5221b2b",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "PL",
-        "name": "Poland",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/pl.svg",
-        "source_sha256": "06687a4b90fc00195d0795aea1c26a9f73f1b6ea6a76e358724b2f1f32b7c8f4",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/pl.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3596640,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          3207,
-          1841
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        892,
+        352,
+        2308,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        892,
+        892,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/cs",
-      "label": "CS",
-      "master": "masters/language/cs.webp",
-      "web": "web/language/cs.webp",
-      "sha256": "6d1b5d66b7c7cbda2bc286e7e4a1c577165bf14f46f3af97c9fd8ad446163b68",
-      "web_sha256": "d1b24055324293619adf2ca335d0f094e847889adcacdc5aae3128713a9c818d",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "CZ",
-        "name": "Czech Republic",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/cz.svg",
-        "source_sha256": "d601fcc2e5b1fd48b79d53c55108af4c0e90793f146db51f3ee449d8d69512bc",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/cz.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 4367229,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          151,
-          151,
-          3527,
-          1755
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        812,
+        352,
+        2388,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        812,
+        812,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/sk",
-      "label": "SK",
-      "master": "masters/language/sk.webp",
-      "web": "web/language/sk.webp",
-      "sha256": "58d85142fefd85140e758804ffe8c804c2c3b11332b10231352a7251d205e2cd",
-      "web_sha256": "a20119fd16f035e4b6f7c77b6e8984cea354f099fe639bd275b084203683f9e5",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "SK",
-        "name": "Slovakia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/sk.svg",
-        "source_sha256": "578d0693bc95214334248b47c5719dd01cfc9839bd909a726df045d499fabbb6",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/sk.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 4448036,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          155,
-          155,
-          3524,
-          1800
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        849,
+        352,
+        2351,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        849,
+        849,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/hu",
-      "label": "HU",
-      "master": "masters/language/hu.webp",
-      "web": "web/language/hu.webp",
-      "sha256": "0e1994f92fe6cce53e5fdfcbb1add71c4dec37a506679e9d13a375281c61a118",
-      "web_sha256": "5d21fc3aad30a4c8d5d7e91098ed925d3d77677e6c9e050eb41c2a2029dadaec",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "HU",
-        "name": "Hungary",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/hu.svg",
-        "source_sha256": "4891ce591bf29b5b68609c29d973a30f1ef109032d8dab369208d0d5f615bc74",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/hu.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3930414,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          155,
-          155,
-          3525,
-          1803
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        779,
+        352,
+        2421,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        779,
+        779,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/ro",
-      "label": "RO",
-      "master": "masters/language/ro.webp",
-      "web": "web/language/ro.webp",
-      "sha256": "7ee41a34d62cfd9ac53b3c5df67164e344e4a7fcd334dc3786082aa018974493",
-      "web_sha256": "bc2713a89bf989f9f4c73d06e95939941beccca672ffc8ae943bb49ca3149665",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "RO",
-        "name": "Romania",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/ro.svg",
-        "source_sha256": "17a3a747fc5e63302aaa670a667e5812f3676f46768e5a3e87b254bd41762840",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ro.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 4370168,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          156,
-          156,
-          3523,
-          1814
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        776,
+        352,
+        2424,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        776,
+        776,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/bg",
-      "label": "BG",
-      "master": "masters/language/bg.webp",
-      "web": "web/language/bg.webp",
-      "sha256": "b9e681385f7b492f0c9c44122f6877c0edd186814ec0deebeba884f7f7e404c9",
-      "web_sha256": "3d0314b0be414dc08188ea2f49156fa56df191a93c6ce43cb23da767d12e0ded",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "BG",
-        "name": "Bulgaria",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/bg.svg",
-        "source_sha256": "b6d979fc96dc6b46c1697a5e05ecfe1fac1fa912ed480ca7a2a9b450f087faf6",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/bg.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 4692637,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          154,
-          154,
-          3525,
-          1789
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        791,
+        352,
+        2409,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        791,
+        791,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/sr",
-      "label": "SR",
-      "master": "masters/language/sr.webp",
-      "web": "web/language/sr.webp",
-      "sha256": "1b50fae8d8ae05ab58d4e26c9ac27906f740432fe28707b0ab94363eb0009cda",
-      "web_sha256": "86a352d87a3b56b7eb92630a6197896a4190d9b441a960dd40f8d9475839c89f",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "RS",
-        "name": "Serbia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/rs.svg",
-        "source_sha256": "b6e08e2eca1ec4c287e5d5d7c36d7d4ad9503ad030133b04cf315f95ab49961c",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/rs.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 4714869,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          156,
-          156,
-          3523,
-          1815
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        864,
+        352,
+        2336,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        864,
+        864,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/hr",
-      "label": "HR",
-      "master": "masters/language/hr.webp",
-      "web": "web/language/hr.webp",
-      "sha256": "d7aa73d71f8e4ba35debc2f942a4308f981ff5e5b0ed04ca57ec8b4a45b68719",
-      "web_sha256": "76e3b515edb05764615e97604e2d023108b51f423460ae56f8e417d987f5dcb8",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "HR",
-        "name": "Croatia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/hr.svg",
-        "source_sha256": "3c98eae5ee93f0d75e10170beb96e26908830e2e6f7f7af2a4b281a097aeb946",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/hr.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 4333081,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          3500,
-          1841
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        779,
+        352,
+        2421,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        779,
+        779,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/sl",
-      "label": "SL",
-      "master": "masters/language/sl.webp",
-      "web": "web/language/sl.webp",
-      "sha256": "28535ab27f5d8a24c2529dedb9f95b8f5946a7c50baf41fb26db39a1e881ad83",
-      "web_sha256": "7d3905e5a6ea2c060e8ab705829852e480c867204d47bcbf204455c8f5dc5a1c",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "SI",
-        "name": "Slovenia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/si.svg",
-        "source_sha256": "3a5e0cac44baaea6b6d8e91054844b6ea72764f6dbe363c11ea11fd81203733a",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/si.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 4111872,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          3333,
-          1841
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        913,
+        352,
+        2287,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        913,
+        913,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/nl",
-      "label": "NL",
-      "master": "masters/language/nl.webp",
-      "web": "web/language/nl.webp",
-      "sha256": "ba415d52742cde5b93721b52bc99970e662e2c1c045b0c42abeeabe7393ae5fa",
-      "web_sha256": "2fedacb832087e24ec5292ab371388e704160960bada52d0a41f19e81de20c9e",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "NL",
-        "name": "Netherlands",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/nl.svg",
-        "source_sha256": "8f691f17fe70894537af8e92f2ca47761d353639b0defc15cbe561eb503ab010",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/nl.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3784759,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          3372,
-          1841
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        824,
+        352,
+        2376,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        824,
+        824,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/da",
-      "label": "DA",
-      "master": "masters/language/da.webp",
-      "web": "web/language/da.webp",
-      "sha256": "74b2f40ab0f7405f81dd3e0940154d578b6f09e1bd3f7436cac03abfe180e21f",
-      "web_sha256": "a7ab0c7f38b3c1a86431061d33dc418a6b785d31b4b6831ab763f7073d2a5d38",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "DK",
-        "name": "Denmark",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/dk.svg",
-        "source_sha256": "d2847c0bd7a1fb97977ee51f2f618c5ebc5898dd66ef9804f187613c27bdca1a",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/dk.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3735063,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          146,
-          146,
-          3533,
-          1702
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        771,
+        352,
+        2429,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        771,
+        771,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/fi",
-      "label": "FI",
-      "master": "masters/language/fi.webp",
-      "web": "web/language/fi.webp",
-      "sha256": "fdb72ad27075ac06b3fba6c41bb6f901a07790cbd2d794f8161e98316317860f",
-      "web_sha256": "6a74f402913ab9ddf5123d5f71a7b13f3340fbe3cc643e4110eb30cb7b21f195",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "FI",
-        "name": "Finland",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/fi.svg",
-        "source_sha256": "012edd984cf1879463c2855b7df02dea2f7de7f7a66b244fb1e22b4227f7aa65",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/fi.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 2772267,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          2073,
-          1841
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        1137,
+        352,
+        2063,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        1137,
+        1137,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/sv",
-      "label": "SV",
-      "master": "masters/language/sv.webp",
-      "web": "web/language/sv.webp",
-      "sha256": "5b65f7cdd857947bc6c719010884a9f472fe773f060b447b7dbb7dd194e993d6",
-      "web_sha256": "b66d65e1e9face5ccfadd0ecc84db0f9e9fe2a2f9a17b82f558834d7de0c8cae",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "SE",
-        "name": "Sweden",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/se.svg",
-        "source_sha256": "b3b5071e6c1d4a0e3db828bab5c7dfd68d0e90fcf3b25b15e9a2c4f96c1f79c9",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/se.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3974341,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          150,
-          150,
-          3528,
-          1747
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        851,
+        352,
+        2349,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        851,
+        851,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/no",
-      "label": "NO",
-      "master": "masters/language/no.webp",
-      "web": "web/language/no.webp",
-      "sha256": "1de20b601bb8ca11abb4524c931ffe561e828682c52333d3e7967e6a207b843a",
-      "web_sha256": "ac47ee6c94983fecacf4180ebc20b6ad08a3376b3b64117d5ee581358ccfcde5",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "NO",
-        "name": "Norway",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/no.svg",
-        "source_sha256": "ceea17af051dceefd5759a824213eb40ac8a8095aa88a6874a7bbc8de637357a",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/no.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 4010192,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          149,
-          149,
-          3530,
-          1737
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        726,
+        352,
+        2474,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        726,
+        726,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/ms",
-      "label": "MS",
-      "master": "masters/language/ms.webp",
-      "web": "web/language/ms.webp",
-      "sha256": "9429ab1c4065f7ca2eb55bbff0ee657db2a7bcd17ea6d267108312ff53857486",
-      "web_sha256": "36e8c473c2699b12f3c1b1dcb5db7d2746b6f8c03c734070c65a6dc67e9ee5bc",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "MY",
-        "name": "Malaysia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/my.svg",
-        "source_sha256": "bb30e84a099d2d9dc286ab091bdd40ae7a8e332eb49827f2df4f11803e613667",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/my.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3933690,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          137,
-          137,
-          3543,
-          1590
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        727,
+        352,
+        2473,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        727,
+        727,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/ur",
-      "label": "UR",
-      "master": "masters/language/ur.webp",
-      "web": "web/language/ur.webp",
-      "sha256": "92003227a67549e43d9a831f5c0b4bf71e2ab2711597e64ead56fea82ea43a5a",
-      "web_sha256": "6e9c28e8c68153b73efd748ca0ebad76346dfcefc36baa4c97a5a04af70f00c1",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "PK",
-        "name": "Pakistan",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/pk.svg",
-        "source_sha256": "89e851c0d541d8166b297e13bed97e0cb500bdb4ae48fd83a86b606a078352a8",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/pk.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 4227477,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          157,
-          157,
-          3522,
-          1829
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        794,
+        352,
+        2406,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        794,
+        794,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/tl",
-      "label": "TL",
-      "master": "masters/language/tl.webp",
-      "web": "web/language/tl.webp",
-      "sha256": "afcd498f18663790e0f38d47ae2b9d8c6eb394a070b7db4c5264ebca951850cf",
-      "web_sha256": "36fe5d8679d83bcc05160f8a451a89a39b1ff1a294881cd1e936708ad202e8af",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "PH",
-        "name": "Philippines",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/ph.svg",
-        "source_sha256": "c3bd5e08ddc5f6dbdfa899af9efb45577e3841402e6a7f5d00fef754816b2884",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ph.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3203804,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          3213,
-          1841
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        875,
+        352,
+        2325,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        875,
+        875,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/is",
-      "label": "IS",
-      "master": "masters/language/is.webp",
-      "web": "web/language/is.webp",
-      "sha256": "16958d89a7f2fe839743b87f9048f0e5e2274275fe79fda2ff21677e1fe80236",
-      "web_sha256": "a52cc9cafea6e389eba9f928c4f8d265fdbeb700c67aca5f9718cd76628bf02e",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "IS",
-        "name": "Iceland",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/is.svg",
-        "source_sha256": "4ef2de6fb25ff5a16789e8ffc3b68894527e68c89dce3b4e1118f5bbcc0bb7ae",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/is.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3519600,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          2407,
-          1841
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        1123,
+        352,
+        2077,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        1123,
+        1123,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/bs",
-      "label": "BS",
-      "master": "masters/language/bs.webp",
-      "web": "web/language/bs.webp",
-      "sha256": "3c44df2a26ae890c376789e5f76804f42f2b8ee9de81ca02361c8b5f1782e4f3",
-      "web_sha256": "d97bbec88d03a50af74de7d29e7a1fb456611313ee90bb779077ddd5bd7f2053",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "BA",
-        "name": "Bosnia and Herzegovina",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/ba.svg",
-        "source_sha256": "b321fe9b47c1cd741c61b330aee66cf00550622a6a9e740161a9f240a14e0787",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ba.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 4833860,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          154,
-          154,
-          3525,
-          1789
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        891,
+        352,
+        2309,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        891,
+        891,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/sq",
-      "label": "SQ",
-      "master": "masters/language/sq.webp",
-      "web": "web/language/sq.webp",
-      "sha256": "3a5d2fd16974141bdf7b352b2da400abd1509d36473ed91dddbd93bca29a1c9b",
-      "web_sha256": "62d0b4aef56bcb7a74ae1eca18e64806e556e361c103487c89c44405993d85e9",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "AL",
-        "name": "Albania",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/al.svg",
-        "source_sha256": "4ae4d2950f6a08528639700e48d19930b964478a2548cb9bf41b898c2b757b11",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/al.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, complete source flag contained within an extended matching solid-color field",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "red",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 4398992,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          147,
-          147,
-          3531,
-          1710
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        926,
+        352,
+        2274,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        926,
+        926,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/mk",
-      "label": "MK",
-      "master": "masters/language/mk.webp",
-      "web": "web/language/mk.webp",
-      "sha256": "9e64940f2581d516e8ec57ab7146215fbee0fa12fbbc1d9d60efef89ab9415d7",
-      "web_sha256": "6d5d38d32c8a0454ce926483c91f97fceff01cdc52ef78fdb0c4f736617af220",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "MK",
-        "name": "North Macedonia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/mk.svg",
-        "source_sha256": "22488dc890fe1e5f7a8bea423dfe2e74f8ccf04402e75090cdeca030b12ca010",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/mk.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3709038,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          140,
-          140,
-          3540,
-          1626
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        670,
+        369,
+        2530,
+        1231
+      ],
+      "margins_left_right_top_bottom_px": [
+        670,
+        670,
+        369,
+        369
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/ca",
-      "label": "CA",
-      "master": "masters/language/ca.webp",
-      "web": "web/language/ca.webp",
-      "sha256": "e112701f0ff6204b8f24a42c41e86423fc8484f72ac2619f71564cf03ad7f4dd",
-      "web_sha256": "14dee78e7062a2d3afdf5dc6a15191c01cb2113ee3764616f275b4254a1b05eb",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "ES-CT",
-        "name": "Catalonia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/es-ct.svg",
-        "source_sha256": "11229703126cc831021cf10b69552e3e5ed4534efadc44fa9aec151d2d4cca00",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/es-ct.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3636129,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          146,
-          146,
-          3533,
-          1701
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        757,
+        352,
+        2443,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        757,
+        757,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/eu",
-      "label": "EU",
-      "master": "masters/language/eu.webp",
-      "web": "web/language/eu.webp",
-      "sha256": "0382418e2e1d4524d03eb75ececc71716455de51c47a91054984c0afe7c6b146",
-      "web_sha256": "67cfd886e20ec20a9c1f1b222cfa19cb0c3fbef5bc3dcc0beebb96126b3f7270",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "ES-PV",
-        "name": "Basque Country",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/es-pv.svg",
-        "source_sha256": "df3beb6c83af9f45226eeef3f43a2c5b9d2c52017d3b26f57c656632cc6ee1d8",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/es-pv.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 4250286,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          3403,
-          1841
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        836,
+        352,
+        2364,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        836,
+        836,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/gl",
-      "label": "GL",
-      "master": "masters/language/gl.webp",
-      "web": "web/language/gl.webp",
-      "sha256": "0eaecc48addcaaa0b3aae8945f5feeaf7767cb77cdfafef058e61fd3236faae0",
-      "web_sha256": "07d3373f7d03295fbccb740da816b548ab3a394d70ab61d3c453942f83d4259d",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "ES-GA",
-        "name": "Galicia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/es-ga.svg",
-        "source_sha256": "4e2fb46264a7998aa7e769327209344be630f75e514c5fc22e957590ae5e8cc1",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/es-ga.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3962183,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          158,
-          158,
-          3333,
-          1841
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        800,
+        352,
+        2400,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        800,
+        800,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/ka",
-      "label": "KA",
-      "master": "masters/language/ka.webp",
-      "web": "web/language/ka.webp",
-      "sha256": "e1aa7e8705eea05248ef3076b98b8fd7172651ad28809e4c6afbc8f7905b676b",
-      "web_sha256": "2c1d0f7670e8e731e0a34ab15b2a7805c61808749afa10872957ac4ec4c88374",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "GE",
-        "name": "Georgia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/ge.svg",
-        "source_sha256": "0280a1279c3d1d772f1e885ee821e37a1cdb4aa085ca2870825fe10bad8d7ff1",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ge.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3688211,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          150,
-          150,
-          3530,
-          1743
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        815,
+        352,
+        2385,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        815,
+        815,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/hy",
-      "label": "HY",
-      "master": "masters/language/hy.webp",
-      "web": "web/language/hy.webp",
-      "sha256": "02c8505079f68e12cc7c57465c03fa007857c2315bf8935a5d4212f5200ed695",
-      "web_sha256": "54793cab91cd56994c11c43ebf79746e048e1839781603d4e88967c9583b894f",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "AM",
-        "name": "Armenia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/am.svg",
-        "source_sha256": "efb6cdaad5658ae5024c86b099a96c4e3769028894240f4015cbc090a0e90e0f",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/am.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 3541071,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          153,
-          153,
-          3525,
-          1776
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        775,
+        352,
+        2425,
+        1248
+      ],
+      "margins_left_right_top_bottom_px": [
+        775,
+        775,
+        352,
+        352
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     },
     {
       "id": "language/yue",
-      "label": "YUE",
-      "master": "masters/language/yue.webp",
-      "web": "web/language/yue.webp",
-      "sha256": "c8e332afef6a64b4bceb4bac1098f2d56e32aea762d2bfb561c63dc63bbb27d8",
-      "web_sha256": "20ead4c95eb0b29931982c5ed016fbf1c5af7770fb52baf2094f4b132a89bba5",
-      "width": 3840,
-      "height": 2160,
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "HK",
-        "name": "Hong Kong",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/hk.svg",
-        "source_sha256": "d9d142b2b97ec3b8190bff3802072c1b4f15573a679eead89a0ce59986dcad0c",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/hk.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, complete source flag contained within an extended matching solid-color field",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#EC1B2E",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
-      },
-      "background_verification": {
-        "approved_geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
-        "glyph_trace_identical_to_approved_foreground": true,
-        "different_opaque_foreground_pixels": 0,
-        "opaque_foreground_pixels_checked": 2721950,
-        "different_pixels_outside_background_support": 0,
-        "background_edge_hidden_under_opaque_frame": true,
-        "interior_fully_opaque": true,
-        "exposed_flag_pixels_match_flat_source": true,
-        "master_and_app_lossless_roundtrips": true,
-        "inner_bounds_in_cropped_badge": [
-          110,
-          110,
-          3568,
-          1276
-        ]
-      }
+      "field_size": [
+        3200,
+        1600
+      ],
+      "visible_letter_bounds": [
+        670,
+        463,
+        2530,
+        1137
+      ],
+      "margins_left_right_top_bottom_px": [
+        670,
+        670,
+        463,
+        463
+      ],
+      "horizontal_center_error_px": 0,
+      "vertical_center_error_px": 0
     }
   ],
-  "publication": {
-    "repository": "s09x/Nuvio-Assets",
-    "branch": "main",
-    "user_approved_publication": true,
-    "import_url": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/manifest.json",
-    "asset_root_url": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/",
-    "manifest_format": "Nuvio/Fusion filters and groups",
-    "image_use": "Cropped app images for stream chips; lossless 4K masters retained separately."
-  }
+  "approved_de_en_seeds_unchanged": true,
+  "added_frame": false
 }

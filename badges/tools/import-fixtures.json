@@ -1,122 +1,328 @@
 [
   {
     "name": "UHD WEB-DL with HDR10+, Dolby Vision, Dolby Digital Plus and two languages",
-    "candidates": ["Example.Movie.2026.2160p.WEB-DL.HDR10+.DoVi.HEVC.DDP5.1.Atmos.GERMAN.ENG.mkv"],
-    "required": ["resolution/2160p", "source/web-dl", "picture-brand/hdr10plus", "picture-brand/dolby-vision", "video-codec/hevc", "audio-brand/dolby-digital-plus", "audio-channel/5-1", "audio-brand/dolby-atmos", "language/de", "language/en", "container/mkv"],
-    "forbidden": ["dynamic-range/hdr10", "dynamic-range/hdr", "audio-brand/dolby-digital", "provider/easynews"]
+    "candidates": [
+      "Example.Movie.2026.2160p.WEB-DL.HDR10+.DoVi.HEVC.DDP5.1.Atmos.GERMAN.ENG.mkv"
+    ],
+    "required": [
+      "resolution/2160p",
+      "source/web-dl",
+      "picture-brand/hdr10plus",
+      "picture-brand/dolby-vision",
+      "video-codec/hevc",
+      "audio-brand/dolby-digital-plus",
+      "audio-channel/5-1",
+      "audio-brand/dolby-atmos",
+      "language/de",
+      "language/en",
+      "container/mkv"
+    ],
+    "forbidden": [
+      "dynamic-range/hdr10",
+      "dynamic-range/hdr",
+      "audio-brand/dolby-digital",
+      "provider/easynews"
+    ]
   },
   {
     "name": "Blu-ray remux with DTS-HD Master Audio",
-    "candidates": ["Example.Movie.2026.1080p.BluRay.REMUX.DTS-HD.MA.7.1.x264.mkv"],
-    "required": ["resolution/1080p", "disc-brand/blu-ray", "source/remux", "audio-brand/dts-hd-ma", "audio-channel/7-1", "video-codec/x264"],
-    "forbidden": ["audio-brand/dts", "audio-brand/dts-hd", "audio-channel/1-0"]
+    "candidates": [
+      "Example.Movie.2026.1080p.BluRay.REMUX.DTS-HD.MA.7.1.x264.mkv"
+    ],
+    "required": [
+      "resolution/1080p",
+      "disc-brand/blu-ray",
+      "source/remux",
+      "audio-brand/dts-hd-ma",
+      "audio-channel/7-1",
+      "video-codec/x264"
+    ],
+    "forbidden": [
+      "audio-brand/dts",
+      "audio-brand/dts-hd",
+      "audio-channel/1-0"
+    ]
   },
   {
     "name": "E-AC-3 stays distinct from AC-3",
-    "candidates": ["Example.2026.720p.WEB-DL.HDR10.E-AC-3.5.1.x265.mkv"],
-    "required": ["resolution/720p", "dynamic-range/hdr10", "audio-codec/e-ac-3", "audio-channel/5-1", "video-codec/x265"],
-    "forbidden": ["picture-brand/hdr10plus", "audio-codec/ac-3", "dynamic-range/hdr"]
+    "candidates": [
+      "Example.2026.720p.WEB-DL.HDR10.E-AC-3.5.1.x265.mkv"
+    ],
+    "required": [
+      "resolution/720p",
+      "dynamic-range/hdr10",
+      "audio-codec/e-ac-3",
+      "audio-channel/5-1",
+      "video-codec/x265"
+    ],
+    "forbidden": [
+      "picture-brand/hdr10plus",
+      "audio-codec/ac-3",
+      "dynamic-range/hdr"
+    ]
   },
   {
     "name": "Object-audio layout does not also produce the shorter channel badge",
-    "candidates": ["Example.2026.2160p.TrueHD.7.1.4.Atmos.mkv"],
-    "required": ["audio-brand/dolby-truehd", "audio-brand/dolby-atmos", "audio-channel/7-1-4"],
-    "forbidden": ["audio-channel/7-1", "audio-channel/1-0"]
+    "candidates": [
+      "Example.2026.2160p.TrueHD.7.1.4.Atmos.mkv"
+    ],
+    "required": [
+      "audio-brand/dolby-truehd",
+      "audio-brand/dolby-atmos",
+      "audio-channel/7-1-4"
+    ],
+    "forbidden": [
+      "audio-channel/7-1",
+      "audio-channel/1-0"
+    ]
   },
   {
     "name": "SD and HD resolutions retain separate numeric assets",
-    "candidates": ["Example.2026.480p.DVDRip.AAC2.0.mp4"],
-    "required": ["resolution/480p", "source/dvdrip", "audio-codec/aac", "audio-channel/2-0", "container/mp4"],
-    "forbidden": ["resolution/720p", "resolution/1080p", "resolution/2160p"]
+    "candidates": [
+      "Example.2026.480p.DVDRip.AAC2.0.mp4"
+    ],
+    "required": [
+      "resolution/480p",
+      "source/dvdrip",
+      "audio-codec/aac",
+      "audio-channel/2-0",
+      "container/mp4"
+    ],
+    "forbidden": [
+      "resolution/720p",
+      "resolution/1080p",
+      "resolution/2160p"
+    ]
   },
   {
     "name": "English language code is not the Easynews provider code",
-    "candidates": ["[EN]"],
-    "required": ["language/en"],
-    "forbidden": ["provider/easynews"]
+    "candidates": [
+      "[EN]"
+    ],
+    "required": [
+      "language/en"
+    ],
+    "forbidden": [
+      "provider/easynews"
+    ]
   },
   {
     "name": "Explicit provider abbreviation uses its provider context",
-    "candidates": ["provider: EN"],
-    "required": ["provider/easynews"],
-    "forbidden": ["language/en"]
+    "candidates": [
+      "provider: EN"
+    ],
+    "required": [
+      "provider/easynews"
+    ],
+    "forbidden": [
+      "language/en"
+    ]
   },
   {
     "name": "Selected flag marker matches its language",
-    "candidates": ["🇩🇪"],
-    "required": ["language/de"],
-    "forbidden": ["language/en", "language/nl", "country/uk"]
+    "candidates": [
+      "\ud83c\udde9\ud83c\uddea"
+    ],
+    "required": [
+      "language/de"
+    ],
+    "forbidden": [
+      "language/en",
+      "language/nl",
+      "country/uk"
+    ]
   },
   {
     "name": "Ukrainian language marker is not United Kingdom country metadata",
-    "candidates": ["🇺🇦"],
-    "required": ["language/uk"],
-    "forbidden": ["country/uk", "language/en"]
+    "candidates": [
+      "\ud83c\uddfa\ud83c\udde6"
+    ],
+    "required": [
+      "language/uk"
+    ],
+    "forbidden": [
+      "country/uk",
+      "language/en"
+    ]
   },
   {
     "name": "Country field does not select Ukrainian",
-    "candidates": ["country: UK"],
-    "required": ["country/uk"],
-    "forbidden": ["language/uk", "language/en"]
+    "candidates": [
+      "country: UK"
+    ],
+    "required": [
+      "country/uk"
+    ],
+    "forbidden": [
+      "language/uk",
+      "language/en"
+    ]
   },
   {
     "name": "Provider and language abbreviations are separated",
-    "candidates": ["[TR]"],
-    "required": ["language/tr"],
-    "forbidden": ["provider/torrin"]
+    "candidates": [
+      "[TR]"
+    ],
+    "required": [
+      "language/tr"
+    ],
+    "forbidden": [
+      "provider/torrin"
+    ]
   },
   {
     "name": "Filename network abbreviations select original logos",
-    "candidates": ["Example.Series.S01E02.1080p.NF.WEB-DL.DDP5.1.H264.mkv"],
-    "required": ["service/netflix", "video-codec/h-264", "audio-brand/dolby-digital-plus"],
-    "forbidden": ["service/prime-video", "audio-brand/dolby-digital"]
+    "candidates": [
+      "Example.Series.S01E02.1080p.NF.WEB-DL.DDP5.1.H264.mkv"
+    ],
+    "required": [
+      "service/netflix",
+      "video-codec/h-264",
+      "audio-brand/dolby-digital-plus"
+    ],
+    "forbidden": [
+      "service/prime-video",
+      "audio-brand/dolby-digital"
+    ]
   },
   {
     "name": "Disney Plus does not also select the generic Disney logo",
-    "candidates": ["Example.2026.Disney+.1080p.WEB-DL.mkv"],
-    "required": ["service/disney-plus"],
-    "forbidden": ["service/disney"]
+    "candidates": [
+      "Example.2026.Disney+.1080p.WEB-DL.mkv"
+    ],
+    "required": [
+      "service/disney-plus"
+    ],
+    "forbidden": [
+      "service/disney"
+    ]
   },
   {
     "name": "Ordinary title words do not infer providers, countries or network names",
-    "candidates": ["We Are in the Park Now", "The Sky Is Quiet", "A Walk to the Sea", "Us", "Johnny English"],
+    "candidates": [
+      "We Are in the Park Now",
+      "The Sky Is Quiet",
+      "A Walk to the Sea",
+      "Us",
+      "Johnny English"
+    ],
     "required": [],
-    "forbidden": ["provider/easynews", "provider/altmount", "service/now", "service/sky", "country/uk", "language/en", "language/it", "language/no", "language/de"]
+    "forbidden": [
+      "provider/easynews",
+      "provider/altmount",
+      "service/now",
+      "service/sky",
+      "country/uk",
+      "language/en",
+      "language/it",
+      "language/no",
+      "language/de"
+    ]
   },
   {
     "name": "Channel numbers are not extracted from an episode number",
-    "candidates": ["Episode 5.1", "Software v7.1.4"],
+    "candidates": [
+      "Episode 5.1",
+      "Software v7.1.4"
+    ],
     "required": [],
-    "forbidden": ["audio-channel/5-1", "audio-channel/7-1", "audio-channel/7-1-4"]
+    "forbidden": [
+      "audio-channel/5-1",
+      "audio-channel/7-1",
+      "audio-channel/7-1-4"
+    ]
   },
   {
     "name": "Container metadata is supported without a filename",
-    "candidates": ["format: MKV"],
-    "required": ["container/mkv"],
-    "forbidden": ["container/mp4"]
+    "candidates": [
+      "format: MKV"
+    ],
+    "required": [
+      "container/mkv"
+    ],
+    "forbidden": [
+      "container/mp4"
+    ]
   },
   {
     "name": "Explicit catalog selector supports a rare badge without guessing",
-    "candidates": ["[badge:language/aa]"],
-    "required": ["language/aa"],
-    "forbidden": ["language/en", "language/de"]
+    "candidates": [
+      "[badge:language/aa]"
+    ],
+    "required": [
+      "language/aa"
+    ],
+    "forbidden": [
+      "language/en",
+      "language/de"
+    ]
   },
   {
     "name": "HDR10+ Gaming uses the specific logo",
-    "candidates": ["HDR10+ Gaming"],
-    "required": ["picture-brand/hdr10plus-gaming"],
-    "forbidden": ["picture-brand/hdr10plus", "dynamic-range/hdr10", "dynamic-range/hdr"]
+    "candidates": [
+      "HDR10+ Gaming"
+    ],
+    "required": [
+      "picture-brand/hdr10plus-gaming"
+    ],
+    "forbidden": [
+      "picture-brand/hdr10plus",
+      "dynamic-range/hdr10",
+      "dynamic-range/hdr"
+    ]
   },
   {
     "name": "Cached and uncached require status context and remain distinct",
-    "candidates": ["status: UNCACHED"],
-    "required": ["availability/uncached"],
-    "forbidden": ["availability/cached"]
+    "candidates": [
+      "status: UNCACHED"
+    ],
+    "required": [
+      "availability/uncached"
+    ],
+    "forbidden": [
+      "availability/cached"
+    ]
   },
   {
     "name": "Native language labels and metadata lists",
-    "candidates": ["Languages: Deutsch / English", "Audio: Français"],
-    "required": ["language/de", "language/en", "language/fr"],
-    "forbidden": ["provider/easynews"]
+    "candidates": [
+      "Languages: Deutsch / English",
+      "Audio: Fran\u00e7ais"
+    ],
+    "required": [
+      "language/de",
+      "language/en",
+      "language/fr"
+    ],
+    "forbidden": [
+      "provider/easynews"
+    ]
+  },
+  {
+    "name": "Literal 4K and legacy 2160p resolve to the same visible artwork",
+    "candidates": [
+      "Example.2026.4K.2160p.REMUX"
+    ],
+    "required": [
+      "resolution/4k",
+      "resolution/2160p"
+    ],
+    "forbidden": [
+      "resolution/480p",
+      "resolution/720p"
+    ]
+  },
+  {
+    "name": "Explicit legacy asset selector remains compatible",
+    "candidates": [
+      "[badge:resolution/2160p]"
+    ],
+    "required": [
+      "resolution/2160p"
+    ],
+    "forbidden": [
+      "resolution/1080p",
+      "resolution/720p"
+    ]
   }
 ]

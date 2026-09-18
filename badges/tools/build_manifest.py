@@ -194,21 +194,23 @@ def main():
     assert len(selected_flags) == 50 and "IN" not in selected_flags.values()
     filters = []
     modes = []
-    canonical_images = {}
+    four_k = next(item for item in catalog["items"] if item["id"] == "resolution/4k")
+    canonical_images = {four_k["web_sha256"]: four_k["web"]}
     for item in catalog["items"]:
         image = ROOT / item["web"]
         assert hashlib.sha256(image.read_bytes()).hexdigest() == item["web_sha256"]
         # Nuvio deduplicates by image URL. Byte-identical aliases share a URL.
         image_path = canonical_images.setdefault(item["web_sha256"], item["web"])
         pattern, mode = compile_pattern(item, selected_flags)
-        filters.append({"id": item["id"], "groupId": item["category"], "name": item["name"], "pattern": pattern, "imageURL": BASE_URL + image_path, "isEnabled": True, "type": "filter"})
+        image_url = BASE_URL + image_path + "?v=" + item["web_sha256"][:16]
+        filters.append({"id": item["id"], "groupId": item["category"], "name": item["name"], "pattern": pattern, "imageURL": image_url, "isEnabled": True, "type": "filter"})
         modes.append({"id": item["id"], "matching": mode, "image_path": image_path})
     categories = list(dict.fromkeys(item["category"] for item in catalog["items"]))
     groups = [{"id": category, "name": category.replace("-", " ").title(), "color": "#9EB3D1", "isExpanded": True} for category in categories]
     payload = {
         "name": "Nuvio Stream Badges",
-        "version": "1.0.0",
-        "description": "The approved 1,037-asset library, including 50 flat flag language badges.",
+        "version": "2.0.0",
+        "description": "1,037 borderless badges: original logos, neutral metadata labels, an approved HDR10 derivative and 50 centered flat flag languages.",
         "homepage": "https://github.com/s09x/Nuvio-Assets/tree/main/badges",
         "filters": filters,
         "groups": groups,

@@ -1,9 +1,8 @@
 {
-  "static_gallery_links": "passed",
-  "javascript_syntax": "passed",
-  "gallery_pages_checked": 2,
-  "all_catalog_image_links": 2074,
-  "contact_sheets": 49,
-  "contact_sheet_asset_entries": 1037,
-  "browser_runtime_test": "not_performed_browser_url_policy_blocked_local_file_navigation"
+  "status": "passed",
+  "version": "2.0.0",
+  "static_links": 12,
+  "missing_links": [],
+  "inline_javascript_syntax": "node --check passed",
+  "interactive_browser_check": "not performed; prior browser URL policy block was not bypassed"
 }

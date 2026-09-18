@@ -110,7 +110,7 @@
     {
       "id": "resolution/2160p",
       "matching": "metadata label and contextual aliases",
-      "image_path": "web/resolution/2160p.webp"
+      "image_path": "web/resolution/4k.webp"
     },
     {
       "id": "resolution/4k",
@@ -1920,7 +1920,7 @@
     {
       "id": "container/ts",
       "matching": "file extension or container metadata",
-      "image_path": "web/container/ts.webp"
+      "image_path": "web/source/ts.webp"
     },
     {
       "id": "container/m2ts",
@@ -3030,7 +3030,7 @@
     {
       "id": "language/sd",
       "matching": "explicit language metadata; outside the selected 50-language series",
-      "image_path": "web/language/sd.webp"
+      "image_path": "web/resolution/sd.webp"
     },
     {
       "id": "language/se",
@@ -3165,7 +3165,7 @@
     {
       "id": "language/ts",
       "matching": "explicit language metadata; outside the selected 50-language series",
-      "image_path": "web/container/ts.webp"
+      "image_path": "web/source/ts.webp"
     },
     {
       "id": "language/tt",
@@ -4875,12 +4875,12 @@
     {
       "id": "extension/divx",
       "matching": "file extension or container metadata",
-      "image_path": "web/video-codec/divx.webp"
+      "image_path": "web/extension/divx.webp"
     },
     {
       "id": "extension/ts",
       "matching": "file extension or container metadata",
-      "image_path": "web/container/ts.webp"
+      "image_path": "web/source/ts.webp"
     },
     {
       "id": "extension/m2ts",

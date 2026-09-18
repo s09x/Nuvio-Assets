@@ -1,0 +1,677 @@
+{
+  "method": "Minimize foreground coverage below 2:1 local contrast; use capped average as tie-break. No recoloring or outline is applied to the flag. DE and EN retain approved seeds.",
+  "checks": [
+    {
+      "id": "language/ar",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.15648369807003792,
+          "mean_capped_contrast": 6.038945198059082
+        },
+        "#101820": {
+          "fraction_below_2": 0.0031232881687301957,
+          "mean_capped_contrast": 3.016665458679199
+        }
+      }
+    },
+    {
+      "id": "language/bg",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.2280708788832595,
+          "mean_capped_contrast": 3.4286375045776367
+        },
+        "#101820": {
+          "fraction_below_2": 0.0,
+          "mean_capped_contrast": 4.990561485290527
+        }
+      }
+    },
+    {
+      "id": "language/bn",
+      "chosen_color": "#FFFFFF",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.0,
+          "mean_capped_contrast": 5.366048812866211
+        },
+        "#101820": {
+          "fraction_below_2": 0.0,
+          "mean_capped_contrast": 3.5504372119903564
+        }
+      }
+    },
+    {
+      "id": "language/bs",
+      "chosen_color": "#FFFFFF",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.46990792724006286,
+          "mean_capped_contrast": 4.3310112953186035
+        },
+        "#101820": {
+          "fraction_below_2": 0.5277141160799708,
+          "mean_capped_contrast": 3.9578943252563477
+        }
+      }
+    },
+    {
+      "id": "language/ca",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.2562659366118546,
+          "mean_capped_contrast": 4.167093276977539
+        },
+        "#101820": {
+          "fraction_below_2": 0.0,
+          "mean_capped_contrast": 4.3874006271362305
+        }
+      }
+    },
+    {
+      "id": "language/cs",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.339153316675631,
+          "mean_capped_contrast": 4.369744777679443
+        },
+        "#101820": {
+          "fraction_below_2": 0.32169166456743303,
+          "mean_capped_contrast": 4.127880096435547
+        }
+      }
+    },
+    {
+      "id": "language/da",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.5551076709008619,
+          "mean_capped_contrast": 3.170700788497925
+        },
+        "#101820": {
+          "fraction_below_2": 0.0,
+          "mean_capped_contrast": 5.2414116859436035
+        }
+      }
+    },
+    {
+      "id": "language/el",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.21916547958214624,
+          "mean_capped_contrast": 5.284470558166504
+        },
+        "#101820": {
+          "fraction_below_2": 0.0,
+          "mean_capped_contrast": 3.6876220703125
+        }
+      }
+    },
+    {
+      "id": "language/es",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.7196722837724606,
+          "mean_capped_contrast": 2.7415590286254883
+        },
+        "#101820": {
+          "fraction_below_2": 0.05070191655472356,
+          "mean_capped_contrast": 6.07586145401001
+        }
+      }
+    },
+    {
+      "id": "language/et",
+      "chosen_color": "#FFFFFF",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.22417639969007375,
+          "mean_capped_contrast": 4.271665573120117
+        },
+        "#101820": {
+          "fraction_below_2": 0.4098200705943123,
+          "mean_capped_contrast": 4.085197925567627
+        }
+      }
+    },
+    {
+      "id": "language/eu",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.42217400166596314,
+          "mean_capped_contrast": 2.780430316925049
+        },
+        "#101820": {
+          "fraction_below_2": 0.0,
+          "mean_capped_contrast": 5.547781467437744
+        }
+      }
+    },
+    {
+      "id": "language/fa",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.8131886471534439,
+          "mean_capped_contrast": 1.7188889980316162
+        },
+        "#101820": {
+          "fraction_below_2": 0.0,
+          "mean_capped_contrast": 6.408543586730957
+        }
+      }
+    },
+    {
+      "id": "language/fi",
+      "chosen_color": "#FFFFFF",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.07901601679326115,
+          "mean_capped_contrast": 6.523158550262451
+        },
+        "#101820": {
+          "fraction_below_2": 0.9195216761908495,
+          "mean_capped_contrast": 1.8313570022583008
+        }
+      }
+    },
+    {
+      "id": "language/fr",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.604781159473375,
+          "mean_capped_contrast": 3.054124116897583
+        },
+        "#101820": {
+          "fraction_below_2": 0.23841139757581742,
+          "mean_capped_contrast": 5.084136962890625
+        }
+      }
+    },
+    {
+      "id": "language/gl",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.3587341767340741,
+          "mean_capped_contrast": 3.2638463973999023
+        },
+        "#101820": {
+          "fraction_below_2": 0.05347746021972509,
+          "mean_capped_contrast": 5.329147815704346
+        }
+      }
+    },
+    {
+      "id": "language/he",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.8110632821514157,
+          "mean_capped_contrast": 2.1273586750030518
+        },
+        "#101820": {
+          "fraction_below_2": 0.18443685098074022,
+          "mean_capped_contrast": 6.048295497894287
+        }
+      }
+    },
+    {
+      "id": "language/hr",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.6919724780437942,
+          "mean_capped_contrast": 1.984419822692871
+        },
+        "#101820": {
+          "fraction_below_2": 0.02178892715337383,
+          "mean_capped_contrast": 6.162843704223633
+        }
+      }
+    },
+    {
+      "id": "language/hu",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.6255073298764484,
+          "mean_capped_contrast": 2.3163249492645264
+        },
+        "#101820": {
+          "fraction_below_2": 0.0,
+          "mean_capped_contrast": 5.871641635894775
+        }
+      }
+    },
+    {
+      "id": "language/hy",
+      "chosen_color": "#FFFFFF",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.0008292407443150543,
+          "mean_capped_contrast": 5.9150285720825195
+        },
+        "#101820": {
+          "fraction_below_2": 0.6470651311415643,
+          "mean_capped_contrast": 2.820417642593384
+        }
+      }
+    },
+    {
+      "id": "language/id",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.5000019711580159,
+          "mean_capped_contrast": 2.881756067276001
+        },
+        "#101820": {
+          "fraction_below_2": 0.0,
+          "mean_capped_contrast": 5.378468036651611
+        }
+      }
+    },
+    {
+      "id": "language/is",
+      "chosen_color": "#FFFFFF",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.15799553219323972,
+          "mean_capped_contrast": 5.007104396820068
+        },
+        "#101820": {
+          "fraction_below_2": 0.32816418481417986,
+          "mean_capped_contrast": 3.5224952697753906
+        }
+      }
+    },
+    {
+      "id": "language/it",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 1.0,
+          "mean_capped_contrast": 1.0
+        },
+        "#101820": {
+          "fraction_below_2": 0.0,
+          "mean_capped_contrast": 7.0
+        }
+      }
+    },
+    {
+      "id": "language/ja",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.25996336941281556,
+          "mean_capped_contrast": 5.149867534637451
+        },
+        "#101820": {
+          "fraction_below_2": 0.0,
+          "mean_capped_contrast": 3.825039863586426
+        }
+      }
+    },
+    {
+      "id": "language/ka",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.2720102551613147,
+          "mean_capped_contrast": 3.1823391914367676
+        },
+        "#101820": {
+          "fraction_below_2": 0.0,
+          "mean_capped_contrast": 5.163422584533691
+        }
+      }
+    },
+    {
+      "id": "language/ko",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.6504626685321802,
+          "mean_capped_contrast": 2.911236524581909
+        },
+        "#101820": {
+          "fraction_below_2": 0.13855412108878148,
+          "mean_capped_contrast": 5.295613765716553
+        }
+      }
+    },
+    {
+      "id": "language/lt",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.32092272344770856,
+          "mean_capped_contrast": 4.854996681213379
+        },
+        "#101820": {
+          "fraction_below_2": 0.0,
+          "mean_capped_contrast": 4.173819541931152
+        }
+      }
+    },
+    {
+      "id": "language/lv",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.3231680593853864,
+          "mean_capped_contrast": 5.057565212249756
+        },
+        "#101820": {
+          "fraction_below_2": 0.0,
+          "mean_capped_contrast": 3.7457878589630127
+        }
+      }
+    },
+    {
+      "id": "language/mk",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.4714373830100095,
+          "mean_capped_contrast": 3.5593457221984863
+        },
+        "#101820": {
+          "fraction_below_2": 0.0,
+          "mean_capped_contrast": 4.990447521209717
+        }
+      }
+    },
+    {
+      "id": "language/ms",
+      "chosen_color": "#FFFFFF",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.2624466392514832,
+          "mean_capped_contrast": 5.033779144287109
+        },
+        "#101820": {
+          "fraction_below_2": 0.38063978492483386,
+          "mean_capped_contrast": 3.313401699066162
+        }
+      }
+    },
+    {
+      "id": "language/nl",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.5686970111890239,
+          "mean_capped_contrast": 3.5808539390563965
+        },
+        "#101820": {
+          "fraction_below_2": 0.2686420342171141,
+          "mean_capped_contrast": 4.930474758148193
+        }
+      }
+    },
+    {
+      "id": "language/no",
+      "chosen_color": "#FFFFFF",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.3786482446337605,
+          "mean_capped_contrast": 4.177410125732422
+        },
+        "#101820": {
+          "fraction_below_2": 0.42284080518990463,
+          "mean_capped_contrast": 4.020115852355957
+        }
+      }
+    },
+    {
+      "id": "language/pl",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.5194293971089295,
+          "mean_capped_contrast": 2.9175145626068115
+        },
+        "#101820": {
+          "fraction_below_2": 0.0,
+          "mean_capped_contrast": 5.359618663787842
+        }
+      }
+    },
+    {
+      "id": "language/pt",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.24322833984613507,
+          "mean_capped_contrast": 3.842719554901123
+        },
+        "#101820": {
+          "fraction_below_2": 0.08768240932958847,
+          "mean_capped_contrast": 4.625472545623779
+        }
+      }
+    },
+    {
+      "id": "language/ro",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.5681538198558234,
+          "mean_capped_contrast": 3.3750271797180176
+        },
+        "#101820": {
+          "fraction_below_2": 0.2426835953387208,
+          "mean_capped_contrast": 5.073004722595215
+        }
+      }
+    },
+    {
+      "id": "language/ru",
+      "chosen_color": "#FFFFFF",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.225517538594142,
+          "mean_capped_contrast": 5.254955291748047
+        },
+        "#101820": {
+          "fraction_below_2": 0.5758307552600391,
+          "mean_capped_contrast": 3.3338358402252197
+        }
+      }
+    },
+    {
+      "id": "language/sk",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.18490252432563453,
+          "mean_capped_contrast": 5.317394256591797
+        },
+        "#101820": {
+          "fraction_below_2": 0.00015409120814432632,
+          "mean_capped_contrast": 3.5258021354675293
+        }
+      }
+    },
+    {
+      "id": "language/sl",
+      "chosen_color": "#FFFFFF",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.046806542030641954,
+          "mean_capped_contrast": 6.598766803741455
+        },
+        "#101820": {
+          "fraction_below_2": 0.8732936859314523,
+          "mean_capped_contrast": 1.8930585384368896
+        }
+      }
+    },
+    {
+      "id": "language/sq",
+      "chosen_color": "#FFFFFF",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.0,
+          "mean_capped_contrast": 4.8727569580078125
+        },
+        "#101820": {
+          "fraction_below_2": 0.28763674230205516,
+          "mean_capped_contrast": 3.5168843269348145
+        }
+      }
+    },
+    {
+      "id": "language/sr",
+      "chosen_color": "#FFFFFF",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.26159125648917503,
+          "mean_capped_contrast": 5.12059211730957
+        },
+        "#101820": {
+          "fraction_below_2": 0.5503314519972393,
+          "mean_capped_contrast": 3.4061474800109863
+        }
+      }
+    },
+    {
+      "id": "language/sv",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.7782134764722705,
+          "mean_capped_contrast": 2.7375102043151855
+        },
+        "#101820": {
+          "fraction_below_2": 0.0,
+          "mean_capped_contrast": 5.947371006011963
+        }
+      }
+    },
+    {
+      "id": "language/th",
+      "chosen_color": "#FFFFFF",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.4427009898169907,
+          "mean_capped_contrast": 4.380706310272217
+        },
+        "#101820": {
+          "fraction_below_2": 0.5564622943815424,
+          "mean_capped_contrast": 3.8343863487243652
+        }
+      }
+    },
+    {
+      "id": "language/tl",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.5822141013807524,
+          "mean_capped_contrast": 3.1746103763580322
+        },
+        "#101820": {
+          "fraction_below_2": 0.15991438581950385,
+          "mean_capped_contrast": 5.1872992515563965
+        }
+      }
+    },
+    {
+      "id": "language/tr",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.2392839279474337,
+          "mean_capped_contrast": 3.9325098991394043
+        },
+        "#101820": {
+          "fraction_below_2": 0.0,
+          "mean_capped_contrast": 4.48063850402832
+        }
+      }
+    },
+    {
+      "id": "language/uk",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.5180375686620424,
+          "mean_capped_contrast": 4.037902355194092
+        },
+        "#101820": {
+          "fraction_below_2": 0.0,
+          "mean_capped_contrast": 4.881396770477295
+        }
+      }
+    },
+    {
+      "id": "language/ur",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.09992691996965791,
+          "mean_capped_contrast": 6.396553993225098
+        },
+        "#101820": {
+          "fraction_below_2": 0.0013999296951606836,
+          "mean_capped_contrast": 2.5817644596099854
+        }
+      }
+    },
+    {
+      "id": "language/vi",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.24703280026343294,
+          "mean_capped_contrast": 3.971222162246704
+        },
+        "#101820": {
+          "fraction_below_2": 0.0,
+          "mean_capped_contrast": 4.468317985534668
+        }
+      }
+    },
+    {
+      "id": "language/zh",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.05837676820186504,
+          "mean_capped_contrast": 4.157413005828857
+        },
+        "#101820": {
+          "fraction_below_2": 0.0,
+          "mean_capped_contrast": 4.283287525177002
+        }
+      }
+    },
+    {
+      "id": "language/yue",
+      "chosen_color": "#101820",
+      "candidates": {
+        "#FFFFFF": {
+          "fraction_below_2": 0.11619585926047964,
+          "mean_capped_contrast": 4.011148929595947
+        },
+        "#101820": {
+          "fraction_below_2": 0.0,
+          "mean_capped_contrast": 4.40320348739624
+        }
+      }
+    }
+  ]
+}

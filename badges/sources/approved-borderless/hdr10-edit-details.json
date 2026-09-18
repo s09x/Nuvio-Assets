@@ -1,0 +1,78 @@
+{
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/HDR10%2B_Logo.png",
+  "source_sha256": "b8f998774bd35016459474edbe4de2431f7e7e4325877eb71c9acc4103361243",
+  "source_size": [
+    831,
+    179
+  ],
+  "input_size": [
+    3840,
+    2160
+  ],
+  "source_uniform_scale": 4,
+  "source_offset": [
+    258,
+    722
+  ],
+  "editable_box_in_source": [
+    762,
+    72,
+    831,
+    154
+  ],
+  "editable_box_in_canvas": [
+    3302,
+    1006,
+    3590,
+    1342
+  ],
+  "requested_model": "gpt-image-2.5-sunburst",
+  "kind": "user-requested derivative of the supplied HDR10+ reference",
+  "publication_approved": true,
+  "status": "approved-for-publication",
+  "execution_mode": "bundled imagegen CLI / Images API edit",
+  "model_output_dimensions": [
+    1672,
+    941
+  ],
+  "source_zero_box": [
+    712,
+    79,
+    790,
+    149
+  ],
+  "model_zero_box": [
+    1348,
+    447,
+    1478,
+    578
+  ],
+  "removed_plus_pixels": 1609,
+  "added_zero_repair_pixels": 456,
+  "changed_pixels_outside_edit_region": 0,
+  "existing_non_plus_opaque_source_pixels_changed": 0,
+  "closed_zero_counters": 1,
+  "native_output_dimensions": [
+    831,
+    179
+  ],
+  "master_dimensions": [
+    3840,
+    2160
+  ],
+  "postprocessing": "Sunburst repair colors were registered and color-matched to the existing zero; the opposite original contour supplies the matching stroke continuation. Only the open right-side gap and its antialiased edges are filled. Original pixels outside the edit region and existing non-plus opaque pixels are retained. 4K export is uniformly scaled and centered from the edited source.",
+  "source_resolution_note": "The supplied source is 831 x 179. The 4K export is a presentation master; enlargement does not create new source detail.",
+  "nuvio_image_area_dp": [
+    64,
+    16
+  ],
+  "files": {
+    "hdr10-sunburst-raw.png": "3b3471d17bd20346228c122227da57b4d8b83912852c5439478291defc281d52",
+    "hdr10-final-native.png": "cd2ffc0fdce7a932b3243c88121874cd96c67cccf34d50bf9bdb173ee3eaf936",
+    "hdr10-final-4k.png": "b30809c2051429afa125bc26e947a48f05b027d7b196467bb1d5c23448daa986",
+    "hdr10-final-app.webp": "333fe0f2916bbb060e3c5bc14efca6f3fbe2c4d63fdf00717e41c0804e08596f"
+  },
+  "repository_modified": true,
+  "uploaded": false,
+  "approval_text": "perfekt, freigegeben"
+}

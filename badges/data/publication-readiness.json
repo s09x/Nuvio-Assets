@@ -1,37 +1,42 @@
 {
   "status": "ready-for-authorized-publication",
-  "base_commit": "a1161146c83f7e83de88f0dc62ad447c6c37a588",
-  "staged_badge_files_checked_byte_for_byte": 2299,
-  "approved_image_files_verified": 2074,
-  "approved_type_geometry_preserved": true,
-  "changed_paths_limited_to_badges_and_root_readme": true,
-  "import_entries": 1037,
-  "import_groups": 37,
-  "synthetic_import_cases_passed": 20,
-  "gallery_static_links_and_javascript_syntax": "passed",
-  "git_diff_whitespace_check": {
-    "exit_code": 2,
-    "findings": [
-      "badges/sources/brands/dolby-digital-plus.svg:16: trailing whitespace.",
-      "badges/sources/brands/dts-hd-ma.svg:40: trailing whitespace.",
-      "badges/sources/brands/dts-hd-ma.svg:41: trailing whitespace.",
-      "badges/sources/brands/dts-hd-ma.svg:42: trailing whitespace.",
-      "badges/sources/brands/dts-hd-ma.svg:76: trailing whitespace.",
-      "badges/sources/brands/dts-hd-ma.svg:77: trailing whitespace.",
-      "badges/sources/brands/dts-hd-ma.svg:122: trailing whitespace.",
-      "badges/sources/brands/plex.svg:26: trailing whitespace.",
-      "badges/sources/brands/plex.svg:27: trailing whitespace.",
-      "badges/sources/brands/plex.svg:29: trailing whitespace.",
-      "badges/sources/brands/plex.svg:30: trailing whitespace.",
-      "badges/sources/brands/plex.svg:31: trailing whitespace.",
-      "badges/sources/brands/plex.svg:32: trailing whitespace.",
-      "badges/sources/brands/plex.svg:33: trailing whitespace.",
-      "badges/sources/brands/rtl-plus.svg:26: trailing whitespace.",
-      "badges/sources/brands/torbox.svg:18: new blank line at EOF.",
-      "badges/sources/type/OFL.txt:21: trailing whitespace."
+  "version": "2.0.0",
+  "base_commit": "3e032e36db159ae7ee25a6efff0fd90dfcb95852",
+  "user_approved_publication": true,
+  "artwork": {
+    "status": "passed",
+    "version": "2.0.0",
+    "catalog_assets": 1037,
+    "asset_files": 2074,
+    "master_dimensions": [
+      3840,
+      2160
     ],
-    "interpretation": "All findings are unchanged whitespace in original third-party logo or font-license sources; the source bytes are preserved intentionally.",
-    "authored_documentation_or_code_findings": 0
+    "master_format": "lossless WebP RGBA",
+    "all_file_hashes_verified": true,
+    "all_master_dimensions_verified": true,
+    "all_master_alpha_ranges_verified": true,
+    "lossless_encode_decode_verified": true,
+    "source_mappings": 698,
+    "missing_source_mappings": 0,
+    "kind_counts": {
+      "neutral-text": 892,
+      "user-edited-logo": 1,
+      "original-logo": 94,
+      "flat-language-flag": 50
+    },
+    "layout_checks": 2074,
+    "non_flag_opaque_ink_clipped": 0,
+    "centered_language_flags": 50,
+    "approved_seed_pairs_preserved": 16,
+    "hdr10_master_rgba_matches_approved_png": true,
+    "added_frames": 0,
+    "added_shadows": 0,
+    "added_material_effects": 0,
+    "device_test_performed": false,
+    "scope_note": "Complete pinned finite catalog; arbitrary runtime values and future formats are not claimed to be pre-rendered."
   },
-  "physical_client_import_test": "not performed"
+  "synthetic_import_cases_passed": 22,
+  "gallery_static_links_and_javascript_syntax": "passed",
+  "manifest_versions_match_all_delivered_images": true
 }

@@ -43,10 +43,30 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/de.webp",
       "web": "web/language/de.webp",
-      "base_render_signature": "fb904d07bfb0fc537e39ba6fcddc09c67060880efdf6cfea9511f3e4a3fc6319",
-      "preserve_approved_artwork": true,
-      "approved_master_sha256": "82c50cc202f44b82280c6ac47e2f047c517f8b8d658fc76347b4c151ebaca3da",
-      "approved_web_sha256": "f60f7048bfac5b8aad4acef4ec9b92b142917fca594bd54f753e9517f1272cb6"
+      "master_sha256": "6ac6ae9b9125a7deaab601ededef4244adb97edd7740f88f1e9ba84c7c9a6849",
+      "web_sha256": "0fc014965a3e93c340a94a4a18098fd5979c085dec731be07333c385d191065b",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "id": "de",
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          800,
+          352,
+          2400,
+          1248
+        ],
+        "margins_px": {
+          "left": 800,
+          "right": 800,
+          "top": 352,
+          "bottom": 352
+        },
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
+      }
     },
     {
       "asset_id": "language/en",
@@ -60,26 +80,29 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/en.webp",
       "web": "web/language/en.webp",
-      "base_render_signature": "ade44f122fb19cc0cd164495eab26b45bda584e6b788037c9c0285449e4d6246",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "GB",
-        "name": "United Kingdom",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/gb.svg",
-        "source_sha256": "c8be1e7208798a4ae692ee1e937065d498bb29e741943f6172b29118b8ed8066",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/gb.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "270798307658c15faba8c45b253930c5ad7222005f5b8101fbf3af1d2772651f",
+      "web_sha256": "6f4143df7eb0e72764ee7b4bdc0f5de81cc520247804a1a7e95e17a8e85499d3",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "id": "en",
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          816,
+          352,
+          2384,
+          1248
+        ],
+        "margins_px": {
+          "left": 816,
+          "right": 816,
+          "top": 352,
+          "bottom": 352
+        },
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -94,26 +117,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/fr.webp",
       "web": "web/language/fr.webp",
-      "base_render_signature": "33e43eef0b54a9d6833b0e182eea46405bf55aed060a202abb66a4256fdb2fd0",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "FR",
-        "name": "France",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/fr.svg",
-        "source_sha256": "a526851c372e3372b1596be71af355ea72b1650bbc4c06e6e2c226900d3de6cc",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/fr.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "e41b83cdf6f82dddfd7eb42d1a8ac0042b43ac9abad7214a6d85db4603abbb8e",
+      "web_sha256": "4e83378c0e515562c8475b58ad9a577cb9b109f923a05778356736105674c098",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          872,
+          352,
+          2328,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          872,
+          872,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -128,26 +153,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/es.webp",
       "web": "web/language/es.webp",
-      "base_render_signature": "03aa8d24a09d80a38c7c952ac0ff441c91162d3a69505567cd229c74883c55fd",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "ES",
-        "name": "Spain",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/es.svg",
-        "source_sha256": "f9cfaff858e95f830733ade9591037b5322dfb5827a53b70956a3d190bb49b9a",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/es.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "417238429510c8c7a9984cd487dc8500e9d9bb022e2a5f7a06d932279220720e",
+      "web_sha256": "d6a57863f07c817921e2355ef98b9e83d930de99dc19a5ec92d7c503a5cf848b",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          908,
+          352,
+          2292,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          908,
+          908,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -162,26 +189,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/it.webp",
       "web": "web/language/it.webp",
-      "base_render_signature": "1ae2f4b7ad3d4f12e17208156e4b15b621f2e8719a5f03c72128f3acbddf4f8d",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "IT",
-        "name": "Italy",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/it.svg",
-        "source_sha256": "9fa88118818d9b64838f578e2babcca3d0630aed21b5c33b34aff7ac5ce506bc",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/it.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "905824defbcd5ed0783c50444d5baa6b1ed2594bfa8766da9791c22bb06955cb",
+      "web_sha256": "65304f6566aef1246c96eba999da54fc76ff66928d962088594593e2109744ee",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          1089,
+          352,
+          2111,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          1089,
+          1089,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -196,26 +225,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/pt.webp",
       "web": "web/language/pt.webp",
-      "base_render_signature": "cd8c319008be0cf379e156ae14691e7d2094c89f7606aee8639951b5669c6134",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "PT",
-        "name": "Portugal",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/pt.svg",
-        "source_sha256": "a7a2cf0b44aaaaf4f3bdc0ee0fa308ec7085bdfedd3f72da1473d43fd2a569fb",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/pt.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "58c62b8e6bbe4a1a4bd0765fcb5bbca4125252bfe87da46fab6d12233b663493",
+      "web_sha256": "16c8c6928c90f91ef94e6716180e1fa09c2d92a2dbd640365d1fdb7f16d096dc",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          871,
+          352,
+          2329,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          871,
+          871,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -230,26 +261,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/ja.webp",
       "web": "web/language/ja.webp",
-      "base_render_signature": "e00bd96cce87658d32d707d37e65c77ebbdf04d156d1580d5ec84cb2c6ab85b5",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "JP",
-        "name": "Japan",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/jp.svg",
-        "source_sha256": "bfea80baf9989383dc4bf7ca594ed95be0df0ff125bfc88d0bfa878eb0198022",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/jp.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, complete source flag contained within an extended matching solid-color field",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "c6b1c011f59b0764fd27ba40bc0876fee32f4dce30e781beabbdc4505582bff2",
+      "web_sha256": "b464728b085bd573520d69406ebeb10ebf50c94c9d94c948da8aee4a8ae5ebd4",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          912,
+          352,
+          2288,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          912,
+          912,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -264,26 +297,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/zh.webp",
       "web": "web/language/zh.webp",
-      "base_render_signature": "96e489afe6383b25bb38702d1a9e2cd55d77b352e687039411cc5767a5667767",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "CN",
-        "name": "China",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/cn.svg",
-        "source_sha256": "981da9bdf82d48e31691f20578cefcb26cf7d0bd95e4ebd5c0df00bdfe988c1a",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/cn.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, complete source flag contained within an extended matching solid-color field",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#ee1c25",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "3af2ec694126825b0e82e7b332a4a96d660f9cc7fd4a7b643c9f4457dbeb9679",
+      "web_sha256": "09f43cf91ac15bc1f7ce600acccb5e040dea50187b2870ce2d7d917c487cda0c",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          805,
+          352,
+          2395,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          805,
+          805,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -298,26 +333,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/ko.webp",
       "web": "web/language/ko.webp",
-      "base_render_signature": "0caf5ca96704a162ad771e4c1099cef34ac5d86ec1277a4e0ac212ef314ff4d4",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "KR",
-        "name": "South Korea",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/kr.svg",
-        "source_sha256": "7a6cd5b51d0e2841ed8b79b1147ad8a66cf3c09f6344d4a63b5e4413ffa5d15b",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/kr.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, complete source flag contained within an extended matching solid-color field",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "3dc53051d7db996608314a4d4b038c5d317ff6b8502dcc026ef36dca72039430",
+      "web_sha256": "569fcf106436db3aeff0a51e2f8ce067f16de68e1517181fb96c6444f332f544",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          796,
+          352,
+          2404,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          796,
+          796,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -332,26 +369,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/ru.webp",
       "web": "web/language/ru.webp",
-      "base_render_signature": "24e48c5846f848db40700267287f8fe0db82bee49d11516921adad84d3888749",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "RU",
-        "name": "Russia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/ru.svg",
-        "source_sha256": "7100aaae51ff3b6a2bf0ca932b3bc518bdc760814725e7cca31d821a26c3dd7c",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ru.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "5aa156ef2a7a99e6bab6a127aa59b859e5fc1f9b7e01836573a66449b43f5a0d",
+      "web_sha256": "c4bb0cd609085277621bdfeafc2f2da8b3a4d90cdcb0ec6f84e7f0b963cd7b67",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          822,
+          352,
+          2378,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          822,
+          822,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -366,26 +405,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/ar.webp",
       "web": "web/language/ar.webp",
-      "base_render_signature": "f34a32b4fcefdee2ecad98f94966cb0f66155b1c0add198523f2431e07c84126",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "SA",
-        "name": "Saudi Arabia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/sa.svg",
-        "source_sha256": "5738c8cfca5fea63587cbcf69237996c8ce6283f8016853150686f37311b620e",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/sa.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, complete source flag contained within an extended matching solid-color field",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#165d31",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "8310bb0315007bcaabc883261519f24afcf9ad091857b9be05cbf05ff437fa15",
+      "web_sha256": "ee95f994d4f1abc68f82d7c0328ebbb4b5bb4b83374b3ccdb962a8aff11fee18",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          773,
+          352,
+          2427,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          773,
+          773,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -400,26 +441,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/bn.webp",
       "web": "web/language/bn.webp",
-      "base_render_signature": "fc71a56cd2c97443cfacb909972507b2bcfe986f425ff04e8bccffa9721e5427",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "BD",
-        "name": "Bangladesh",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/bd.svg",
-        "source_sha256": "1aabb4a772651fb9a673660233d5bc6f3d78dfc71df09d567769bc97b9eb554f",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/bd.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, complete source flag contained within an extended matching solid-color field",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#006a4e",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "e7bebf0880fe8fde6916b8b978cff7694b4ccba09d3163239ff81391342c2469",
+      "web_sha256": "71f33c3e9df47c406104362f8241e80bc5ea7f2b080e7a1c17395e43fa29400a",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          798,
+          352,
+          2402,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          798,
+          798,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -434,26 +477,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/th.webp",
       "web": "web/language/th.webp",
-      "base_render_signature": "c233bae1e5a5218c52ef48940994b363ce12fb088e3bf3bac40c8bba1c513080",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "TH",
-        "name": "Thailand",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/th.svg",
-        "source_sha256": "329cc0d520536d6eb4b9304105f23650c2d02bbdba8f8696e996dbf166de6f2e",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/th.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "e6a0349144de1f66dd676ac399f86dd99244f2f55d52bbf5bfad7f9529ccc005",
+      "web_sha256": "fc99c5ce0e5fbf79e0305534bbf4c007190a5372a4b33f5f4bf15b973f63d171",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          809,
+          352,
+          2391,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          809,
+          809,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -468,26 +513,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/vi.webp",
       "web": "web/language/vi.webp",
-      "base_render_signature": "bea129e6e145870c27f0c8eba414e2c6c33b75e5c2a11230ae198ec8d28ee29b",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "VN",
-        "name": "Vietnam",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/vn.svg",
-        "source_sha256": "2355037201315d74581ab0ad60b5587a29a087d26b0525bdeb8676e64fae5b86",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/vn.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, complete source flag contained within an extended matching solid-color field",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#da251d",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "ec766b707c831f6776cc4176ee120d94978c6a12557a33122cb25588869b00c6",
+      "web_sha256": "60dfd572773c4fa3b9e9297d2b2b6ae98d308188ef550a7a111f7f08e70be0b4",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          1043,
+          352,
+          2157,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          1043,
+          1043,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -502,26 +549,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/id.webp",
       "web": "web/language/id.webp",
-      "base_render_signature": "bec24ed1bbf2c6a6c5c484a956998e705e6ef5801955afc8301e6f85992b10eb",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "ID",
-        "name": "Indonesia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/id.svg",
-        "source_sha256": "5cd3acc4939dd7eae6318c8d75df8c0d1733f650e2504a2635b0dbf3dfabb040",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/id.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "51200707b6d281d9827949a2f0215990f3f64664af9c4a99cead2635046edd2a",
+      "web_sha256": "1fb329c55d81cc5dfea5e2e9749b93839c1c10229fac209383dc4e34d4cc973b",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          1019,
+          352,
+          2181,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          1019,
+          1019,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -536,26 +585,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/tr.webp",
       "web": "web/language/tr.webp",
-      "base_render_signature": "c87d65edbd589dba4a13730397144e5d97b3a576cdc43d2bc2fba28a41e842bc",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "TR",
-        "name": "Türkiye",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/tr.svg",
-        "source_sha256": "256a1d6afbedb9f731566982331a1cd1ad14aba211b8a61d338855879505e74f",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/tr.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, complete source flag contained within an extended matching solid-color field",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#e30a17",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "b428714f25e35bbe080f797f5c698343cf2452d78b0f185ee39ac72b69cda590",
+      "web_sha256": "233f5f5466afa9ae1c700f0704190e92f8fe6800f3b0acf88b906307aab79866",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          823,
+          352,
+          2377,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          823,
+          823,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -570,26 +621,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/he.webp",
       "web": "web/language/he.webp",
-      "base_render_signature": "82bac795c2e893ac2f361eb29dfa9debc6ed298b52d1748c2e64eee18eaf65c5",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "IL",
-        "name": "Israel",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/il.svg",
-        "source_sha256": "04a099ac4370b5e856f5f8d44ce0822ec47a6d3bc395a7d048d3a46d69274d68",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/il.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "33e5977ab2e486cb9468a76196db72901639ef935d48c3395af7bb0a928be145",
+      "web_sha256": "bfad015b61e6c4b9c443cc0a410d8e64266eaf0b8350daf2925238e08ddffa72",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          798,
+          352,
+          2402,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          798,
+          798,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -604,26 +657,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/fa.webp",
       "web": "web/language/fa.webp",
-      "base_render_signature": "2550c42a3f16cebba2f3516c52de9e15a1fad86a6ce7442bca34f4a6f1797eaa",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "IR",
-        "name": "Iran",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/ir.svg",
-        "source_sha256": "cb363e09bafbff6de7c2fba6a002ca33f0563dc83a2328d34adb492cf80ca629",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ir.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "99eca4c7cd94f6a0d839656648c9eb421ccecccab4ffec3d904c79ce1adec43c",
+      "web_sha256": "729862b25929bee349358fbf1c208e45c4511f22f1cc4a9bd1bd1a5d02cedb8d",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          853,
+          352,
+          2347,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          853,
+          853,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -638,26 +693,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/uk.webp",
       "web": "web/language/uk.webp",
-      "base_render_signature": "2cb74129811866fadea381e17fe0af767a88587b1ef4a9bb1c40d697827e3953",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "UA",
-        "name": "Ukraine",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/ua.svg",
-        "source_sha256": "b7892e2bee1b25eb5407d6f5249b020dcece29ee1c9cc1a8a6a10c4f38ce6801",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ua.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "42c88810f84b29f0781ea0ce72566e067ee3362ad25f106d2aba98edb35319a7",
+      "web_sha256": "39606b0fd4b6a1d5bd4f928be6c223beaadeedcd3af2523acc028cfea1fb7cec",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          779,
+          352,
+          2421,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          779,
+          779,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -672,28 +729,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/el.webp",
       "web": "web/language/el.webp",
-      "base_render_signature": "fa09013e71102890a69299bdd83d74c2b9a6af8fdc6de785e42acbec98956d1a",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "GR",
-        "name": "Greece",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/gr.svg",
-        "source_sha256": "a184070f7678b06777be8ac38cb05ba41829591a6dac9b64b2b72db66aec82f5",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/gr.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "nine complete horizontal bands and a square five-band canton; equal-width cross arms preserved from the source grid",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false,
-        "layout_source": "sources/flags/adaptive/gr.svg",
-        "layout_source_sha256": "3c8139042236b093e8c236fe20b1e446dd91db1a2d7414c4b6622a954e0cc44d"
+      "master_sha256": "25eec5e7bf869edb4cc1e882024b0e28a6a61c26a7107c78ed28c28d70739b01",
+      "web_sha256": "15a790daa685afea2de576b054f9cadb037bb0958f5e883cc39ad3e05b9cfb42",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          888,
+          352,
+          2312,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          888,
+          888,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -708,26 +765,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/lt.webp",
       "web": "web/language/lt.webp",
-      "base_render_signature": "fd042477e9b3675ee532d74970fd789e517012961e06d496e9ac90df343be2d7",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "LT",
-        "name": "Lithuania",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/lt.svg",
-        "source_sha256": "dc0401993f6e14b3a58fa496d874b95dfcb58614052a868b14492166782c1006",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/lt.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "b45527a53ff7b5d6e832688cd52de1762ea8daf0a5348a843b09173f160920f4",
+      "web_sha256": "ac4469a2eaed04e3084fec95a133d525ec6d2d3b84c598383530824dc3bbf201",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          974,
+          352,
+          2226,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          974,
+          974,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -742,26 +801,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/lv.webp",
       "web": "web/language/lv.webp",
-      "base_render_signature": "0edf71555483965ad3f720b53ca179e013ddd36a95a1175e8a669b0e27c0be2f",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "LV",
-        "name": "Latvia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/lv.svg",
-        "source_sha256": "d0d1ac1c0e301f808be3db32bcd7cdbc8986b6ec15574f557f440caed8b7bb31",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/lv.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "7856d5a8eea77aefcbfc73f2a55016ff67c90d2773b8defa8aa17bede38e1557",
+      "web_sha256": "acf1cbcb32044a6d139ac3a40b12ef6b2b9b8c5768c4b5f7f04225109e55398f",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          893,
+          352,
+          2307,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          893,
+          893,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -776,26 +837,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/et.webp",
       "web": "web/language/et.webp",
-      "base_render_signature": "3d1b9f8024467782c0d12806aac1e7eed437abccd5ee2926500c716c63fc0025",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "EE",
-        "name": "Estonia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/ee.svg",
-        "source_sha256": "25642310e287fbdc02e1ac3e0e08fadca9a32eae195f67b6863bf0fc6247176b",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ee.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "5090dd1afa9c070834e4a23e9b8c79f983a3ac9a3242ed06556b3fa789ff2c38",
+      "web_sha256": "6eaafd43c052439e88ce7183968db30237866d0f401c64b0e68db9d54426d2d0",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          867,
+          352,
+          2333,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          867,
+          867,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -810,26 +873,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/pl.webp",
       "web": "web/language/pl.webp",
-      "base_render_signature": "cd42ed1bb24e348302dcd7def8103bc918f731cab6972de619191863dec8dabd",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "PL",
-        "name": "Poland",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/pl.svg",
-        "source_sha256": "06687a4b90fc00195d0795aea1c26a9f73f1b6ea6a76e358724b2f1f32b7c8f4",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/pl.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "8cc8fa79092301adf6b88ec95f21427e3095525dde954b3a9499d682cfae685d",
+      "web_sha256": "0c2c5f77a610c621c1cfa67050e972da5db7273ff5f85bf99dbbe7796504e97a",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          892,
+          352,
+          2308,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          892,
+          892,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -844,26 +909,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/cs.webp",
       "web": "web/language/cs.webp",
-      "base_render_signature": "e2dee1e5f3e95f69f73f042b968c6c8f61382ab17322a0d6a926646e9d12d874",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "CZ",
-        "name": "Czech Republic",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/cz.svg",
-        "source_sha256": "d601fcc2e5b1fd48b79d53c55108af4c0e90793f146db51f3ee449d8d69512bc",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/cz.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "1858ccdf09aa90627579d70c35be7fbfb0f169faeca3f253d61e9e5cb66adcda",
+      "web_sha256": "714b00c6624f3e04f0134f1172a6c5ecd46bf93e67828f8482453ca39773fbd9",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          812,
+          352,
+          2388,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          812,
+          812,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -878,26 +945,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/sk.webp",
       "web": "web/language/sk.webp",
-      "base_render_signature": "d2b661f01309a16a7b8ee75d9fedbcdb779eb3fab887f2b9abd3e09e113c0015",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "SK",
-        "name": "Slovakia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/sk.svg",
-        "source_sha256": "578d0693bc95214334248b47c5719dd01cfc9839bd909a726df045d499fabbb6",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/sk.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "d0d31dd6288453a2c0bfc0bd0fba77cd5da4030f075be8bb2bd61d6098764e63",
+      "web_sha256": "350d4a656001f4702c54042e5e43b4313f20ea97c0eea037c125c95d217162c2",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          849,
+          352,
+          2351,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          849,
+          849,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -912,26 +981,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/hu.webp",
       "web": "web/language/hu.webp",
-      "base_render_signature": "ed759561624c406e0d2b754506375bd42ae71634ed84cadf6017621c08c3cd36",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "HU",
-        "name": "Hungary",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/hu.svg",
-        "source_sha256": "4891ce591bf29b5b68609c29d973a30f1ef109032d8dab369208d0d5f615bc74",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/hu.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "53e2b184d09e6511a08ceb2bcbdf1563cdf4b120d384ee5520dd705dd4c9bd84",
+      "web_sha256": "e91b315c0f2350961c69aac38b6bb6cf185e43502e7c28542fdc1a7a6f388101",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          779,
+          352,
+          2421,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          779,
+          779,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -946,26 +1017,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/ro.webp",
       "web": "web/language/ro.webp",
-      "base_render_signature": "823f86f0b828b890d75c2d5b9634e55ed7ee3a5dd52ed91790d7ab7da488f6c6",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "RO",
-        "name": "Romania",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/ro.svg",
-        "source_sha256": "17a3a747fc5e63302aaa670a667e5812f3676f46768e5a3e87b254bd41762840",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ro.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "bdf149d990f07f2a107adc9ebe2380df7997f094521be3cfb72eda71a3d598fc",
+      "web_sha256": "b417b1248e6b2094d0fbb6cd349f6e9f14aba0faa59784a0c4693f2a2ab1e282",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          776,
+          352,
+          2424,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          776,
+          776,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -980,26 +1053,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/bg.webp",
       "web": "web/language/bg.webp",
-      "base_render_signature": "9836b1dc5b97e7897f9865656d8b3cb142a62d29cbb10051d3ece509d3415546",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "BG",
-        "name": "Bulgaria",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/bg.svg",
-        "source_sha256": "b6d979fc96dc6b46c1697a5e05ecfe1fac1fa912ed480ca7a2a9b450f087faf6",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/bg.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "2df003fa3f6e173c4c3dd0cf8c2cec39da471eef9b1c6712d0c1208724d95f47",
+      "web_sha256": "4d43b69a8664b3db55fede48941f02c2034826c99300fb782a3bfab881daaa48",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          791,
+          352,
+          2409,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          791,
+          791,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -1014,26 +1089,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/sr.webp",
       "web": "web/language/sr.webp",
-      "base_render_signature": "beed4cd0b1205d330739b9a33f28f7eff27d1d87eea7714a737d98d5c2730bb8",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "RS",
-        "name": "Serbia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/rs.svg",
-        "source_sha256": "b6e08e2eca1ec4c287e5d5d7c36d7d4ad9503ad030133b04cf315f95ab49961c",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/rs.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "33e78fd2d546ba2b388b3f89aec68fffd32e9f8d5a2358237a154db93cbdb89a",
+      "web_sha256": "9bc2603e459b9b83902769b7b116a495209089114f1b197ffe80c3718f97825e",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          864,
+          352,
+          2336,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          864,
+          864,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -1048,26 +1125,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/hr.webp",
       "web": "web/language/hr.webp",
-      "base_render_signature": "030520f4e4a54e4ccf7cfc12a73a0b31788a67549d0e796ad4e8dee5579bd6ae",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "HR",
-        "name": "Croatia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/hr.svg",
-        "source_sha256": "3c98eae5ee93f0d75e10170beb96e26908830e2e6f7f7af2a4b281a097aeb946",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/hr.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "e3da8d232fb3020ae8091c4d54315077fd1a0db43d6848f9c04bb2cf0337e5de",
+      "web_sha256": "c2036a525d1b66ec353ecd676d6716d42c726b40af3bc3121d8cef8bbbd5693d",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          779,
+          352,
+          2421,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          779,
+          779,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -1082,26 +1161,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/sl.webp",
       "web": "web/language/sl.webp",
-      "base_render_signature": "ef4b90d538d6e5e84fbf464ef04711edf431b26e54881cc81c0d70a3a1ca4705",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "SI",
-        "name": "Slovenia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/si.svg",
-        "source_sha256": "3a5e0cac44baaea6b6d8e91054844b6ea72764f6dbe363c11ea11fd81203733a",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/si.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "8325592275783137c317e582babfabd83c2cc1006ed05f85296343f8ad84b9cb",
+      "web_sha256": "587ab0564215dbce3512e15b24fa095d76bcc604ed3f5c0c861cb771c172253b",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          913,
+          352,
+          2287,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          913,
+          913,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -1116,26 +1197,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/nl.webp",
       "web": "web/language/nl.webp",
-      "base_render_signature": "b03766e1311f7a5f654da0d6766cbab59e2d3db91073b31049381e4f1e31374c",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "NL",
-        "name": "Netherlands",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/nl.svg",
-        "source_sha256": "8f691f17fe70894537af8e92f2ca47761d353639b0defc15cbe561eb503ab010",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/nl.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "f3c5e00a7bd6830593662abe9370edf6e350da33ce8466eb94700918c6d106d4",
+      "web_sha256": "6e1f632d757c41f8d3ead89a32d13738b2df53a6b25e2622181d8a889b722937",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          824,
+          352,
+          2376,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          824,
+          824,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -1150,26 +1233,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/da.webp",
       "web": "web/language/da.webp",
-      "base_render_signature": "b623a493d8e449fb30e543a52535ff9cbbe27cd8b19185bad53a265ba9ff2336",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "DK",
-        "name": "Denmark",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/dk.svg",
-        "source_sha256": "d2847c0bd7a1fb97977ee51f2f618c5ebc5898dd66ef9804f187613c27bdca1a",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/dk.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "f0a575b921021c4b9db7e58f49897ab2fe811999362d5da6a32b5cef8441db68",
+      "web_sha256": "9e811562b08a68686cbac46577fb9b88ccc613ce58c865675f57f60d158203a4",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          771,
+          352,
+          2429,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          771,
+          771,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -1184,26 +1269,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/fi.webp",
       "web": "web/language/fi.webp",
-      "base_render_signature": "59b6485ee1c2d5b03a9f96f4f476bb1f7c0f4c31da2bef797895d2cc94d321d5",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "FI",
-        "name": "Finland",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/fi.svg",
-        "source_sha256": "012edd984cf1879463c2855b7df02dea2f7de7f7a66b244fb1e22b4227f7aa65",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/fi.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "86a3f13a27bfdb8bf399ba9e64015a0a75a36d6b66eb88f817d1c0d80b7e3a21",
+      "web_sha256": "f2a76411ab432234e4ccdfaaacc6cfe71b4f71672f75950fcc2634814ca31fc1",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          1137,
+          352,
+          2063,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          1137,
+          1137,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -1218,26 +1305,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/sv.webp",
       "web": "web/language/sv.webp",
-      "base_render_signature": "027bfbd046766265df29732dba2ca51d5b91012425f8eb0b4c4697ad3db0b14d",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "SE",
-        "name": "Sweden",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/se.svg",
-        "source_sha256": "b3b5071e6c1d4a0e3db828bab5c7dfd68d0e90fcf3b25b15e9a2c4f96c1f79c9",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/se.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "72b1cea59b58ea033395916a3c7e8f3b863ff5f143f1ab4ff15dd0d038467e0b",
+      "web_sha256": "5401a29630fdb76ea7f805da6a687fe90296de81ee6ed2cd6a2985a9f2721d52",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          851,
+          352,
+          2349,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          851,
+          851,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -1252,26 +1341,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/no.webp",
       "web": "web/language/no.webp",
-      "base_render_signature": "61bb29d9c6dfd4acf9e84c550058f0b215c111e9c00c9b561004d4e33d68d711",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "NO",
-        "name": "Norway",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/no.svg",
-        "source_sha256": "ceea17af051dceefd5759a824213eb40ac8a8095aa88a6874a7bbc8de637357a",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/no.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "ab9a334318d761e14c3ac71046b52a12baea08b10b9e3e32d1e852af35e31272",
+      "web_sha256": "6b61aaa789a132bcf002846cfb8990a3c7b72b7443f98d012a4ff68ccc653006",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          726,
+          352,
+          2474,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          726,
+          726,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -1286,26 +1377,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/ms.webp",
       "web": "web/language/ms.webp",
-      "base_render_signature": "8a1f87d10596f3d89b41eaf71b17d312d1ad7f4b3f04f42725b809552f8e8e2d",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "MY",
-        "name": "Malaysia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/my.svg",
-        "source_sha256": "bb30e84a099d2d9dc286ab091bdd40ae7a8e332eb49827f2df4f11803e613667",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/my.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "29f6ee9238a4d94c31be4bd11aeed8e3f92789afa8519a7d8f7c343e962178f8",
+      "web_sha256": "c1332e97f12a13b4357fcd76a8cda179bb3bb4005b75eddbd651de348240c88c",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          727,
+          352,
+          2473,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          727,
+          727,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -1320,26 +1413,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/ur.webp",
       "web": "web/language/ur.webp",
-      "base_render_signature": "d2cc30fcdd3379b4905ccfcc19f562ab56318c0d7a58b56a4176099e9825f796",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "PK",
-        "name": "Pakistan",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/pk.svg",
-        "source_sha256": "89e851c0d541d8166b297e13bed97e0cb500bdb4ae48fd83a86b606a078352a8",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/pk.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "eaa14cbfb8d5dd58eee7a1344cd617f041f54cd9a62d9306e3dd4c6e2cddfa61",
+      "web_sha256": "4228b53912674cf37c67cc00f9e37f4cb22a2fac5706564e2de9075699e1ede0",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          794,
+          352,
+          2406,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          794,
+          794,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -1354,26 +1449,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/tl.webp",
       "web": "web/language/tl.webp",
-      "base_render_signature": "ed35ec2f7d9e7d745da75e3e0e23346e2dfe1f888a0f84c4ed00580c177b6e6e",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "PH",
-        "name": "Philippines",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/ph.svg",
-        "source_sha256": "c3bd5e08ddc5f6dbdfa899af9efb45577e3841402e6a7f5d00fef754816b2884",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ph.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "81de1369378c68d18eca4a83780f48dcf4cc3b4b2cb0c44d559b03923aba785b",
+      "web_sha256": "0f83cb40c2e0abf2f1fba2cc83c630dc6c8c3d40371532ae9082437a5db36f68",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          875,
+          352,
+          2325,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          875,
+          875,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -1388,26 +1485,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/is.webp",
       "web": "web/language/is.webp",
-      "base_render_signature": "12712b59e2d16fd783d521d62206c76ea08823988b4871fd4b7b7fa2c0284a17",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "IS",
-        "name": "Iceland",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/is.svg",
-        "source_sha256": "4ef2de6fb25ff5a16789e8ffc3b68894527e68c89dce3b4e1118f5bbcc0bb7ae",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/is.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "dab5f04d1d69aaeb922903a6eece495adc80f48332b53912ad0c8f8432c3a862",
+      "web_sha256": "06aabefeda4767d1d2909c92b052a275499c060995d0ac02d3a396927e371681",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          1123,
+          352,
+          2077,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          1123,
+          1123,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -1422,26 +1521,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/bs.webp",
       "web": "web/language/bs.webp",
-      "base_render_signature": "b5fe337bab4b20e6a10e98f2c738a86c9597a1f0a357a29815d094d52525b547",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "BA",
-        "name": "Bosnia and Herzegovina",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/ba.svg",
-        "source_sha256": "b321fe9b47c1cd741c61b330aee66cf00550622a6a9e740161a9f240a14e0787",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ba.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "36b9a97e3d884632826b673a060d1884b79293d4dfe8e745547616dc865debc1",
+      "web_sha256": "5aab1aa94f044014f36f05dc50701a546cf525d683ab02a7de89d7b38b7962b4",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          891,
+          352,
+          2309,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          891,
+          891,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -1456,26 +1557,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/sq.webp",
       "web": "web/language/sq.webp",
-      "base_render_signature": "3e9b5d24f9f78af03df3971ac736b9815778edfef8cac57ac95e8484f311fb74",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "AL",
-        "name": "Albania",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/al.svg",
-        "source_sha256": "4ae4d2950f6a08528639700e48d19930b964478a2548cb9bf41b898c2b757b11",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/al.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, complete source flag contained within an extended matching solid-color field",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "red",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "4705b222bd0747c05865df34488cbb7e16a5b850705e46da81a53acf41922ff4",
+      "web_sha256": "7fb9664bbf8e45676b224df1c6d61db4f929af89ebf86fe22a83e4c86ac729ab",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          926,
+          352,
+          2274,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          926,
+          926,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -1490,26 +1593,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/mk.webp",
       "web": "web/language/mk.webp",
-      "base_render_signature": "5bd5b59a9f9499afb2865f5b7646b1208cafb1900ff779adaf12f376d1bdc689",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "MK",
-        "name": "North Macedonia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/mk.svg",
-        "source_sha256": "22488dc890fe1e5f7a8bea423dfe2e74f8ccf04402e75090cdeca030b12ca010",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/mk.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "87c139f807f0e8429886ec5e0a9c6f6a5bc3e12cc1333377c9a04a1a62208fd4",
+      "web_sha256": "3d36307d5a3a6fd70a8b7eeda27ecd2b8b657b42ea9642a4df5dfba07381785d",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          670,
+          369,
+          2530,
+          1231
+        ],
+        "margins_left_right_top_bottom_px": [
+          670,
+          670,
+          369,
+          369
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -1524,26 +1629,28 @@
       "mapping_basis": "Regional flag for Catalan: Catalonia.",
       "master": "masters/language/ca.webp",
       "web": "web/language/ca.webp",
-      "base_render_signature": "7fc3cbc3e7010b736685bd75d34c8a006da35cc72d2b3cbc63bee77b8d57be3c",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "ES-CT",
-        "name": "Catalonia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/es-ct.svg",
-        "source_sha256": "11229703126cc831021cf10b69552e3e5ed4534efadc44fa9aec151d2d4cca00",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/es-ct.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "2d55ddebc94bed17033337a77492f9adb72a961db4d84ef136a14bd48f763964",
+      "web_sha256": "f65c9e1637f752dfdd36fb8bbcebfc9c18519663bf188de157bf30fb435eae3b",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          757,
+          352,
+          2443,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          757,
+          757,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -1558,26 +1665,28 @@
       "mapping_basis": "Regional flag for Basque: Basque Country.",
       "master": "masters/language/eu.webp",
       "web": "web/language/eu.webp",
-      "base_render_signature": "4b9251cd26bc6333237a50abf471801064ef0047dc2f3e031f627a506d923a32",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "ES-PV",
-        "name": "Basque Country",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/es-pv.svg",
-        "source_sha256": "df3beb6c83af9f45226eeef3f43a2c5b9d2c52017d3b26f57c656632cc6ee1d8",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/es-pv.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "3f1194a009b6f522433706310e6fbcf512db97018d67e44e854a29234cc143ac",
+      "web_sha256": "44c59875d195dea7ac9dbfbdd8d8c4f5b09a4c3753ee0e837b49363720741545",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          836,
+          352,
+          2364,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          836,
+          836,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -1592,26 +1701,28 @@
       "mapping_basis": "Regional flag for Galician: Galicia.",
       "master": "masters/language/gl.webp",
       "web": "web/language/gl.webp",
-      "base_render_signature": "683853aad76937a724f8e3c50e7a45ec2a5487ecfa3753453bcf9be793c6444d",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "ES-GA",
-        "name": "Galicia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/es-ga.svg",
-        "source_sha256": "4e2fb46264a7998aa7e769327209344be630f75e514c5fc22e957590ae5e8cc1",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/es-ga.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "45205b36cebdac8f7cec87aa0a01d1ac77a4534284b51479aec2a1fb4bd20311",
+      "web_sha256": "7dbe7433025530ad4cfe289ce0baaf9dab7710cf1107a778828759c46dcba38c",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          800,
+          352,
+          2400,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          800,
+          800,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -1626,26 +1737,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/ka.webp",
       "web": "web/language/ka.webp",
-      "base_render_signature": "c913848418336b4ed712b8e6ee8a50a30aa5566964cfa96a909b1e59d65f18ee",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "GE",
-        "name": "Georgia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/ge.svg",
-        "source_sha256": "0280a1279c3d1d772f1e885ee821e37a1cdb4aa085ca2870825fe10bad8d7ff1",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ge.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, centered cover, clipped to the badge interior",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "af0a9774f91b40d7955ec39b598eba79890bb413340a294d9af2dfecd18f6da5",
+      "web_sha256": "38b329b631d2df7214977f45a24e7636e89ade7bcc81e07ac1a6128662a6a55c",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          815,
+          352,
+          2385,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          815,
+          815,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -1660,26 +1773,28 @@
       "mapping_basis": "AIOStreams FULL_LANGUAGE_MAPPING: priority entry, or its sole/default entry.",
       "master": "masters/language/hy.webp",
       "web": "web/language/hy.webp",
-      "base_render_signature": "fd1a759c939699060024842b12f401c1f46c52e78cf0cc47735179737a579090",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "AM",
-        "name": "Armenia",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/am.svg",
-        "source_sha256": "efb6cdaad5658ae5024c86b099a96c4e3769028894240f4015cbc090a0e90e0f",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/am.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "plain stripe fields fit the complete interior with every band and its relative width or height preserved",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": true,
-        "transparent_source_pixel_underlay": "#fff",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "7f525eb91a4cf359c4ccb147c033afc1880b315845f551d1036bc7c00b663d5b",
+      "web_sha256": "e1f28caf17695f902a871c1eb1c249cc592caf991cf5be8b68a3e8fb9b7ab62a",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          775,
+          352,
+          2425,
+          1248
+        ],
+        "margins_left_right_top_bottom_px": [
+          775,
+          775,
+          352,
+          352
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     },
     {
@@ -1694,27 +1809,31 @@
       "mapping_basis": "Editorial language-display convention for Cantonese: Hong Kong.",
       "master": "masters/language/yue.webp",
       "web": "web/language/yue.webp",
-      "base_render_signature": "8aea92f3b84b9d137ccbfab53727389f53be7ccd5f6f0fc3f869af45e3d2fe60",
-      "background": {
-        "kind": "flat-static-flag",
-        "country_code": "HK",
-        "name": "Hong Kong",
-        "placement": "full badge interior behind the approved foreground",
-        "source": "sources/flags/hk.svg",
-        "source_sha256": "d9d142b2b97ec3b8190bff3802072c1b4f15573a679eead89a0ce59986dcad0c",
-        "source_url": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/hk.svg",
-        "source_repository": "lipis/flag-icons",
-        "source_commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
-        "source_view_box": "0 0 640 480",
-        "license": "MIT; sources/flags/LICENSE-flag-icons.txt",
-        "fit": "uniform scale, complete source flag contained within an extended matching solid-color field",
-        "flag_symbol_proportions_preserved": true,
-        "plain_field_layout_adapted": false,
-        "transparent_source_pixel_underlay": "#EC1B2E",
-        "fabric_effects": false,
-        "flag_shadows": false,
-        "source_has_gradients_filters_or_raster_images": false
+      "master_sha256": "107033b78d02d63bf5959da62ed0d775c66718daf9894402f9db5c570a7d5d97",
+      "web_sha256": "4da651027b2c068731234ebc474a3cc4c9099a4251b5061db49e80610a1e80e2",
+      "design_revision": "2.0.0",
+      "alignment": {
+        "field_size": [
+          3200,
+          1600
+        ],
+        "visible_letter_bounds": [
+          670,
+          463,
+          2530,
+          1137
+        ],
+        "margins_left_right_top_bottom_px": [
+          670,
+          670,
+          463,
+          463
+        ],
+        "horizontal_center_error_px": 0,
+        "vertical_center_error_px": 0
       }
     }
-  ]
+  ],
+  "design": "Borderless static flag field with centered neutral lettering; no added outline, shadow or material effects.",
+  "version": "2.0.0"
 }

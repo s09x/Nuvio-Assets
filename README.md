@@ -53,7 +53,7 @@ URLs using `main` follow the current version; replace `main` with a commit SHA t
 
 ## Stream badges
 
-[`badges`](badges) contains the approved 1,037-badge stream library: 4K masters, smaller app images, original brand graphics and 50 flat flag language badges. The approved DE design is preserved, and the selected flag-language series excludes India mappings.
+[`badges`](badges) contains the approved 1,037-badge stream library: 4K masters, smaller app images, original brand graphics and 50 flat flag language badges. Release 2.0 uses original marks and neutral borderless typography, displays 4K for the 2160p alias, and preserves the approved centered DE/EN flags. The selected flag-language series excludes India mappings.
 
 Use this URL in **Settings > Streams > Stream badge URLs** in Nuvio:
 

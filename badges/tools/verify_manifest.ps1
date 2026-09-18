@@ -16,11 +16,17 @@ foreach ($filter in $manifest.filters) {
     if ([string]::IsNullOrWhiteSpace($filter.name) -or [string]::IsNullOrWhiteSpace($filter.pattern)) { throw 'Unusable filter.' }
     if ($filter.groupId -notin $groupIds -or $filter.isEnabled -ne $true) { throw "Invalid filter settings: $($filter.id)" }
     if (-not $filter.imageURL.StartsWith($baseUrl, [System.StringComparison]::Ordinal)) { throw "Unexpected image host: $($filter.id)" }
-    $imageRelative = $filter.imageURL.Substring($baseUrl.Length)
+    $imageRelative = $filter.imageURL.Substring($baseUrl.Length).Split('?')[0]
     $imagePath = [System.IO.Path]::GetFullPath((Join-Path $assetRoot $imageRelative))
     if (-not $imagePath.StartsWith($assetRoot + [System.IO.Path]::DirectorySeparatorChar, [System.StringComparison]::OrdinalIgnoreCase) -or -not (Test-Path -LiteralPath $imagePath -PathType Leaf)) { throw "Missing image: $($filter.id)" }
+    $expectedVersion = (Get-FileHash -LiteralPath $imagePath -Algorithm SHA256).Hash.ToLowerInvariant().Substring(0,16)
+    if (([uri]$filter.imageURL).Query -ne ('?v=' + $expectedVersion)) { throw "Stale image version: $($filter.id)" }
     $compiled[$filter.id] = [System.Text.RegularExpressions.Regex]::new($filter.pattern, [System.Text.RegularExpressions.RegexOptions]::CultureInvariant, [TimeSpan]::FromMilliseconds(500))
 }
+$fourK = $manifest.filters | Where-Object id -eq 'resolution/4k'
+$legacy4K = $manifest.filters | Where-Object id -eq 'resolution/2160p'
+if ($legacy4K.name -ne '4K' -or $legacy4K.imageURL -ne $fourK.imageURL) { throw '2160p must display and deduplicate as 4K.' }
+if ($manifest.version -ne '2.0.0') { throw 'Unexpected design release version.' }
 $failures = [System.Collections.Generic.List[object]]::new()
 $results = [System.Collections.Generic.List[object]]::new()
 $started = [System.Diagnostics.Stopwatch]::StartNew()
