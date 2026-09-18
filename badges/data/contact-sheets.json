@@ -1,0 +1,296 @@
+[
+  {
+    "category": "resolution",
+    "page": 1,
+    "file": "previews/resolution-01.png",
+    "count": 35
+  },
+  {
+    "category": "dynamic-range",
+    "page": 1,
+    "file": "previews/dynamic-range-01.png",
+    "count": 15
+  },
+  {
+    "category": "video-codec",
+    "page": 1,
+    "file": "previews/video-codec-01.png",
+    "count": 35
+  },
+  {
+    "category": "audio-codec",
+    "page": 1,
+    "file": "previews/audio-codec-01.png",
+    "count": 35
+  },
+  {
+    "category": "audio-channel",
+    "page": 1,
+    "file": "previews/audio-channel-01.png",
+    "count": 32
+  },
+  {
+    "category": "audio-detail",
+    "page": 1,
+    "file": "previews/audio-detail-01.png",
+    "count": 21
+  },
+  {
+    "category": "frame-rate",
+    "page": 1,
+    "file": "previews/frame-rate-01.png",
+    "count": 22
+  },
+  {
+    "category": "color",
+    "page": 1,
+    "file": "previews/color-01.png",
+    "count": 20
+  },
+  {
+    "category": "aspect-ratio",
+    "page": 1,
+    "file": "previews/aspect-ratio-01.png",
+    "count": 22
+  },
+  {
+    "category": "source",
+    "page": 1,
+    "file": "previews/source-01.png",
+    "count": 36
+  },
+  {
+    "category": "source",
+    "page": 2,
+    "file": "previews/source-02.png",
+    "count": 22
+  },
+  {
+    "category": "edition",
+    "page": 1,
+    "file": "previews/edition-01.png",
+    "count": 36
+  },
+  {
+    "category": "edition",
+    "page": 2,
+    "file": "previews/edition-02.png",
+    "count": 4
+  },
+  {
+    "category": "projection",
+    "page": 1,
+    "file": "previews/projection-01.png",
+    "count": 20
+  },
+  {
+    "category": "subtitles",
+    "page": 1,
+    "file": "previews/subtitles-01.png",
+    "count": 26
+  },
+  {
+    "category": "language-mode",
+    "page": 1,
+    "file": "previews/language-mode-01.png",
+    "count": 22
+  },
+  {
+    "category": "accessibility",
+    "page": 1,
+    "file": "previews/accessibility-01.png",
+    "count": 8
+  },
+  {
+    "category": "container",
+    "page": 1,
+    "file": "previews/container-01.png",
+    "count": 24
+  },
+  {
+    "category": "delivery",
+    "page": 1,
+    "file": "previews/delivery-01.png",
+    "count": 36
+  },
+  {
+    "category": "delivery",
+    "page": 2,
+    "file": "previews/delivery-02.png",
+    "count": 1
+  },
+  {
+    "category": "availability",
+    "page": 1,
+    "file": "previews/availability-01.png",
+    "count": 36
+  },
+  {
+    "category": "availability",
+    "page": 2,
+    "file": "previews/availability-02.png",
+    "count": 24
+  },
+  {
+    "category": "content",
+    "page": 1,
+    "file": "previews/content-01.png",
+    "count": 15
+  },
+  {
+    "category": "language",
+    "page": 1,
+    "file": "previews/language-01.png",
+    "count": 36
+  },
+  {
+    "category": "language",
+    "page": 2,
+    "file": "previews/language-02.png",
+    "count": 36
+  },
+  {
+    "category": "language",
+    "page": 3,
+    "file": "previews/language-03.png",
+    "count": 36
+  },
+  {
+    "category": "language",
+    "page": 4,
+    "file": "previews/language-04.png",
+    "count": 36
+  },
+  {
+    "category": "language",
+    "page": 5,
+    "file": "previews/language-05.png",
+    "count": 36
+  },
+  {
+    "category": "language",
+    "page": 6,
+    "file": "previews/language-06.png",
+    "count": 36
+  },
+  {
+    "category": "language",
+    "page": 7,
+    "file": "previews/language-07.png",
+    "count": 11
+  },
+  {
+    "category": "language-region",
+    "page": 1,
+    "file": "previews/language-region-01.png",
+    "count": 36
+  },
+  {
+    "category": "language-region",
+    "page": 2,
+    "file": "previews/language-region-02.png",
+    "count": 21
+  },
+  {
+    "category": "audio-brand",
+    "page": 1,
+    "file": "previews/audio-brand-01.png",
+    "count": 12
+  },
+  {
+    "category": "picture-brand",
+    "page": 1,
+    "file": "previews/picture-brand-01.png",
+    "count": 8
+  },
+  {
+    "category": "disc-brand",
+    "page": 1,
+    "file": "previews/disc-brand-01.png",
+    "count": 5
+  },
+  {
+    "category": "service",
+    "page": 1,
+    "file": "previews/service-01.png",
+    "count": 36
+  },
+  {
+    "category": "service",
+    "page": 2,
+    "file": "previews/service-02.png",
+    "count": 14
+  },
+  {
+    "category": "provider",
+    "page": 1,
+    "file": "previews/provider-01.png",
+    "count": 18
+  },
+  {
+    "category": "general",
+    "page": 1,
+    "file": "previews/general-01.png",
+    "count": 3
+  },
+  {
+    "category": "edition-brand",
+    "page": 1,
+    "file": "previews/edition-brand-01.png",
+    "count": 1
+  },
+  {
+    "category": "proxy",
+    "page": 1,
+    "file": "previews/proxy-01.png",
+    "count": 3
+  },
+  {
+    "category": "release-group",
+    "page": 1,
+    "file": "previews/release-group-01.png",
+    "count": 4
+  },
+  {
+    "category": "release-site",
+    "page": 1,
+    "file": "previews/release-site-01.png",
+    "count": 1
+  },
+  {
+    "category": "stream-attribute",
+    "page": 1,
+    "file": "previews/stream-attribute-01.png",
+    "count": 16
+  },
+  {
+    "category": "release-type",
+    "page": 1,
+    "file": "previews/release-type-01.png",
+    "count": 5
+  },
+  {
+    "category": "region",
+    "page": 1,
+    "file": "previews/region-01.png",
+    "count": 23
+  },
+  {
+    "category": "country",
+    "page": 1,
+    "file": "previews/country-01.png",
+    "count": 4
+  },
+  {
+    "category": "extension",
+    "page": 1,
+    "file": "previews/extension-01.png",
+    "count": 33
+  },
+  {
+    "category": "metadata-field",
+    "page": 1,
+    "file": "previews/metadata-field-01.png",
+    "count": 20
+  }
+]

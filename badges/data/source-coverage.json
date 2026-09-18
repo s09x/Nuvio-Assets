@@ -1,0 +1,3507 @@
+{
+  "sources": {
+    "aiostreams": {
+      "repository": "Viren070/AIOStreams",
+      "commit": "f67d00ac6cd6d4efdde01f5d6f59bf1dbee95854"
+    },
+    "parser": {
+      "package": "@viren070/parse-torrent-title",
+      "version": "0.8.8",
+      "integrity": "sha512-yFXnN2QU310+CH6zPjjBXl6QduqSYZcHmyTeA3EgrDdBBT3xnlWsxu6Ve7iImB+DGEOUZ+DeA9mOwzU9oKULNQ=="
+    }
+  },
+  "expectations": [
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "0:Afar",
+      "asset_id": "language/aa"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "1:Abkhazian",
+      "asset_id": "language/ab"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "2:Avestan",
+      "asset_id": "language/ae"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "3:Afrikaans",
+      "asset_id": "language/af"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "4:Akan",
+      "asset_id": "language/ak"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "5:Amharic",
+      "asset_id": "language/am"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "6:Aragonese",
+      "asset_id": "language/an"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "7:Arabic",
+      "asset_id": "language/ar"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "8:Arabic (UAE)",
+      "asset_id": "language-region/ar-ae"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "9:Arabic (Egypt)",
+      "asset_id": "language-region/ar-eg"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "10:Assamese",
+      "asset_id": "language/as"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "11:Avaric",
+      "asset_id": "language/av"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "12:Aymara",
+      "asset_id": "language/ay"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "13:Azerbaijani",
+      "asset_id": "language/az"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "14:Bashkir",
+      "asset_id": "language/ba"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "15:Belarusian",
+      "asset_id": "language/be"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "16:Bulgarian",
+      "asset_id": "language/bg"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "17:Bislama",
+      "asset_id": "language/bi"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "18:Bambara",
+      "asset_id": "language/bm"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "19:Bengali",
+      "asset_id": "language/bn"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "20:Tibetan",
+      "asset_id": "language/bo"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "21:Breton",
+      "asset_id": "language/br"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "22:Bosnian",
+      "asset_id": "language/bs"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "23:Catalan",
+      "asset_id": "language/ca"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "24:Chechen",
+      "asset_id": "language/ce"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "25:Chamorro",
+      "asset_id": "language/ch"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "26:Corsican",
+      "asset_id": "language/co"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "27:Cree",
+      "asset_id": "language/cr"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "28:Czech",
+      "asset_id": "language/cs"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "29:Church Slavic",
+      "asset_id": "language/cu"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "30:Chuvash",
+      "asset_id": "language/cv"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "31:Welsh",
+      "asset_id": "language/cy"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "32:Danish",
+      "asset_id": "language/da"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "33:German",
+      "asset_id": "language/de"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "34:Divehi",
+      "asset_id": "language/dv"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "35:Dzongkha",
+      "asset_id": "language/dz"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "36:Ewe",
+      "asset_id": "language/ee"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "37:Greek",
+      "asset_id": "language/el"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "38:English (UK)",
+      "asset_id": "language-region/en-gb"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "39:English (US)",
+      "asset_id": "language-region/en-us"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "40:English (Australia)",
+      "asset_id": "language-region/en-au"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "41:English (Canada)",
+      "asset_id": "language-region/en-ca"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "42:English (Ireland)",
+      "asset_id": "language-region/en-ie"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "43:English (New Zealand)",
+      "asset_id": "language-region/en-nz"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "44:Esperanto",
+      "asset_id": "language/eo"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "45:Spanish",
+      "asset_id": "language/es"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "46:Estonian",
+      "asset_id": "language/et"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "47:Basque",
+      "asset_id": "language/eu"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "48:Persian",
+      "asset_id": "language/fa"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "49:Fulah",
+      "asset_id": "language/ff"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "50:Finnish",
+      "asset_id": "language/fi"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "51:Fijian",
+      "asset_id": "language/fj"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "52:Faroese",
+      "asset_id": "language/fo"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "53:French",
+      "asset_id": "language/fr"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "54:Western Frisian",
+      "asset_id": "language/fy"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "55:Irish",
+      "asset_id": "language/ga"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "56:Scottish Gaelic",
+      "asset_id": "language/gd"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "57:Galician",
+      "asset_id": "language/gl"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "58:Guarani",
+      "asset_id": "language/gn"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "59:Gujarati",
+      "asset_id": "language/gu"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "60:Manx",
+      "asset_id": "language/gv"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "61:Hausa",
+      "asset_id": "language/ha"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "62:Hebrew",
+      "asset_id": "language/he"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "63:Hindi",
+      "asset_id": "language/hi"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "64:Hiri Motu",
+      "asset_id": "language/ho"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "65:Croatian",
+      "asset_id": "language/hr"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "66:Haitian; Haitian Creole",
+      "asset_id": "language/ht"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "67:Hungarian",
+      "asset_id": "language/hu"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "68:Armenian",
+      "asset_id": "language/hy"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "69:Herero",
+      "asset_id": "language/hz"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "70:Interlingua",
+      "asset_id": "language/ia"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "71:Indonesian",
+      "asset_id": "language/id"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "72:Interlingue",
+      "asset_id": "language/ie"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "73:Igbo",
+      "asset_id": "language/ig"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "74:Sichuan Yi; Nuosu",
+      "asset_id": "language/ii"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "75:Inupiaq",
+      "asset_id": "language/ik"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "76:Ido",
+      "asset_id": "language/io"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "77:Icelandic",
+      "asset_id": "language/is"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "78:Italian",
+      "asset_id": "language/it"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "79:Inuktitut",
+      "asset_id": "language/iu"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "80:Japanese",
+      "asset_id": "language/ja"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "81:Javanese",
+      "asset_id": "language/jv"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "82:Georgian",
+      "asset_id": "language/ka"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "83:Kongo",
+      "asset_id": "language/kg"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "84:Kikuyu; Gikuyu",
+      "asset_id": "language/ki"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "85:Kuanyama; Kwanyama",
+      "asset_id": "language/kj"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "86:Kazakh",
+      "asset_id": "language/kk"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "87:Kalaallisut; Greenlandic",
+      "asset_id": "language/kl"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "88:Central Khmer",
+      "asset_id": "language/km"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "89:Kannada",
+      "asset_id": "language/kn"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "90:Korean",
+      "asset_id": "language/ko"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "91:Kanuri",
+      "asset_id": "language/kr"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "92:Kashmiri",
+      "asset_id": "language/ks"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "93:Kurdish",
+      "asset_id": "language/ku"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "94:Komi",
+      "asset_id": "language/kv"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "95:Cornish",
+      "asset_id": "language/kw"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "96:Kirghiz; Kyrgyz",
+      "asset_id": "language/ky"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "97:Latin",
+      "asset_id": "language/la"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "98:Luxembourgish; Letzeburgesch",
+      "asset_id": "language/lb"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "99:Ganda",
+      "asset_id": "language/lg"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "100:Limburgan; Limburger; Limburgish",
+      "asset_id": "language/li"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "101:Lingala",
+      "asset_id": "language/ln"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "102:Lao",
+      "asset_id": "language/lo"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "103:Lithuanian",
+      "asset_id": "language/lt"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "104:Luba-Katanga",
+      "asset_id": "language/lu"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "105:Latvian",
+      "asset_id": "language/lv"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "106:Malagasy",
+      "asset_id": "language/mg"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "107:Marshallese",
+      "asset_id": "language/mh"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "108:Maori",
+      "asset_id": "language/mi"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "109:Macedonian",
+      "asset_id": "language/mk"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "110:Malayalam",
+      "asset_id": "language/ml"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "111:Mongolian",
+      "asset_id": "language/mn"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "112:Marathi",
+      "asset_id": "language/mr"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "113:Malay",
+      "asset_id": "language/ms"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "114:Maltese",
+      "asset_id": "language/mt"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "115:Burmese",
+      "asset_id": "language/my"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "116:Nauru",
+      "asset_id": "language/na"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "117:Bokmål, Norwegian; Norwegian Bokmål",
+      "asset_id": "language/nb"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "118:Ndebele, North; North Ndebele",
+      "asset_id": "language/nd"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "119:Nepali",
+      "asset_id": "language/ne"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "120:Ndonga",
+      "asset_id": "language/ng"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "121:Dutch; Flemish",
+      "asset_id": "language/nl"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "122:Norwegian Nynorsk; Nynorsk, Norwegian",
+      "asset_id": "language/nn"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "123:Norwegian",
+      "asset_id": "language/no"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "124:Ndebele, South; South Ndebele",
+      "asset_id": "language/nr"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "125:Navajo; Navaho",
+      "asset_id": "language/nv"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "126:Chichewa; Chewa; Nyanja",
+      "asset_id": "language/ny"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "127:Occitan (post 1500)",
+      "asset_id": "language-region/oc-fr"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "128:Ojibwa",
+      "asset_id": "language/oj"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "129:Oromo",
+      "asset_id": "language/om"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "130:Oriya",
+      "asset_id": "language/or"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "131:Ossetian; Ossetic",
+      "asset_id": "language/os"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "132:Panjabi; Punjabi",
+      "asset_id": "language/pa"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "133:Pali",
+      "asset_id": "language/pi"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "134:Polish",
+      "asset_id": "language/pl"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "135:Pushto; Pashto",
+      "asset_id": "language/ps"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "136:Portuguese",
+      "asset_id": "language/pt"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "137:Portuguese (Brazil)",
+      "asset_id": "language-region/pt-br"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "138:Quechua",
+      "asset_id": "language/qu"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "139:Romansh",
+      "asset_id": "language/rm"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "140:Rundi",
+      "asset_id": "language/rn"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "141:Romanian",
+      "asset_id": "language/ro"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "142:Russian",
+      "asset_id": "language/ru"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "143:Kinyarwanda",
+      "asset_id": "language/rw"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "144:Sanskrit",
+      "asset_id": "language/sa"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "145:Sardinian",
+      "asset_id": "language/sc"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "146:Sindhi",
+      "asset_id": "language/sd"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "147:Northern Sami",
+      "asset_id": "language/se"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "148:Sango",
+      "asset_id": "language/sg"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "149:Serbo-Croatian",
+      "asset_id": "language/sh"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "150:Sinhala; Sinhalese",
+      "asset_id": "language/si"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "151:Slovak",
+      "asset_id": "language/sk"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "152:Slovenian",
+      "asset_id": "language/sl"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "153:Samoan",
+      "asset_id": "language/sm"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "154:Shona",
+      "asset_id": "language/sn"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "155:Somali",
+      "asset_id": "language/so"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "156:Albanian",
+      "asset_id": "language/sq"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "157:Serbian",
+      "asset_id": "language/sr"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "158:Swati",
+      "asset_id": "language/ss"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "159:Sotho, Southern",
+      "asset_id": "language/st"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "160:Sundanese",
+      "asset_id": "language/su"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "161:Swedish",
+      "asset_id": "language/sv"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "162:Swahili",
+      "asset_id": "language/sw"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "163:Tamil",
+      "asset_id": "language/ta"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "164:Telugu",
+      "asset_id": "language/te"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "165:Tajik",
+      "asset_id": "language/tg"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "166:Thai",
+      "asset_id": "language/th"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "167:Tigrinya",
+      "asset_id": "language/ti"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "168:Turkmen",
+      "asset_id": "language/tk"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "169:Tagalog",
+      "asset_id": "language/tl"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "170:Tswana",
+      "asset_id": "language/tn"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "171:Tonga (Tonga Islands)",
+      "asset_id": "language-region/to-to"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "172:Turkish",
+      "asset_id": "language/tr"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "173:Tsonga",
+      "asset_id": "language/ts"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "174:Tatar",
+      "asset_id": "language/tt"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "175:Twi",
+      "asset_id": "language/tw"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "176:Tahitian",
+      "asset_id": "language/ty"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "177:Uighur; Uyghur",
+      "asset_id": "language/ug"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "178:Ukrainian",
+      "asset_id": "language/uk"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "179:Urdu",
+      "asset_id": "language/ur"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "180:Uzbek",
+      "asset_id": "language/uz"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "181:Venda",
+      "asset_id": "language/ve"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "182:Vietnamese",
+      "asset_id": "language/vi"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "183:Volapük",
+      "asset_id": "language/vo"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "184:Walloon",
+      "asset_id": "language/wa"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "185:Wolof",
+      "asset_id": "language/wo"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "186:Xhosa",
+      "asset_id": "language/xh"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "187:Yiddish",
+      "asset_id": "language/yi"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "188:Yoruba",
+      "asset_id": "language/yo"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "189:Zhuang; Chuang",
+      "asset_id": "language/za"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "190:Chinese (Simplified)",
+      "asset_id": "language-region/zh-cn"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "191:Chinese (Traditional)",
+      "asset_id": "language-region/zh-tw"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "192:Chinese (Hong Kong)",
+      "asset_id": "language-region/zh-hk"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "193:Chinese (Singapore)",
+      "asset_id": "language-region/zh-sg"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "194:Zulu",
+      "asset_id": "language/zu"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "195:Swahili (Tanzania)",
+      "asset_id": "language-region/sw-tz"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "196:French (Canada)",
+      "asset_id": "language-region/fr-ca"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "197:French (Belgium)",
+      "asset_id": "language-region/fr-be"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "198:French (Switzerland)",
+      "asset_id": "language-region/fr-ch"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "199:German (Austria)",
+      "asset_id": "language-region/de-at"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "200:German (Switzerland)",
+      "asset_id": "language-region/de-ch"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "201:Italian (Switzerland)",
+      "asset_id": "language-region/it-ch"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "202:Spanish (Mexico)",
+      "asset_id": "language-region/es-mx"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "203:Spanish (Argentina)",
+      "asset_id": "language-region/es-ar"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "204:Spanish (Colombia)",
+      "asset_id": "language-region/es-co"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "205:Spanish (Chile)",
+      "asset_id": "language-region/es-cl"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "206:Spanish (Peru)",
+      "asset_id": "language-region/es-pe"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "207:Spanish (Venezuela)",
+      "asset_id": "language-region/es-ve"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "208:Arabic (Morocco)",
+      "asset_id": "language-region/ar-ma"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "209:Arabic (Algeria)",
+      "asset_id": "language-region/ar-dz"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "210:Arabic (Tunisia)",
+      "asset_id": "language-region/ar-tn"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "211:Arabic (Libya)",
+      "asset_id": "language-region/ar-ly"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "212:Arabic (Jordan)",
+      "asset_id": "language-region/ar-jo"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "213:Arabic (Syria)",
+      "asset_id": "language-region/ar-sy"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "214:Arabic (Lebanon)",
+      "asset_id": "language-region/ar-lb"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "215:Arabic (Iraq)",
+      "asset_id": "language-region/ar-iq"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "216:Arabic (Kuwait)",
+      "asset_id": "language-region/ar-kw"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "217:Arabic (Bahrain)",
+      "asset_id": "language-region/ar-bh"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "218:Arabic (Qatar)",
+      "asset_id": "language-region/ar-qa"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "219:Arabic (Oman)",
+      "asset_id": "language-region/ar-om"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "220:Arabic (Yemen)",
+      "asset_id": "language-region/ar-ye"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "221:Arabic (Sudan)",
+      "asset_id": "language-region/ar-sd"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "222:Achinese",
+      "asset_id": "language/ace"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "223:Acoli",
+      "asset_id": "language/ach"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "224:Adangme",
+      "asset_id": "language/ada"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "225:Adyghe; Adygei",
+      "asset_id": "language/ady"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "226:Afro-Asiatic languages",
+      "asset_id": "language/afa"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "227:Afrihili",
+      "asset_id": "language/afh"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "228:Aghem",
+      "asset_id": "language/agq"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "229:Ainu",
+      "asset_id": "language/ain"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "230:Akkadian",
+      "asset_id": "language/akk"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "231:Aleut",
+      "asset_id": "language/ale"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "232:Southern Altai",
+      "asset_id": "language/alt"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "233:English, Old (ca.450-1100)",
+      "asset_id": "language-region/ang-gb"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "234:Angika",
+      "asset_id": "language/anp"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "235:Aramaic",
+      "asset_id": "language/arc"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "236:Mapudungun; Mapuche",
+      "asset_id": "language/arn"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "237:Arapaho",
+      "asset_id": "language/arp"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "238:Arawak",
+      "asset_id": "language/arw"
+    },
+    {
+      "source": "AIOStreams.FULL_LANGUAGE_MAPPING",
+      "value": "239:Asturian; Bable; Leonese; Asturleonese",
+      "asset_id": "language/ast"
+    },
+    {
+      "source": "AIOStreams.RESOLUTIONS",
+      "value": "2160p",
+      "asset_id": "resolution/2160p"
+    },
+    {
+      "source": "AIOStreams.RESOLUTIONS",
+      "value": "1440p",
+      "asset_id": "resolution/1440p"
+    },
+    {
+      "source": "AIOStreams.RESOLUTIONS",
+      "value": "1080p",
+      "asset_id": "resolution/1080p"
+    },
+    {
+      "source": "AIOStreams.RESOLUTIONS",
+      "value": "720p",
+      "asset_id": "resolution/720p"
+    },
+    {
+      "source": "AIOStreams.RESOLUTIONS",
+      "value": "576p",
+      "asset_id": "resolution/576p"
+    },
+    {
+      "source": "AIOStreams.RESOLUTIONS",
+      "value": "480p",
+      "asset_id": "resolution/480p"
+    },
+    {
+      "source": "AIOStreams.RESOLUTIONS",
+      "value": "360p",
+      "asset_id": "resolution/360p"
+    },
+    {
+      "source": "AIOStreams.RESOLUTIONS",
+      "value": "240p",
+      "asset_id": "resolution/240p"
+    },
+    {
+      "source": "AIOStreams.RESOLUTIONS",
+      "value": "144p",
+      "asset_id": "resolution/144p"
+    },
+    {
+      "source": "AIOStreams.RESOLUTIONS",
+      "value": "Unknown",
+      "asset_id": "general/unknown"
+    },
+    {
+      "source": "AIOStreams.QUALITIES",
+      "value": "BluRay REMUX",
+      "asset_id": "source/blu-ray-remux"
+    },
+    {
+      "source": "AIOStreams.QUALITIES",
+      "value": "BluRay",
+      "asset_id": "disc-brand/blu-ray"
+    },
+    {
+      "source": "AIOStreams.QUALITIES",
+      "value": "WEB-DL",
+      "asset_id": "source/web-dl"
+    },
+    {
+      "source": "AIOStreams.QUALITIES",
+      "value": "WEBRip",
+      "asset_id": "source/webrip"
+    },
+    {
+      "source": "AIOStreams.QUALITIES",
+      "value": "HDRip",
+      "asset_id": "source/hdrip"
+    },
+    {
+      "source": "AIOStreams.QUALITIES",
+      "value": "HC HD-Rip",
+      "asset_id": "source/hc-hd-rip"
+    },
+    {
+      "source": "AIOStreams.QUALITIES",
+      "value": "DVD REMUX",
+      "asset_id": "source/dvdremux"
+    },
+    {
+      "source": "AIOStreams.QUALITIES",
+      "value": "DVDRip",
+      "asset_id": "source/dvdrip"
+    },
+    {
+      "source": "AIOStreams.QUALITIES",
+      "value": "HDTV",
+      "asset_id": "source/hdtv"
+    },
+    {
+      "source": "AIOStreams.QUALITIES",
+      "value": "CAM",
+      "asset_id": "source/cam"
+    },
+    {
+      "source": "AIOStreams.QUALITIES",
+      "value": "TS",
+      "asset_id": "source/ts"
+    },
+    {
+      "source": "AIOStreams.QUALITIES",
+      "value": "TC",
+      "asset_id": "source/tc"
+    },
+    {
+      "source": "AIOStreams.QUALITIES",
+      "value": "SCR",
+      "asset_id": "source/scr"
+    },
+    {
+      "source": "AIOStreams.QUALITIES",
+      "value": "Unknown",
+      "asset_id": "general/unknown"
+    },
+    {
+      "source": "AIOStreams.VISUAL_TAGS",
+      "value": "HDR+DV",
+      "asset_id": "picture-brand/hdr-dolby-vision"
+    },
+    {
+      "source": "AIOStreams.VISUAL_TAGS",
+      "value": "DV Only",
+      "asset_id": "picture-brand/dolby-vision-only"
+    },
+    {
+      "source": "AIOStreams.VISUAL_TAGS",
+      "value": "HDR Only",
+      "asset_id": "dynamic-range/hdr-only"
+    },
+    {
+      "source": "AIOStreams.VISUAL_TAGS",
+      "value": "HDR10+",
+      "asset_id": "picture-brand/hdr10plus"
+    },
+    {
+      "source": "AIOStreams.VISUAL_TAGS",
+      "value": "HDR10",
+      "asset_id": "dynamic-range/hdr10"
+    },
+    {
+      "source": "AIOStreams.VISUAL_TAGS",
+      "value": "DV",
+      "asset_id": "picture-brand/dolby-vision"
+    },
+    {
+      "source": "AIOStreams.VISUAL_TAGS",
+      "value": "HDR",
+      "asset_id": "dynamic-range/hdr"
+    },
+    {
+      "source": "AIOStreams.VISUAL_TAGS",
+      "value": "HLG",
+      "asset_id": "dynamic-range/hlg"
+    },
+    {
+      "source": "AIOStreams.VISUAL_TAGS",
+      "value": "10bit",
+      "asset_id": "color/10-bit"
+    },
+    {
+      "source": "AIOStreams.VISUAL_TAGS",
+      "value": "3D",
+      "asset_id": "projection/3d"
+    },
+    {
+      "source": "AIOStreams.VISUAL_TAGS",
+      "value": "IMAX",
+      "asset_id": "picture-brand/imax"
+    },
+    {
+      "source": "AIOStreams.VISUAL_TAGS",
+      "value": "AI",
+      "asset_id": "dynamic-range/ai"
+    },
+    {
+      "source": "AIOStreams.VISUAL_TAGS",
+      "value": "Upscaled",
+      "asset_id": "dynamic-range/upscaled"
+    },
+    {
+      "source": "AIOStreams.VISUAL_TAGS",
+      "value": "SDR",
+      "asset_id": "dynamic-range/sdr"
+    },
+    {
+      "source": "AIOStreams.VISUAL_TAGS",
+      "value": "H-OU",
+      "asset_id": "projection/hou"
+    },
+    {
+      "source": "AIOStreams.VISUAL_TAGS",
+      "value": "H-SBS",
+      "asset_id": "projection/hsbs"
+    },
+    {
+      "source": "AIOStreams.VISUAL_TAGS",
+      "value": "Unknown",
+      "asset_id": "general/unknown"
+    },
+    {
+      "source": "AIOStreams.AUDIO_TAGS",
+      "value": "Atmos",
+      "asset_id": "audio-brand/dolby-atmos"
+    },
+    {
+      "source": "AIOStreams.AUDIO_TAGS",
+      "value": "DD+",
+      "asset_id": "audio-brand/dolby-digital-plus"
+    },
+    {
+      "source": "AIOStreams.AUDIO_TAGS",
+      "value": "DD",
+      "asset_id": "audio-brand/dolby-digital"
+    },
+    {
+      "source": "AIOStreams.AUDIO_TAGS",
+      "value": "DTS:X",
+      "asset_id": "audio-brand/dts-x"
+    },
+    {
+      "source": "AIOStreams.AUDIO_TAGS",
+      "value": "DTS-HD MA",
+      "asset_id": "audio-brand/dts-hd-ma"
+    },
+    {
+      "source": "AIOStreams.AUDIO_TAGS",
+      "value": "DTS-HD",
+      "asset_id": "audio-brand/dts-hd"
+    },
+    {
+      "source": "AIOStreams.AUDIO_TAGS",
+      "value": "DTS-ES",
+      "asset_id": "audio-brand/dts-es"
+    },
+    {
+      "source": "AIOStreams.AUDIO_TAGS",
+      "value": "DTS",
+      "asset_id": "audio-brand/dts"
+    },
+    {
+      "source": "AIOStreams.AUDIO_TAGS",
+      "value": "TrueHD",
+      "asset_id": "audio-brand/dolby-truehd"
+    },
+    {
+      "source": "AIOStreams.AUDIO_TAGS",
+      "value": "PCM",
+      "asset_id": "audio-codec/pcm"
+    },
+    {
+      "source": "AIOStreams.AUDIO_TAGS",
+      "value": "OPUS",
+      "asset_id": "audio-codec/opus"
+    },
+    {
+      "source": "AIOStreams.AUDIO_TAGS",
+      "value": "FLAC",
+      "asset_id": "audio-codec/flac"
+    },
+    {
+      "source": "AIOStreams.AUDIO_TAGS",
+      "value": "AAC",
+      "asset_id": "audio-codec/aac"
+    },
+    {
+      "source": "AIOStreams.AUDIO_TAGS",
+      "value": "Unknown",
+      "asset_id": "general/unknown"
+    },
+    {
+      "source": "AIOStreams.AUDIO_CHANNELS",
+      "value": "2.0",
+      "asset_id": "audio-channel/2-0"
+    },
+    {
+      "source": "AIOStreams.AUDIO_CHANNELS",
+      "value": "5.1",
+      "asset_id": "audio-channel/5-1"
+    },
+    {
+      "source": "AIOStreams.AUDIO_CHANNELS",
+      "value": "6.1",
+      "asset_id": "audio-channel/6-1"
+    },
+    {
+      "source": "AIOStreams.AUDIO_CHANNELS",
+      "value": "7.1",
+      "asset_id": "audio-channel/7-1"
+    },
+    {
+      "source": "AIOStreams.AUDIO_CHANNELS",
+      "value": "Unknown",
+      "asset_id": "general/unknown"
+    },
+    {
+      "source": "AIOStreams.ENCODES",
+      "value": "AV1",
+      "asset_id": "video-codec/av1"
+    },
+    {
+      "source": "AIOStreams.ENCODES",
+      "value": "HEVC",
+      "asset_id": "video-codec/hevc"
+    },
+    {
+      "source": "AIOStreams.ENCODES",
+      "value": "AVC",
+      "asset_id": "video-codec/avc"
+    },
+    {
+      "source": "AIOStreams.ENCODES",
+      "value": "VC-1",
+      "asset_id": "video-codec/vc-1"
+    },
+    {
+      "source": "AIOStreams.ENCODES",
+      "value": "XviD",
+      "asset_id": "video-codec/xvid"
+    },
+    {
+      "source": "AIOStreams.ENCODES",
+      "value": "DivX",
+      "asset_id": "video-codec/divx"
+    },
+    {
+      "source": "AIOStreams.ENCODES",
+      "value": "MPEG-4",
+      "asset_id": "video-codec/mpeg-4"
+    },
+    {
+      "source": "AIOStreams.ENCODES",
+      "value": "Unknown",
+      "asset_id": "general/unknown"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "English",
+      "asset_id": "language/en"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Japanese",
+      "asset_id": "language/ja"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Chinese",
+      "asset_id": "language/zh"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Russian",
+      "asset_id": "language/ru"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Arabic",
+      "asset_id": "language/ar"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Portuguese",
+      "asset_id": "language/pt"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Portuguese (Brazil)",
+      "asset_id": "language-region/pt-br"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Spanish",
+      "asset_id": "language/es"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "French",
+      "asset_id": "language/fr"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "German",
+      "asset_id": "language/de"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Italian",
+      "asset_id": "language/it"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Korean",
+      "asset_id": "language/ko"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Hindi",
+      "asset_id": "language/hi"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Bengali",
+      "asset_id": "language/bn"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Punjabi",
+      "asset_id": "language/pa"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Marathi",
+      "asset_id": "language/mr"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Gujarati",
+      "asset_id": "language/gu"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Tamil",
+      "asset_id": "language/ta"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Telugu",
+      "asset_id": "language/te"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Kannada",
+      "asset_id": "language/kn"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Malayalam",
+      "asset_id": "language/ml"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Thai",
+      "asset_id": "language/th"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Vietnamese",
+      "asset_id": "language/vi"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Indonesian",
+      "asset_id": "language/id"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Turkish",
+      "asset_id": "language/tr"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Hebrew",
+      "asset_id": "language/he"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Persian",
+      "asset_id": "language/fa"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Ukrainian",
+      "asset_id": "language/uk"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Greek",
+      "asset_id": "language/el"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Lithuanian",
+      "asset_id": "language/lt"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Latvian",
+      "asset_id": "language/lv"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Estonian",
+      "asset_id": "language/et"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Polish",
+      "asset_id": "language/pl"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Czech",
+      "asset_id": "language/cs"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Slovak",
+      "asset_id": "language/sk"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Hungarian",
+      "asset_id": "language/hu"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Romanian",
+      "asset_id": "language/ro"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Bulgarian",
+      "asset_id": "language/bg"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Serbian",
+      "asset_id": "language/sr"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Croatian",
+      "asset_id": "language/hr"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Slovenian",
+      "asset_id": "language/sl"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Dutch",
+      "asset_id": "language/nl"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Danish",
+      "asset_id": "language/da"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Finnish",
+      "asset_id": "language/fi"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Swedish",
+      "asset_id": "language/sv"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Norwegian",
+      "asset_id": "language/nb"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Malay",
+      "asset_id": "language/ms"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Latino",
+      "asset_id": "language-region/es-419"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Dual Audio",
+      "asset_id": "language-mode/dual-audio"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Dubbed",
+      "asset_id": "language-mode/dubbed"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Multi",
+      "asset_id": "language-mode/multi"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Original",
+      "asset_id": "language-mode/original"
+    },
+    {
+      "source": "AIOStreams.LANGUAGES",
+      "value": "Unknown",
+      "asset_id": "general/unknown"
+    },
+    {
+      "source": "AIOStreams.SERVICES",
+      "value": "realdebrid",
+      "asset_id": "provider/real-debrid"
+    },
+    {
+      "source": "AIOStreams.SERVICES",
+      "value": "debridlink",
+      "asset_id": "provider/debrid-link"
+    },
+    {
+      "source": "AIOStreams.SERVICES",
+      "value": "premiumize",
+      "asset_id": "provider/premiumize"
+    },
+    {
+      "source": "AIOStreams.SERVICES",
+      "value": "alldebrid",
+      "asset_id": "provider/all-debrid"
+    },
+    {
+      "source": "AIOStreams.SERVICES",
+      "value": "torbox",
+      "asset_id": "provider/torbox"
+    },
+    {
+      "source": "AIOStreams.SERVICES",
+      "value": "easydebrid",
+      "asset_id": "provider/easydebrid"
+    },
+    {
+      "source": "AIOStreams.SERVICES",
+      "value": "debrider",
+      "asset_id": "provider/debrider"
+    },
+    {
+      "source": "AIOStreams.SERVICES",
+      "value": "putio",
+      "asset_id": "provider/put-io"
+    },
+    {
+      "source": "AIOStreams.SERVICES",
+      "value": "pikpak",
+      "asset_id": "provider/pikpak"
+    },
+    {
+      "source": "AIOStreams.SERVICES",
+      "value": "offcloud",
+      "asset_id": "provider/offcloud"
+    },
+    {
+      "source": "AIOStreams.SERVICES",
+      "value": "seedr",
+      "asset_id": "provider/seedr"
+    },
+    {
+      "source": "AIOStreams.SERVICES",
+      "value": "easynews",
+      "asset_id": "provider/easynews"
+    },
+    {
+      "source": "AIOStreams.SERVICES",
+      "value": "nzbdav",
+      "asset_id": "provider/nzbdav"
+    },
+    {
+      "source": "AIOStreams.SERVICES",
+      "value": "altmount",
+      "asset_id": "provider/altmount"
+    },
+    {
+      "source": "AIOStreams.SERVICES",
+      "value": "stremio_nntp",
+      "asset_id": "provider/stremio-nntp"
+    },
+    {
+      "source": "AIOStreams.SERVICES",
+      "value": "stremthru_newz",
+      "asset_id": "provider/stremthru-newz"
+    },
+    {
+      "source": "AIOStreams.SERVICES",
+      "value": "aiostreams",
+      "asset_id": "provider/aiostreams"
+    },
+    {
+      "source": "AIOStreams.SERVICES",
+      "value": "torrin",
+      "asset_id": "provider/torrin"
+    },
+    {
+      "source": "AIOStreams.PROXY_SERVICES",
+      "value": "builtin",
+      "asset_id": "proxy/builtin"
+    },
+    {
+      "source": "AIOStreams.PROXY_SERVICES",
+      "value": "stremthru",
+      "asset_id": "proxy/stremthru"
+    },
+    {
+      "source": "AIOStreams.PROXY_SERVICES",
+      "value": "mediaflow",
+      "asset_id": "proxy/mediaflow"
+    },
+    {
+      "source": "AIOStreams.STREAM_TYPES",
+      "value": "p2p",
+      "asset_id": "delivery/p2p"
+    },
+    {
+      "source": "AIOStreams.STREAM_TYPES",
+      "value": "live",
+      "asset_id": "delivery/live"
+    },
+    {
+      "source": "AIOStreams.STREAM_TYPES",
+      "value": "stremio-usenet",
+      "asset_id": "delivery/stremio-usenet"
+    },
+    {
+      "source": "AIOStreams.STREAM_TYPES",
+      "value": "archive",
+      "asset_id": "delivery/archive"
+    },
+    {
+      "source": "AIOStreams.STREAM_TYPES",
+      "value": "usenet",
+      "asset_id": "delivery/usenet"
+    },
+    {
+      "source": "AIOStreams.STREAM_TYPES",
+      "value": "debrid",
+      "asset_id": "delivery/debrid"
+    },
+    {
+      "source": "AIOStreams.STREAM_TYPES",
+      "value": "http",
+      "asset_id": "delivery/http"
+    },
+    {
+      "source": "AIOStreams.STREAM_TYPES",
+      "value": "external",
+      "asset_id": "delivery/external"
+    },
+    {
+      "source": "AIOStreams.STREAM_TYPES",
+      "value": "youtube",
+      "asset_id": "delivery/youtube"
+    },
+    {
+      "source": "AIOStreams.STREAM_TYPES",
+      "value": "error",
+      "asset_id": "delivery/error"
+    },
+    {
+      "source": "AIOStreams.STREAM_TYPES",
+      "value": "statistic",
+      "asset_id": "delivery/statistic"
+    },
+    {
+      "source": "AIOStreams.STREAM_TYPES",
+      "value": "info",
+      "asset_id": "delivery/info"
+    },
+    {
+      "source": "AIOStreams.TYPES",
+      "value": "movie",
+      "asset_id": "content/movie"
+    },
+    {
+      "source": "AIOStreams.TYPES",
+      "value": "series",
+      "asset_id": "content/series"
+    },
+    {
+      "source": "AIOStreams.TYPES",
+      "value": "channel",
+      "asset_id": "content/channel"
+    },
+    {
+      "source": "AIOStreams.TYPES",
+      "value": "tv",
+      "asset_id": "content/tv"
+    },
+    {
+      "source": "AIOStreams.TYPES",
+      "value": "anime",
+      "asset_id": "content/anime"
+    },
+    {
+      "source": "AIOStreams.SMART_DETECT_ATTRIBUTES",
+      "value": "size",
+      "asset_id": "availability/size"
+    },
+    {
+      "source": "AIOStreams.SMART_DETECT_ATTRIBUTES",
+      "value": "bitrate",
+      "asset_id": "availability/bitrate"
+    },
+    {
+      "source": "AIOStreams.SMART_DETECT_ATTRIBUTES",
+      "value": "resolution",
+      "asset_id": "availability/resolution"
+    },
+    {
+      "source": "AIOStreams.SMART_DETECT_ATTRIBUTES",
+      "value": "quality",
+      "asset_id": "availability/quality"
+    },
+    {
+      "source": "AIOStreams.SMART_DETECT_ATTRIBUTES",
+      "value": "encode",
+      "asset_id": "availability/encode"
+    },
+    {
+      "source": "AIOStreams.SMART_DETECT_ATTRIBUTES",
+      "value": "releaseGroup",
+      "asset_id": "availability/release-group"
+    },
+    {
+      "source": "AIOStreams.SMART_DETECT_ATTRIBUTES",
+      "value": "edition",
+      "asset_id": "availability/edition"
+    },
+    {
+      "source": "AIOStreams.SMART_DETECT_ATTRIBUTES",
+      "value": "remastered",
+      "asset_id": "availability/remastered"
+    },
+    {
+      "source": "AIOStreams.SMART_DETECT_ATTRIBUTES",
+      "value": "network",
+      "asset_id": "availability/network"
+    },
+    {
+      "source": "AIOStreams.SMART_DETECT_ATTRIBUTES",
+      "value": "container",
+      "asset_id": "availability/container"
+    },
+    {
+      "source": "AIOStreams.SMART_DETECT_ATTRIBUTES",
+      "value": "visualTags",
+      "asset_id": "availability/visual-tags"
+    },
+    {
+      "source": "AIOStreams.SMART_DETECT_ATTRIBUTES",
+      "value": "audioTags",
+      "asset_id": "availability/audio-tags"
+    },
+    {
+      "source": "AIOStreams.SMART_DETECT_ATTRIBUTES",
+      "value": "audioChannels",
+      "asset_id": "availability/audio-channels"
+    },
+    {
+      "source": "AIOStreams.SMART_DETECT_ATTRIBUTES",
+      "value": "languages",
+      "asset_id": "availability/languages"
+    },
+    {
+      "source": "AIOStreams.SMART_DETECT_ATTRIBUTES",
+      "value": "repack",
+      "asset_id": "availability/repack"
+    },
+    {
+      "source": "AIOStreams.SMART_DETECT_ATTRIBUTES",
+      "value": "proper",
+      "asset_id": "availability/proper"
+    },
+    {
+      "source": "AIOStreams.SMART_DETECT_ATTRIBUTES",
+      "value": "country",
+      "asset_id": "availability/country"
+    },
+    {
+      "source": "PTT.group",
+      "value": "20-40",
+      "asset_id": "release-group/20-40"
+    },
+    {
+      "source": "PTT.group",
+      "value": "Erai-raws",
+      "asset_id": "release-group/erai-raws"
+    },
+    {
+      "source": "PTT.resolution",
+      "value": "4k",
+      "asset_id": "resolution/4k"
+    },
+    {
+      "source": "PTT.resolution",
+      "value": "1080p",
+      "asset_id": "resolution/1080p"
+    },
+    {
+      "source": "PTT.resolution",
+      "value": "720p",
+      "asset_id": "resolution/720p"
+    },
+    {
+      "source": "PTT.editions",
+      "value": "Anniversary Edition",
+      "asset_id": "edition/anniversary"
+    },
+    {
+      "source": "PTT.editions",
+      "value": "Dragon Box",
+      "asset_id": "edition/dragon-box"
+    },
+    {
+      "source": "PTT.editions",
+      "value": "Color Corrected",
+      "asset_id": "edition/color-corr"
+    },
+    {
+      "source": "PTT.editions",
+      "value": "Ultimate Edition",
+      "asset_id": "edition/ultimate-ed"
+    },
+    {
+      "source": "PTT.editions",
+      "value": "Director's Cut",
+      "asset_id": "edition/director-cut"
+    },
+    {
+      "source": "PTT.editions",
+      "value": "Criterion Collection",
+      "asset_id": "edition-brand/criterion-collection"
+    },
+    {
+      "source": "PTT.editions",
+      "value": "Collector's Edition",
+      "asset_id": "edition/collector-ed"
+    },
+    {
+      "source": "PTT.editions",
+      "value": "Theatrical",
+      "asset_id": "edition/theatrical"
+    },
+    {
+      "source": "PTT.editions",
+      "value": "Uncut",
+      "asset_id": "edition/uncut"
+    },
+    {
+      "source": "PTT.editions",
+      "value": "IMAX",
+      "asset_id": "picture-brand/imax"
+    },
+    {
+      "source": "PTT.editions",
+      "value": "Diamond Edition",
+      "asset_id": "edition/diamond-ed"
+    },
+    {
+      "source": "PTT.editions",
+      "value": "Remastered",
+      "asset_id": "edition/remastered"
+    },
+    {
+      "source": "PTT.editions",
+      "value": "Extended Edition",
+      "asset_id": "edition/extended"
+    },
+    {
+      "source": "PTT.releaseTypes",
+      "value": "ASL",
+      "asset_id": "accessibility/asl"
+    },
+    {
+      "source": "PTT.releaseTypes",
+      "value": "Audio Description",
+      "asset_id": "accessibility/audio-desc"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "CAM",
+      "asset_id": "source/cam"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "TeleSync",
+      "asset_id": "source/telesync"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "TeleCine",
+      "asset_id": "source/telecine"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "SCR",
+      "asset_id": "source/scr"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "BluRay REMUX",
+      "asset_id": "source/blu-ray-remux"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "REMUX",
+      "asset_id": "source/remux"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "BluRay",
+      "asset_id": "disc-brand/blu-ray"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "UHDRip",
+      "asset_id": "source/uhdrip"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "HDRip",
+      "asset_id": "source/hdrip"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "BRRip",
+      "asset_id": "source/brrip"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "BDRip",
+      "asset_id": "source/bdrip"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "VODR",
+      "asset_id": "source/vodr"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "DVDRip",
+      "asset_id": "source/dvdrip"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "VHSRip",
+      "asset_id": "source/vhsrip"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "DVD",
+      "asset_id": "disc-brand/dvd"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "PPV",
+      "asset_id": "source/ppv"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "PPVRip",
+      "asset_id": "source/ppvrip"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "HDTVRip",
+      "asset_id": "source/hdtvrip"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "HDTV",
+      "asset_id": "source/hdtv"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "SATRip",
+      "asset_id": "source/satrip"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "TVRip",
+      "asset_id": "source/tvrip"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "R5",
+      "asset_id": "source/r5"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "WEBRip",
+      "asset_id": "source/webrip"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "WEBCap",
+      "asset_id": "source/webcap"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "WEB-DLRip",
+      "asset_id": "source/web-dlrip"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "WEB-DL",
+      "asset_id": "source/web-dl"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "WEB",
+      "asset_id": "source/web"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "WORKPRINT",
+      "asset_id": "source/workprint"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "PDTV",
+      "asset_id": "source/pdtv"
+    },
+    {
+      "source": "PTT.quality",
+      "value": "SDTV",
+      "asset_id": "source/sdtv"
+    },
+    {
+      "source": "PTT.bitDepth",
+      "value": "10bit",
+      "asset_id": "color/10-bit"
+    },
+    {
+      "source": "PTT.hdr",
+      "value": "DV",
+      "asset_id": "picture-brand/dolby-vision"
+    },
+    {
+      "source": "PTT.hdr",
+      "value": "HDR10+",
+      "asset_id": "picture-brand/hdr10plus"
+    },
+    {
+      "source": "PTT.hdr",
+      "value": "HDR",
+      "asset_id": "dynamic-range/hdr"
+    },
+    {
+      "source": "PTT.hdr",
+      "value": "SDR",
+      "asset_id": "dynamic-range/sdr"
+    },
+    {
+      "source": "PTT.threeD",
+      "value": "3D HSBS",
+      "asset_id": "projection/3d-hsbs"
+    },
+    {
+      "source": "PTT.threeD",
+      "value": "3D SBS",
+      "asset_id": "projection/3d-sbs"
+    },
+    {
+      "source": "PTT.threeD",
+      "value": "3D HOU",
+      "asset_id": "projection/3d-hou"
+    },
+    {
+      "source": "PTT.threeD",
+      "value": "3D OU",
+      "asset_id": "projection/3d-ou"
+    },
+    {
+      "source": "PTT.threeD",
+      "value": "3D",
+      "asset_id": "projection/3d"
+    },
+    {
+      "source": "PTT.codec",
+      "value": "hevc",
+      "asset_id": "video-codec/hevc"
+    },
+    {
+      "source": "PTT.codec",
+      "value": "av1",
+      "asset_id": "video-codec/av1"
+    },
+    {
+      "source": "PTT.channels",
+      "value": "5.1",
+      "asset_id": "audio-channel/5-1"
+    },
+    {
+      "source": "PTT.channels",
+      "value": "7.1",
+      "asset_id": "audio-channel/7-1"
+    },
+    {
+      "source": "PTT.channels",
+      "value": "2.0",
+      "asset_id": "audio-channel/2-0"
+    },
+    {
+      "source": "PTT.channels",
+      "value": "stereo",
+      "asset_id": "audio-channel/stereo"
+    },
+    {
+      "source": "PTT.channels",
+      "value": "mono",
+      "asset_id": "audio-channel/mono"
+    },
+    {
+      "source": "PTT.audio",
+      "value": "DTS Lossless",
+      "asset_id": "audio-brand/dts-lossless"
+    },
+    {
+      "source": "PTT.audio",
+      "value": "DTS Lossy",
+      "asset_id": "audio-brand/dts-lossy"
+    },
+    {
+      "source": "PTT.audio",
+      "value": "Atmos",
+      "asset_id": "audio-brand/dolby-atmos"
+    },
+    {
+      "source": "PTT.audio",
+      "value": "TrueHD",
+      "asset_id": "audio-brand/dolby-truehd"
+    },
+    {
+      "source": "PTT.audio",
+      "value": "FLAC",
+      "asset_id": "audio-codec/flac"
+    },
+    {
+      "source": "PTT.audio",
+      "value": "DDP",
+      "asset_id": "audio-brand/dolby-digital-plus"
+    },
+    {
+      "source": "PTT.audio",
+      "value": "EAC3",
+      "asset_id": "audio-codec/e-ac-3"
+    },
+    {
+      "source": "PTT.audio",
+      "value": "DD",
+      "asset_id": "audio-brand/dolby-digital"
+    },
+    {
+      "source": "PTT.audio",
+      "value": "AC3",
+      "asset_id": "audio-codec/ac-3"
+    },
+    {
+      "source": "PTT.audio",
+      "value": "AAC",
+      "asset_id": "audio-codec/aac"
+    },
+    {
+      "source": "PTT.audio",
+      "value": "PCM",
+      "asset_id": "audio-codec/pcm"
+    },
+    {
+      "source": "PTT.audio",
+      "value": "OPUS",
+      "asset_id": "audio-codec/opus"
+    },
+    {
+      "source": "PTT.audio",
+      "value": "HQ",
+      "asset_id": "audio-codec/hq"
+    },
+    {
+      "source": "PTT.audio",
+      "value": "MP3",
+      "asset_id": "audio-codec/mp3"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "es",
+      "asset_id": "language/es"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "fr",
+      "asset_id": "language/fr"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "multi subs",
+      "asset_id": "subtitles/multi-subs"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "multi audio",
+      "asset_id": "language-mode/multi-audio"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "dual audio",
+      "asset_id": "language-mode/dual-audio"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "en",
+      "asset_id": "language/en"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "ja",
+      "asset_id": "language/ja"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "ko",
+      "asset_id": "language/ko"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "zh-tw",
+      "asset_id": "language-region/zh-tw"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "zh",
+      "asset_id": "language/zh"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "es-419",
+      "asset_id": "language-region/es-419"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "pt",
+      "asset_id": "language/pt"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "it",
+      "asset_id": "language/it"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "el",
+      "asset_id": "language/el"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "de",
+      "asset_id": "language/de"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "ru",
+      "asset_id": "language/ru"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "uk",
+      "asset_id": "language/uk"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "hi",
+      "asset_id": "language/hi"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "te",
+      "asset_id": "language/te"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "ta",
+      "asset_id": "language/ta"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "ml",
+      "asset_id": "language/ml"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "kn",
+      "asset_id": "language/kn"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "mr",
+      "asset_id": "language/mr"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "gu",
+      "asset_id": "language/gu"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "pa",
+      "asset_id": "language/pa"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "bn",
+      "asset_id": "language/bn"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "lt",
+      "asset_id": "language/lt"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "lv",
+      "asset_id": "language/lv"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "et",
+      "asset_id": "language/et"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "pl",
+      "asset_id": "language/pl"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "cs",
+      "asset_id": "language/cs"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "sk",
+      "asset_id": "language/sk"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "hu",
+      "asset_id": "language/hu"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "ro",
+      "asset_id": "language/ro"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "bg",
+      "asset_id": "language/bg"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "sr",
+      "asset_id": "language/sr"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "hr",
+      "asset_id": "language/hr"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "sl",
+      "asset_id": "language/sl"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "nl",
+      "asset_id": "language/nl"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "da",
+      "asset_id": "language/da"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "fi",
+      "asset_id": "language/fi"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "sv",
+      "asset_id": "language/sv"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "no",
+      "asset_id": "language/no"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "ar",
+      "asset_id": "language/ar"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "tr",
+      "asset_id": "language/tr"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "vi",
+      "asset_id": "language/vi"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "id",
+      "asset_id": "language/id"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "th",
+      "asset_id": "language/th"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "ms",
+      "asset_id": "language/ms"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "he",
+      "asset_id": "language/he"
+    },
+    {
+      "source": "PTT.languages",
+      "value": "fa",
+      "asset_id": "language/fa"
+    },
+    {
+      "source": "PTT.site",
+      "value": "eztv.re",
+      "asset_id": "release-site/eztv-re"
+    },
+    {
+      "source": "PTT.network",
+      "value": "Apple TV",
+      "asset_id": "service/apple-tv"
+    },
+    {
+      "source": "PTT.network",
+      "value": "Amazon",
+      "asset_id": "service/prime-video"
+    },
+    {
+      "source": "PTT.network",
+      "value": "Netflix",
+      "asset_id": "service/netflix"
+    },
+    {
+      "source": "PTT.network",
+      "value": "Nickelodeon",
+      "asset_id": "service/nickelodeon"
+    },
+    {
+      "source": "PTT.network",
+      "value": "Disney",
+      "asset_id": "service/disney"
+    },
+    {
+      "source": "PTT.network",
+      "value": "HBO",
+      "asset_id": "service/hbo"
+    },
+    {
+      "source": "PTT.network",
+      "value": "Showtime",
+      "asset_id": "service/showtime"
+    },
+    {
+      "source": "PTT.network",
+      "value": "Paramount",
+      "asset_id": "service/paramount-plus"
+    },
+    {
+      "source": "PTT.network",
+      "value": "Peacock",
+      "asset_id": "service/peacock"
+    },
+    {
+      "source": "PTT.network",
+      "value": "Crave",
+      "asset_id": "service/crave"
+    },
+    {
+      "source": "PTT.network",
+      "value": "AMC+",
+      "asset_id": "service/amc-plus"
+    },
+    {
+      "source": "PTT.network",
+      "value": "Stan",
+      "asset_id": "service/stan"
+    },
+    {
+      "source": "PTT.network",
+      "value": "iTunes",
+      "asset_id": "service/itunes"
+    },
+    {
+      "source": "PTT.network",
+      "value": "Hulu",
+      "asset_id": "service/hulu"
+    },
+    {
+      "source": "PTT.network",
+      "value": "CBS",
+      "asset_id": "service/cbs"
+    },
+    {
+      "source": "PTT.network",
+      "value": "NBC",
+      "asset_id": "service/nbc"
+    },
+    {
+      "source": "PTT.network",
+      "value": "AMC",
+      "asset_id": "service/amc"
+    },
+    {
+      "source": "PTT.network",
+      "value": "PBS",
+      "asset_id": "service/pbs"
+    },
+    {
+      "source": "PTT.network",
+      "value": "Crunchyroll",
+      "asset_id": "service/crunchyroll"
+    },
+    {
+      "source": "PTT.network",
+      "value": "VICE",
+      "asset_id": "service/vice"
+    },
+    {
+      "source": "PTT.network",
+      "value": "Sony",
+      "asset_id": "service/sony"
+    },
+    {
+      "source": "PTT.network",
+      "value": "Hallmark",
+      "asset_id": "service/hallmark"
+    },
+    {
+      "source": "PTT.network",
+      "value": "Adult Swim",
+      "asset_id": "service/adult-swim"
+    },
+    {
+      "source": "PTT.network",
+      "value": "Animal Planet",
+      "asset_id": "service/animal-planet"
+    },
+    {
+      "source": "PTT.network",
+      "value": "Cartoon Network",
+      "asset_id": "service/cartoon-network"
+    },
+    {
+      "source": "PTT.boolean_fields",
+      "value": "ppv",
+      "asset_id": "stream-attribute/ppv"
+    },
+    {
+      "source": "PTT.boolean_fields",
+      "value": "extended",
+      "asset_id": "stream-attribute/extended"
+    },
+    {
+      "source": "PTT.boolean_fields",
+      "value": "regraded",
+      "asset_id": "stream-attribute/regraded"
+    },
+    {
+      "source": "PTT.boolean_fields",
+      "value": "upscaled",
+      "asset_id": "stream-attribute/upscaled"
+    },
+    {
+      "source": "PTT.boolean_fields",
+      "value": "convert",
+      "asset_id": "stream-attribute/convert"
+    },
+    {
+      "source": "PTT.boolean_fields",
+      "value": "hardcoded",
+      "asset_id": "stream-attribute/hardcoded"
+    },
+    {
+      "source": "PTT.boolean_fields",
+      "value": "proper",
+      "asset_id": "stream-attribute/proper"
+    },
+    {
+      "source": "PTT.boolean_fields",
+      "value": "repack",
+      "asset_id": "stream-attribute/repack"
+    },
+    {
+      "source": "PTT.boolean_fields",
+      "value": "retail",
+      "asset_id": "stream-attribute/retail"
+    },
+    {
+      "source": "PTT.boolean_fields",
+      "value": "documentary",
+      "asset_id": "stream-attribute/documentary"
+    },
+    {
+      "source": "PTT.boolean_fields",
+      "value": "unrated",
+      "asset_id": "stream-attribute/unrated"
+    },
+    {
+      "source": "PTT.boolean_fields",
+      "value": "uncensored",
+      "asset_id": "stream-attribute/uncensored"
+    },
+    {
+      "source": "PTT.boolean_fields",
+      "value": "commentary",
+      "asset_id": "stream-attribute/commentary"
+    },
+    {
+      "source": "PTT.boolean_fields",
+      "value": "complete",
+      "asset_id": "stream-attribute/complete"
+    },
+    {
+      "source": "PTT.boolean_fields",
+      "value": "subbed",
+      "asset_id": "stream-attribute/subbed"
+    },
+    {
+      "source": "PTT.boolean_fields",
+      "value": "dubbed",
+      "asset_id": "stream-attribute/dubbed"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.release-type",
+      "value": "OAD",
+      "asset_id": "release-type/oad"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.release-type",
+      "value": "OAV",
+      "asset_id": "release-type/oav"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.release-type",
+      "value": "ODA",
+      "asset_id": "release-type/oda"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.release-type",
+      "value": "ONA",
+      "asset_id": "release-type/ona"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.release-type",
+      "value": "OVA",
+      "asset_id": "release-type/ova"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.region",
+      "value": "PAL",
+      "asset_id": "region/pal"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.region",
+      "value": "NTSC",
+      "asset_id": "region/ntsc"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.region",
+      "value": "SECAM",
+      "asset_id": "region/secam"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.region",
+      "value": "R0",
+      "asset_id": "region/r0"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.region",
+      "value": "R1",
+      "asset_id": "region/r1"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.region",
+      "value": "R2",
+      "asset_id": "region/r2"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.region",
+      "value": "R3",
+      "asset_id": "region/r3"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.region",
+      "value": "R4",
+      "asset_id": "region/r4"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.region",
+      "value": "R5",
+      "asset_id": "region/r5"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.region",
+      "value": "R6",
+      "asset_id": "region/r6"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.region",
+      "value": "R7",
+      "asset_id": "region/r7"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.region",
+      "value": "R8",
+      "asset_id": "region/r8"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.region",
+      "value": "R9",
+      "asset_id": "region/r9"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.region",
+      "value": "R0J",
+      "asset_id": "region/r0j"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.region",
+      "value": "R1J",
+      "asset_id": "region/r1j"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.region",
+      "value": "R2J",
+      "asset_id": "region/r2j"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.region",
+      "value": "R3J",
+      "asset_id": "region/r3j"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.region",
+      "value": "R4J",
+      "asset_id": "region/r4j"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.region",
+      "value": "R5J",
+      "asset_id": "region/r5j"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.region",
+      "value": "R6J",
+      "asset_id": "region/r6j"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.region",
+      "value": "R7J",
+      "asset_id": "region/r7j"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.region",
+      "value": "R8J",
+      "asset_id": "region/r8j"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.region",
+      "value": "R9J",
+      "asset_id": "region/r9j"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.country",
+      "value": "US",
+      "asset_id": "country/us"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.country",
+      "value": "UK",
+      "asset_id": "country/uk"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.country",
+      "value": "AU",
+      "asset_id": "country/au"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.country",
+      "value": "NZ",
+      "asset_id": "country/nz"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.source",
+      "value": "DLMUX",
+      "asset_id": "source/dlmux"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.source",
+      "value": "WEBMUX",
+      "asset_id": "source/webmux"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.source",
+      "value": "BDMUX",
+      "asset_id": "source/bdmux"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.source",
+      "value": "BRMUX",
+      "asset_id": "source/brmux"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.source",
+      "value": "HC HD-RIP",
+      "asset_id": "source/hc-hd-rip"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.source",
+      "value": "HDRIP",
+      "asset_id": "source/hdrip"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.source",
+      "value": "VODR",
+      "asset_id": "source/vodr"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.source",
+      "value": "PPV",
+      "asset_id": "source/ppv"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.source",
+      "value": "PPVRIP",
+      "asset_id": "source/ppvrip"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.source",
+      "value": "R5",
+      "asset_id": "source/r5"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.source",
+      "value": "VHSSCR",
+      "asset_id": "source/vhsscr"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.source",
+      "value": "WEB-DLRIP",
+      "asset_id": "source/web-dlrip"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "3G2",
+      "asset_id": "extension/3g2"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "3GP",
+      "asset_id": "extension/3gp"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "AVI",
+      "asset_id": "extension/avi"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "FLV",
+      "asset_id": "extension/flv"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "MKV",
+      "asset_id": "extension/mkv"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "MK3D",
+      "asset_id": "extension/mk3d"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "MOV",
+      "asset_id": "extension/mov"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "MP2",
+      "asset_id": "extension/mp2"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "MP4",
+      "asset_id": "extension/mp4"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "M4V",
+      "asset_id": "extension/m4v"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "MPE",
+      "asset_id": "extension/mpe"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "MPEG",
+      "asset_id": "extension/mpeg"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "MPG",
+      "asset_id": "extension/mpg"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "MPV",
+      "asset_id": "extension/mpv"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "WEBM",
+      "asset_id": "extension/webm"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "WMV",
+      "asset_id": "extension/wmv"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "OGM",
+      "asset_id": "extension/ogm"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "DIVX",
+      "asset_id": "extension/divx"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "TS",
+      "asset_id": "extension/ts"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "M2TS",
+      "asset_id": "extension/m2ts"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "ISO",
+      "asset_id": "extension/iso"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "VOB",
+      "asset_id": "extension/vob"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "SUB",
+      "asset_id": "extension/sub"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "IDX",
+      "asset_id": "extension/idx"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "TTXT",
+      "asset_id": "extension/ttxt"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "TXT",
+      "asset_id": "extension/txt"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "SMI",
+      "asset_id": "extension/smi"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "SRT",
+      "asset_id": "extension/srt"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "SSA",
+      "asset_id": "extension/ssa"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "ASS",
+      "asset_id": "extension/ass"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "VTT",
+      "asset_id": "extension/vtt"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "NFO",
+      "asset_id": "extension/nfo"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.extension",
+      "value": "HTML",
+      "asset_id": "extension/html"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.release-group",
+      "value": "INFLATE",
+      "asset_id": "release-group/inflate"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.release-group",
+      "value": "DEFLATE",
+      "asset_id": "release-group/deflate"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.language-mode",
+      "value": "TRUEFRENCH",
+      "asset_id": "language-mode/truefrench"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.language-mode",
+      "value": "VFF",
+      "asset_id": "language-mode/vff"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.language-mode",
+      "value": "VFI",
+      "asset_id": "language-mode/vfi"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.language-mode",
+      "value": "VOST",
+      "asset_id": "language-mode/vost"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.language-mode",
+      "value": "VOSTFR",
+      "asset_id": "language-mode/vostfr"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.language-mode",
+      "value": "VOSTA",
+      "asset_id": "language-mode/vosta"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.language-mode",
+      "value": "SUBFRENCH",
+      "asset_id": "language-mode/subfrench"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.audio-codec",
+      "value": "MD",
+      "asset_id": "audio-codec/md"
+    },
+    {
+      "source": "PTT.literal_regex_alternatives.audio-codec",
+      "value": "HQ",
+      "asset_id": "audio-codec/hq"
+    },
+    {
+      "source": "Dynamic metadata field labels",
+      "value": "SIZE",
+      "asset_id": "metadata-field/size"
+    },
+    {
+      "source": "Dynamic metadata field labels",
+      "value": "BITRATE",
+      "asset_id": "metadata-field/bitrate"
+    },
+    {
+      "source": "Dynamic metadata field labels",
+      "value": "DURATION",
+      "asset_id": "metadata-field/duration"
+    },
+    {
+      "source": "Dynamic metadata field labels",
+      "value": "SEEDERS",
+      "asset_id": "metadata-field/seeders"
+    },
+    {
+      "source": "Dynamic metadata field labels",
+      "value": "PEERS",
+      "asset_id": "metadata-field/peers"
+    },
+    {
+      "source": "Dynamic metadata field labels",
+      "value": "AGE",
+      "asset_id": "metadata-field/age"
+    },
+    {
+      "source": "Dynamic metadata field labels",
+      "value": "YEAR",
+      "asset_id": "metadata-field/year"
+    },
+    {
+      "source": "Dynamic metadata field labels",
+      "value": "DATE",
+      "asset_id": "metadata-field/date"
+    },
+    {
+      "source": "Dynamic metadata field labels",
+      "value": "SEASON",
+      "asset_id": "metadata-field/season"
+    },
+    {
+      "source": "Dynamic metadata field labels",
+      "value": "EPISODE",
+      "asset_id": "metadata-field/episode"
+    },
+    {
+      "source": "Dynamic metadata field labels",
+      "value": "VOLUME",
+      "asset_id": "metadata-field/volume"
+    },
+    {
+      "source": "Dynamic metadata field labels",
+      "value": "TITLE",
+      "asset_id": "metadata-field/title"
+    },
+    {
+      "source": "Dynamic metadata field labels",
+      "value": "GROUP",
+      "asset_id": "metadata-field/group"
+    },
+    {
+      "source": "Dynamic metadata field labels",
+      "value": "NETWORK",
+      "asset_id": "metadata-field/network"
+    },
+    {
+      "source": "Dynamic metadata field labels",
+      "value": "COUNTRY",
+      "asset_id": "metadata-field/country"
+    },
+    {
+      "source": "Dynamic metadata field labels",
+      "value": "REGION",
+      "asset_id": "metadata-field/region"
+    },
+    {
+      "source": "Dynamic metadata field labels",
+      "value": "SITE",
+      "asset_id": "metadata-field/site"
+    },
+    {
+      "source": "Dynamic metadata field labels",
+      "value": "AUDIO",
+      "asset_id": "metadata-field/audio"
+    },
+    {
+      "source": "Dynamic metadata field labels",
+      "value": "SUBTITLES",
+      "asset_id": "metadata-field/subtitles"
+    },
+    {
+      "source": "Dynamic metadata field labels",
+      "value": "FILENAME",
+      "asset_id": "metadata-field/filename"
+    }
+  ],
+  "covered": 698,
+  "missing": []
+}

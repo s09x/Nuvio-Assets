@@ -1,0 +1,5191 @@
+{
+  "schema": "Nuvio/Fusion filters and groups",
+  "matching_notes": "Nuvio searches available stream text. Ambiguous fields require explicit metadata context; missing metadata cannot be inferred. Every asset also supports [badge:category/id].",
+  "filters": [
+    {
+      "id": "resolution/144p",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/144p.webp"
+    },
+    {
+      "id": "resolution/240p",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/240p.webp"
+    },
+    {
+      "id": "resolution/288p",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/288p.webp"
+    },
+    {
+      "id": "resolution/360p",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/360p.webp"
+    },
+    {
+      "id": "resolution/480p",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/480p.webp"
+    },
+    {
+      "id": "resolution/480i",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/480i.webp"
+    },
+    {
+      "id": "resolution/540p",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/540p.webp"
+    },
+    {
+      "id": "resolution/576p",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/576p.webp"
+    },
+    {
+      "id": "resolution/576i",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/576i.webp"
+    },
+    {
+      "id": "resolution/sd",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/sd.webp"
+    },
+    {
+      "id": "resolution/720p",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/720p.webp"
+    },
+    {
+      "id": "resolution/hd",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/hd.webp"
+    },
+    {
+      "id": "resolution/hd-ready",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/hd-ready.webp"
+    },
+    {
+      "id": "resolution/1080p",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/1080p.webp"
+    },
+    {
+      "id": "resolution/1080i",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/1080i.webp"
+    },
+    {
+      "id": "resolution/fhd",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/fhd.webp"
+    },
+    {
+      "id": "resolution/full-hd",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/full-hd.webp"
+    },
+    {
+      "id": "resolution/2k",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/2k.webp"
+    },
+    {
+      "id": "resolution/1440p",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/1440p.webp"
+    },
+    {
+      "id": "resolution/qhd",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/qhd.webp"
+    },
+    {
+      "id": "resolution/wqhd",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/wqhd.webp"
+    },
+    {
+      "id": "resolution/2160p",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/2160p.webp"
+    },
+    {
+      "id": "resolution/4k",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/4k.webp"
+    },
+    {
+      "id": "resolution/uhd",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/uhd.webp"
+    },
+    {
+      "id": "resolution/4k-uhd",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/4k-uhd.webp"
+    },
+    {
+      "id": "resolution/dci-4k",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/dci-4k.webp"
+    },
+    {
+      "id": "resolution/2880p",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/2880p.webp"
+    },
+    {
+      "id": "resolution/5k",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/5k.webp"
+    },
+    {
+      "id": "resolution/3240p",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/3240p.webp"
+    },
+    {
+      "id": "resolution/6k",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/6k.webp"
+    },
+    {
+      "id": "resolution/4320p",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/4320p.webp"
+    },
+    {
+      "id": "resolution/8k",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/8k.webp"
+    },
+    {
+      "id": "resolution/8k-uhd",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/8k-uhd.webp"
+    },
+    {
+      "id": "resolution/12k",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/12k.webp"
+    },
+    {
+      "id": "resolution/16k",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/resolution/16k.webp"
+    },
+    {
+      "id": "dynamic-range/sdr",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/dynamic-range/sdr.webp"
+    },
+    {
+      "id": "dynamic-range/hdr",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/dynamic-range/hdr.webp"
+    },
+    {
+      "id": "dynamic-range/hdr10",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/dynamic-range/hdr10.webp"
+    },
+    {
+      "id": "dynamic-range/hlg",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/dynamic-range/hlg.webp"
+    },
+    {
+      "id": "dynamic-range/pq",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/dynamic-range/pq.webp"
+    },
+    {
+      "id": "dynamic-range/hdr-pq",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/dynamic-range/hdr-pq.webp"
+    },
+    {
+      "id": "dynamic-range/wcg",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/dynamic-range/wcg.webp"
+    },
+    {
+      "id": "dynamic-range/dynamic-hdr",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/dynamic-range/dynamic-hdr.webp"
+    },
+    {
+      "id": "dynamic-range/static-hdr",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/dynamic-range/static-hdr.webp"
+    },
+    {
+      "id": "dynamic-range/hdr-to-sdr",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/dynamic-range/hdr-to-sdr.webp"
+    },
+    {
+      "id": "dynamic-range/dual-layer",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/dynamic-range/dual-layer.webp"
+    },
+    {
+      "id": "dynamic-range/single-layer",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/dynamic-range/single-layer.webp"
+    },
+    {
+      "id": "video-codec/avc",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/avc.webp"
+    },
+    {
+      "id": "video-codec/h-264",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/h-264.webp"
+    },
+    {
+      "id": "video-codec/x264",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/x264.webp"
+    },
+    {
+      "id": "video-codec/hevc",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/hevc.webp"
+    },
+    {
+      "id": "video-codec/h-265",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/h-265.webp"
+    },
+    {
+      "id": "video-codec/x265",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/x265.webp"
+    },
+    {
+      "id": "video-codec/vvc",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/vvc.webp"
+    },
+    {
+      "id": "video-codec/h-266",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/h-266.webp"
+    },
+    {
+      "id": "video-codec/av1",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/av1.webp"
+    },
+    {
+      "id": "video-codec/vp8",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/vp8.webp"
+    },
+    {
+      "id": "video-codec/vp9",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/vp9.webp"
+    },
+    {
+      "id": "video-codec/mpeg-1",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/mpeg-1.webp"
+    },
+    {
+      "id": "video-codec/mpeg-2",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/mpeg-2.webp"
+    },
+    {
+      "id": "video-codec/mpeg-4",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/mpeg-4.webp"
+    },
+    {
+      "id": "video-codec/vc-1",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/vc-1.webp"
+    },
+    {
+      "id": "video-codec/wmv",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/wmv.webp"
+    },
+    {
+      "id": "video-codec/wmv3",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/wmv3.webp"
+    },
+    {
+      "id": "video-codec/divx",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/divx.webp"
+    },
+    {
+      "id": "video-codec/xvid",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/xvid.webp"
+    },
+    {
+      "id": "video-codec/theora",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/theora.webp"
+    },
+    {
+      "id": "video-codec/h-263",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/h-263.webp"
+    },
+    {
+      "id": "video-codec/mjpeg",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/mjpeg.webp"
+    },
+    {
+      "id": "video-codec/jpeg-2000",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/jpeg-2000.webp"
+    },
+    {
+      "id": "video-codec/prores",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/prores.webp"
+    },
+    {
+      "id": "video-codec/prores-422",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/prores-422.webp"
+    },
+    {
+      "id": "video-codec/prores-4444",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/prores-4444.webp"
+    },
+    {
+      "id": "video-codec/dnxhd",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/dnxhd.webp"
+    },
+    {
+      "id": "video-codec/dnxhr",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/dnxhr.webp"
+    },
+    {
+      "id": "video-codec/ffv1",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/ffv1.webp"
+    },
+    {
+      "id": "video-codec/raw-video",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/raw-video.webp"
+    },
+    {
+      "id": "video-codec/lcevc",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/lcevc.webp"
+    },
+    {
+      "id": "video-codec/evc",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/evc.webp"
+    },
+    {
+      "id": "video-codec/mvc",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/mvc.webp"
+    },
+    {
+      "id": "video-codec/avs2",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/avs2.webp"
+    },
+    {
+      "id": "video-codec/avs3",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/video-codec/avs3.webp"
+    },
+    {
+      "id": "audio-codec/aac",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/aac.webp"
+    },
+    {
+      "id": "audio-codec/aac-lc",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/aac-lc.webp"
+    },
+    {
+      "id": "audio-codec/he-aac",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/he-aac.webp"
+    },
+    {
+      "id": "audio-codec/he-aac-v2",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/he-aac-v2.webp"
+    },
+    {
+      "id": "audio-codec/xhe-aac",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/xhe-aac.webp"
+    },
+    {
+      "id": "audio-codec/ac-3",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/ac-3.webp"
+    },
+    {
+      "id": "audio-codec/e-ac-3",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/e-ac-3.webp"
+    },
+    {
+      "id": "audio-codec/ac-4",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/ac-4.webp"
+    },
+    {
+      "id": "audio-codec/mp2",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/mp2.webp"
+    },
+    {
+      "id": "audio-codec/mp3",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/mp3.webp"
+    },
+    {
+      "id": "audio-codec/flac",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/flac.webp"
+    },
+    {
+      "id": "audio-codec/alac",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/alac.webp"
+    },
+    {
+      "id": "audio-codec/pcm",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/pcm.webp"
+    },
+    {
+      "id": "audio-codec/lpcm",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/lpcm.webp"
+    },
+    {
+      "id": "audio-codec/wav",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/wav.webp"
+    },
+    {
+      "id": "audio-codec/wavpack",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/wavpack.webp"
+    },
+    {
+      "id": "audio-codec/opus",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/opus.webp"
+    },
+    {
+      "id": "audio-codec/vorbis",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/vorbis.webp"
+    },
+    {
+      "id": "audio-codec/ogg",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/ogg.webp"
+    },
+    {
+      "id": "audio-codec/wma",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/wma.webp"
+    },
+    {
+      "id": "audio-codec/wma-pro",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/wma-pro.webp"
+    },
+    {
+      "id": "audio-codec/ape",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/ape.webp"
+    },
+    {
+      "id": "audio-codec/dsd",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/dsd.webp"
+    },
+    {
+      "id": "audio-codec/dff",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/dff.webp"
+    },
+    {
+      "id": "audio-codec/dsf",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/dsf.webp"
+    },
+    {
+      "id": "audio-codec/mlp",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/mlp.webp"
+    },
+    {
+      "id": "audio-codec/mpeg-h",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/mpeg-h.webp"
+    },
+    {
+      "id": "audio-codec/iamf",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/iamf.webp"
+    },
+    {
+      "id": "audio-codec/atrac",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/atrac.webp"
+    },
+    {
+      "id": "audio-codec/speex",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/speex.webp"
+    },
+    {
+      "id": "audio-codec/dca",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/dca.webp"
+    },
+    {
+      "id": "audio-codec/ma",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/ma.webp"
+    },
+    {
+      "id": "audio-codec/hra",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/hra.webp"
+    },
+    {
+      "id": "audio-channel/mono",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-channel/mono.webp"
+    },
+    {
+      "id": "audio-channel/stereo",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-channel/stereo.webp"
+    },
+    {
+      "id": "audio-channel/dual-mono",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-channel/dual-mono.webp"
+    },
+    {
+      "id": "audio-channel/surround",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-channel/surround.webp"
+    },
+    {
+      "id": "audio-channel/1-0",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/1-0.webp"
+    },
+    {
+      "id": "audio-channel/2-0",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/2-0.webp"
+    },
+    {
+      "id": "audio-channel/2-1",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/2-1.webp"
+    },
+    {
+      "id": "audio-channel/3-0",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/3-0.webp"
+    },
+    {
+      "id": "audio-channel/3-1",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/3-1.webp"
+    },
+    {
+      "id": "audio-channel/4-0",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/4-0.webp"
+    },
+    {
+      "id": "audio-channel/4-1",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/4-1.webp"
+    },
+    {
+      "id": "audio-channel/5-0",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/5-0.webp"
+    },
+    {
+      "id": "audio-channel/5-1",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/5-1.webp"
+    },
+    {
+      "id": "audio-channel/5-1-2",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/5-1-2.webp"
+    },
+    {
+      "id": "audio-channel/5-1-4",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/5-1-4.webp"
+    },
+    {
+      "id": "audio-channel/6-0",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/6-0.webp"
+    },
+    {
+      "id": "audio-channel/6-1",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/6-1.webp"
+    },
+    {
+      "id": "audio-channel/7-0",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/7-0.webp"
+    },
+    {
+      "id": "audio-channel/7-1",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/7-1.webp"
+    },
+    {
+      "id": "audio-channel/7-1-2",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/7-1-2.webp"
+    },
+    {
+      "id": "audio-channel/7-1-4",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/7-1-4.webp"
+    },
+    {
+      "id": "audio-channel/7-1-6",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/7-1-6.webp"
+    },
+    {
+      "id": "audio-channel/9-1",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/9-1.webp"
+    },
+    {
+      "id": "audio-channel/9-1-2",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/9-1-2.webp"
+    },
+    {
+      "id": "audio-channel/9-1-4",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/9-1-4.webp"
+    },
+    {
+      "id": "audio-channel/9-1-6",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/9-1-6.webp"
+    },
+    {
+      "id": "audio-channel/11-1",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/11-1.webp"
+    },
+    {
+      "id": "audio-channel/11-1-4",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/11-1-4.webp"
+    },
+    {
+      "id": "audio-channel/13-1",
+      "matching": "channel metadata or audio codec context",
+      "image_path": "web/audio-channel/13-1.webp"
+    },
+    {
+      "id": "audio-channel/binaural",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-channel/binaural.webp"
+    },
+    {
+      "id": "audio-channel/spatial",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-channel/spatial.webp"
+    },
+    {
+      "id": "audio-channel/object-audio",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-channel/object-audio.webp"
+    },
+    {
+      "id": "audio-detail/lossless",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-detail/lossless.webp"
+    },
+    {
+      "id": "audio-detail/lossy",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-detail/lossy.webp"
+    },
+    {
+      "id": "audio-detail/hd-audio",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-detail/hd-audio.webp"
+    },
+    {
+      "id": "audio-detail/bitstream",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-detail/bitstream.webp"
+    },
+    {
+      "id": "audio-detail/passthrough",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-detail/passthrough.webp"
+    },
+    {
+      "id": "audio-detail/8-bit-pcm",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-detail/8-bit-pcm.webp"
+    },
+    {
+      "id": "audio-detail/16-bit-pcm",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-detail/16-bit-pcm.webp"
+    },
+    {
+      "id": "audio-detail/24-bit-pcm",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-detail/24-bit-pcm.webp"
+    },
+    {
+      "id": "audio-detail/32-bit-float",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-detail/32-bit-float.webp"
+    },
+    {
+      "id": "audio-detail/44-1-khz",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-detail/44-1-khz.webp"
+    },
+    {
+      "id": "audio-detail/48-khz",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-detail/48-khz.webp"
+    },
+    {
+      "id": "audio-detail/88-2-khz",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-detail/88-2-khz.webp"
+    },
+    {
+      "id": "audio-detail/96-khz",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-detail/96-khz.webp"
+    },
+    {
+      "id": "audio-detail/176-4-khz",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-detail/176-4-khz.webp"
+    },
+    {
+      "id": "audio-detail/192-khz",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-detail/192-khz.webp"
+    },
+    {
+      "id": "audio-detail/352-8-khz",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-detail/352-8-khz.webp"
+    },
+    {
+      "id": "audio-detail/384-khz",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-detail/384-khz.webp"
+    },
+    {
+      "id": "audio-detail/dsd64",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-detail/dsd64.webp"
+    },
+    {
+      "id": "audio-detail/dsd128",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-detail/dsd128.webp"
+    },
+    {
+      "id": "audio-detail/dsd256",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-detail/dsd256.webp"
+    },
+    {
+      "id": "audio-detail/dsd512",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-detail/dsd512.webp"
+    },
+    {
+      "id": "frame-rate/15-fps",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/frame-rate/15-fps.webp"
+    },
+    {
+      "id": "frame-rate/23-976-fps",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/frame-rate/23-976-fps.webp"
+    },
+    {
+      "id": "frame-rate/24-fps",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/frame-rate/24-fps.webp"
+    },
+    {
+      "id": "frame-rate/25-fps",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/frame-rate/25-fps.webp"
+    },
+    {
+      "id": "frame-rate/29-97-fps",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/frame-rate/29-97-fps.webp"
+    },
+    {
+      "id": "frame-rate/30-fps",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/frame-rate/30-fps.webp"
+    },
+    {
+      "id": "frame-rate/48-fps",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/frame-rate/48-fps.webp"
+    },
+    {
+      "id": "frame-rate/50-fps",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/frame-rate/50-fps.webp"
+    },
+    {
+      "id": "frame-rate/59-94-fps",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/frame-rate/59-94-fps.webp"
+    },
+    {
+      "id": "frame-rate/60-fps",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/frame-rate/60-fps.webp"
+    },
+    {
+      "id": "frame-rate/90-fps",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/frame-rate/90-fps.webp"
+    },
+    {
+      "id": "frame-rate/100-fps",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/frame-rate/100-fps.webp"
+    },
+    {
+      "id": "frame-rate/119-88-fps",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/frame-rate/119-88-fps.webp"
+    },
+    {
+      "id": "frame-rate/120-fps",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/frame-rate/120-fps.webp"
+    },
+    {
+      "id": "frame-rate/144-fps",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/frame-rate/144-fps.webp"
+    },
+    {
+      "id": "frame-rate/240-fps",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/frame-rate/240-fps.webp"
+    },
+    {
+      "id": "frame-rate/hfr",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/frame-rate/hfr.webp"
+    },
+    {
+      "id": "frame-rate/cfr",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/frame-rate/cfr.webp"
+    },
+    {
+      "id": "frame-rate/vfr",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/frame-rate/vfr.webp"
+    },
+    {
+      "id": "frame-rate/interlaced",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/frame-rate/interlaced.webp"
+    },
+    {
+      "id": "frame-rate/progressive",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/frame-rate/progressive.webp"
+    },
+    {
+      "id": "frame-rate/ivtc",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/frame-rate/ivtc.webp"
+    },
+    {
+      "id": "color/8-bit",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/color/8-bit.webp"
+    },
+    {
+      "id": "color/10-bit",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/color/10-bit.webp"
+    },
+    {
+      "id": "color/12-bit",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/color/12-bit.webp"
+    },
+    {
+      "id": "color/16-bit",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/color/16-bit.webp"
+    },
+    {
+      "id": "color/bt-601",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/color/bt-601.webp"
+    },
+    {
+      "id": "color/bt-709",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/color/bt-709.webp"
+    },
+    {
+      "id": "color/bt-2020",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/color/bt-2020.webp"
+    },
+    {
+      "id": "color/rec-709",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/color/rec-709.webp"
+    },
+    {
+      "id": "color/rec-2020",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/color/rec-2020.webp"
+    },
+    {
+      "id": "color/dci-p3",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/color/dci-p3.webp"
+    },
+    {
+      "id": "color/display-p3",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/color/display-p3.webp"
+    },
+    {
+      "id": "color/rgb",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/color/rgb.webp"
+    },
+    {
+      "id": "color/yuv",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/color/yuv.webp"
+    },
+    {
+      "id": "color/ycbcr",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/color/ycbcr.webp"
+    },
+    {
+      "id": "color/4-2-0",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/color/4-2-0.webp"
+    },
+    {
+      "id": "color/4-2-2",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/color/4-2-2.webp"
+    },
+    {
+      "id": "color/4-4-4",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/color/4-4-4.webp"
+    },
+    {
+      "id": "color/full-range",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/color/full-range.webp"
+    },
+    {
+      "id": "color/limited",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/color/limited.webp"
+    },
+    {
+      "id": "color/ycocg",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/color/ycocg.webp"
+    },
+    {
+      "id": "aspect-ratio/4-3",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/aspect-ratio/4-3.webp"
+    },
+    {
+      "id": "aspect-ratio/16-9",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/aspect-ratio/16-9.webp"
+    },
+    {
+      "id": "aspect-ratio/16-10",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/aspect-ratio/16-10.webp"
+    },
+    {
+      "id": "aspect-ratio/1-1",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/aspect-ratio/1-1.webp"
+    },
+    {
+      "id": "aspect-ratio/9-16",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/aspect-ratio/9-16.webp"
+    },
+    {
+      "id": "aspect-ratio/1-33-1",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/aspect-ratio/1-33-1.webp"
+    },
+    {
+      "id": "aspect-ratio/1-37-1",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/aspect-ratio/1-37-1.webp"
+    },
+    {
+      "id": "aspect-ratio/1-43-1",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/aspect-ratio/1-43-1.webp"
+    },
+    {
+      "id": "aspect-ratio/1-66-1",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/aspect-ratio/1-66-1.webp"
+    },
+    {
+      "id": "aspect-ratio/1-78-1",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/aspect-ratio/1-78-1.webp"
+    },
+    {
+      "id": "aspect-ratio/1-85-1",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/aspect-ratio/1-85-1.webp"
+    },
+    {
+      "id": "aspect-ratio/1-90-1",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/aspect-ratio/1-90-1.webp"
+    },
+    {
+      "id": "aspect-ratio/2-00-1",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/aspect-ratio/2-00-1.webp"
+    },
+    {
+      "id": "aspect-ratio/2-20-1",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/aspect-ratio/2-20-1.webp"
+    },
+    {
+      "id": "aspect-ratio/2-35-1",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/aspect-ratio/2-35-1.webp"
+    },
+    {
+      "id": "aspect-ratio/2-39-1",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/aspect-ratio/2-39-1.webp"
+    },
+    {
+      "id": "aspect-ratio/2-40-1",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/aspect-ratio/2-40-1.webp"
+    },
+    {
+      "id": "aspect-ratio/2-76-1",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/aspect-ratio/2-76-1.webp"
+    },
+    {
+      "id": "aspect-ratio/anamorphic",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/aspect-ratio/anamorphic.webp"
+    },
+    {
+      "id": "aspect-ratio/letterbox",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/aspect-ratio/letterbox.webp"
+    },
+    {
+      "id": "aspect-ratio/open-matte",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/aspect-ratio/open-matte.webp"
+    },
+    {
+      "id": "aspect-ratio/full-frame",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/aspect-ratio/full-frame.webp"
+    },
+    {
+      "id": "source/cam",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/cam.webp"
+    },
+    {
+      "id": "source/camrip",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/camrip.webp"
+    },
+    {
+      "id": "source/hdcam",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/hdcam.webp"
+    },
+    {
+      "id": "source/ts",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/ts.webp"
+    },
+    {
+      "id": "source/hdts",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/hdts.webp"
+    },
+    {
+      "id": "source/telesync",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/telesync.webp"
+    },
+    {
+      "id": "source/tc",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/tc.webp"
+    },
+    {
+      "id": "source/hdtc",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/hdtc.webp"
+    },
+    {
+      "id": "source/telecine",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/telecine.webp"
+    },
+    {
+      "id": "source/workprint",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/workprint.webp"
+    },
+    {
+      "id": "source/scr",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/scr.webp"
+    },
+    {
+      "id": "source/dvdscr",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/dvdscr.webp"
+    },
+    {
+      "id": "source/vhsrip",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/vhsrip.webp"
+    },
+    {
+      "id": "source/vhs",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/vhs.webp"
+    },
+    {
+      "id": "source/tvrip",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/tvrip.webp"
+    },
+    {
+      "id": "source/dvdrip",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/dvdrip.webp"
+    },
+    {
+      "id": "source/dvdremux",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/dvdremux.webp"
+    },
+    {
+      "id": "source/hdtv",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/hdtv.webp"
+    },
+    {
+      "id": "source/pdtv",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/pdtv.webp"
+    },
+    {
+      "id": "source/dtv",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/dtv.webp"
+    },
+    {
+      "id": "source/dsr",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/dsr.webp"
+    },
+    {
+      "id": "source/satrip",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/satrip.webp"
+    },
+    {
+      "id": "source/iptv",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/iptv.webp"
+    },
+    {
+      "id": "source/sdtv",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/sdtv.webp"
+    },
+    {
+      "id": "source/bdrip",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/bdrip.webp"
+    },
+    {
+      "id": "source/brrip",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/brrip.webp"
+    },
+    {
+      "id": "source/webrip",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/webrip.webp"
+    },
+    {
+      "id": "source/webcap",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/webcap.webp"
+    },
+    {
+      "id": "source/web-dl",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/web-dl.webp"
+    },
+    {
+      "id": "source/web",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/web.webp"
+    },
+    {
+      "id": "source/hdtvrip",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/hdtvrip.webp"
+    },
+    {
+      "id": "source/bdmux",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/bdmux.webp"
+    },
+    {
+      "id": "source/dvdr",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/dvdr.webp"
+    },
+    {
+      "id": "source/dvd5",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/dvd5.webp"
+    },
+    {
+      "id": "source/dvd9",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/dvd9.webp"
+    },
+    {
+      "id": "source/bd25",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/bd25.webp"
+    },
+    {
+      "id": "source/bd50",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/bd50.webp"
+    },
+    {
+      "id": "source/remux",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/remux.webp"
+    },
+    {
+      "id": "source/uhd-remux",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/uhd-remux.webp"
+    },
+    {
+      "id": "source/bdremux",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/bdremux.webp"
+    },
+    {
+      "id": "source/bd66",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/bd66.webp"
+    },
+    {
+      "id": "source/bd100",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/bd100.webp"
+    },
+    {
+      "id": "source/uhd-bdrip",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/uhd-bdrip.webp"
+    },
+    {
+      "id": "source/uhd-web-dl",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/uhd-web-dl.webp"
+    },
+    {
+      "id": "source/full-disc",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/full-disc.webp"
+    },
+    {
+      "id": "edition/theatrical",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/theatrical.webp"
+    },
+    {
+      "id": "edition/extended",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/extended.webp"
+    },
+    {
+      "id": "edition/director-cut",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/director-cut.webp"
+    },
+    {
+      "id": "edition/final-cut",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/final-cut.webp"
+    },
+    {
+      "id": "edition/uncut",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/uncut.webp"
+    },
+    {
+      "id": "edition/unrated",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/unrated.webp"
+    },
+    {
+      "id": "edition/censored",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/censored.webp"
+    },
+    {
+      "id": "edition/uncensored",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/uncensored.webp"
+    },
+    {
+      "id": "edition/remastered",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/remastered.webp"
+    },
+    {
+      "id": "edition/restored",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/restored.webp"
+    },
+    {
+      "id": "edition/special-ed",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/special-ed.webp"
+    },
+    {
+      "id": "edition/collector-ed",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/collector-ed.webp"
+    },
+    {
+      "id": "edition/anniversary",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/anniversary.webp"
+    },
+    {
+      "id": "edition/deluxe-ed",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/deluxe-ed.webp"
+    },
+    {
+      "id": "edition/limited-ed",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/limited-ed.webp"
+    },
+    {
+      "id": "edition/imax-ratio",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/imax-ratio.webp"
+    },
+    {
+      "id": "edition/open-matte",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/aspect-ratio/open-matte.webp"
+    },
+    {
+      "id": "edition/alternate-cut",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/alternate-cut.webp"
+    },
+    {
+      "id": "edition/fan-edit",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/fan-edit.webp"
+    },
+    {
+      "id": "edition/hybrid",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/hybrid.webp"
+    },
+    {
+      "id": "edition/proper",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/proper.webp"
+    },
+    {
+      "id": "edition/repack",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/repack.webp"
+    },
+    {
+      "id": "edition/rerip",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/rerip.webp"
+    },
+    {
+      "id": "edition/internal",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/internal.webp"
+    },
+    {
+      "id": "edition/complete",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/complete.webp"
+    },
+    {
+      "id": "edition/season-pack",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/season-pack.webp"
+    },
+    {
+      "id": "edition/series-pack",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/series-pack.webp"
+    },
+    {
+      "id": "edition/episode",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/episode.webp"
+    },
+    {
+      "id": "edition/bonus",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/bonus.webp"
+    },
+    {
+      "id": "edition/extras",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/extras.webp"
+    },
+    {
+      "id": "edition/trailer",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/trailer.webp"
+    },
+    {
+      "id": "edition/sample",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/sample.webp"
+    },
+    {
+      "id": "edition/colorized",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/colorized.webp"
+    },
+    {
+      "id": "edition/black-and-white",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/black-and-white.webp"
+    },
+    {
+      "id": "edition/silent-film",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/silent-film.webp"
+    },
+    {
+      "id": "edition/dual-version",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/dual-version.webp"
+    },
+    {
+      "id": "projection/2d",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/projection/2d.webp"
+    },
+    {
+      "id": "projection/3d",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/projection/3d.webp"
+    },
+    {
+      "id": "projection/sbs",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/projection/sbs.webp"
+    },
+    {
+      "id": "projection/hsbs",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/projection/hsbs.webp"
+    },
+    {
+      "id": "projection/fsbs",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/projection/fsbs.webp"
+    },
+    {
+      "id": "projection/tab",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/projection/tab.webp"
+    },
+    {
+      "id": "projection/htab",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/projection/htab.webp"
+    },
+    {
+      "id": "projection/ftab",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/projection/ftab.webp"
+    },
+    {
+      "id": "projection/frame-pack",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/projection/frame-pack.webp"
+    },
+    {
+      "id": "projection/anaglyph",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/projection/anaglyph.webp"
+    },
+    {
+      "id": "projection/mvc-3d",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/projection/mvc-3d.webp"
+    },
+    {
+      "id": "projection/vr",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/projection/vr.webp"
+    },
+    {
+      "id": "projection/vr180",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/projection/vr180.webp"
+    },
+    {
+      "id": "projection/360-video",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/projection/360-video.webp"
+    },
+    {
+      "id": "projection/equirect",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/projection/equirect.webp"
+    },
+    {
+      "id": "subtitles/subs",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/subs.webp"
+    },
+    {
+      "id": "subtitles/no-subs",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/no-subs.webp"
+    },
+    {
+      "id": "subtitles/multi-subs",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/multi-subs.webp"
+    },
+    {
+      "id": "subtitles/softsub",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/softsub.webp"
+    },
+    {
+      "id": "subtitles/hardsub",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/hardsub.webp"
+    },
+    {
+      "id": "subtitles/forced",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/forced.webp"
+    },
+    {
+      "id": "subtitles/sdh",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/sdh.webp"
+    },
+    {
+      "id": "subtitles/cc",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/cc.webp"
+    },
+    {
+      "id": "subtitles/ocr-subs",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/ocr-subs.webp"
+    },
+    {
+      "id": "subtitles/full-subs",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/full-subs.webp"
+    },
+    {
+      "id": "subtitles/signs",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/signs.webp"
+    },
+    {
+      "id": "subtitles/songs",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/songs.webp"
+    },
+    {
+      "id": "subtitles/dual-subs",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/dual-subs.webp"
+    },
+    {
+      "id": "subtitles/srt",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/srt.webp"
+    },
+    {
+      "id": "subtitles/ass",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/ass.webp"
+    },
+    {
+      "id": "subtitles/ssa",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/ssa.webp"
+    },
+    {
+      "id": "subtitles/pgs",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/pgs.webp"
+    },
+    {
+      "id": "subtitles/vobsub",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/vobsub.webp"
+    },
+    {
+      "id": "subtitles/dvd-sub",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/dvd-sub.webp"
+    },
+    {
+      "id": "subtitles/dvb-sub",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/dvb-sub.webp"
+    },
+    {
+      "id": "subtitles/webvtt",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/webvtt.webp"
+    },
+    {
+      "id": "subtitles/ttml",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/ttml.webp"
+    },
+    {
+      "id": "subtitles/dfxp",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/dfxp.webp"
+    },
+    {
+      "id": "subtitles/eia-608",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/eia-608.webp"
+    },
+    {
+      "id": "subtitles/cea-708",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/cea-708.webp"
+    },
+    {
+      "id": "subtitles/teletext",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/subtitles/teletext.webp"
+    },
+    {
+      "id": "language-mode/multi",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/language-mode/multi.webp"
+    },
+    {
+      "id": "language-mode/dual-audio",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/language-mode/dual-audio.webp"
+    },
+    {
+      "id": "language-mode/original",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/language-mode/original.webp"
+    },
+    {
+      "id": "language-mode/ov",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/language-mode/ov.webp"
+    },
+    {
+      "id": "language-mode/omu",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/language-mode/omu.webp"
+    },
+    {
+      "id": "language-mode/dubbed",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/language-mode/dubbed.webp"
+    },
+    {
+      "id": "language-mode/subbed",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/language-mode/subbed.webp"
+    },
+    {
+      "id": "language-mode/voice-over",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/language-mode/voice-over.webp"
+    },
+    {
+      "id": "language-mode/fan-dub",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/language-mode/fan-dub.webp"
+    },
+    {
+      "id": "language-mode/dub",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/language-mode/dub.webp"
+    },
+    {
+      "id": "language-mode/multilingual",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/language-mode/multilingual.webp"
+    },
+    {
+      "id": "language-mode/und",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/language-mode/und.webp"
+    },
+    {
+      "id": "language-mode/mul",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/language-mode/mul.webp"
+    },
+    {
+      "id": "language-mode/zxx",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/language-mode/zxx.webp"
+    },
+    {
+      "id": "accessibility/audio-desc",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/accessibility/audio-desc.webp"
+    },
+    {
+      "id": "accessibility/commentary",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/accessibility/commentary.webp"
+    },
+    {
+      "id": "accessibility/sign-language",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/accessibility/sign-language.webp"
+    },
+    {
+      "id": "accessibility/clean-audio",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/accessibility/clean-audio.webp"
+    },
+    {
+      "id": "accessibility/dialog-boost",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/accessibility/dialog-boost.webp"
+    },
+    {
+      "id": "accessibility/hearing-aid",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/accessibility/hearing-aid.webp"
+    },
+    {
+      "id": "accessibility/visual-aid",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/accessibility/visual-aid.webp"
+    },
+    {
+      "id": "container/mkv",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/mkv.webp"
+    },
+    {
+      "id": "container/mp4",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/mp4.webp"
+    },
+    {
+      "id": "container/m4v",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/m4v.webp"
+    },
+    {
+      "id": "container/webm",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/webm.webp"
+    },
+    {
+      "id": "container/avi",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/avi.webp"
+    },
+    {
+      "id": "container/mov",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/mov.webp"
+    },
+    {
+      "id": "container/mpg",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/mpg.webp"
+    },
+    {
+      "id": "container/mpeg",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/mpeg.webp"
+    },
+    {
+      "id": "container/ts",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/ts.webp"
+    },
+    {
+      "id": "container/m2ts",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/m2ts.webp"
+    },
+    {
+      "id": "container/mts",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/mts.webp"
+    },
+    {
+      "id": "container/vob",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/vob.webp"
+    },
+    {
+      "id": "container/iso",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/iso.webp"
+    },
+    {
+      "id": "container/bdmv",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/bdmv.webp"
+    },
+    {
+      "id": "container/flv",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/flv.webp"
+    },
+    {
+      "id": "container/wmv",
+      "matching": "file extension or container metadata",
+      "image_path": "web/video-codec/wmv.webp"
+    },
+    {
+      "id": "container/asf",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/asf.webp"
+    },
+    {
+      "id": "container/ogm",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/ogm.webp"
+    },
+    {
+      "id": "container/3gp",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/3gp.webp"
+    },
+    {
+      "id": "container/3g2",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/3g2.webp"
+    },
+    {
+      "id": "container/mxf",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/mxf.webp"
+    },
+    {
+      "id": "container/nut",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/nut.webp"
+    },
+    {
+      "id": "container/rmvb",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/rmvb.webp"
+    },
+    {
+      "id": "container/rm",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/rm.webp"
+    },
+    {
+      "id": "delivery/direct",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/direct.webp"
+    },
+    {
+      "id": "delivery/http",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/http.webp"
+    },
+    {
+      "id": "delivery/https",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/https.webp"
+    },
+    {
+      "id": "delivery/hls",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/hls.webp"
+    },
+    {
+      "id": "delivery/dash",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/dash.webp"
+    },
+    {
+      "id": "delivery/m3u8",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/m3u8.webp"
+    },
+    {
+      "id": "delivery/mpd",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/mpd.webp"
+    },
+    {
+      "id": "delivery/m3u",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/m3u.webp"
+    },
+    {
+      "id": "delivery/torrent",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/torrent.webp"
+    },
+    {
+      "id": "delivery/magnet",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/magnet.webp"
+    },
+    {
+      "id": "delivery/p2p",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/p2p.webp"
+    },
+    {
+      "id": "delivery/usenet",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/usenet.webp"
+    },
+    {
+      "id": "delivery/nzb",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/nzb.webp"
+    },
+    {
+      "id": "delivery/debrid",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/debrid.webp"
+    },
+    {
+      "id": "delivery/cdn",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/cdn.webp"
+    },
+    {
+      "id": "delivery/lan",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/lan.webp"
+    },
+    {
+      "id": "delivery/local",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/local.webp"
+    },
+    {
+      "id": "delivery/smb",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/smb.webp"
+    },
+    {
+      "id": "delivery/nfs",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/nfs.webp"
+    },
+    {
+      "id": "delivery/dlna",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/dlna.webp"
+    },
+    {
+      "id": "delivery/ftp",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/ftp.webp"
+    },
+    {
+      "id": "delivery/sftp",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/sftp.webp"
+    },
+    {
+      "id": "delivery/rtmp",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/rtmp.webp"
+    },
+    {
+      "id": "delivery/rtsp",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/rtsp.webp"
+    },
+    {
+      "id": "delivery/udp",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/udp.webp"
+    },
+    {
+      "id": "delivery/srt-live",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/srt-live.webp"
+    },
+    {
+      "id": "delivery/multicast",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/multicast.webp"
+    },
+    {
+      "id": "delivery/adaptive",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/adaptive.webp"
+    },
+    {
+      "id": "delivery/proxy",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/proxy.webp"
+    },
+    {
+      "id": "availability/cached",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/cached.webp"
+    },
+    {
+      "id": "availability/uncached",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/uncached.webp"
+    },
+    {
+      "id": "availability/instant",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/instant.webp"
+    },
+    {
+      "id": "availability/downloading",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/downloading.webp"
+    },
+    {
+      "id": "availability/queued",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/queued.webp"
+    },
+    {
+      "id": "availability/ready",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/ready.webp"
+    },
+    {
+      "id": "availability/live",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/live.webp"
+    },
+    {
+      "id": "availability/vod",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/vod.webp"
+    },
+    {
+      "id": "availability/replay",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/replay.webp"
+    },
+    {
+      "id": "availability/offline",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/offline.webp"
+    },
+    {
+      "id": "availability/online",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/online.webp"
+    },
+    {
+      "id": "availability/unavailable",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/unavailable.webp"
+    },
+    {
+      "id": "availability/expired",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/expired.webp"
+    },
+    {
+      "id": "availability/premium",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/premium.webp"
+    },
+    {
+      "id": "availability/free",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/free.webp"
+    },
+    {
+      "id": "availability/subscription",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/subscription.webp"
+    },
+    {
+      "id": "availability/ad-supported",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/ad-supported.webp"
+    },
+    {
+      "id": "availability/no-ads",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/no-ads.webp"
+    },
+    {
+      "id": "availability/geo-blocked",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/geo-blocked.webp"
+    },
+    {
+      "id": "availability/drm",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/drm.webp"
+    },
+    {
+      "id": "availability/no-drm",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/no-drm.webp"
+    },
+    {
+      "id": "availability/transcoded",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/transcoded.webp"
+    },
+    {
+      "id": "availability/direct-play",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/direct-play.webp"
+    },
+    {
+      "id": "availability/direct-stream",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/direct-stream.webp"
+    },
+    {
+      "id": "availability/external-audio",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/external-audio.webp"
+    },
+    {
+      "id": "availability/external-subs",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/external-subs.webp"
+    },
+    {
+      "id": "content/movie",
+      "matching": "explicit metadata context",
+      "image_path": "web/content/movie.webp"
+    },
+    {
+      "id": "content/series",
+      "matching": "explicit metadata context",
+      "image_path": "web/content/series.webp"
+    },
+    {
+      "id": "content/episode",
+      "matching": "explicit metadata context",
+      "image_path": "web/edition/episode.webp"
+    },
+    {
+      "id": "content/documentary",
+      "matching": "explicit metadata context",
+      "image_path": "web/content/documentary.webp"
+    },
+    {
+      "id": "content/anime",
+      "matching": "explicit metadata context",
+      "image_path": "web/content/anime.webp"
+    },
+    {
+      "id": "content/animation",
+      "matching": "explicit metadata context",
+      "image_path": "web/content/animation.webp"
+    },
+    {
+      "id": "content/concert",
+      "matching": "explicit metadata context",
+      "image_path": "web/content/concert.webp"
+    },
+    {
+      "id": "content/music-video",
+      "matching": "explicit metadata context",
+      "image_path": "web/content/music-video.webp"
+    },
+    {
+      "id": "content/sports",
+      "matching": "explicit metadata context",
+      "image_path": "web/content/sports.webp"
+    },
+    {
+      "id": "content/live-tv",
+      "matching": "explicit metadata context",
+      "image_path": "web/content/live-tv.webp"
+    },
+    {
+      "id": "content/short-film",
+      "matching": "explicit metadata context",
+      "image_path": "web/content/short-film.webp"
+    },
+    {
+      "id": "content/trailer",
+      "matching": "explicit metadata context",
+      "image_path": "web/edition/trailer.webp"
+    },
+    {
+      "id": "content/extra",
+      "matching": "explicit metadata context",
+      "image_path": "web/content/extra.webp"
+    },
+    {
+      "id": "language/aa",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/aa.webp"
+    },
+    {
+      "id": "language/ab",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ab.webp"
+    },
+    {
+      "id": "language/ae",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ae.webp"
+    },
+    {
+      "id": "language/af",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/af.webp"
+    },
+    {
+      "id": "language/ak",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ak.webp"
+    },
+    {
+      "id": "language/am",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/am.webp"
+    },
+    {
+      "id": "language/an",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/an.webp"
+    },
+    {
+      "id": "language/ar",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/ar.webp"
+    },
+    {
+      "id": "language/as",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/as.webp"
+    },
+    {
+      "id": "language/av",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/av.webp"
+    },
+    {
+      "id": "language/ay",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ay.webp"
+    },
+    {
+      "id": "language/az",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/az.webp"
+    },
+    {
+      "id": "language/ba",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ba.webp"
+    },
+    {
+      "id": "language/be",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/be.webp"
+    },
+    {
+      "id": "language/bg",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/bg.webp"
+    },
+    {
+      "id": "language/bi",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/bi.webp"
+    },
+    {
+      "id": "language/bm",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/bm.webp"
+    },
+    {
+      "id": "language/bn",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/bn.webp"
+    },
+    {
+      "id": "language/bo",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/bo.webp"
+    },
+    {
+      "id": "language/br",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/br.webp"
+    },
+    {
+      "id": "language/bs",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/bs.webp"
+    },
+    {
+      "id": "language/ca",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/ca.webp"
+    },
+    {
+      "id": "language/ce",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ce.webp"
+    },
+    {
+      "id": "language/ch",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ch.webp"
+    },
+    {
+      "id": "language/co",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/co.webp"
+    },
+    {
+      "id": "language/cr",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/cr.webp"
+    },
+    {
+      "id": "language/cs",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/cs.webp"
+    },
+    {
+      "id": "language/cu",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/cu.webp"
+    },
+    {
+      "id": "language/cv",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/cv.webp"
+    },
+    {
+      "id": "language/cy",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/cy.webp"
+    },
+    {
+      "id": "language/da",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/da.webp"
+    },
+    {
+      "id": "language/de",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/de.webp"
+    },
+    {
+      "id": "language/dv",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/dv.webp"
+    },
+    {
+      "id": "language/dz",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/dz.webp"
+    },
+    {
+      "id": "language/ee",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ee.webp"
+    },
+    {
+      "id": "language/el",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/el.webp"
+    },
+    {
+      "id": "language/en",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/en.webp"
+    },
+    {
+      "id": "language/eo",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/eo.webp"
+    },
+    {
+      "id": "language/es",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/es.webp"
+    },
+    {
+      "id": "language/et",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/et.webp"
+    },
+    {
+      "id": "language/eu",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/eu.webp"
+    },
+    {
+      "id": "language/fa",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/fa.webp"
+    },
+    {
+      "id": "language/ff",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ff.webp"
+    },
+    {
+      "id": "language/fi",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/fi.webp"
+    },
+    {
+      "id": "language/fj",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/fj.webp"
+    },
+    {
+      "id": "language/fo",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/fo.webp"
+    },
+    {
+      "id": "language/fr",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/fr.webp"
+    },
+    {
+      "id": "language/fy",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/fy.webp"
+    },
+    {
+      "id": "language/ga",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ga.webp"
+    },
+    {
+      "id": "language/gd",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/gd.webp"
+    },
+    {
+      "id": "language/gl",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/gl.webp"
+    },
+    {
+      "id": "language/gn",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/gn.webp"
+    },
+    {
+      "id": "language/gu",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/gu.webp"
+    },
+    {
+      "id": "language/gv",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/gv.webp"
+    },
+    {
+      "id": "language/ha",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ha.webp"
+    },
+    {
+      "id": "language/he",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/he.webp"
+    },
+    {
+      "id": "language/hi",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/hi.webp"
+    },
+    {
+      "id": "language/ho",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ho.webp"
+    },
+    {
+      "id": "language/hr",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/hr.webp"
+    },
+    {
+      "id": "language/ht",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ht.webp"
+    },
+    {
+      "id": "language/hu",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/hu.webp"
+    },
+    {
+      "id": "language/hy",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/hy.webp"
+    },
+    {
+      "id": "language/hz",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/hz.webp"
+    },
+    {
+      "id": "language/ia",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ia.webp"
+    },
+    {
+      "id": "language/id",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/id.webp"
+    },
+    {
+      "id": "language/ie",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ie.webp"
+    },
+    {
+      "id": "language/ig",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ig.webp"
+    },
+    {
+      "id": "language/ii",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ii.webp"
+    },
+    {
+      "id": "language/ik",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ik.webp"
+    },
+    {
+      "id": "language/io",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/io.webp"
+    },
+    {
+      "id": "language/is",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/is.webp"
+    },
+    {
+      "id": "language/it",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/it.webp"
+    },
+    {
+      "id": "language/iu",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/iu.webp"
+    },
+    {
+      "id": "language/ja",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/ja.webp"
+    },
+    {
+      "id": "language/jv",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/jv.webp"
+    },
+    {
+      "id": "language/ka",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/ka.webp"
+    },
+    {
+      "id": "language/kg",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/kg.webp"
+    },
+    {
+      "id": "language/ki",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ki.webp"
+    },
+    {
+      "id": "language/kj",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/kj.webp"
+    },
+    {
+      "id": "language/kk",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/kk.webp"
+    },
+    {
+      "id": "language/kl",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/kl.webp"
+    },
+    {
+      "id": "language/km",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/km.webp"
+    },
+    {
+      "id": "language/kn",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/kn.webp"
+    },
+    {
+      "id": "language/ko",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/ko.webp"
+    },
+    {
+      "id": "language/kr",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/kr.webp"
+    },
+    {
+      "id": "language/ks",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ks.webp"
+    },
+    {
+      "id": "language/ku",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ku.webp"
+    },
+    {
+      "id": "language/kv",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/kv.webp"
+    },
+    {
+      "id": "language/kw",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/kw.webp"
+    },
+    {
+      "id": "language/ky",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ky.webp"
+    },
+    {
+      "id": "language/la",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/la.webp"
+    },
+    {
+      "id": "language/lb",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/lb.webp"
+    },
+    {
+      "id": "language/lg",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/lg.webp"
+    },
+    {
+      "id": "language/li",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/li.webp"
+    },
+    {
+      "id": "language/ln",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ln.webp"
+    },
+    {
+      "id": "language/lo",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/lo.webp"
+    },
+    {
+      "id": "language/lt",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/lt.webp"
+    },
+    {
+      "id": "language/lu",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/lu.webp"
+    },
+    {
+      "id": "language/lv",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/lv.webp"
+    },
+    {
+      "id": "language/mg",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/mg.webp"
+    },
+    {
+      "id": "language/mh",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/mh.webp"
+    },
+    {
+      "id": "language/mi",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/mi.webp"
+    },
+    {
+      "id": "language/mk",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/mk.webp"
+    },
+    {
+      "id": "language/ml",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ml.webp"
+    },
+    {
+      "id": "language/mn",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/mn.webp"
+    },
+    {
+      "id": "language/mr",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/mr.webp"
+    },
+    {
+      "id": "language/ms",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/ms.webp"
+    },
+    {
+      "id": "language/mt",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/mt.webp"
+    },
+    {
+      "id": "language/my",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/my.webp"
+    },
+    {
+      "id": "language/na",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/na.webp"
+    },
+    {
+      "id": "language/nb",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/nb.webp"
+    },
+    {
+      "id": "language/nd",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/nd.webp"
+    },
+    {
+      "id": "language/ne",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ne.webp"
+    },
+    {
+      "id": "language/ng",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ng.webp"
+    },
+    {
+      "id": "language/nl",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/nl.webp"
+    },
+    {
+      "id": "language/nn",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/nn.webp"
+    },
+    {
+      "id": "language/no",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/no.webp"
+    },
+    {
+      "id": "language/nr",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/nr.webp"
+    },
+    {
+      "id": "language/nv",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/nv.webp"
+    },
+    {
+      "id": "language/ny",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ny.webp"
+    },
+    {
+      "id": "language/oc",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/oc.webp"
+    },
+    {
+      "id": "language/oj",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/oj.webp"
+    },
+    {
+      "id": "language/om",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/om.webp"
+    },
+    {
+      "id": "language/or",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/or.webp"
+    },
+    {
+      "id": "language/os",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/os.webp"
+    },
+    {
+      "id": "language/pa",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/pa.webp"
+    },
+    {
+      "id": "language/pi",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/pi.webp"
+    },
+    {
+      "id": "language/pl",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/pl.webp"
+    },
+    {
+      "id": "language/ps",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ps.webp"
+    },
+    {
+      "id": "language/pt",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/pt.webp"
+    },
+    {
+      "id": "language/qu",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/qu.webp"
+    },
+    {
+      "id": "language/rm",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/container/rm.webp"
+    },
+    {
+      "id": "language/rn",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/rn.webp"
+    },
+    {
+      "id": "language/ro",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/ro.webp"
+    },
+    {
+      "id": "language/ru",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/ru.webp"
+    },
+    {
+      "id": "language/rw",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/rw.webp"
+    },
+    {
+      "id": "language/sa",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/sa.webp"
+    },
+    {
+      "id": "language/sc",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/sc.webp"
+    },
+    {
+      "id": "language/sd",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/sd.webp"
+    },
+    {
+      "id": "language/se",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/se.webp"
+    },
+    {
+      "id": "language/sg",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/sg.webp"
+    },
+    {
+      "id": "language/sh",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/sh.webp"
+    },
+    {
+      "id": "language/si",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/si.webp"
+    },
+    {
+      "id": "language/sk",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/sk.webp"
+    },
+    {
+      "id": "language/sl",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/sl.webp"
+    },
+    {
+      "id": "language/sm",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/sm.webp"
+    },
+    {
+      "id": "language/sn",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/sn.webp"
+    },
+    {
+      "id": "language/so",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/so.webp"
+    },
+    {
+      "id": "language/sq",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/sq.webp"
+    },
+    {
+      "id": "language/sr",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/sr.webp"
+    },
+    {
+      "id": "language/ss",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ss.webp"
+    },
+    {
+      "id": "language/st",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/st.webp"
+    },
+    {
+      "id": "language/su",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/su.webp"
+    },
+    {
+      "id": "language/sv",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/sv.webp"
+    },
+    {
+      "id": "language/sw",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/sw.webp"
+    },
+    {
+      "id": "language/ta",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ta.webp"
+    },
+    {
+      "id": "language/te",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/te.webp"
+    },
+    {
+      "id": "language/tg",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/tg.webp"
+    },
+    {
+      "id": "language/th",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/th.webp"
+    },
+    {
+      "id": "language/ti",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ti.webp"
+    },
+    {
+      "id": "language/tk",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/tk.webp"
+    },
+    {
+      "id": "language/tl",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/tl.webp"
+    },
+    {
+      "id": "language/tn",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/tn.webp"
+    },
+    {
+      "id": "language/to",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/to.webp"
+    },
+    {
+      "id": "language/tr",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/tr.webp"
+    },
+    {
+      "id": "language/ts",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/container/ts.webp"
+    },
+    {
+      "id": "language/tt",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/tt.webp"
+    },
+    {
+      "id": "language/tw",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/tw.webp"
+    },
+    {
+      "id": "language/ty",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ty.webp"
+    },
+    {
+      "id": "language/ug",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ug.webp"
+    },
+    {
+      "id": "language/uk",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/uk.webp"
+    },
+    {
+      "id": "language/ur",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/ur.webp"
+    },
+    {
+      "id": "language/uz",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/uz.webp"
+    },
+    {
+      "id": "language/ve",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ve.webp"
+    },
+    {
+      "id": "language/vi",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/vi.webp"
+    },
+    {
+      "id": "language/vo",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/vo.webp"
+    },
+    {
+      "id": "language/wa",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/wa.webp"
+    },
+    {
+      "id": "language/wo",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/wo.webp"
+    },
+    {
+      "id": "language/xh",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/xh.webp"
+    },
+    {
+      "id": "language/yi",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/yi.webp"
+    },
+    {
+      "id": "language/yo",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/yo.webp"
+    },
+    {
+      "id": "language/za",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/za.webp"
+    },
+    {
+      "id": "language/zh",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/zh.webp"
+    },
+    {
+      "id": "language/zu",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/zu.webp"
+    },
+    {
+      "id": "language/ace",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ace.webp"
+    },
+    {
+      "id": "language/ary",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ary.webp"
+    },
+    {
+      "id": "language/arz",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/arz.webp"
+    },
+    {
+      "id": "language/ast",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ast.webp"
+    },
+    {
+      "id": "language/awa",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/awa.webp"
+    },
+    {
+      "id": "language/bal",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/bal.webp"
+    },
+    {
+      "id": "language/bho",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/bho.webp"
+    },
+    {
+      "id": "language/ceb",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ceb.webp"
+    },
+    {
+      "id": "language/ckb",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ckb.webp"
+    },
+    {
+      "id": "language/cmn",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/cmn.webp"
+    },
+    {
+      "id": "language/doi",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/doi.webp"
+    },
+    {
+      "id": "language/fil",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/fil.webp"
+    },
+    {
+      "id": "language/gsw",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/gsw.webp"
+    },
+    {
+      "id": "language/hak",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/hak.webp"
+    },
+    {
+      "id": "language/haw",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/haw.webp"
+    },
+    {
+      "id": "language/ilo",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ilo.webp"
+    },
+    {
+      "id": "language/kab",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/kab.webp"
+    },
+    {
+      "id": "language/kok",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/kok.webp"
+    },
+    {
+      "id": "language/mai",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/mai.webp"
+    },
+    {
+      "id": "language/mni",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/mni.webp"
+    },
+    {
+      "id": "language/nan",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/nan.webp"
+    },
+    {
+      "id": "language/nds",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/nds.webp"
+    },
+    {
+      "id": "language/pam",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/pam.webp"
+    },
+    {
+      "id": "language/rom",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/rom.webp"
+    },
+    {
+      "id": "language/sat",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/sat.webp"
+    },
+    {
+      "id": "language/sco",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/sco.webp"
+    },
+    {
+      "id": "language/war",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/war.webp"
+    },
+    {
+      "id": "language/yue",
+      "matching": "selected language names, ISO-639-2 aliases, explicit language codes and flag markers",
+      "image_path": "web/language/yue.webp"
+    },
+    {
+      "id": "language-region/en-us",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/en-us.webp"
+    },
+    {
+      "id": "language-region/en-gb",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/en-gb.webp"
+    },
+    {
+      "id": "language-region/en-au",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/en-au.webp"
+    },
+    {
+      "id": "language-region/en-ca",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/en-ca.webp"
+    },
+    {
+      "id": "language-region/de-de",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/de-de.webp"
+    },
+    {
+      "id": "language-region/de-at",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/de-at.webp"
+    },
+    {
+      "id": "language-region/de-ch",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/de-ch.webp"
+    },
+    {
+      "id": "language-region/fr-fr",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/fr-fr.webp"
+    },
+    {
+      "id": "language-region/fr-ca",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/fr-ca.webp"
+    },
+    {
+      "id": "language-region/fr-be",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/fr-be.webp"
+    },
+    {
+      "id": "language-region/pt-br",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/pt-br.webp"
+    },
+    {
+      "id": "language-region/pt-pt",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/pt-pt.webp"
+    },
+    {
+      "id": "language-region/es-es",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/es-es.webp"
+    },
+    {
+      "id": "language-region/es-mx",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/es-mx.webp"
+    },
+    {
+      "id": "language-region/es-419",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/es-419.webp"
+    },
+    {
+      "id": "language-region/zh-cn",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/zh-cn.webp"
+    },
+    {
+      "id": "language-region/zh-tw",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/zh-tw.webp"
+    },
+    {
+      "id": "language-region/zh-hk",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/zh-hk.webp"
+    },
+    {
+      "id": "language-region/zh-hans",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/zh-hans.webp"
+    },
+    {
+      "id": "language-region/zh-hant",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/zh-hant.webp"
+    },
+    {
+      "id": "language-region/nl-be",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/nl-be.webp"
+    },
+    {
+      "id": "language-region/ar-eg",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/ar-eg.webp"
+    },
+    {
+      "id": "language-region/ar-sa",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/ar-sa.webp"
+    },
+    {
+      "id": "language-region/fa-ir",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/fa-ir.webp"
+    },
+    {
+      "id": "language-region/sr-latn",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/sr-latn.webp"
+    },
+    {
+      "id": "language-region/sr-cyrl",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/sr-cyrl.webp"
+    },
+    {
+      "id": "language-region/tr-tr",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/tr-tr.webp"
+    },
+    {
+      "id": "language-region/hi-in",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/hi-in.webp"
+    },
+    {
+      "id": "audio-brand/dolby",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-brand/dolby.webp"
+    },
+    {
+      "id": "audio-brand/dolby-atmos",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-brand/dolby-atmos.webp"
+    },
+    {
+      "id": "audio-brand/dolby-digital",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-brand/dolby-digital.webp"
+    },
+    {
+      "id": "audio-brand/dolby-digital-plus",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-brand/dolby-digital-plus.webp"
+    },
+    {
+      "id": "audio-brand/dolby-truehd",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-brand/dolby-truehd.webp"
+    },
+    {
+      "id": "audio-brand/dts",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-brand/dts.webp"
+    },
+    {
+      "id": "audio-brand/dts-hd-ma",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-brand/dts-hd-ma.webp"
+    },
+    {
+      "id": "picture-brand/dolby-vision",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/picture-brand/dolby-vision.webp"
+    },
+    {
+      "id": "picture-brand/hdr10plus",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/picture-brand/hdr10plus.webp"
+    },
+    {
+      "id": "picture-brand/hdr10plus-advanced",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/picture-brand/hdr10plus-advanced.webp"
+    },
+    {
+      "id": "picture-brand/hdr10plus-gaming",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/picture-brand/hdr10plus-gaming.webp"
+    },
+    {
+      "id": "picture-brand/imax-enhanced",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/picture-brand/imax-enhanced.webp"
+    },
+    {
+      "id": "disc-brand/blu-ray",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/disc-brand/blu-ray.webp"
+    },
+    {
+      "id": "disc-brand/uhd-blu-ray",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/disc-brand/uhd-blu-ray.webp"
+    },
+    {
+      "id": "disc-brand/blu-ray-3d",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/disc-brand/blu-ray-3d.webp"
+    },
+    {
+      "id": "disc-brand/blu-ray-4k",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/disc-brand/blu-ray-4k.webp"
+    },
+    {
+      "id": "disc-brand/dvd",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/disc-brand/dvd.webp"
+    },
+    {
+      "id": "service/apple-tv",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/apple-tv.webp"
+    },
+    {
+      "id": "service/netflix",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/netflix.webp"
+    },
+    {
+      "id": "service/disney-plus",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/disney-plus.webp"
+    },
+    {
+      "id": "service/prime-video",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/prime-video.webp"
+    },
+    {
+      "id": "service/paramount-plus",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/paramount-plus.webp"
+    },
+    {
+      "id": "service/hulu",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/hulu.webp"
+    },
+    {
+      "id": "service/magenta-tv",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/magenta-tv.webp"
+    },
+    {
+      "id": "service/rakuten-tv",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/rakuten-tv.webp"
+    },
+    {
+      "id": "service/youtube",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/youtube.webp"
+    },
+    {
+      "id": "service/ivi",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/ivi.webp"
+    },
+    {
+      "id": "service/megogo",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/megogo.webp"
+    },
+    {
+      "id": "service/watcha",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/watcha.webp"
+    },
+    {
+      "id": "service/tving",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/tving.webp"
+    },
+    {
+      "id": "service/iqiyi",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/iqiyi.webp"
+    },
+    {
+      "id": "audio-brand/dts-x",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-brand/dts-x.webp"
+    },
+    {
+      "id": "service/hbo-max",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/hbo-max.webp"
+    },
+    {
+      "id": "service/peacock",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/peacock.webp"
+    },
+    {
+      "id": "service/crunchyroll",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/crunchyroll.webp"
+    },
+    {
+      "id": "service/discovery-plus",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/discovery-plus.webp"
+    },
+    {
+      "id": "service/mubi",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/mubi.webp"
+    },
+    {
+      "id": "service/plex",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/plex.webp"
+    },
+    {
+      "id": "service/pluto-tv",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/pluto-tv.webp"
+    },
+    {
+      "id": "service/tubi",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/tubi.webp"
+    },
+    {
+      "id": "service/arte",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/arte.webp"
+    },
+    {
+      "id": "service/ard",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/ard.webp"
+    },
+    {
+      "id": "service/zdf",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/zdf.webp"
+    },
+    {
+      "id": "service/rtl-plus",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/rtl-plus.webp"
+    },
+    {
+      "id": "service/joyn",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/joyn.webp"
+    },
+    {
+      "id": "service/wow",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/wow.webp"
+    },
+    {
+      "id": "service/dazn",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/dazn.webp"
+    },
+    {
+      "id": "service/sky",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/sky.webp"
+    },
+    {
+      "id": "service/now",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/now.webp"
+    },
+    {
+      "id": "service/canal-plus",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/canal-plus.webp"
+    },
+    {
+      "id": "provider/torbox",
+      "matching": "provider names; short provider codes require provider context",
+      "image_path": "web/provider/torbox.webp"
+    },
+    {
+      "id": "provider/premiumize",
+      "matching": "provider names; short provider codes require provider context",
+      "image_path": "web/provider/premiumize.webp"
+    },
+    {
+      "id": "provider/real-debrid",
+      "matching": "provider names; short provider codes require provider context",
+      "image_path": "web/provider/real-debrid.webp"
+    },
+    {
+      "id": "provider/all-debrid",
+      "matching": "provider names; short provider codes require provider context",
+      "image_path": "web/provider/all-debrid.webp"
+    },
+    {
+      "id": "provider/debrid-link",
+      "matching": "provider names; short provider codes require provider context",
+      "image_path": "web/provider/debrid-link.webp"
+    },
+    {
+      "id": "provider/easynews",
+      "matching": "provider names; short provider codes require provider context",
+      "image_path": "web/provider/easynews.webp"
+    },
+    {
+      "id": "provider/put-io",
+      "matching": "provider names; short provider codes require provider context",
+      "image_path": "web/provider/put-io.webp"
+    },
+    {
+      "id": "provider/offcloud",
+      "matching": "provider names; short provider codes require provider context",
+      "image_path": "web/provider/offcloud.webp"
+    },
+    {
+      "id": "general/unknown",
+      "matching": "explicit metadata context",
+      "image_path": "web/general/unknown.webp"
+    },
+    {
+      "id": "general/only",
+      "matching": "explicit metadata context",
+      "image_path": "web/general/only.webp"
+    },
+    {
+      "id": "general/plus",
+      "matching": "explicit metadata context",
+      "image_path": "web/general/plus.webp"
+    },
+    {
+      "id": "audio-brand/dts-hd",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-brand/dts-hd.webp"
+    },
+    {
+      "id": "audio-brand/dts-es",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-brand/dts-es.webp"
+    },
+    {
+      "id": "picture-brand/imax",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/picture-brand/imax.webp"
+    },
+    {
+      "id": "edition-brand/criterion-collection",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition-brand/criterion-collection.webp"
+    },
+    {
+      "id": "language-region/ar-ae",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/ar-ae.webp"
+    },
+    {
+      "id": "language-region/en-ie",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/en-ie.webp"
+    },
+    {
+      "id": "language-region/en-nz",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/en-nz.webp"
+    },
+    {
+      "id": "language-region/oc-fr",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/oc-fr.webp"
+    },
+    {
+      "id": "language-region/to-to",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/to-to.webp"
+    },
+    {
+      "id": "language-region/zh-sg",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/zh-sg.webp"
+    },
+    {
+      "id": "language-region/sw-tz",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/sw-tz.webp"
+    },
+    {
+      "id": "language-region/fr-ch",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/fr-ch.webp"
+    },
+    {
+      "id": "language-region/it-ch",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/it-ch.webp"
+    },
+    {
+      "id": "language-region/es-ar",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/es-ar.webp"
+    },
+    {
+      "id": "language-region/es-co",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/es-co.webp"
+    },
+    {
+      "id": "language-region/es-cl",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/es-cl.webp"
+    },
+    {
+      "id": "language-region/es-pe",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/es-pe.webp"
+    },
+    {
+      "id": "language-region/es-ve",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/es-ve.webp"
+    },
+    {
+      "id": "language-region/ar-ma",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/ar-ma.webp"
+    },
+    {
+      "id": "language-region/ar-dz",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/ar-dz.webp"
+    },
+    {
+      "id": "language-region/ar-tn",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/ar-tn.webp"
+    },
+    {
+      "id": "language-region/ar-ly",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/ar-ly.webp"
+    },
+    {
+      "id": "language-region/ar-jo",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/ar-jo.webp"
+    },
+    {
+      "id": "language-region/ar-sy",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/ar-sy.webp"
+    },
+    {
+      "id": "language-region/ar-lb",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/ar-lb.webp"
+    },
+    {
+      "id": "language-region/ar-iq",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/ar-iq.webp"
+    },
+    {
+      "id": "language-region/ar-kw",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/ar-kw.webp"
+    },
+    {
+      "id": "language-region/ar-bh",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/ar-bh.webp"
+    },
+    {
+      "id": "language-region/ar-qa",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/ar-qa.webp"
+    },
+    {
+      "id": "language-region/ar-om",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/ar-om.webp"
+    },
+    {
+      "id": "language-region/ar-ye",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/ar-ye.webp"
+    },
+    {
+      "id": "language-region/ar-sd",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/ar-sd.webp"
+    },
+    {
+      "id": "language/ach",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ach.webp"
+    },
+    {
+      "id": "language/ada",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ada.webp"
+    },
+    {
+      "id": "language/ady",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ady.webp"
+    },
+    {
+      "id": "language/afa",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/afa.webp"
+    },
+    {
+      "id": "language/afh",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/afh.webp"
+    },
+    {
+      "id": "language/agq",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/agq.webp"
+    },
+    {
+      "id": "language/ain",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ain.webp"
+    },
+    {
+      "id": "language/akk",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/akk.webp"
+    },
+    {
+      "id": "language/ale",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/ale.webp"
+    },
+    {
+      "id": "language/alt",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/alt.webp"
+    },
+    {
+      "id": "language-region/ang-gb",
+      "matching": "explicit metadata context",
+      "image_path": "web/language-region/ang-gb.webp"
+    },
+    {
+      "id": "language/anp",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/anp.webp"
+    },
+    {
+      "id": "language/arc",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/arc.webp"
+    },
+    {
+      "id": "language/arn",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/arn.webp"
+    },
+    {
+      "id": "language/arp",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/arp.webp"
+    },
+    {
+      "id": "language/arw",
+      "matching": "explicit language metadata; outside the selected 50-language series",
+      "image_path": "web/language/arw.webp"
+    },
+    {
+      "id": "source/blu-ray-remux",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/blu-ray-remux.webp"
+    },
+    {
+      "id": "source/hdrip",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/hdrip.webp"
+    },
+    {
+      "id": "source/hc-hd-rip",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/hc-hd-rip.webp"
+    },
+    {
+      "id": "picture-brand/hdr-dolby-vision",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/picture-brand/hdr-dolby-vision.webp"
+    },
+    {
+      "id": "picture-brand/dolby-vision-only",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/picture-brand/dolby-vision-only.webp"
+    },
+    {
+      "id": "dynamic-range/hdr-only",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/dynamic-range/hdr-only.webp"
+    },
+    {
+      "id": "dynamic-range/ai",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/dynamic-range/ai.webp"
+    },
+    {
+      "id": "dynamic-range/upscaled",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/dynamic-range/upscaled.webp"
+    },
+    {
+      "id": "projection/hou",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/projection/hou.webp"
+    },
+    {
+      "id": "provider/easydebrid",
+      "matching": "provider names; short provider codes require provider context",
+      "image_path": "web/provider/easydebrid.webp"
+    },
+    {
+      "id": "provider/debrider",
+      "matching": "provider names; short provider codes require provider context",
+      "image_path": "web/provider/debrider.webp"
+    },
+    {
+      "id": "provider/pikpak",
+      "matching": "provider names; short provider codes require provider context",
+      "image_path": "web/provider/pikpak.webp"
+    },
+    {
+      "id": "provider/seedr",
+      "matching": "provider names; short provider codes require provider context",
+      "image_path": "web/provider/seedr.webp"
+    },
+    {
+      "id": "provider/nzbdav",
+      "matching": "provider names; short provider codes require provider context",
+      "image_path": "web/provider/nzbdav.webp"
+    },
+    {
+      "id": "provider/altmount",
+      "matching": "provider names; short provider codes require provider context",
+      "image_path": "web/provider/altmount.webp"
+    },
+    {
+      "id": "provider/stremio-nntp",
+      "matching": "provider names; short provider codes require provider context",
+      "image_path": "web/provider/stremio-nntp.webp"
+    },
+    {
+      "id": "provider/stremthru-newz",
+      "matching": "provider names; short provider codes require provider context",
+      "image_path": "web/provider/stremthru-newz.webp"
+    },
+    {
+      "id": "provider/aiostreams",
+      "matching": "provider names; short provider codes require provider context",
+      "image_path": "web/provider/aiostreams.webp"
+    },
+    {
+      "id": "provider/torrin",
+      "matching": "provider names; short provider codes require provider context",
+      "image_path": "web/provider/torrin.webp"
+    },
+    {
+      "id": "proxy/builtin",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/proxy/builtin.webp"
+    },
+    {
+      "id": "proxy/stremthru",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/proxy/stremthru.webp"
+    },
+    {
+      "id": "proxy/mediaflow",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/proxy/mediaflow.webp"
+    },
+    {
+      "id": "delivery/live",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/availability/live.webp"
+    },
+    {
+      "id": "delivery/stremio-usenet",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/stremio-usenet.webp"
+    },
+    {
+      "id": "delivery/archive",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/archive.webp"
+    },
+    {
+      "id": "delivery/external",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/external.webp"
+    },
+    {
+      "id": "delivery/youtube",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/youtube.webp"
+    },
+    {
+      "id": "delivery/error",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/error.webp"
+    },
+    {
+      "id": "delivery/statistic",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/statistic.webp"
+    },
+    {
+      "id": "delivery/info",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/delivery/info.webp"
+    },
+    {
+      "id": "content/channel",
+      "matching": "explicit metadata context",
+      "image_path": "web/content/channel.webp"
+    },
+    {
+      "id": "content/tv",
+      "matching": "explicit metadata context",
+      "image_path": "web/content/tv.webp"
+    },
+    {
+      "id": "availability/size",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/size.webp"
+    },
+    {
+      "id": "availability/bitrate",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/bitrate.webp"
+    },
+    {
+      "id": "availability/resolution",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/resolution.webp"
+    },
+    {
+      "id": "availability/quality",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/quality.webp"
+    },
+    {
+      "id": "availability/encode",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/encode.webp"
+    },
+    {
+      "id": "availability/release-group",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/release-group.webp"
+    },
+    {
+      "id": "availability/edition",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/edition.webp"
+    },
+    {
+      "id": "availability/remastered",
+      "matching": "explicit metadata context",
+      "image_path": "web/edition/remastered.webp"
+    },
+    {
+      "id": "availability/network",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/network.webp"
+    },
+    {
+      "id": "availability/container",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/container.webp"
+    },
+    {
+      "id": "availability/visual-tags",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/visual-tags.webp"
+    },
+    {
+      "id": "availability/audio-tags",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/audio-tags.webp"
+    },
+    {
+      "id": "availability/audio-channels",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/audio-channels.webp"
+    },
+    {
+      "id": "availability/languages",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/languages.webp"
+    },
+    {
+      "id": "availability/repack",
+      "matching": "explicit metadata context",
+      "image_path": "web/edition/repack.webp"
+    },
+    {
+      "id": "availability/proper",
+      "matching": "explicit metadata context",
+      "image_path": "web/edition/proper.webp"
+    },
+    {
+      "id": "availability/country",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/country.webp"
+    },
+    {
+      "id": "release-group/20-40",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/release-group/20-40.webp"
+    },
+    {
+      "id": "release-group/erai-raws",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/release-group/erai-raws.webp"
+    },
+    {
+      "id": "edition/dragon-box",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/dragon-box.webp"
+    },
+    {
+      "id": "edition/color-corr",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/color-corr.webp"
+    },
+    {
+      "id": "edition/ultimate-ed",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/ultimate-ed.webp"
+    },
+    {
+      "id": "edition/diamond-ed",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/diamond-ed.webp"
+    },
+    {
+      "id": "accessibility/asl",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/accessibility/asl.webp"
+    },
+    {
+      "id": "source/uhdrip",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/uhdrip.webp"
+    },
+    {
+      "id": "source/vodr",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/vodr.webp"
+    },
+    {
+      "id": "source/ppv",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/ppv.webp"
+    },
+    {
+      "id": "source/ppvrip",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/ppvrip.webp"
+    },
+    {
+      "id": "source/r5",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/r5.webp"
+    },
+    {
+      "id": "source/web-dlrip",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/web-dlrip.webp"
+    },
+    {
+      "id": "projection/3d-hsbs",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/projection/3d-hsbs.webp"
+    },
+    {
+      "id": "projection/3d-sbs",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/projection/3d-sbs.webp"
+    },
+    {
+      "id": "projection/3d-hou",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/projection/3d-hou.webp"
+    },
+    {
+      "id": "projection/3d-ou",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/projection/3d-ou.webp"
+    },
+    {
+      "id": "audio-brand/dts-lossless",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-brand/dts-lossless.webp"
+    },
+    {
+      "id": "audio-brand/dts-lossy",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-brand/dts-lossy.webp"
+    },
+    {
+      "id": "audio-codec/hq",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/hq.webp"
+    },
+    {
+      "id": "language-mode/multi-audio",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/language-mode/multi-audio.webp"
+    },
+    {
+      "id": "release-site/eztv-re",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/release-site/eztv-re.webp"
+    },
+    {
+      "id": "service/nickelodeon",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/nickelodeon.webp"
+    },
+    {
+      "id": "service/disney",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/service/disney.webp"
+    },
+    {
+      "id": "service/hbo",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/service/hbo.webp"
+    },
+    {
+      "id": "service/showtime",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/showtime.webp"
+    },
+    {
+      "id": "service/crave",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/crave.webp"
+    },
+    {
+      "id": "service/amc-plus",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/amc-plus.webp"
+    },
+    {
+      "id": "service/stan",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/stan.webp"
+    },
+    {
+      "id": "service/itunes",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/itunes.webp"
+    },
+    {
+      "id": "service/cbs",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/cbs.webp"
+    },
+    {
+      "id": "service/nbc",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/nbc.webp"
+    },
+    {
+      "id": "service/amc",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/service/amc.webp"
+    },
+    {
+      "id": "service/pbs",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/pbs.webp"
+    },
+    {
+      "id": "service/vice",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/vice.webp"
+    },
+    {
+      "id": "service/sony",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/sony.webp"
+    },
+    {
+      "id": "service/hallmark",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/hallmark.webp"
+    },
+    {
+      "id": "service/adult-swim",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/adult-swim.webp"
+    },
+    {
+      "id": "service/animal-planet",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/animal-planet.webp"
+    },
+    {
+      "id": "service/cartoon-network",
+      "matching": "network names and release abbreviations; ordinary words require service context",
+      "image_path": "web/service/cartoon-network.webp"
+    },
+    {
+      "id": "stream-attribute/ppv",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/ppv.webp"
+    },
+    {
+      "id": "stream-attribute/extended",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/extended.webp"
+    },
+    {
+      "id": "stream-attribute/regraded",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/stream-attribute/regraded.webp"
+    },
+    {
+      "id": "stream-attribute/upscaled",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/dynamic-range/upscaled.webp"
+    },
+    {
+      "id": "stream-attribute/convert",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/stream-attribute/convert.webp"
+    },
+    {
+      "id": "stream-attribute/hardcoded",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/stream-attribute/hardcoded.webp"
+    },
+    {
+      "id": "stream-attribute/proper",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/proper.webp"
+    },
+    {
+      "id": "stream-attribute/repack",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/repack.webp"
+    },
+    {
+      "id": "stream-attribute/retail",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/stream-attribute/retail.webp"
+    },
+    {
+      "id": "stream-attribute/documentary",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/content/documentary.webp"
+    },
+    {
+      "id": "stream-attribute/unrated",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/unrated.webp"
+    },
+    {
+      "id": "stream-attribute/uncensored",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/uncensored.webp"
+    },
+    {
+      "id": "stream-attribute/commentary",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/accessibility/commentary.webp"
+    },
+    {
+      "id": "stream-attribute/complete",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/edition/complete.webp"
+    },
+    {
+      "id": "stream-attribute/subbed",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/language-mode/subbed.webp"
+    },
+    {
+      "id": "stream-attribute/dubbed",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/language-mode/dubbed.webp"
+    },
+    {
+      "id": "release-type/oad",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/release-type/oad.webp"
+    },
+    {
+      "id": "release-type/oav",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/release-type/oav.webp"
+    },
+    {
+      "id": "release-type/oda",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/release-type/oda.webp"
+    },
+    {
+      "id": "release-type/ona",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/release-type/ona.webp"
+    },
+    {
+      "id": "release-type/ova",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/release-type/ova.webp"
+    },
+    {
+      "id": "region/pal",
+      "matching": "explicit metadata context",
+      "image_path": "web/region/pal.webp"
+    },
+    {
+      "id": "region/ntsc",
+      "matching": "explicit metadata context",
+      "image_path": "web/region/ntsc.webp"
+    },
+    {
+      "id": "region/secam",
+      "matching": "explicit metadata context",
+      "image_path": "web/region/secam.webp"
+    },
+    {
+      "id": "region/r0",
+      "matching": "explicit metadata context",
+      "image_path": "web/region/r0.webp"
+    },
+    {
+      "id": "region/r1",
+      "matching": "explicit metadata context",
+      "image_path": "web/region/r1.webp"
+    },
+    {
+      "id": "region/r2",
+      "matching": "explicit metadata context",
+      "image_path": "web/region/r2.webp"
+    },
+    {
+      "id": "region/r3",
+      "matching": "explicit metadata context",
+      "image_path": "web/region/r3.webp"
+    },
+    {
+      "id": "region/r4",
+      "matching": "explicit metadata context",
+      "image_path": "web/region/r4.webp"
+    },
+    {
+      "id": "region/r5",
+      "matching": "explicit metadata context",
+      "image_path": "web/source/r5.webp"
+    },
+    {
+      "id": "region/r6",
+      "matching": "explicit metadata context",
+      "image_path": "web/region/r6.webp"
+    },
+    {
+      "id": "region/r7",
+      "matching": "explicit metadata context",
+      "image_path": "web/region/r7.webp"
+    },
+    {
+      "id": "region/r8",
+      "matching": "explicit metadata context",
+      "image_path": "web/region/r8.webp"
+    },
+    {
+      "id": "region/r9",
+      "matching": "explicit metadata context",
+      "image_path": "web/region/r9.webp"
+    },
+    {
+      "id": "region/r0j",
+      "matching": "explicit metadata context",
+      "image_path": "web/region/r0j.webp"
+    },
+    {
+      "id": "region/r1j",
+      "matching": "explicit metadata context",
+      "image_path": "web/region/r1j.webp"
+    },
+    {
+      "id": "region/r2j",
+      "matching": "explicit metadata context",
+      "image_path": "web/region/r2j.webp"
+    },
+    {
+      "id": "region/r3j",
+      "matching": "explicit metadata context",
+      "image_path": "web/region/r3j.webp"
+    },
+    {
+      "id": "region/r4j",
+      "matching": "explicit metadata context",
+      "image_path": "web/region/r4j.webp"
+    },
+    {
+      "id": "region/r5j",
+      "matching": "explicit metadata context",
+      "image_path": "web/region/r5j.webp"
+    },
+    {
+      "id": "region/r6j",
+      "matching": "explicit metadata context",
+      "image_path": "web/region/r6j.webp"
+    },
+    {
+      "id": "region/r7j",
+      "matching": "explicit metadata context",
+      "image_path": "web/region/r7j.webp"
+    },
+    {
+      "id": "region/r8j",
+      "matching": "explicit metadata context",
+      "image_path": "web/region/r8j.webp"
+    },
+    {
+      "id": "region/r9j",
+      "matching": "explicit metadata context",
+      "image_path": "web/region/r9j.webp"
+    },
+    {
+      "id": "country/us",
+      "matching": "explicit metadata context",
+      "image_path": "web/country/us.webp"
+    },
+    {
+      "id": "country/uk",
+      "matching": "explicit metadata context",
+      "image_path": "web/country/uk.webp"
+    },
+    {
+      "id": "country/au",
+      "matching": "explicit metadata context",
+      "image_path": "web/country/au.webp"
+    },
+    {
+      "id": "country/nz",
+      "matching": "explicit metadata context",
+      "image_path": "web/country/nz.webp"
+    },
+    {
+      "id": "source/dlmux",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/dlmux.webp"
+    },
+    {
+      "id": "source/webmux",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/webmux.webp"
+    },
+    {
+      "id": "source/brmux",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/brmux.webp"
+    },
+    {
+      "id": "source/vhsscr",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/source/vhsscr.webp"
+    },
+    {
+      "id": "extension/3g2",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/3g2.webp"
+    },
+    {
+      "id": "extension/3gp",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/3gp.webp"
+    },
+    {
+      "id": "extension/avi",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/avi.webp"
+    },
+    {
+      "id": "extension/flv",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/flv.webp"
+    },
+    {
+      "id": "extension/mkv",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/mkv.webp"
+    },
+    {
+      "id": "extension/mk3d",
+      "matching": "file extension or container metadata",
+      "image_path": "web/extension/mk3d.webp"
+    },
+    {
+      "id": "extension/mov",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/mov.webp"
+    },
+    {
+      "id": "extension/mp2",
+      "matching": "file extension or container metadata",
+      "image_path": "web/audio-codec/mp2.webp"
+    },
+    {
+      "id": "extension/mp4",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/mp4.webp"
+    },
+    {
+      "id": "extension/m4v",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/m4v.webp"
+    },
+    {
+      "id": "extension/mpe",
+      "matching": "file extension or container metadata",
+      "image_path": "web/extension/mpe.webp"
+    },
+    {
+      "id": "extension/mpeg",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/mpeg.webp"
+    },
+    {
+      "id": "extension/mpg",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/mpg.webp"
+    },
+    {
+      "id": "extension/mpv",
+      "matching": "file extension or container metadata",
+      "image_path": "web/extension/mpv.webp"
+    },
+    {
+      "id": "extension/webm",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/webm.webp"
+    },
+    {
+      "id": "extension/wmv",
+      "matching": "file extension or container metadata",
+      "image_path": "web/video-codec/wmv.webp"
+    },
+    {
+      "id": "extension/ogm",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/ogm.webp"
+    },
+    {
+      "id": "extension/divx",
+      "matching": "file extension or container metadata",
+      "image_path": "web/video-codec/divx.webp"
+    },
+    {
+      "id": "extension/ts",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/ts.webp"
+    },
+    {
+      "id": "extension/m2ts",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/m2ts.webp"
+    },
+    {
+      "id": "extension/iso",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/iso.webp"
+    },
+    {
+      "id": "extension/vob",
+      "matching": "file extension or container metadata",
+      "image_path": "web/container/vob.webp"
+    },
+    {
+      "id": "extension/sub",
+      "matching": "file extension or container metadata",
+      "image_path": "web/extension/sub.webp"
+    },
+    {
+      "id": "extension/idx",
+      "matching": "file extension or container metadata",
+      "image_path": "web/extension/idx.webp"
+    },
+    {
+      "id": "extension/ttxt",
+      "matching": "file extension or container metadata",
+      "image_path": "web/extension/ttxt.webp"
+    },
+    {
+      "id": "extension/txt",
+      "matching": "file extension or container metadata",
+      "image_path": "web/extension/txt.webp"
+    },
+    {
+      "id": "extension/smi",
+      "matching": "file extension or container metadata",
+      "image_path": "web/extension/smi.webp"
+    },
+    {
+      "id": "extension/srt",
+      "matching": "file extension or container metadata",
+      "image_path": "web/subtitles/srt.webp"
+    },
+    {
+      "id": "extension/ssa",
+      "matching": "file extension or container metadata",
+      "image_path": "web/subtitles/ssa.webp"
+    },
+    {
+      "id": "extension/ass",
+      "matching": "file extension or container metadata",
+      "image_path": "web/subtitles/ass.webp"
+    },
+    {
+      "id": "extension/vtt",
+      "matching": "file extension or container metadata",
+      "image_path": "web/extension/vtt.webp"
+    },
+    {
+      "id": "extension/nfo",
+      "matching": "file extension or container metadata",
+      "image_path": "web/extension/nfo.webp"
+    },
+    {
+      "id": "extension/html",
+      "matching": "file extension or container metadata",
+      "image_path": "web/extension/html.webp"
+    },
+    {
+      "id": "release-group/inflate",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/release-group/inflate.webp"
+    },
+    {
+      "id": "release-group/deflate",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/release-group/deflate.webp"
+    },
+    {
+      "id": "language-mode/truefrench",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/language-mode/truefrench.webp"
+    },
+    {
+      "id": "language-mode/vff",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/language-mode/vff.webp"
+    },
+    {
+      "id": "language-mode/vfi",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/language-mode/vfi.webp"
+    },
+    {
+      "id": "language-mode/vost",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/language-mode/vost.webp"
+    },
+    {
+      "id": "language-mode/vostfr",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/language-mode/vostfr.webp"
+    },
+    {
+      "id": "language-mode/vosta",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/language-mode/vosta.webp"
+    },
+    {
+      "id": "language-mode/subfrench",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/language-mode/subfrench.webp"
+    },
+    {
+      "id": "audio-codec/md",
+      "matching": "metadata label and contextual aliases",
+      "image_path": "web/audio-codec/md.webp"
+    },
+    {
+      "id": "metadata-field/size",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/size.webp"
+    },
+    {
+      "id": "metadata-field/bitrate",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/bitrate.webp"
+    },
+    {
+      "id": "metadata-field/duration",
+      "matching": "explicit metadata context",
+      "image_path": "web/metadata-field/duration.webp"
+    },
+    {
+      "id": "metadata-field/seeders",
+      "matching": "explicit metadata context",
+      "image_path": "web/metadata-field/seeders.webp"
+    },
+    {
+      "id": "metadata-field/peers",
+      "matching": "explicit metadata context",
+      "image_path": "web/metadata-field/peers.webp"
+    },
+    {
+      "id": "metadata-field/age",
+      "matching": "explicit metadata context",
+      "image_path": "web/metadata-field/age.webp"
+    },
+    {
+      "id": "metadata-field/year",
+      "matching": "explicit metadata context",
+      "image_path": "web/metadata-field/year.webp"
+    },
+    {
+      "id": "metadata-field/date",
+      "matching": "explicit metadata context",
+      "image_path": "web/metadata-field/date.webp"
+    },
+    {
+      "id": "metadata-field/season",
+      "matching": "explicit metadata context",
+      "image_path": "web/metadata-field/season.webp"
+    },
+    {
+      "id": "metadata-field/episode",
+      "matching": "explicit metadata context",
+      "image_path": "web/edition/episode.webp"
+    },
+    {
+      "id": "metadata-field/volume",
+      "matching": "explicit metadata context",
+      "image_path": "web/metadata-field/volume.webp"
+    },
+    {
+      "id": "metadata-field/title",
+      "matching": "explicit metadata context",
+      "image_path": "web/metadata-field/title.webp"
+    },
+    {
+      "id": "metadata-field/group",
+      "matching": "explicit metadata context",
+      "image_path": "web/metadata-field/group.webp"
+    },
+    {
+      "id": "metadata-field/network",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/network.webp"
+    },
+    {
+      "id": "metadata-field/country",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/country.webp"
+    },
+    {
+      "id": "metadata-field/region",
+      "matching": "explicit metadata context",
+      "image_path": "web/metadata-field/region.webp"
+    },
+    {
+      "id": "metadata-field/site",
+      "matching": "explicit metadata context",
+      "image_path": "web/metadata-field/site.webp"
+    },
+    {
+      "id": "metadata-field/audio",
+      "matching": "explicit metadata context",
+      "image_path": "web/metadata-field/audio.webp"
+    },
+    {
+      "id": "metadata-field/subtitles",
+      "matching": "explicit metadata context",
+      "image_path": "web/metadata-field/subtitles.webp"
+    },
+    {
+      "id": "metadata-field/filename",
+      "matching": "explicit metadata context",
+      "image_path": "web/metadata-field/filename.webp"
+    },
+    {
+      "id": "availability/cache-hit",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/cache-hit.webp"
+    },
+    {
+      "id": "availability/cache-miss",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/cache-miss.webp"
+    },
+    {
+      "id": "availability/pending",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/pending.webp"
+    },
+    {
+      "id": "availability/failed",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/failed.webp"
+    },
+    {
+      "id": "availability/timeout",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/timeout.webp"
+    },
+    {
+      "id": "availability/retry",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/retry.webp"
+    },
+    {
+      "id": "availability/buffering",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/buffering.webp"
+    },
+    {
+      "id": "availability/synced",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/synced.webp"
+    },
+    {
+      "id": "availability/partial-sync",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/partial-sync.webp"
+    },
+    {
+      "id": "availability/unsynced",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/unsynced.webp"
+    },
+    {
+      "id": "availability/german-audio",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/german-audio.webp"
+    },
+    {
+      "id": "availability/audio-merged",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/audio-merged.webp"
+    },
+    {
+      "id": "availability/native-audio",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/native-audio.webp"
+    },
+    {
+      "id": "availability/external-player",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/external-player.webp"
+    },
+    {
+      "id": "availability/local-file",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/local-file.webp"
+    },
+    {
+      "id": "availability/addon",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/addon.webp"
+    },
+    {
+      "id": "availability/plugin",
+      "matching": "explicit metadata context",
+      "image_path": "web/availability/plugin.webp"
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "status": "passed",
+  "scope": "Flag layers before compositing the unchanged foreground; antialiasing transition pixels are excluded from stripe-run measurements.",
+  "checks": [
+    {
+      "asset_id": "language/fr",
+      "check": "complete bands with preserved ratios",
+      "bands": 3,
+      "expected_fractions": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "observed_fractions": [
+        0.33235867446393763,
+        0.33528265107212474,
+        0.33235867446393763
+      ],
+      "maximum_fraction_error": 0.001949317738791423,
+      "passed": true
+    },
+    {
+      "asset_id": "language/it",
+      "check": "complete bands with preserved ratios",
+      "bands": 3,
+      "expected_fractions": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "observed_fractions": [
+        0.3319228960977903,
+        0.33615420780441935,
+        0.3319228960977903
+      ],
+      "maximum_fraction_error": 0.0028208744710860323,
+      "passed": true
+    },
+    {
+      "asset_id": "language/ja",
+      "check": "circular symbol remains circular",
+      "width_px": 1056,
+      "height_px": 1055,
+      "passed": true
+    },
+    {
+      "asset_id": "language/ru",
+      "check": "complete bands with preserved ratios",
+      "bands": 3,
+      "expected_fractions": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "observed_fractions": [
+        0.3317365269461078,
+        0.33652694610778444,
+        0.3317365269461078
+      ],
+      "maximum_fraction_error": 0.0031936127744511267,
+      "passed": true
+    },
+    {
+      "asset_id": "language/bn",
+      "check": "circular symbol remains circular",
+      "width_px": 1090,
+      "height_px": 1089,
+      "passed": true
+    },
+    {
+      "asset_id": "language/th",
+      "check": "complete bands with preserved ratios",
+      "bands": 5,
+      "expected_fractions": [
+        0.16666666666666666,
+        0.16666666666666666,
+        0.3333333333333333,
+        0.16666666666666666,
+        0.16666666666666666
+      ],
+      "observed_fractions": [
+        0.16855270994639668,
+        0.16855270994639668,
+        0.33650982727814177,
+        0.16259678379988088,
+        0.16378796902918405
+      ],
+      "maximum_fraction_error": 0.004069882866785779,
+      "passed": true
+    },
+    {
+      "asset_id": "language/id",
+      "check": "complete bands with preserved ratios",
+      "bands": 2,
+      "expected_fractions": [
+        0.5,
+        0.5
+      ],
+      "observed_fractions": [
+        0.5,
+        0.5
+      ],
+      "maximum_fraction_error": 0.0,
+      "passed": true
+    },
+    {
+      "asset_id": "language/uk",
+      "check": "complete bands with preserved ratios",
+      "bands": 2,
+      "expected_fractions": [
+        0.5,
+        0.5
+      ],
+      "observed_fractions": [
+        0.4996982498491249,
+        0.5003017501508751
+      ],
+      "maximum_fraction_error": 0.0003017501508750797,
+      "passed": true
+    },
+    {
+      "asset_id": "language/el",
+      "check": "complete bands with preserved ratios",
+      "bands": 9,
+      "expected_fractions": [
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111,
+        0.1111111111111111
+      ],
+      "observed_fractions": [
+        0.10739856801909307,
+        0.11217183770883055,
+        0.11217183770883055,
+        0.11217183770883055,
+        0.11217183770883055,
+        0.11217183770883055,
+        0.11217183770883055,
+        0.11217183770883055,
+        0.10739856801909307
+      ],
+      "maximum_fraction_error": 0.003712543092018031,
+      "passed": true
+    },
+    {
+      "asset_id": "language/lt",
+      "check": "complete bands with preserved ratios",
+      "bands": 3,
+      "expected_fractions": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "observed_fractions": [
+        0.33016061867935753,
+        0.33967876264128494,
+        0.33016061867935753
+      ],
+      "maximum_fraction_error": 0.006345429307951622,
+      "passed": true
+    },
+    {
+      "asset_id": "language/lv",
+      "check": "complete bands with preserved ratios",
+      "bands": 3,
+      "expected_fractions": [
+        0.4,
+        0.2,
+        0.4
+      ],
+      "observed_fractions": [
+        0.39916716240333133,
+        0.2016656751933373,
+        0.39916716240333133
+      ],
+      "maximum_fraction_error": 0.001665675193337296,
+      "passed": true
+    },
+    {
+      "asset_id": "language/et",
+      "check": "complete bands with preserved ratios",
+      "bands": 3,
+      "expected_fractions": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "observed_fractions": [
+        0.3319452706722189,
+        0.3361094586555622,
+        0.3319452706722189
+      ],
+      "maximum_fraction_error": 0.002776125322228873,
+      "passed": true
+    },
+    {
+      "asset_id": "language/pl",
+      "check": "complete bands with preserved ratios",
+      "bands": 2,
+      "expected_fractions": [
+        0.5,
+        0.5
+      ],
+      "observed_fractions": [
+        0.5,
+        0.5
+      ],
+      "maximum_fraction_error": 0.0,
+      "passed": true
+    },
+    {
+      "asset_id": "language/hu",
+      "check": "complete bands with preserved ratios",
+      "bands": 3,
+      "expected_fractions": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "observed_fractions": [
+        0.33171324422843257,
+        0.33657351154313486,
+        0.33171324422843257
+      ],
+      "maximum_fraction_error": 0.0032401782098015475,
+      "passed": true
+    },
+    {
+      "asset_id": "language/ro",
+      "check": "complete bands with preserved ratios",
+      "bands": 3,
+      "expected_fractions": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "observed_fractions": [
+        0.3325408618127786,
+        0.33491827637444277,
+        0.3325408618127786
+      ],
+      "maximum_fraction_error": 0.0015849430411094545,
+      "passed": true
+    },
+    {
+      "asset_id": "language/bg",
+      "check": "complete bands with preserved ratios",
+      "bands": 3,
+      "expected_fractions": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "observed_fractions": [
+        0.3317013463892289,
+        0.33659730722154224,
+        0.3317013463892289
+      ],
+      "maximum_fraction_error": 0.0032639738882089264,
+      "passed": true
+    },
+    {
+      "asset_id": "language/nl",
+      "check": "complete bands with preserved ratios",
+      "bands": 3,
+      "expected_fractions": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "observed_fractions": [
+        0.3319452706722189,
+        0.3361094586555622,
+        0.3319452706722189
+      ],
+      "maximum_fraction_error": 0.002776125322228873,
+      "passed": true
+    },
+    {
+      "asset_id": "language/hy",
+      "check": "complete bands with preserved ratios",
+      "bands": 3,
+      "expected_fractions": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "observed_fractions": [
+        0.33189389265885255,
+        0.3362122146822949,
+        0.33189389265885255
+      ],
+      "maximum_fraction_error": 0.0028788813489615817,
+      "passed": true
+    }
+  ]
+}

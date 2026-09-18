@@ -1,0 +1,135 @@
+{
+  "status": "passed",
+  "schema": "Nuvio/Fusion filters and groups, checked against the inspected Kotlin model",
+  "filter_count": 1037,
+  "group_count": 37,
+  "all_regexes_compiled": true,
+  "all_image_paths_resolve_locally": true,
+  "regex_validation_engine": ".NET regular expressions with the shared Unicode property, lookaround and inline-case syntax",
+  "fixtures_are_synthetic": true,
+  "fixture_count": 20,
+  "fixture_run_milliseconds": 559,
+  "fixture_results": [
+    {
+      "name": "UHD WEB-DL with HDR10+, Dolby Vision, Dolby Digital Plus and two languages",
+      "missing": [],
+      "forbidden_matches": [],
+      "passed": true
+    },
+    {
+      "name": "Blu-ray remux with DTS-HD Master Audio",
+      "missing": [],
+      "forbidden_matches": [],
+      "passed": true
+    },
+    {
+      "name": "E-AC-3 stays distinct from AC-3",
+      "missing": [],
+      "forbidden_matches": [],
+      "passed": true
+    },
+    {
+      "name": "Object-audio layout does not also produce the shorter channel badge",
+      "missing": [],
+      "forbidden_matches": [],
+      "passed": true
+    },
+    {
+      "name": "SD and HD resolutions retain separate numeric assets",
+      "missing": [],
+      "forbidden_matches": [],
+      "passed": true
+    },
+    {
+      "name": "English language code is not the Easynews provider code",
+      "missing": [],
+      "forbidden_matches": [],
+      "passed": true
+    },
+    {
+      "name": "Explicit provider abbreviation uses its provider context",
+      "missing": [],
+      "forbidden_matches": [],
+      "passed": true
+    },
+    {
+      "name": "Selected flag marker matches its language",
+      "missing": [],
+      "forbidden_matches": [],
+      "passed": true
+    },
+    {
+      "name": "Ukrainian language marker is not United Kingdom country metadata",
+      "missing": [],
+      "forbidden_matches": [],
+      "passed": true
+    },
+    {
+      "name": "Country field does not select Ukrainian",
+      "missing": [],
+      "forbidden_matches": [],
+      "passed": true
+    },
+    {
+      "name": "Provider and language abbreviations are separated",
+      "missing": [],
+      "forbidden_matches": [],
+      "passed": true
+    },
+    {
+      "name": "Filename network abbreviations select original logos",
+      "missing": [],
+      "forbidden_matches": [],
+      "passed": true
+    },
+    {
+      "name": "Disney Plus does not also select the generic Disney logo",
+      "missing": [],
+      "forbidden_matches": [],
+      "passed": true
+    },
+    {
+      "name": "Ordinary title words do not infer providers, countries or network names",
+      "missing": [],
+      "forbidden_matches": [],
+      "passed": true
+    },
+    {
+      "name": "Channel numbers are not extracted from an episode number",
+      "missing": [],
+      "forbidden_matches": [],
+      "passed": true
+    },
+    {
+      "name": "Container metadata is supported without a filename",
+      "missing": [],
+      "forbidden_matches": [],
+      "passed": true
+    },
+    {
+      "name": "Explicit catalog selector supports a rare badge without guessing",
+      "missing": [],
+      "forbidden_matches": [],
+      "passed": true
+    },
+    {
+      "name": "HDR10+ Gaming uses the specific logo",
+      "missing": [],
+      "forbidden_matches": [],
+      "passed": true
+    },
+    {
+      "name": "Cached and uncached require status context and remain distinct",
+      "missing": [],
+      "forbidden_matches": [],
+      "passed": true
+    },
+    {
+      "name": "Native language labels and metadata lists",
+      "missing": [],
+      "forbidden_matches": [],
+      "passed": true
+    }
+  ],
+  "client_device_import_test": "not performed"
+}

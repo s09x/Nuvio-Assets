@@ -50,3 +50,15 @@ For example, these fields configure the Action folder's images:
 The custom covers and hover variants are supplied as WebP files. Landscape cards are 3840 × 2160 pixels. Portrait posters retain their original aspect ratio with a 3840-pixel long edge. Their directories include a `manifest.json` with asset names, dimensions, and checksums. Original assets in `collections/hosted` retain their source resolution; SVG files are scalable.
 
 URLs using `main` follow the current version; replace `main` with a commit SHA to reference a fixed version.
+
+## Stream badges
+
+[`badges`](badges) contains the approved 1,037-badge stream library: 4K masters, smaller app images, original brand graphics and 50 flat flag language badges. The approved DE design is preserved, and the selected flag-language series excludes India mappings.
+
+Use this URL in **Settings > Streams > Stream badge URLs** in Nuvio:
+
+```text
+https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/manifest.json
+```
+
+The import contains 1,037 rules in 37 groups. See the [badge documentation](badges/README.md), [language overview](badges/previews/language-flags.png) and [source catalog](badges/data/catalog.json) for the complete inventory, mapping behavior and attributions.

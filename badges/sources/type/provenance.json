@@ -1,0 +1,47 @@
+{
+  "reference": {
+    "file": "reference-720p.png",
+    "sha256": "880daf4b53fd7f61b89a03fee46e64678b5da3068e0d052db423551f8480c2f6",
+    "original_model": "gpt-image-2.5-sunburst",
+    "original_size": [
+      3840,
+      2160
+    ]
+  },
+  "construction_font": {
+    "name": "Michroma",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/michroma/Michroma-Regular.ttf",
+    "sha256": "b62301163788bc5b7f8fcac0b74b184e34e1827e577b499ecb724da065098f87",
+    "license": "SIL Open Font License 1.1",
+    "license_file": "OFL.txt"
+  },
+  "reference_extraction_boxes": {
+    "7": [
+      202,
+      684,
+      1039,
+      1517
+    ],
+    "2": [
+      1048,
+      684,
+      1963,
+      1515
+    ],
+    "0": [
+      1998,
+      684,
+      2956,
+      1515
+    ],
+    "p": [
+      2989,
+      893,
+      3647,
+      1604
+    ]
+  },
+  "geometry_sha256": "2104dd08a14327ad320e4e32524ddf94f588ab39876fddf2caf1e536ddd69d06",
+  "font_sha256": "900bf59a9b7e4d6731059a7de73dba0bd04c566563c8e4afc10badec9f5b7398",
+  "note": "This is a reusable type and frame proposal, not the finished 1037-item badge library. There have been no repository writes or uploads."
+}

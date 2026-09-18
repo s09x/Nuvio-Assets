@@ -1,0 +1,1254 @@
+{
+  "audio-brand/dolby-atmos": {
+    "id": "dolby-atmos",
+    "url": "https://www.dolby.com/Static/Core/Images/dolby-atmos-logo.svg",
+    "file": "work/brand-originals/dolby-atmos.svg",
+    "bytes": 7244,
+    "content_type": "image/svg+xml",
+    "original_file": "sources/brands/dolby-atmos.svg",
+    "original_sha256": "aff0886d9058ad5d6f363c0459a206c501346937d156c6502e25a66a81eb1521"
+  },
+  "audio-brand/dolby-digital-plus": {
+    "id": "dolby-digital-plus",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Dolby-Digital-Plus.svg",
+    "file": "work/brand-originals/dolby-digital-plus.svg",
+    "bytes": 5446,
+    "content_type": "image/svg+xml",
+    "provenance": "official-artwork-mirror",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Dolby-Digital-Plus.svg",
+    "original_credit": "Dolby Laboratories, Inc.",
+    "original_file": "sources/brands/dolby-digital-plus.svg",
+    "original_sha256": "a2f3b84070cdedd60cc4721c265fc1a423a670b72920b0faa2489ee827b431c8"
+  },
+  "audio-brand/dolby-digital": {
+    "id": "dolby-digital",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Logo_Dolby-Digital_2011.svg",
+    "file": "work/brand-originals/dolby-digital.svg",
+    "provenance": "official-artwork-mirror",
+    "original_credit": "Dolby Laboratories; original vector artwork referenced by Wikimedia Commons metadata",
+    "original_file": "sources/brands/dolby-digital.svg",
+    "original_sha256": "8e8d73750c5dcfa7c14929c5d59b33c557167937adbbd6799cb3b3d00fc0c815"
+  },
+  "audio-brand/dolby-truehd": {
+    "id": "dolby-truehd",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Dolby_TrueHD.svg",
+    "file": "work/brand-originals/dolby-truehd.svg",
+    "provenance": "official-artwork-mirror",
+    "original_credit": "Dolby Laboratories; original vector artwork referenced by Wikimedia Commons metadata",
+    "original_file": "sources/brands/dolby-truehd.svg",
+    "original_sha256": "41a13b3b99138d13d83262aaa3acdfa8f1e736024327e1601eabc937fdb4ca2a"
+  },
+  "audio-brand/dolby": {
+    "id": "dolby",
+    "url": "https://www.dolby.com/globalassets/logo/dolby_logo_white.svg",
+    "file": "work/brand-originals/dolby.svg",
+    "bytes": 3698,
+    "content_type": "image/svg+xml",
+    "original_file": "sources/brands/dolby.svg",
+    "original_sha256": "f22a696cb2c15818f2c980da683aac44b05d8b6607ae5d3a8072053b84c9d710"
+  },
+  "audio-brand/dts-hd-ma": {
+    "id": "dts-hd-ma",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/DTS-HD-MA.svg",
+    "file": "work/brand-originals/dts-hd-ma.svg",
+    "bytes": 12261,
+    "content_type": "image/svg+xml",
+    "provenance": "official-artwork-mirror",
+    "source_page": "https://commons.wikimedia.org/wiki/File:DTS-HD-MA.svg",
+    "original_credit": "DTS, Inc., SVG by Locke Cole extracted from [2]",
+    "original_file": "sources/brands/dts-hd-ma.svg",
+    "original_sha256": "07965a85011102d5135d4f2a193508c49e5b36465c4bfa5000dd7d94dc8c8f08"
+  },
+  "audio-brand/dts-x": {
+    "id": "dts-x",
+    "url": "https://dts.com/wp-content/uploads/2023/11/dtsx_132x132.png",
+    "source_page": "https://dts.com/dts-x/",
+    "file": "work/brand-originals/dts-x.png",
+    "bytes": 1240,
+    "provenance": "official-site",
+    "native": {
+      "dimensions": [
+        132,
+        132
+      ]
+    },
+    "note": "Original mark supplied by DTS. The publicly supplied raster has 132 x 132 pixels; 4K export does not add original detail.",
+    "original_file": "sources/brands/dts-x.png",
+    "original_sha256": "f0ba9a6afbd138f3581de97101656aedc57442ab5c8835781af6b50e8b501488"
+  },
+  "audio-brand/dts": {
+    "id": "dts",
+    "url": "https://xperi.com/wp-content/uploads/2022/06/DTS-Logo-White.svg",
+    "file": "work/brand-originals/dts.svg",
+    "bytes": 1709,
+    "provenance": "official-site",
+    "original_file": "sources/brands/dts.svg",
+    "original_sha256": "9eb8c2318d14d5d4aff3e914535f4a57118d3885101d01590542561f68c69406"
+  },
+  "disc-brand/blu-ray-3d": {
+    "id": "blu-ray-3d",
+    "url": "https://us.blu-raydisc.com/wp-content/themes/blu-ray-wordpress-theme-demo/images/logos/blu-ray_3D.svg",
+    "file": "work/brand-originals/blu-ray-3d.svg",
+    "bytes": 4245,
+    "content_type": "image/svg+xml",
+    "original_file": "sources/brands/blu-ray-3d.svg",
+    "original_sha256": "c54bc37bffddc116a4e005963dcdaf1ab6f57334c8b9d5ce42be239db24fead6"
+  },
+  "disc-brand/blu-ray-4k": {
+    "id": "blu-ray-4k",
+    "url": "https://us.blu-raydisc.com/wp-content/themes/blu-ray-wordpress-theme-demo/images/logos/blu-ray_4K.svg",
+    "file": "work/brand-originals/blu-ray-4k.svg",
+    "bytes": 1469,
+    "content_type": "image/svg+xml",
+    "original_file": "sources/brands/blu-ray-4k.svg",
+    "original_sha256": "a4a411da0dd459ac7942431abdf888c6e84ba54607cc3fbb9af7acb348d7a45b"
+  },
+  "disc-brand/blu-ray": {
+    "id": "blu-ray",
+    "url": "https://us.blu-raydisc.com/wp-content/themes/blu-ray-wordpress-theme-demo/images/logos/blu-ray_HD.svg",
+    "file": "work/brand-originals/blu-ray.svg",
+    "bytes": 3894,
+    "content_type": "image/svg+xml",
+    "original_file": "sources/brands/blu-ray.svg",
+    "original_sha256": "162f2a10eddfc47b469b214df8df297461e62cd6f7f1c2885c59dbbb09bbc244"
+  },
+  "disc-brand/dvd": {
+    "id": "dvd",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/DVD_logo.svg",
+    "file": "work/brand-originals/dvd.svg",
+    "bytes": 1518,
+    "content_type": "image/svg+xml",
+    "provenance": "official-artwork-mirror",
+    "source_page": "https://commons.wikimedia.org/wiki/File:DVD_logo.svg",
+    "original_credit": "Fleshgrinder",
+    "original_file": "sources/brands/dvd.svg",
+    "original_sha256": "a11fcc392c029e6496a76a493702c030f91f07bf112cccdf232d92b6b3fd065c"
+  },
+  "disc-brand/uhd-blu-ray": {
+    "id": "uhd-blu-ray",
+    "url": "https://us.blu-raydisc.com/wp-content/themes/blu-ray-wordpress-theme-demo/images/logos/blu-ray_UHD.svg",
+    "file": "work/brand-originals/uhd-blu-ray.svg",
+    "bytes": 4237,
+    "content_type": "image/svg+xml",
+    "original_file": "sources/brands/uhd-blu-ray.svg",
+    "original_sha256": "522097b22d1dc46968440776eb3cf293e17da06b27369e07d668b2b15225ac37"
+  },
+  "edition-brand/criterion-collection": {
+    "id": "criterion-collection",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/The_Criterion_Collection_Logo.svg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:The_Criterion_Collection_Logo.svg",
+    "provenance": "documented-brand-artwork-mirror",
+    "credit": "Own work",
+    "artist": "Fleshgrinder",
+    "original_references": [],
+    "file": "work/brand-originals/criterion-collection.svg",
+    "bytes": 588,
+    "sha256": "f2d4b6908fe37e3d5446646ca1766df715d0ccf4be8ca853711fd18d5b83ea1d",
+    "native": {
+      "viewBox": "0 0 63 63",
+      "flags": []
+    },
+    "original_file": "sources/brands/criterion-collection.svg",
+    "original_sha256": "f2d4b6908fe37e3d5446646ca1766df715d0ccf4be8ca853711fd18d5b83ea1d"
+  },
+  "picture-brand/dolby-vision": {
+    "id": "dolby-vision",
+    "url": "https://www.dolby.com/Static/Core/Images/dolby-vision-logo.svg",
+    "file": "work/brand-originals/dolby-vision.svg",
+    "bytes": 7048,
+    "content_type": "image/svg+xml",
+    "original_file": "sources/brands/dolby-vision.svg",
+    "original_sha256": "d5aa4ed83f327dbce3b006ba65b94b5009f4b74825711706d2e2b5d972e05cdc"
+  },
+  "picture-brand/hdr10plus-advanced": {
+    "id": "hdr10plus-advanced",
+    "url": "https://hdr10plus.org/wp-content/uploads/2026/04/cropped-header_logo_advanced.png",
+    "file": "work/brand-originals/hdr10plus-advanced.png",
+    "bytes": 19402,
+    "content_type": "image/png",
+    "original_file": "sources/brands/hdr10plus-advanced.png",
+    "original_sha256": "49be0373edaa628ed2e6ea3d229fd094515ba1c29424f476e6329fb429743798"
+  },
+  "picture-brand/hdr10plus-gaming": {
+    "id": "hdr10plus-gaming",
+    "url": "https://hdr10plus.org/wp-content/uploads/2026/04/hdr10_gaming.png",
+    "file": "work/brand-originals/hdr10plus-gaming.png",
+    "bytes": 25770,
+    "content_type": "image/png",
+    "original_file": "sources/brands/hdr10plus-gaming.png",
+    "original_sha256": "4154cdc8de7e1e7b54e75278597fae216d34a73ba0d84ce30f76832c0dc7fcf1"
+  },
+  "picture-brand/hdr10plus": {
+    "id": "hdr10plus",
+    "url": "https://hdr10plus.org/wp-content/uploads/2023/10/cropped-header_logo.png",
+    "file": "work/brand-originals/hdr10plus.png",
+    "bytes": 31690,
+    "content_type": "image/png",
+    "original_file": "sources/brands/hdr10plus.png",
+    "original_sha256": "b179e72d889f23eec7cfbb471d8df1d8312839fa034ac387edcbeffd9219acff"
+  },
+  "picture-brand/imax-enhanced": {
+    "id": "imax-enhanced",
+    "url": "https://xperi.com/wp-content/uploads/2022/05/imax-1.svg",
+    "file": "work/brand-originals/imax-enhanced.svg",
+    "bytes": 45005,
+    "provenance": "official-site",
+    "original_file": "sources/brands/imax-enhanced.svg",
+    "original_sha256": "890343c49523e41c230c054c83465400f79597386ff3a881f8322851b5b93f77"
+  },
+  "picture-brand/imax": {
+    "id": "imax",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/IMAX_blue_logo.svg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:IMAX_blue_logo.svg",
+    "provenance": "documented-brand-artwork-mirror",
+    "credit": "Modified by Vulphere from IMAX.svg, colour data from https://www.imax.com/sites/all/themes/imax/images/_custom/imax-difference/intro/imax_logo_tiny.png",
+    "artist": "™/®IMAX Corporation",
+    "original_references": [
+      "https://www.imax.com/sites/all/themes/imax/images/_custom/imax-difference/intro/imax_logo_tiny.png"
+    ],
+    "file": "work/brand-originals/imax.svg",
+    "bytes": 1813,
+    "sha256": "2b276f66362bece821ad2f46280a3b3d273613029846b7608f31ae0b3a2907f0",
+    "native": {
+      "viewBox": null,
+      "flags": []
+    },
+    "original_file": "sources/brands/imax.svg",
+    "original_sha256": "2b276f66362bece821ad2f46280a3b3d273613029846b7608f31ae0b3a2907f0"
+  },
+  "provider/aiostreams": {
+    "id": "aiostreams",
+    "url": "https://raw.githubusercontent.com/Viren070/AIOStreams/f67d00ac6cd6d4efdde01f5d6f59bf1dbee95854/packages/frontend/public/logo.png",
+    "file": "work/brand-originals/aiostreams.png",
+    "bytes": 14280,
+    "provenance": "upstream-configured-logo",
+    "source_configuration": "https://github.com/Viren070/AIOStreams/blob/f67d00ac6cd6d4efdde01f5d6f59bf1dbee95854/packages/frontend/src/lib/services.ts",
+    "native": {
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    "original_file": "sources/brands/aiostreams.png",
+    "original_sha256": "ae98e0d095b58e497da9cb9ebbbc7d29bb91b409deed02ba470a2e3ad56bfc12"
+  },
+  "provider/all-debrid": {
+    "id": "all-debrid",
+    "url": "https://cdn.alldebrid.com/lib/images/default/logo_alldebrid.png",
+    "file": "work/brand-originals/all-debrid.png",
+    "bytes": 13171,
+    "provenance": "upstream-configured-logo",
+    "source_configuration": "https://github.com/Viren070/AIOStreams/blob/f67d00ac6cd6d4efdde01f5d6f59bf1dbee95854/packages/frontend/src/lib/services.ts",
+    "native": {
+      "dimensions": [
+        235,
+        65
+      ]
+    },
+    "original_file": "sources/brands/all-debrid.png",
+    "original_sha256": "64a8a9cc15904b579598824f23eb4c6643e52f942621bc94f6b312721b9c26e0"
+  },
+  "provider/altmount": {
+    "id": "altmount",
+    "url": "https://raw.githubusercontent.com/javi11/altmount/refs/heads/main/docs/static/img/logo.png",
+    "file": "work/brand-originals/altmount.png",
+    "bytes": 220487,
+    "provenance": "upstream-configured-logo",
+    "source_configuration": "https://github.com/Viren070/AIOStreams/blob/f67d00ac6cd6d4efdde01f5d6f59bf1dbee95854/packages/frontend/src/lib/services.ts",
+    "native": {
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    "original_file": "sources/brands/altmount.png",
+    "original_sha256": "21337312636fb46fb9f968b3d54c2da1638f767afb78f04a2d408fb1e91b995e"
+  },
+  "provider/debrid-link": {
+    "id": "debrid-link",
+    "url": "https://debrid-link.com/img/brand/dl-white-blue.svg",
+    "file": "work/brand-originals/debrid-link.svg",
+    "bytes": 3767,
+    "provenance": "upstream-configured-logo",
+    "source_configuration": "https://github.com/Viren070/AIOStreams/blob/f67d00ac6cd6d4efdde01f5d6f59bf1dbee95854/packages/frontend/src/lib/services.ts",
+    "native": {
+      "viewBox": "0 0 1000 1000"
+    },
+    "original_file": "sources/brands/debrid-link.svg",
+    "original_sha256": "fdb1dd56a14be719b6858de98c607dfeed941f2acb4775383371cefa8fc10942"
+  },
+  "provider/debrider": {
+    "id": "debrider",
+    "url": "https://debrider.app/icon.svg",
+    "file": "work/brand-originals/debrider.svg",
+    "bytes": 3248,
+    "provenance": "upstream-configured-logo",
+    "source_configuration": "https://github.com/Viren070/AIOStreams/blob/f67d00ac6cd6d4efdde01f5d6f59bf1dbee95854/packages/frontend/src/lib/services.ts",
+    "native": {
+      "viewBox": "0 0 200 200"
+    },
+    "original_file": "sources/brands/debrider.svg",
+    "original_sha256": "f0c14c175c3de5d165010cad164c8c8fcb00726481499faf722e8d79cdae98fb"
+  },
+  "provider/easydebrid": {
+    "id": "easydebrid",
+    "url": "https://paradise-cloud.com/apple-touch-icon.png",
+    "file": "work/brand-originals/easydebrid.png",
+    "bytes": 13226,
+    "provenance": "upstream-configured-logo",
+    "source_configuration": "https://github.com/Viren070/AIOStreams/blob/f67d00ac6cd6d4efdde01f5d6f59bf1dbee95854/packages/frontend/src/lib/services.ts",
+    "native": {
+      "dimensions": [
+        180,
+        180
+      ]
+    },
+    "original_file": "sources/brands/easydebrid.png",
+    "original_sha256": "1818066cfccf45455e34b16a6e306f26e041c2d2ef4db8bae8b8fa13263e3cc1"
+  },
+  "provider/easynews": {
+    "id": "easynews",
+    "url": "https://raw.githubusercontent.com/Viren070/AIOStreams/f67d00ac6cd6d4efdde01f5d6f59bf1dbee95854/packages/frontend/public/assets/easynews_logo.png",
+    "file": "work/brand-originals/easynews.png",
+    "bytes": 4201,
+    "provenance": "upstream-configured-logo",
+    "source_configuration": "https://github.com/Viren070/AIOStreams/blob/f67d00ac6cd6d4efdde01f5d6f59bf1dbee95854/packages/frontend/src/lib/services.ts",
+    "native": {
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    "original_file": "sources/brands/easynews.png",
+    "original_sha256": "abc95455868cfebfc2fa35fec017659bfd48655c37fd7894b3fb8aa094fffeaa"
+  },
+  "provider/nzbdav": {
+    "id": "nzbdav",
+    "url": "https://raw.githubusercontent.com/nzbdav-dev/nzbdav/refs/heads/main/frontend/public/logo.svg",
+    "file": "work/brand-originals/nzbdav.svg",
+    "bytes": 5318,
+    "provenance": "upstream-configured-logo",
+    "source_configuration": "https://github.com/Viren070/AIOStreams/blob/f67d00ac6cd6d4efdde01f5d6f59bf1dbee95854/packages/frontend/src/lib/services.ts",
+    "native": {
+      "viewBox": "0 0 1000 1143.43"
+    },
+    "original_file": "sources/brands/nzbdav.svg",
+    "original_sha256": "3487430d855755f1fb892add55c428671af2d721f8ec8dfdb1db4e4be9ded167"
+  },
+  "provider/offcloud": {
+    "id": "offcloud",
+    "url": "https://offcloud.com/images/logo-blue-short-lg.png",
+    "file": "work/brand-originals/offcloud.png",
+    "bytes": 4826,
+    "provenance": "upstream-configured-logo",
+    "source_configuration": "https://github.com/Viren070/AIOStreams/blob/f67d00ac6cd6d4efdde01f5d6f59bf1dbee95854/packages/frontend/src/lib/services.ts",
+    "native": {
+      "dimensions": [
+        150,
+        150
+      ]
+    },
+    "original_file": "sources/brands/offcloud.png",
+    "original_sha256": "f223351f478347129cc64debcf78331ad73e00b9f084778f28d9a77bb66fb35c"
+  },
+  "provider/pikpak": {
+    "id": "pikpak",
+    "url": "https://mypikpak.com/apple-touch-icon.png",
+    "file": "work/brand-originals/pikpak.png",
+    "bytes": 3832,
+    "provenance": "upstream-configured-logo",
+    "source_configuration": "https://github.com/Viren070/AIOStreams/blob/f67d00ac6cd6d4efdde01f5d6f59bf1dbee95854/packages/frontend/src/lib/services.ts",
+    "native": {
+      "dimensions": [
+        180,
+        180
+      ]
+    },
+    "original_file": "sources/brands/pikpak.png",
+    "original_sha256": "c73796c91af6cfed34bf42feadad2d0a0a26ef151ace4646c9635da8f7fc0a8a"
+  },
+  "provider/premiumize": {
+    "id": "premiumize",
+    "url": "https://www.premiumize.me/icon_normal.svg",
+    "file": "work/brand-originals/premiumize.svg",
+    "bytes": 3033,
+    "provenance": "upstream-configured-logo",
+    "source_configuration": "https://github.com/Viren070/AIOStreams/blob/f67d00ac6cd6d4efdde01f5d6f59bf1dbee95854/packages/frontend/src/lib/services.ts",
+    "native": {
+      "viewBox": "0 0 240.00002 239.99999"
+    },
+    "original_file": "sources/brands/premiumize.svg",
+    "original_sha256": "acdbd146aab30ee4bb799258d399703e987aa1b37712a03f4ea2db0c7df2928a"
+  },
+  "provider/put-io": {
+    "id": "put-io",
+    "url": "https://images.seeklogo.com/logo-png/51/1/put-io-logo-png_seeklogo-516681.png",
+    "file": "work/brand-originals/put-io.png",
+    "bytes": 12952,
+    "provenance": "upstream-configured-logo",
+    "source_configuration": "https://github.com/Viren070/AIOStreams/blob/f67d00ac6cd6d4efdde01f5d6f59bf1dbee95854/packages/frontend/src/lib/services.ts",
+    "native": {
+      "dimensions": [
+        600,
+        600
+      ]
+    },
+    "original_file": "sources/brands/put-io.png",
+    "original_sha256": "60d7bccb2996e8d2cbea3b5e6c797858401895d57a3089b3e2e75d5a39d43725"
+  },
+  "provider/real-debrid": {
+    "id": "real-debrid",
+    "url": "https://cdn.jsdelivr.net/gh/selfhst/icons/png/real-debrid.png",
+    "file": "work/brand-originals/real-debrid.png",
+    "bytes": 24017,
+    "provenance": "upstream-configured-logo",
+    "source_configuration": "https://github.com/Viren070/AIOStreams/blob/f67d00ac6cd6d4efdde01f5d6f59bf1dbee95854/packages/frontend/src/lib/services.ts",
+    "native": {
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    "original_file": "sources/brands/real-debrid.png",
+    "original_sha256": "b001f407c3d37011814262645f012511e24364ffc69b44b285b26992ad3e37e3"
+  },
+  "provider/seedr": {
+    "id": "seedr",
+    "url": "https://www.seedr.cc/assets/static/nav_Logo_3_Wht.B9BJIpkP.svg",
+    "source_page": "https://www.seedr.cc/",
+    "provenance": "official-site",
+    "replaces_low_resolution_source": true,
+    "file": "work/brand-originals/seedr.svg",
+    "bytes": 3565,
+    "sha256": "7bb1d5e12969624ae35cf6d3e8be1a76d55c4253c59983067ed49a0e90956f14",
+    "native": {
+      "viewBox": "0 0 171.8 45.32",
+      "flags": []
+    },
+    "original_file": "sources/brands/seedr.svg",
+    "original_sha256": "7bb1d5e12969624ae35cf6d3e8be1a76d55c4253c59983067ed49a0e90956f14"
+  },
+  "provider/stremio-nntp": {
+    "id": "stremio-nntp",
+    "url": "https://raw.githubusercontent.com/Stremio/stremio-brand/refs/heads/master/logos/PNG/stremio-logo-800px.png",
+    "file": "work/brand-originals/stremio-nntp.png",
+    "bytes": 23814,
+    "provenance": "upstream-configured-logo",
+    "source_configuration": "https://github.com/Viren070/AIOStreams/blob/f67d00ac6cd6d4efdde01f5d6f59bf1dbee95854/packages/frontend/src/lib/services.ts",
+    "native": {
+      "dimensions": [
+        801,
+        801
+      ]
+    },
+    "original_file": "sources/brands/stremio-nntp.png",
+    "original_sha256": "6064892dee30843cb11c762a3709e706cdcfa86ecc200831394f5a7f12ecab17"
+  },
+  "provider/stremthru-newz": {
+    "id": "stremthru-newz",
+    "url": "https://emojiapi.dev/api/v1/sparkles/256.png",
+    "file": "work/brand-originals/stremthru-newz.png",
+    "bytes": 9009,
+    "provenance": "upstream-configured-logo",
+    "source_configuration": "https://github.com/Viren070/AIOStreams/blob/f67d00ac6cd6d4efdde01f5d6f59bf1dbee95854/packages/frontend/src/lib/services.ts",
+    "native": {
+      "dimensions": [
+        256,
+        256
+      ]
+    },
+    "note": "Upstream-configured sparkle symbol; not an independently claimed official corporate logo.",
+    "original_file": "sources/brands/stremthru-newz.png",
+    "original_sha256": "843fd6a11a44eadd389e508ef691db5dbfbe07c3dc67c29ba408945be1cd08cf"
+  },
+  "provider/torbox": {
+    "id": "torbox",
+    "url": "https://torbox.app/assets/logo-bb7a9579.svg",
+    "file": "work/brand-originals/torbox.svg",
+    "bytes": 920,
+    "provenance": "upstream-configured-logo",
+    "source_configuration": "https://github.com/Viren070/AIOStreams/blob/f67d00ac6cd6d4efdde01f5d6f59bf1dbee95854/packages/frontend/src/lib/services.ts",
+    "native": {
+      "viewBox": "367 308 766 884"
+    },
+    "original_file": "sources/brands/torbox.svg",
+    "original_sha256": "bb7a95799250d1bd5b1a626d781fc5033cef31930a9d74f8a4ab8fd54b892160"
+  },
+  "provider/torrin": {
+    "id": "torrin",
+    "url": "https://torrin.app/favicon.png",
+    "file": "work/brand-originals/torrin.png",
+    "bytes": 162302,
+    "provenance": "upstream-configured-logo",
+    "source_configuration": "https://github.com/Viren070/AIOStreams/blob/f67d00ac6cd6d4efdde01f5d6f59bf1dbee95854/packages/frontend/src/lib/services.ts",
+    "native": {
+      "dimensions": [
+        4167,
+        4167
+      ]
+    },
+    "original_file": "sources/brands/torrin.png",
+    "original_sha256": "3c2afd996a3f784d0594231aee2e01b24fa4eb0ade20afb098209cea0f65c269"
+  },
+  "service/adult-swim": {
+    "id": "adult-swim",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Adult_Swim_2003_logo.svg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Adult_Swim_2003_logo.svg",
+    "provenance": "documented-brand-artwork-mirror",
+    "credit": "web.archive.org/web/20170124180648/http://www.timewarner.com/sites/timewarner.com/files/ckeditor/public/files/2016-GRAPHIC-TW Logo Placemat-8.pdf",
+    "artist": "Cartoon Network (Warner Bros. Discovery)",
+    "original_references": [
+      "https://web.archive.org/web/20170124180648/http://www.timewarner.com/sites/timewarner.com/files/ckeditor/public/files/2016-GRAPHIC-TW_Logo_Placemat-8.pdf"
+    ],
+    "file": "work/brand-originals/adult-swim.svg",
+    "bytes": 13376,
+    "sha256": "e63f8dc0abd10ee607452f59a36483745b3c9f99dd384c613b108353c33deb82",
+    "native": {
+      "viewBox": null,
+      "flags": []
+    },
+    "original_file": "sources/brands/adult-swim.svg",
+    "original_sha256": "e63f8dc0abd10ee607452f59a36483745b3c9f99dd384c613b108353c33deb82"
+  },
+  "service/amc-plus": {
+    "id": "amc-plus",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/AMC%2B_logo.png",
+    "source_page": "https://en.wikipedia.org/wiki/AMC+",
+    "provenance": "documented-brand-artwork-mirror",
+    "file": "work/brand-originals/amc-plus.png",
+    "bytes": 13933,
+    "sha256": "a7e7b7bb42a99101a65426ad6acb5bf2c32ee406f854474730a82054794f5f45",
+    "native": {
+      "dimensions": [
+        887,
+        460
+      ]
+    },
+    "original_file": "sources/brands/amc-plus.png",
+    "original_sha256": "a7e7b7bb42a99101a65426ad6acb5bf2c32ee406f854474730a82054794f5f45"
+  },
+  "service/amc": {
+    "id": "amc",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/AMC_logo_2019.svg",
+    "source_page": "https://en.wikipedia.org/wiki/AMC_(TV_channel)",
+    "provenance": "documented-brand-artwork-mirror",
+    "file": "work/brand-originals/amc.svg",
+    "bytes": 1784,
+    "sha256": "cce77d3e5921b0a73647beeb616d4b09710b8dc5991bb68edd3e2a7966921b1a",
+    "native": {
+      "viewBox": "0 0 313.34409 176.04172",
+      "flags": []
+    },
+    "original_file": "sources/brands/amc.svg",
+    "original_sha256": "cce77d3e5921b0a73647beeb616d4b09710b8dc5991bb68edd3e2a7966921b1a"
+  },
+  "service/animal-planet": {
+    "id": "animal-planet",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/2018_Animal_Planet_logo.svg",
+    "source_page": "https://en.wikipedia.org/wiki/Animal_Planet",
+    "provenance": "documented-brand-artwork-mirror",
+    "file": "work/brand-originals/animal-planet.svg",
+    "bytes": 4777,
+    "sha256": "c26e9f3ce4ff0fa641f9afe1084c5c1c1bddb0015b56fbfd347a58611c068b06",
+    "native": {
+      "viewBox": "0 0 1000 587.43591",
+      "flags": []
+    },
+    "original_file": "sources/brands/animal-planet.svg",
+    "original_sha256": "c26e9f3ce4ff0fa641f9afe1084c5c1c1bddb0015b56fbfd347a58611c068b06"
+  },
+  "service/apple-tv": {
+    "id": "apple-tv",
+    "url": "https://hdr10plus.org/wp-content/uploads/2025/11/Apple_TV_Logo_Wht_CI_082925.svg",
+    "file": "work/brand-originals/apple-tv.svg",
+    "bytes": 1633,
+    "content_type": "image/svg+xml",
+    "original_file": "sources/brands/apple-tv.svg",
+    "original_sha256": "288efa17f5fb8788c4c9d9e9c494faa59b69ff71c5b4ad4c25aad3b94b819f4b"
+  },
+  "service/ard": {
+    "id": "ard",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/ARD_2019_logo.svg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:ARD_2019_logo.svg",
+    "provenance": "documented-brand-artwork-mirror",
+    "credit": "Own work using: http://www.ard.de",
+    "artist": "Arbeitsgemeinschaft der öffentlich-rechtlichen Rundfunkanstalten der Bundesrepublik Deutschland",
+    "original_references": [
+      "http://www.ard.de"
+    ],
+    "file": "work/brand-originals/ard.svg",
+    "bytes": 403,
+    "sha256": "e54db79889b65f6781371496fe979fb9271c3cc626f3033025f29e662f4beab4",
+    "native": {
+      "viewBox": "0 0 233 107",
+      "flags": []
+    },
+    "original_file": "sources/brands/ard.svg",
+    "original_sha256": "e54db79889b65f6781371496fe979fb9271c3cc626f3033025f29e662f4beab4"
+  },
+  "service/arte": {
+    "id": "arte",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Arte_Logo_2026.svg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Arte_Logo_2026.svg",
+    "provenance": "documented-brand-artwork-mirror",
+    "credit": "File:Arte Logo 2011.svg",
+    "artist": "Arte",
+    "original_references": [],
+    "file": "work/brand-originals/arte.svg",
+    "bytes": 5007,
+    "sha256": "e54e5274de6ff7a7127d89c156d5590d37e1d285827556c8ed4479395a8b8ab0",
+    "native": {
+      "viewBox": "0 0 343 86",
+      "flags": []
+    },
+    "original_file": "sources/brands/arte.svg",
+    "original_sha256": "e54e5274de6ff7a7127d89c156d5590d37e1d285827556c8ed4479395a8b8ab0"
+  },
+  "service/canal-plus": {
+    "id": "canal-plus",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Logo_Canal%2B_1995.svg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Logo_Canal%2B_1995.svg",
+    "provenance": "documented-brand-artwork-mirror",
+    "credit": "Own work based on: Canal+.svg: ",
+    "artist": "Canal+ - Étienne Robial",
+    "original_references": [],
+    "file": "work/brand-originals/canal-plus.svg",
+    "bytes": 7032,
+    "sha256": "fe6d163767195aec51eb3168604f37191af6194577dca83205684ebb411b3c43",
+    "native": {
+      "viewBox": null,
+      "flags": []
+    },
+    "original_file": "sources/brands/canal-plus.svg",
+    "original_sha256": "fe6d163767195aec51eb3168604f37191af6194577dca83205684ebb411b3c43"
+  },
+  "service/cartoon-network": {
+    "id": "cartoon-network",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Cartoon_Network_2010_logo.svg",
+    "source_page": "https://en.wikipedia.org/wiki/Cartoon_Network",
+    "provenance": "documented-brand-artwork-mirror",
+    "file": "work/brand-originals/cartoon-network.svg",
+    "bytes": 6657,
+    "sha256": "2b0a719d5d695bf27588d085dd41941a0eb5d7875ee145f5edd500ccc4ef7604",
+    "native": {
+      "viewBox": "0 0 1275.2 763.196",
+      "flags": []
+    },
+    "original_file": "sources/brands/cartoon-network.svg",
+    "original_sha256": "2b0a719d5d695bf27588d085dd41941a0eb5d7875ee145f5edd500ccc4ef7604"
+  },
+  "service/cbs": {
+    "id": "cbs",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/CBS_logo_%282020%29.svg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:CBS_logo_(2020).svg",
+    "provenance": "documented-brand-artwork-mirror",
+    "credit": "https://vignette.wikia.nocookie.net/logopedia/images/1/16/CBS_2020.svg/revision/latest?cb=20201009082101",
+    "artist": "Paramount Global",
+    "original_references": [
+      "https://vignette.wikia.nocookie.net/logopedia/images/1/16/CBS_2020.svg/revision/latest?cb=20201009082101"
+    ],
+    "file": "work/brand-originals/cbs.svg",
+    "bytes": 2725,
+    "sha256": "f64403725d80fc17c356cfdd45adbdc78056feb77da702c2096ebadc1d633f5f",
+    "native": {
+      "viewBox": "-202.36 276.93 1000 288.031",
+      "flags": []
+    },
+    "original_file": "sources/brands/cbs.svg",
+    "original_sha256": "f64403725d80fc17c356cfdd45adbdc78056feb77da702c2096ebadc1d633f5f"
+  },
+  "service/crave": {
+    "id": "crave",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Crave_2018_logo.svg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Crave_2018_logo.svg",
+    "provenance": "documented-brand-artwork-mirror",
+    "credit": "https://www.crave.ca",
+    "artist": "Bell Media",
+    "original_references": [
+      "https://www.crave.ca"
+    ],
+    "file": "work/brand-originals/crave.svg",
+    "bytes": 2450,
+    "sha256": "695bd542897d958f705cbe1acb345ca5d0859741231ea63945f3db2cd371c8de",
+    "native": {
+      "viewBox": "0 246.9 600 106.2",
+      "flags": []
+    },
+    "original_file": "sources/brands/crave.svg",
+    "original_sha256": "695bd542897d958f705cbe1acb345ca5d0859741231ea63945f3db2cd371c8de"
+  },
+  "service/crunchyroll": {
+    "id": "crunchyroll",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Crunchyroll_logo_2024.png",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Crunchyroll_logo_2024.png",
+    "provenance": "documented-brand-artwork-mirror",
+    "credit": "https://www.crunchyroll.com/es/news/announcements/2024/7/18/crunchyroll-evolucion-marca",
+    "artist": "crunchyroll",
+    "original_references": [
+      "https://www.crunchyroll.com/es/news/announcements/2024/7/18/crunchyroll-evolucion-marca"
+    ],
+    "file": "work/brand-originals/crunchyroll.png",
+    "bytes": 17169,
+    "sha256": "1fc93d35b40b0dbc703b26192cd42695badb504f30a8a26dc902c1bf42447672",
+    "native": {
+      "dimensions": [
+        1538,
+        860
+      ]
+    },
+    "original_file": "sources/brands/crunchyroll.png",
+    "original_sha256": "1fc93d35b40b0dbc703b26192cd42695badb504f30a8a26dc902c1bf42447672"
+  },
+  "service/dazn": {
+    "id": "dazn",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/DAZN_Logo_Master.svg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:DAZN_Logo_Master.svg",
+    "provenance": "documented-brand-artwork-mirror",
+    "credit": "DAZN Group",
+    "artist": "DAZN Group",
+    "original_references": [],
+    "file": "work/brand-originals/dazn.svg",
+    "bytes": 4023,
+    "sha256": "6f49fbde94ed941caab7d360b3b2e9beaf4ca8acd8a3cafbe33a2556e854ad29",
+    "native": {
+      "viewBox": "0 0 300 300",
+      "flags": []
+    },
+    "original_file": "sources/brands/dazn.svg",
+    "original_sha256": "6f49fbde94ed941caab7d360b3b2e9beaf4ca8acd8a3cafbe33a2556e854ad29"
+  },
+  "service/discovery-plus": {
+    "id": "discovery-plus",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Discovery_Plus_logo.svg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Discovery_Plus_logo.svg",
+    "provenance": "documented-brand-artwork-mirror",
+    "credit": "https://press.discoveryplus.com/brand-assets/",
+    "artist": "Chermayeff & Geismar & Haviv",
+    "original_references": [
+      "https://press.discoveryplus.com/brand-assets/"
+    ],
+    "file": "work/brand-originals/discovery-plus.svg",
+    "bytes": 414967,
+    "sha256": "82e7691ac5bf8e9ac5d76bf707f81efe81ed2ee0c12272ed8082e12acaaaa064",
+    "native": {
+      "viewBox": "0 0 994.904 200",
+      "flags": [
+        "embedded-raster"
+      ]
+    },
+    "original_file": "sources/brands/discovery-plus.svg",
+    "original_sha256": "82e7691ac5bf8e9ac5d76bf707f81efe81ed2ee0c12272ed8082e12acaaaa064"
+  },
+  "service/disney-plus": {
+    "id": "disney-plus",
+    "url": "https://hdr10plus.org/wp-content/uploads/2025/10/DisneyLogo_2024_VECTOR_White_RGB-scaled.png",
+    "file": "work/brand-originals/disney-plus.png",
+    "bytes": 19841,
+    "content_type": "image/png",
+    "original_file": "sources/brands/disney-plus.png",
+    "original_sha256": "0762101fc520aad6328704f376c231ddf67760ed8ca366929088bb78661835a2"
+  },
+  "service/disney": {
+    "id": "disney",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Walt_Disney_wordmark.svg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Walt_Disney_wordmark.svg",
+    "provenance": "documented-brand-artwork-mirror",
+    "credit": "This image has been extracted from another file",
+    "artist": "Disney Enterprises, Inc.",
+    "original_references": [],
+    "file": "work/brand-originals/disney.svg",
+    "bytes": 20831,
+    "sha256": "3c9c188e0231e7292b95944a765f1155df79ab7147fa18dca51045aa4519d072",
+    "native": {
+      "viewBox": "0 0 469.43721 134.73767",
+      "flags": []
+    },
+    "original_file": "sources/brands/disney.svg",
+    "original_sha256": "3c9c188e0231e7292b95944a765f1155df79ab7147fa18dca51045aa4519d072"
+  },
+  "service/hallmark": {
+    "id": "hallmark",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Hallmark_Channel_2022_logo.svg",
+    "source_page": "https://en.wikipedia.org/wiki/Hallmark_Channel",
+    "provenance": "documented-brand-artwork-mirror",
+    "file": "work/brand-originals/hallmark.svg",
+    "bytes": 6969,
+    "sha256": "56b79b31416b5f53b06df2d1e1ac6fc4b56d1b65ad5c147a3ec3d6645dd0e38c",
+    "native": {
+      "viewBox": "0 0 690.1 266.4",
+      "flags": []
+    },
+    "original_file": "sources/brands/hallmark.svg",
+    "original_sha256": "56b79b31416b5f53b06df2d1e1ac6fc4b56d1b65ad5c147a3ec3d6645dd0e38c"
+  },
+  "service/hbo-max": {
+    "id": "hbo-max",
+    "url": "https://www.hbomax.com/",
+    "source_page": "https://www.hbomax.com/",
+    "file": "work/brand-originals/hbo-max.svg",
+    "bytes": 1767,
+    "provenance": "official-site-inline-svg",
+    "extraction": "svg[aria-labelledby=\"bundle-logo-max-title\"]",
+    "normalization": "Standalone XML namespace added; paths and declared colors unchanged.",
+    "original_file": "sources/brands/hbo-max.svg",
+    "original_sha256": "d48f7e46e70fa650c78ddd4e8f9b24803fd26f69486854c70389a6b3807ac902"
+  },
+  "service/hbo": {
+    "id": "hbo",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/HBO_logo.svg",
+    "source_page": "https://en.wikipedia.org/wiki/HBO",
+    "provenance": "documented-brand-artwork-mirror",
+    "file": "work/brand-originals/hbo.svg",
+    "bytes": 3176,
+    "sha256": "ff3b394544e418078da83e1dc1e733547d1e2efa5354dd5e5d2bde1d6a65a9b1",
+    "native": {
+      "viewBox": "0 0 512 211",
+      "flags": []
+    },
+    "original_file": "sources/brands/hbo.svg",
+    "original_sha256": "ff3b394544e418078da83e1dc1e733547d1e2efa5354dd5e5d2bde1d6a65a9b1"
+  },
+  "service/hulu": {
+    "id": "hulu",
+    "url": "https://hdr10plus.org/wp-content/uploads/2023/12/hulu.png",
+    "file": "work/brand-originals/hulu.png",
+    "bytes": 2208,
+    "content_type": "image/png",
+    "original_file": "sources/brands/hulu.png",
+    "original_sha256": "7ee1bce0fac393f5d2a74dc403e2dd408a4092d8f10d2b6d5afc4ee2c6369af3"
+  },
+  "service/iqiyi": {
+    "id": "iqiyi",
+    "url": "https://dts.com/wp-content/uploads/2024/08/iqiyi_logo.png",
+    "file": "work/brand-originals/iqiyi.png",
+    "bytes": 5066,
+    "provenance": "official-site",
+    "original_file": "sources/brands/iqiyi.png",
+    "original_sha256": "7187e7a188a8c75124adff73e3fb69597a0245dcee3017fa46e3034b4fae36ca"
+  },
+  "service/itunes": {
+    "id": "itunes",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/ITunes_12.2_logo.png",
+    "source_page": "https://en.wikipedia.org/wiki/ITunes",
+    "provenance": "documented-brand-artwork-mirror",
+    "file": "work/brand-originals/itunes.png",
+    "bytes": 844590,
+    "sha256": "d85561f327a019a418dcbf87b71e5399257bffc320444eedc437d1e62e782ed9",
+    "native": {
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    "original_file": "sources/brands/itunes.png",
+    "original_sha256": "d85561f327a019a418dcbf87b71e5399257bffc320444eedc437d1e62e782ed9"
+  },
+  "service/ivi": {
+    "id": "ivi",
+    "url": "https://hdr10plus.org/wp-content/uploads/2023/12/IVI_logo_crop.png",
+    "file": "work/brand-originals/ivi.png",
+    "bytes": 5838,
+    "content_type": "image/png",
+    "original_file": "sources/brands/ivi.png",
+    "original_sha256": "d48114ac38d1a2290140d4cbd12922a6b576d1d1e563312de92f89db2a07610c"
+  },
+  "service/joyn": {
+    "id": "joyn",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Joyn_logo.svg",
+    "source_page": "https://en.wikipedia.org/wiki/Joyn_(streaming_platform)",
+    "provenance": "documented-brand-artwork-mirror",
+    "file": "work/brand-originals/joyn.svg",
+    "bytes": 1680,
+    "sha256": "a5b387fbb02c2be6c1408e0d56d4c4ee32fd19eaf86a776fa05de38d6afb0570",
+    "native": {
+      "viewBox": "0 0 1520 640",
+      "flags": []
+    },
+    "original_file": "sources/brands/joyn.svg",
+    "original_sha256": "a5b387fbb02c2be6c1408e0d56d4c4ee32fd19eaf86a776fa05de38d6afb0570"
+  },
+  "service/magenta-tv": {
+    "id": "magenta-tv",
+    "url": "https://hdr10plus.org/wp-content/uploads/2023/12/magenta-tv.png",
+    "file": "work/brand-originals/magenta-tv.png",
+    "bytes": 4200,
+    "content_type": "image/png",
+    "original_file": "sources/brands/magenta-tv.png",
+    "original_sha256": "d1f90d2b1d83a5d2f4c85db49217d5ca2aad494adfd57d150fbf8917a2c47698"
+  },
+  "service/megogo": {
+    "id": "megogo",
+    "url": "https://hdr10plus.org/wp-content/uploads/2023/12/megogo.png",
+    "file": "work/brand-originals/megogo.png",
+    "bytes": 4905,
+    "content_type": "image/png",
+    "original_file": "sources/brands/megogo.png",
+    "original_sha256": "11e365ea23664d9e2ebd5c0a3ccd0f95234c646c04b01129b53d5ae49e6157bf"
+  },
+  "service/mubi": {
+    "id": "mubi",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Mubi_logo.svg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Mubi_logo.svg",
+    "provenance": "documented-brand-artwork-mirror",
+    "credit": "Mubi web",
+    "artist": "Mubi (streaming service)",
+    "original_references": [],
+    "file": "work/brand-originals/mubi.svg",
+    "bytes": 6507,
+    "sha256": "1c2db2ecf58d03bd6e0c72ae30c3448548f18845ede47f3f82a1e39259592885",
+    "native": {
+      "viewBox": "0 0 213.51849 65.441788",
+      "flags": []
+    },
+    "original_file": "sources/brands/mubi.svg",
+    "original_sha256": "1c2db2ecf58d03bd6e0c72ae30c3448548f18845ede47f3f82a1e39259592885"
+  },
+  "service/nbc": {
+    "id": "nbc",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/NBC_logo_2022_%28vertical%29.svg",
+    "source_page": "https://en.wikipedia.org/wiki/NBC",
+    "provenance": "documented-brand-artwork-mirror",
+    "file": "work/brand-originals/nbc.svg",
+    "bytes": 3951,
+    "sha256": "2ede99ada4ef0d72631591f251a2d9e4083ce8d8a81755638f0e36be341b9e62",
+    "native": {
+      "viewBox": "0 0 215.84055 203.6085",
+      "flags": []
+    },
+    "original_file": "sources/brands/nbc.svg",
+    "original_sha256": "2ede99ada4ef0d72631591f251a2d9e4083ce8d8a81755638f0e36be341b9e62"
+  },
+  "service/netflix": {
+    "id": "netflix",
+    "url": "https://hdr10plus.org/wp-content/uploads/2025/04/Netflix_logo_white.png",
+    "file": "work/brand-originals/netflix.png",
+    "bytes": 10776,
+    "content_type": "image/png",
+    "original_file": "sources/brands/netflix.png",
+    "original_sha256": "78190e7e6650291d5366ec7eb2df4e1b01617b1668ddac381c0461f8fd441503"
+  },
+  "service/nickelodeon": {
+    "id": "nickelodeon",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Nickelodeon_2023_logo_%28outline%29.svg",
+    "source_page": "https://en.wikipedia.org/wiki/Nickelodeon",
+    "provenance": "documented-brand-artwork-mirror",
+    "file": "work/brand-originals/nickelodeon.svg",
+    "bytes": 9466,
+    "sha256": "dca7311909063a914375a193c519baf4de3390af9cac90a0b544922ee0067fde",
+    "native": {
+      "viewBox": "0 0 1758.74 1375",
+      "flags": []
+    },
+    "original_file": "sources/brands/nickelodeon.svg",
+    "original_sha256": "dca7311909063a914375a193c519baf4de3390af9cac90a0b544922ee0067fde"
+  },
+  "service/now": {
+    "id": "now",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Now_logo.svg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Now_logo.svg",
+    "provenance": "documented-brand-artwork-mirror",
+    "credit": "https://www.nowtv.com/membership",
+    "artist": "Sky Group",
+    "original_references": [
+      "https://www.nowtv.com/membership"
+    ],
+    "file": "work/brand-originals/now.svg",
+    "bytes": 1684,
+    "sha256": "bafb2f754fd40f68a256ce3c38a556943f22199e003bcce5c1e503df95e0d94b",
+    "native": {
+      "viewBox": "0 0 971.1 300",
+      "flags": []
+    },
+    "original_file": "sources/brands/now.svg",
+    "original_sha256": "bafb2f754fd40f68a256ce3c38a556943f22199e003bcce5c1e503df95e0d94b"
+  },
+  "service/paramount-plus": {
+    "id": "paramount-plus",
+    "url": "https://hdr10plus.org/wp-content/uploads/2023/12/paramount.png",
+    "file": "work/brand-originals/paramount-plus.png",
+    "bytes": 6949,
+    "content_type": "image/png",
+    "original_file": "sources/brands/paramount-plus.png",
+    "original_sha256": "2e2e5283856ea2894db81fde1059cfa309dcd7552e4789fd9e827845cf6e1a0b"
+  },
+  "service/pbs": {
+    "id": "pbs",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/PBS_logo_2019.svg",
+    "source_page": "https://en.wikipedia.org/wiki/PBS",
+    "provenance": "documented-brand-artwork-mirror",
+    "file": "work/brand-originals/pbs.svg",
+    "bytes": 1739,
+    "sha256": "f363193bd3e1ff6ce50816b26c81f657213b566ff119f5d53c982cc6d9713d17",
+    "native": {
+      "viewBox": "0 0 135 56",
+      "flags": []
+    },
+    "original_file": "sources/brands/pbs.svg",
+    "original_sha256": "f363193bd3e1ff6ce50816b26c81f657213b566ff119f5d53c982cc6d9713d17"
+  },
+  "service/peacock": {
+    "id": "peacock",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/NBCUniversal_Peacock_Logo_%282026%29.svg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:NBCUniversal_Peacock_Logo_(2026).svg",
+    "provenance": "documented-brand-artwork-mirror",
+    "credit": "https://www.peacocktv.com/",
+    "artist": "NBCUniversal",
+    "original_references": [
+      "https://www.peacocktv.com/"
+    ],
+    "file": "work/brand-originals/peacock.svg",
+    "bytes": 3133,
+    "sha256": "bf53d69c5deda4de4db1997d0616cfc43ede490f5634003bfcc5094477595f2c",
+    "native": {
+      "viewBox": "0 0 1607 400",
+      "flags": []
+    },
+    "original_file": "sources/brands/peacock.svg",
+    "original_sha256": "bf53d69c5deda4de4db1997d0616cfc43ede490f5634003bfcc5094477595f2c"
+  },
+  "service/plex": {
+    "id": "plex",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Plex_logo_2022.svg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Plex_logo_2022.svg",
+    "provenance": "documented-brand-artwork-mirror",
+    "credit": "This logo may be obtained from Plex.",
+    "artist": "Plex, Inc.",
+    "original_references": [
+      "https://en.wikipedia.org/wiki/Plex_(company)"
+    ],
+    "file": "work/brand-originals/plex.svg",
+    "bytes": 4365,
+    "sha256": "bbedc53fa89bb5c6c8f1128080c841ad82f5788da07ae3f899b2f91560c33a6d",
+    "native": {
+      "viewBox": "0 0 1000 460.89727",
+      "flags": []
+    },
+    "original_file": "sources/brands/plex.svg",
+    "original_sha256": "bbedc53fa89bb5c6c8f1128080c841ad82f5788da07ae3f899b2f91560c33a6d"
+  },
+  "service/pluto-tv": {
+    "id": "pluto-tv",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Pluto_TV_logo_2024_black.svg",
+    "source_page": "https://en.wikipedia.org/wiki/Pluto_TV",
+    "provenance": "documented-brand-artwork-mirror",
+    "file": "work/brand-originals/pluto-tv.svg",
+    "bytes": 3581,
+    "sha256": "83466b718e9e5894901c7cdfec38bb7f795135bc54f9b89cdee4c94ee03b99b1",
+    "native": {
+      "viewBox": "0 0 755.90549 563.00978",
+      "flags": []
+    },
+    "original_file": "sources/brands/pluto-tv.svg",
+    "original_sha256": "83466b718e9e5894901c7cdfec38bb7f795135bc54f9b89cdee4c94ee03b99b1"
+  },
+  "service/prime-video": {
+    "id": "prime-video",
+    "url": "https://hdr10plus.org/wp-content/uploads/2023/12/prime.png",
+    "file": "work/brand-originals/prime-video.png",
+    "bytes": 6385,
+    "content_type": "image/png",
+    "original_file": "sources/brands/prime-video.png",
+    "original_sha256": "0ae92aff1eb445f117272c0649fcd7d85f8157123a99e8baf9ddd9543de8e9dd"
+  },
+  "service/rakuten-tv": {
+    "id": "rakuten-tv",
+    "url": "https://hdr10plus.org/wp-content/uploads/2023/12/rakuten-tv.png",
+    "file": "work/brand-originals/rakuten-tv.png",
+    "bytes": 5815,
+    "content_type": "image/png",
+    "original_file": "sources/brands/rakuten-tv.png",
+    "original_sha256": "74ab145531e58dea64fa35b6e35014ed554d4309c594b022322fb3b19ffff5c4"
+  },
+  "service/rtl-plus": {
+    "id": "rtl-plus",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/RTL%2B_Logo_2021.svg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:RTL%2B_Logo_2021.svg",
+    "provenance": "documented-brand-artwork-mirror",
+    "credit": "https://logos.fandom.com",
+    "artist": "RTL Group",
+    "original_references": [
+      "https://logos.fandom.com"
+    ],
+    "file": "work/brand-originals/rtl-plus.svg",
+    "bytes": 1467,
+    "sha256": "4f28b89be7c76acec5b467e66df51fb332ea0c46a9cde4f3be6fb5270c105884",
+    "native": {
+      "viewBox": "0 0 528.9 77.3",
+      "flags": []
+    },
+    "original_file": "sources/brands/rtl-plus.svg",
+    "original_sha256": "4f28b89be7c76acec5b467e66df51fb332ea0c46a9cde4f3be6fb5270c105884"
+  },
+  "service/showtime": {
+    "id": "showtime",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/showtime.svg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Showtime.svg",
+    "file": "work/brand-originals/showtime.svg",
+    "bytes": 841,
+    "provenance": "documented-brand-artwork-library",
+    "library": "Simple Icons",
+    "library_source_metadata": {
+      "title": "Showtime",
+      "hex": "B10000",
+      "source": "https://commons.wikimedia.org/wiki/File:Showtime.svg"
+    },
+    "note": "Existing monochrome Showtime SHO mark. Geometry and colors are preserved; no AI drawing.",
+    "original_file": "sources/brands/showtime.svg",
+    "original_sha256": "1090ebed81ad9345620b37ac40cb27d229096596f28baf4e5d913de9bc93f4b4"
+  },
+  "service/sky": {
+    "id": "sky",
+    "url": "https://upload.wikimedia.org/wikipedia/en/d/db/Sky_logo_2025.svg",
+    "source_page": "https://en.wikipedia.org/wiki/Sky_Group",
+    "provenance": "documented-brand-artwork-mirror",
+    "file": "work/brand-originals/sky.svg",
+    "bytes": 28034,
+    "sha256": "8f4858060b020ec836cbc3f256bb98c7139ef0094c8498018c456f482d796c4a",
+    "native": {
+      "viewBox": "0 0 52.273 32",
+      "flags": [
+        "embedded-raster"
+      ]
+    },
+    "original_file": "sources/brands/sky.svg",
+    "original_sha256": "8f4858060b020ec836cbc3f256bb98c7139ef0094c8498018c456f482d796c4a"
+  },
+  "service/sony": {
+    "id": "sony",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sony_logo.svg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Sony_logo.svg",
+    "provenance": "documented-brand-artwork-mirror",
+    "credit": "Sonyrtyyh Group Corporation",
+    "artist": "Yasuo Kuroki, Sony",
+    "original_references": [],
+    "file": "work/brand-originals/sony.svg",
+    "bytes": 5135,
+    "sha256": "f6191bc69f8df259c86a13dc9582ba9ed2e0101d4452ba3f1d33ec8e907ddda0",
+    "native": {
+      "viewBox": "0 0 1280 225.27997",
+      "flags": []
+    },
+    "original_file": "sources/brands/sony.svg",
+    "original_sha256": "f6191bc69f8df259c86a13dc9582ba9ed2e0101d4452ba3f1d33ec8e907ddda0"
+  },
+  "service/stan": {
+    "id": "stan",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Stan_logo.png",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Stan_logo.png",
+    "provenance": "documented-brand-artwork-mirror",
+    "credit": "https://www.stan.com.au/",
+    "artist": "Nine Entertainment Co. Holdings Limited",
+    "original_references": [
+      "https://www.stan.com.au/"
+    ],
+    "file": "work/brand-originals/stan.png",
+    "bytes": 24363,
+    "sha256": "5fc7c9b5d9bbe433fbae3d740c0c4a5f567fa65fa1d150b1f7ceae46412a3e64",
+    "native": {
+      "dimensions": [
+        1024,
+        309
+      ]
+    },
+    "original_file": "sources/brands/stan.png",
+    "original_sha256": "5fc7c9b5d9bbe433fbae3d740c0c4a5f567fa65fa1d150b1f7ceae46412a3e64"
+  },
+  "service/tubi": {
+    "id": "tubi",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Tubi_logo_2024_purple.svg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Tubi_logo_2024_purple.svg",
+    "provenance": "documented-brand-artwork-mirror",
+    "credit": "https://tubitv.com",
+    "artist": "Fox Corporation, Tubi Media Group",
+    "original_references": [
+      "https://tubitv.com"
+    ],
+    "file": "work/brand-originals/tubi.svg",
+    "bytes": 2928,
+    "sha256": "21b9e92e2ec906ee68cce47d818369afaed5813b850e535c87d2aa4c7976c6d9",
+    "native": {
+      "viewBox": "0 0 1000 292.49229",
+      "flags": []
+    },
+    "original_file": "sources/brands/tubi.svg",
+    "original_sha256": "21b9e92e2ec906ee68cce47d818369afaed5813b850e535c87d2aa4c7976c6d9"
+  },
+  "service/tving": {
+    "id": "tving",
+    "url": "https://hdr10plus.org/wp-content/uploads/2023/12/tving.png",
+    "file": "work/brand-originals/tving.png",
+    "bytes": 3053,
+    "content_type": "image/png",
+    "original_file": "sources/brands/tving.png",
+    "original_sha256": "4acdec1d619d29f9b81243ad45d80797cf044f484c2de66da12384adc8fd9e44"
+  },
+  "service/vice": {
+    "id": "vice",
+    "url": "https://www.vice.com/wp-content/uploads/sites/2/2024/06/vice-logo_white@2x.png",
+    "source_page": "https://www.vice.com/",
+    "file": "work/brand-originals/vice.png",
+    "bytes": 1236,
+    "provenance": "official-site",
+    "native": {
+      "dimensions": [
+        152,
+        48
+      ]
+    },
+    "original_file": "sources/brands/vice.png",
+    "original_sha256": "b490e408428e487ac893738eb7376934a65a652aafb2f2f3399276a316f09f1b"
+  },
+  "service/watcha": {
+    "id": "watcha",
+    "url": "https://hdr10plus.org/wp-content/uploads/2023/12/watcha.png",
+    "file": "work/brand-originals/watcha.png",
+    "bytes": 4838,
+    "content_type": "image/png",
+    "original_file": "sources/brands/watcha.png",
+    "original_sha256": "f5fb2341ee38f91644faee5586759c645da779777377c1a5b406990816ac7b12"
+  },
+  "service/wow": {
+    "id": "wow",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/WOW_Logo_2022.svg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:WOW_Logo_2022.svg",
+    "provenance": "documented-brand-artwork-mirror",
+    "credit": "https://wowtv.de",
+    "artist": "Sky Deutschland",
+    "original_references": [
+      "https://wowtv.de"
+    ],
+    "file": "work/brand-originals/wow.svg",
+    "bytes": 3234,
+    "sha256": "066d674b47b97c8861b46d046d16d47c8b1b292830150ab768e39ced159258a7",
+    "native": {
+      "viewBox": "0 0 1046.162 300",
+      "flags": []
+    },
+    "original_file": "sources/brands/wow.svg",
+    "original_sha256": "066d674b47b97c8861b46d046d16d47c8b1b292830150ab768e39ced159258a7"
+  },
+  "service/youtube": {
+    "id": "youtube",
+    "url": "https://hdr10plus.org/wp-content/uploads/2023/12/youtube.png",
+    "file": "work/brand-originals/youtube.png",
+    "bytes": 5004,
+    "content_type": "image/png",
+    "original_file": "sources/brands/youtube.png",
+    "original_sha256": "77091fe487d653f79dfd2e38462a44aa754e6810bd995795d9cda2cb956532c0"
+  },
+  "service/zdf": {
+    "id": "zdf",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/ZDF_logo.svg",
+    "source_page": "https://en.wikipedia.org/wiki/ZDF",
+    "provenance": "documented-brand-artwork-mirror",
+    "file": "work/brand-originals/zdf.svg",
+    "bytes": 1415,
+    "sha256": "7471f5af586aced02cdb64766aef527e042999e2af13114c00d8c0e767061ed9",
+    "native": {
+      "viewBox": "496 -272 503 300",
+      "flags": []
+    },
+    "original_file": "sources/brands/zdf.svg",
+    "original_sha256": "7471f5af586aced02cdb64766aef527e042999e2af13114c00d8c0e767061ed9"
+  }
+}

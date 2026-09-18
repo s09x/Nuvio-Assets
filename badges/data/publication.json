@@ -1,0 +1,9 @@
+{
+  "repository": "s09x/Nuvio-Assets",
+  "branch": "main",
+  "user_approved_publication": true,
+  "import_url": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/manifest.json",
+  "asset_root_url": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/",
+  "manifest_format": "Nuvio/Fusion filters and groups",
+  "image_use": "Cropped app images for stream chips; lossless 4K masters retained separately."
+}
