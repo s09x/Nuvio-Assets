@@ -1,0 +1,150 @@
+{
+  "method": "Existing source images resized from 2560x1440 to 3840x2160 with Lanczos; no regeneration or design changes",
+  "native4KGeneration": false,
+  "assets": [
+    {
+      "file": "2000s-cover-4k.webp",
+      "png": "2000s-cover-4k.png",
+      "folderId": "folder-NEK4LQ1T",
+      "period": "2000-2009",
+      "variant": "cover",
+      "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/00s-movies/v2/00s-movies-cover.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "bf336a913bb3261cd767d6afe917dd4319f512e6fd9daf810244da9040a2473a",
+      "pngSha256": "cda01cc5e99ff6863b9d6114aed624670c88e84985039bd51a56d4b51a5549a8"
+    },
+    {
+      "file": "2000s-hover-4k.webp",
+      "png": "2000s-hover-4k.png",
+      "folderId": "folder-NEK4LQ1T",
+      "period": "2000-2009",
+      "variant": "hover",
+      "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/00s-movies/v2/00s-movies-hover.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "30d2472276f0cfaaef01e5cbbb2e1b01ef4749b11b2c6a5857babd929cfe159f",
+      "pngSha256": "01643ebe049ffe4301e6c61f13b988f12845ff6afbd12e2a1bb9614c0b936aaa"
+    },
+    {
+      "file": "1990s-cover-4k.webp",
+      "png": "1990s-cover-4k.png",
+      "folderId": "folder-VMYWM6ZK",
+      "period": "1990-1999",
+      "variant": "cover",
+      "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/90s-movies/v2/90s-movies-cover.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "3b1c0d71c6ed327625fd8e630cce3dbcce5c5e1f8de04061cd69a2d117d6ee29",
+      "pngSha256": "62c1551f1d2d38c021ef775bee812566f6efc7fc029e6d0a55ca0f622eacc474"
+    },
+    {
+      "file": "1990s-hover-4k.webp",
+      "png": "1990s-hover-4k.png",
+      "folderId": "folder-VMYWM6ZK",
+      "period": "1990-1999",
+      "variant": "hover",
+      "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/90s-movies/v2/90s-movies-hover.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "43389d7054299763de8ea482a4291ab0785a6680dd4d361f53b17dcd73c0b1c9",
+      "pngSha256": "e5b2ee4857c25d5527dd7d7d9515313bdb919eca13079143e251efedb92cd29c"
+    },
+    {
+      "file": "1980s-cover-4k.webp",
+      "png": "1980s-cover-4k.png",
+      "folderId": "folder-8CFPI44Q",
+      "period": "1980-1989",
+      "variant": "cover",
+      "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/80s-movies/v2/80s-movies-cover.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "d183b8478e301ed5691375c6f4179f7f0931d6bbe1c10fcc3a8ceeaf4c3034f4",
+      "pngSha256": "aee3ec0bef2988539dcf6d24ef47fc002d96927299da5ca23583f4d3d618aaa3"
+    },
+    {
+      "file": "1980s-hover-4k.webp",
+      "png": "1980s-hover-4k.png",
+      "folderId": "folder-8CFPI44Q",
+      "period": "1980-1989",
+      "variant": "hover",
+      "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/80s-movies/v2/80s-movies-hover.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "27a0a34a988a76a93ec50f843a9312e9d47270cd526adb723c4538023f7c7a55",
+      "pngSha256": "59afb210d380448c47f269f058541e074968689dc51d743064ede00935dab4bd"
+    },
+    {
+      "file": "1970s-cover-4k.webp",
+      "png": "1970s-cover-4k.png",
+      "folderId": "folder-FXPDJY5T",
+      "period": "1970-1979",
+      "variant": "cover",
+      "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/70s-movies/v2/70s-movies-cover.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "01d8c1029d42becc9f04b13eb957797a24d2614b8c699d2a51711f4a2110679f",
+      "pngSha256": "c26345cfb49cf90d449d630609e9f4e063b207a0326335f6c70c53a94932d6c8"
+    },
+    {
+      "file": "1970s-hover-4k.webp",
+      "png": "1970s-hover-4k.png",
+      "folderId": "folder-FXPDJY5T",
+      "period": "1970-1979",
+      "variant": "hover",
+      "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/70s-movies/v2/70s-movies-hover.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "06c0644a761578ee6e55bd01b5aa0d38db4309a35c17d84ec14b1bce1d0f18a8",
+      "pngSha256": "42e52b5e1bff20d81562127cae43b12fb882773395bc67870ba66d615adfd66b"
+    },
+    {
+      "file": "1960s-cover-4k.webp",
+      "png": "1960s-cover-4k.png",
+      "folderId": "folder-NEW60SMO",
+      "period": "1960-1969",
+      "variant": "cover",
+      "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/60s-movies/v2/60s-movies-cover.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "b1705317a7a9e4603083b2dd50b0dd349ad369daa667e26f5242edab7282135d",
+      "pngSha256": "807362006e5a24115fe1fff91ddaa9e1d0b440e0e263d4f14a747ce30b12b448"
+    },
+    {
+      "file": "1960s-hover-4k.webp",
+      "png": "1960s-hover-4k.png",
+      "folderId": "folder-NEW60SMO",
+      "period": "1960-1969",
+      "variant": "hover",
+      "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/60s-movies/v2/60s-movies-hover.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "3addcd366226b84b9a58edb317804ecef0c5de6bb4a6eafede50e9cce27cafc3",
+      "pngSha256": "01c0316fad009f55655379fe2b266fc9512e2fc6698fd8b802287a5db16dfdc2"
+    },
+    {
+      "file": "1950s-cover-4k.webp",
+      "png": "1950s-cover-4k.png",
+      "folderId": "folder-NEW50SMO",
+      "period": "1950-1959",
+      "variant": "cover",
+      "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/50s-movies/v2/50s-movies-cover.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "1e6c10f6ee62b487e10985dfc2893e0af01a304b8efd2ac7832616b1c51a6d3f",
+      "pngSha256": "c3bf5f8f53ab4173efb3005eb35e9158350de3d1f9f0499763b83dc5cf59d116"
+    },
+    {
+      "file": "1950s-hover-4k.webp",
+      "png": "1950s-hover-4k.png",
+      "folderId": "folder-NEW50SMO",
+      "period": "1950-1959",
+      "variant": "hover",
+      "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/by-decade/50s-movies/v2/50s-movies-hover.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "ed1a8eb3ace32d06a09e3d7087ef4ceeeb3a44d7561fa21b8d07961bccd8fcee",
+      "pngSha256": "5bcae00574d2d6a982ebda71ff05d3818743becfcb6b4c4fc3921fa9638b2dc4"
+    }
+  ]
+}
