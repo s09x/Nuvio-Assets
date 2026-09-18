@@ -1,6 +1,7 @@
 {
   "model": "gpt-image-2.5-sunburst",
-  "method": "Image API edits with supplied design and film references",
+  "method": "Approved PNG masters upscaled with Lanczos to 3840x2160",
+  "native4KGeneration": false,
   "assets": [
     {
       "file": "2026-cover.webp",
@@ -9,9 +10,11 @@
       "motif": "Project Hail Mary",
       "motifReleaseYear": "2026",
       "backdropUrl": "https://image.tmdb.org/t/p/w1280/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
-      "width": 1280,
-      "height": 720,
-      "sha256": "7dd36e8b83c3045c6943dfcbe49211644d3420f6c7cec6597c6dcca2584bdff0"
+      "width": 3840,
+      "height": 2160,
+      "sha256": "6302b1183a896beaab06e266112833270149f6a310a7f6789709dc4bed8b16f7",
+      "png": "2026-cover-4k.png",
+      "pngSha256": "f4ebb8e9ec94051dd38341e4d6be88570ca354834e5a8d588051ba76878e3009"
     },
     {
       "file": "2025-cover.webp",
@@ -20,9 +23,11 @@
       "motif": "F1",
       "motifReleaseYear": "2025",
       "backdropUrl": "https://image.tmdb.org/t/p/w1280/lkDYN0whyE82mcM20rwtwjbniKF.jpg",
-      "width": 1280,
-      "height": 720,
-      "sha256": "1a28824164cce37212df81900168a6a94857353d8dc8c8a911f21e4aa75c8923"
+      "width": 3840,
+      "height": 2160,
+      "sha256": "8b4a475a738921e2ccd270ffab79425f2206f1a324cd662088c2bf4f3dd39dbc",
+      "png": "2025-cover-4k.png",
+      "pngSha256": "c17ee2363caacdbf3e969a9c2eead7f3c1407635332f519ddbfd63abf50efc0b"
     },
     {
       "file": "2024-cover.webp",
@@ -31,9 +36,11 @@
       "motif": "Dune: Part Two",
       "motifReleaseYear": "2024",
       "backdropUrl": "https://image.tmdb.org/t/p/w1280/eZ239CUp1d6OryZEBPnO2n87gMG.jpg",
-      "width": 1280,
-      "height": 720,
-      "sha256": "735f5dd57f5e81236d58bb5a3bd65864eac38e7c13b6fccb622f50e5cef96b43"
+      "width": 3840,
+      "height": 2160,
+      "sha256": "a00e545d400c505f8e005682d215905370f9b0cd25c20a4fae9fb1f51e063e41",
+      "png": "2024-cover-4k.png",
+      "pngSha256": "4734217c8d0c9b8771b06c135ccfd02f8dffb3df89e5ae0680fb6ef1c91afbe5"
     },
     {
       "file": "2023-cover.webp",
@@ -42,9 +49,11 @@
       "motif": "Oppenheimer",
       "motifReleaseYear": "2023",
       "backdropUrl": "https://image.tmdb.org/t/p/w1280/7CENyUim29IEsaJhUxIGymCRvPu.jpg",
-      "width": 1280,
-      "height": 720,
-      "sha256": "e908d5ab2c4be6625693dd0fe603b39b03cfaa9ed1dd5858062ba1124e2a5264"
+      "width": 3840,
+      "height": 2160,
+      "sha256": "cd12605354dfb7a82ae5d211be96dbe57dc9f9e7bcc03b69f91370adb8ba464a",
+      "png": "2023-cover-4k.png",
+      "pngSha256": "7688a3028670e04b17f56a97f2292906b46d01077b6bb3be5056f5938f96b297"
     },
     {
       "file": "2022-cover.webp",
@@ -53,9 +62,11 @@
       "motif": "Top Gun: Maverick",
       "motifReleaseYear": "2022",
       "backdropUrl": "https://image.tmdb.org/t/p/w1280/AaV1YIdWKnjAIAOe8UUKBFm327v.jpg",
-      "width": 1280,
-      "height": 720,
-      "sha256": "bae467fdc83df81ac8fc1197a6710cd506d2dce96e8c8c644558b1754744e02e"
+      "width": 3840,
+      "height": 2160,
+      "sha256": "fc0719e9a4e33f83eb739e6361587a9e52c3daeb7c02410695f8f95a519868f3",
+      "png": "2022-cover-4k.png",
+      "pngSha256": "ea4848c387c79e6cb44846fced0d45ea328a89f5bc8b9db51f1804b67ac43f67"
     },
     {
       "file": "2021-cover.webp",
@@ -64,9 +75,11 @@
       "motif": "No Time to Die",
       "motifReleaseYear": "2021",
       "backdropUrl": "https://image.tmdb.org/t/p/w1280/bz7pwNGCbV576COsDcYN9MbEACC.jpg",
-      "width": 1280,
-      "height": 720,
-      "sha256": "2e45077ce71f8165029e7891c0c2f01e29a7bd200d05a6ae9cf34741b52292f9"
+      "width": 3840,
+      "height": 2160,
+      "sha256": "b14b611459033567189fdd8b9f92c97be73df93272722ad73b3e3eead4247570",
+      "png": "2021-cover-4k.png",
+      "pngSha256": "ba5d49308f07dcef9b77dee4bf4f77f3489d523015b179759c116b12b432ecb6"
     },
     {
       "file": "2020-cover.webp",
@@ -75,9 +88,11 @@
       "motif": "Tenet",
       "motifReleaseYear": "2020",
       "backdropUrl": "https://image.tmdb.org/t/p/w1280/mQOUyqDybTqxl73hO5LujCZsM1o.jpg",
-      "width": 1280,
-      "height": 720,
-      "sha256": "e020a65421032503783ef834bb406ad28d0628097a1acd9a4de423ff87b29c30"
+      "width": 3840,
+      "height": 2160,
+      "sha256": "b9377828d4c14d234dd0ba4bd8b41e82b0765e6fbbb377108acac1792e20086a",
+      "png": "2020-cover-4k.png",
+      "pngSha256": "6d86ef39430e8be8db3d8930f8a66fceafec28429741453eb6801113e394ca4c"
     },
     {
       "file": "2015-2019-cover.webp",
@@ -86,9 +101,11 @@
       "motif": "La La Land",
       "motifReleaseYear": "2016",
       "backdropUrl": "https://image.tmdb.org/t/p/w1280/nlPCdZlHtRNcF6C9hzUH4ebmV1w.jpg",
-      "width": 1280,
-      "height": 720,
-      "sha256": "2a5488ca3a7d27b0d0bec7a0855285552baa1cc3ba9e6dcdbe025e0810c6628d"
+      "width": 3840,
+      "height": 2160,
+      "sha256": "b220506b2de431d07e840a6ae7e2d8ed565537fbbac07154b5949957401f25f8",
+      "png": "2015-2019-cover-4k.png",
+      "pngSha256": "6b6ac466b340f01ff9f7ebc2259eeb2f79e66c1775e81ea0ebd41e688254b71c"
     },
     {
       "file": "2010-2014-cover.webp",
@@ -97,9 +114,11 @@
       "motif": "Interstellar",
       "motifReleaseYear": "2014",
       "backdropUrl": "https://image.tmdb.org/t/p/w1280/vgnoBSVzWAV9sNQUORaDGvDp7wx.jpg",
-      "width": 1280,
-      "height": 720,
-      "sha256": "5f774b685755de206f16c11c5886bcc4aa7b2dc1a9a63574f32d59cffd1f83f1"
+      "width": 3840,
+      "height": 2160,
+      "sha256": "83bc332a3f562495b0d2c00870a87dd4aa4f193c22ab0b1950b0da12211d90b5",
+      "png": "2010-2014-cover-4k.png",
+      "pngSha256": "9dae4d3e7be06ba2e8ef032d018796ce69b3f779e507388c052b9696a930f9a1"
     }
   ]
 }
