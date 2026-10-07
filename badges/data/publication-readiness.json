@@ -1,7 +1,7 @@
 {
   "status": "published-and-verified",
   "version": "2.0.0",
-  "base_commit": "3e032e36db159ae7ee25a6efff0fd90dfcb95852",
+  "base_commit": "d36a0cc4c1560262e7b5d6d070a521664818d58d",
   "user_approved_publication": true,
   "artwork": {
     "status": "passed",
@@ -9,45 +9,483 @@
     "catalog_assets": 1037,
     "asset_files": 2074,
     "master_dimensions": [
-      3840,
-      2160
+      1280,
+      720
     ],
     "master_format": "lossless WebP RGBA",
     "all_file_hashes_verified": true,
     "all_master_dimensions_verified": true,
     "all_master_alpha_ranges_verified": true,
     "lossless_encode_decode_verified": true,
-    "source_mappings": 698,
-    "missing_source_mappings": 0,
-    "kind_counts": {
-      "neutral-text": 892,
-      "user-edited-logo": 1,
-      "original-logo": 94,
-      "flat-language-flag": 50
-    },
-    "layout_checks": 2074,
-    "non_flag_opaque_ink_clipped": 0,
-    "centered_language_flags": 50,
-    "approved_seed_pairs_preserved": 16,
-    "hdr10_master_rgba_matches_approved_png": true,
-    "added_frames": 0,
-    "added_shadows": 0,
-    "added_material_effects": 0,
+    "app_images_byte_identical": true,
+    "archived_sources_byte_identical": true,
+    "import_manifest_byte_identical": true,
+    "renderer_seed_exports_verified": 16,
     "device_test_performed": false,
-    "scope_note": "Complete pinned finite catalog; arbitrary runtime values and future formats are not claimed to be pre-rendered."
+    "historical_checks": "Existing flag source geometry and unchanged app-layout evidence remain applicable. Earlier publication reports refer to the pre-resize remote release.",
+    "renderer_full_font_rebuild": "Not performed; approved external font is not supplied in the repository."
   },
   "synthetic_import_cases_passed": 22,
   "gallery_static_links_and_javascript_syntax": "passed",
   "manifest_versions_match_all_delivered_images": true,
-  "asset_publication_commit": "1aca4f876e7140a3501b4826f13d6fc078b9ae99",
+  "asset_publication_commit": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
   "manifest_http_status": 200,
-  "anonymous_image_downloads_verified": 180,
-  "evidence_scope": "Historical publication of release 2.0.0 before the local 720p resize. HTTP and remote checks below were not rerun for the resized files.",
-  "pending_resolution_change": {
-    "master_dimensions": [
-      1280,
-      720
+  "anonymous_image_downloads_verified": 26,
+  "published_tree_verification": {
+    "status": "passed",
+    "asset_publication_commit": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+    "remote_tree_sha": "7ec05d3f5057217595dc721981bea29373514743",
+    "all_git_tree_blobs_match": true,
+    "git_tree_file_count": 3485,
+    "anonymous_http_checks": 48,
+    "anonymous_image_downloads_verified": 26,
+    "references_checked": [
+      "immutable asset commit",
+      "main"
     ],
-    "published": false
-  }
+    "manifest_http_status": 200,
+    "checks": [
+      {
+        "ref": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+        "path": "README.md",
+        "http_status": 200,
+        "bytes": 4168,
+        "sha256": "ec3401aa8e08665f8a52026c355623a334d79e671377de70114763e166c536df"
+      },
+      {
+        "ref": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+        "path": "badges/README.md",
+        "http_status": 200,
+        "bytes": 6369,
+        "sha256": "d493f098db7ca689b854db2b5426a93fa316d338cba59f88042f1a1b95824441"
+      },
+      {
+        "ref": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+        "path": "badges/manifest.json",
+        "http_status": 200,
+        "bytes": 544736,
+        "sha256": "f6995d8512d5a650fec54152e918fa20c2233f6482920fe7e3f1164920ddfb90"
+      },
+      {
+        "ref": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+        "path": "badges/data/catalog.json",
+        "http_status": 200,
+        "bytes": 1449310,
+        "sha256": "b183163ba01a7eef7fff28eea09f581e4441624b467dab513f25ab577dba3eaf"
+      },
+      {
+        "ref": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+        "path": "badges/masters/resolution/4k.webp",
+        "http_status": 200,
+        "bytes": 10794,
+        "sha256": "be497c5568b0172270b64b9b35e24321b982a316ef81769e7296c297991793f5",
+        "dimensions": [
+          1280,
+          720
+        ]
+      },
+      {
+        "ref": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+        "path": "badges/masters/dynamic-range/hdr10.webp",
+        "http_status": 200,
+        "bytes": 96802,
+        "sha256": "45af1c32c2b3eff5d0c25527e93cf2b55455bc0d7603fc2bed9cba139bde93f0",
+        "dimensions": [
+          1280,
+          720
+        ]
+      },
+      {
+        "ref": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+        "path": "badges/masters/language/de.webp",
+        "http_status": 200,
+        "bytes": 5822,
+        "sha256": "0d3db5b6936ce62b61292792b540be0d936a51662b8e55f0906023b6879406b9",
+        "dimensions": [
+          1280,
+          720
+        ]
+      },
+      {
+        "ref": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+        "path": "badges/web/resolution/4k.webp",
+        "http_status": 200,
+        "bytes": 11204,
+        "sha256": "d4b725e7b8b9ab01dbeed98cc929022ac80ee5ace831590cec073ecf560f26f9",
+        "dimensions": [
+          900,
+          489
+        ]
+      },
+      {
+        "ref": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+        "path": "badges/previews/language-flags.png",
+        "http_status": 200,
+        "bytes": 164927,
+        "sha256": "0656428b83058bbc140e1f029432a9fdc367c286c1925586d5bde3b1980e6943",
+        "dimensions": [
+          737,
+          720
+        ]
+      },
+      {
+        "ref": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+        "path": "badges/sources/approved-borderless/4k-master.webp",
+        "http_status": 200,
+        "bytes": 13754,
+        "sha256": "e5754c7100f86487c3ae33427b5c590adf8b7360495b727c90d85430b3560f93",
+        "dimensions": [
+          3840,
+          2160
+        ]
+      },
+      {
+        "ref": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+        "path": "collections/by-decade/manifest.json",
+        "http_status": 200,
+        "bytes": 6798,
+        "sha256": "a8f817637ab44c5e84d74d01e114e0314e1774300bc0d040a2dcbb25f0f23818"
+      },
+      {
+        "ref": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+        "path": "collections/by-decade/2000s-cover-4k.webp",
+        "http_status": 200,
+        "bytes": 258784,
+        "sha256": "33cb3a64b76da3ef55edae9010d6114741f2f40ca8f64cf4ba14351794b91a07",
+        "dimensions": [
+          1920,
+          1080
+        ]
+      },
+      {
+        "ref": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+        "path": "collections/by-year/manifest.json",
+        "http_status": 200,
+        "bytes": 5068,
+        "sha256": "dbdb67e455028eee9310a4c67d519d4b6ea26a08b1cf28994d9a9649f7344043"
+      },
+      {
+        "ref": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+        "path": "collections/by-year/2026-cover.webp",
+        "http_status": 200,
+        "bytes": 294718,
+        "sha256": "03d9260489eb69ab484d8bd2417d63b2f8f8c885c8f9453ae3f3d8db56caaf3d",
+        "dimensions": [
+          1920,
+          1080
+        ]
+      },
+      {
+        "ref": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+        "path": "collections/hosted/manifest.json",
+        "http_status": 200,
+        "bytes": 447226,
+        "sha256": "a59fd043e00ffc5487b861baef5d1c570eea3060fd6c49ab9dd5ca5afa0f6926"
+      },
+      {
+        "ref": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+        "path": "collections/hosted/discover/filme-im-trend-logo-b68e57a3c2.png",
+        "http_status": 200,
+        "bytes": 39089,
+        "sha256": "f0da9e14e2903e8770c8db5cc3b3154e4876ab656dc674f3cad1e8dde071c254",
+        "dimensions": [
+          1920,
+          245
+        ]
+      },
+      {
+        "ref": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+        "path": "collections/discover/de/manifest.json",
+        "http_status": 200,
+        "bytes": 7716,
+        "sha256": "d9be3b4200494b7b7124d8e9a1e41c0e02972d12fc634431c863248277801f06"
+      },
+      {
+        "ref": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+        "path": "collections/discover/de/new-movies-cover-de-4k.webp",
+        "http_status": 200,
+        "bytes": 319892,
+        "sha256": "eec1e419083dffde6bb39625ee6750c73092b0681354dee03478ea36117d690e",
+        "dimensions": [
+          1920,
+          1080
+        ]
+      },
+      {
+        "ref": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+        "path": "collections/film-collections/de/manifest.json",
+        "http_status": 200,
+        "bytes": 170878,
+        "sha256": "ae653a5920f80740c400d2dc3adb6b41d3607695c8f93adb1f58d40f04723e5a"
+      },
+      {
+        "ref": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+        "path": "collections/film-collections/de/000-action-filmsammlungen-cover-de-4k.webp",
+        "http_status": 200,
+        "bytes": 439012,
+        "sha256": "031e21c00ff82debcb418a732b5cce3ad3f395ef18955e61e7f00507d114a064",
+        "dimensions": [
+          1080,
+          1920
+        ]
+      },
+      {
+        "ref": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+        "path": "collections/genres/de/manifest.json",
+        "http_status": 200,
+        "bytes": 28206,
+        "sha256": "932ae2a74c6965caca65658f4cc8e492d6c211de918fc41b434ecc9ab64a4833"
+      },
+      {
+        "ref": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+        "path": "collections/genres/de/action-cover-de-4k.webp",
+        "http_status": 200,
+        "bytes": 740700,
+        "sha256": "2e10aaa2919a428f1f1fc01272c681ef5bba6ce5b295b45b73425673ec620fbc",
+        "dimensions": [
+          1920,
+          1080
+        ]
+      },
+      {
+        "ref": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+        "path": "collections/moods/de/manifest.json",
+        "http_status": 200,
+        "bytes": 12532,
+        "sha256": "464c247caac52be7152908730249af80a2a20c8fa56863c2ffded526e415f424"
+      },
+      {
+        "ref": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
+        "path": "collections/moods/de/cozy-and-comforting-cover-de-4k.webp",
+        "http_status": 200,
+        "bytes": 256900,
+        "sha256": "f183537e6ff9fc7b289cb484e26e20f1435f1978f2bc02f883ff79f1721b6cbb",
+        "dimensions": [
+          1920,
+          1080
+        ]
+      },
+      {
+        "ref": "main",
+        "path": "README.md",
+        "http_status": 200,
+        "bytes": 4168,
+        "sha256": "ec3401aa8e08665f8a52026c355623a334d79e671377de70114763e166c536df"
+      },
+      {
+        "ref": "main",
+        "path": "badges/README.md",
+        "http_status": 200,
+        "bytes": 6369,
+        "sha256": "d493f098db7ca689b854db2b5426a93fa316d338cba59f88042f1a1b95824441"
+      },
+      {
+        "ref": "main",
+        "path": "badges/manifest.json",
+        "http_status": 200,
+        "bytes": 544736,
+        "sha256": "f6995d8512d5a650fec54152e918fa20c2233f6482920fe7e3f1164920ddfb90"
+      },
+      {
+        "ref": "main",
+        "path": "badges/data/catalog.json",
+        "http_status": 200,
+        "bytes": 1449310,
+        "sha256": "b183163ba01a7eef7fff28eea09f581e4441624b467dab513f25ab577dba3eaf"
+      },
+      {
+        "ref": "main",
+        "path": "badges/masters/resolution/4k.webp",
+        "http_status": 200,
+        "bytes": 10794,
+        "sha256": "be497c5568b0172270b64b9b35e24321b982a316ef81769e7296c297991793f5",
+        "dimensions": [
+          1280,
+          720
+        ]
+      },
+      {
+        "ref": "main",
+        "path": "badges/masters/dynamic-range/hdr10.webp",
+        "http_status": 200,
+        "bytes": 96802,
+        "sha256": "45af1c32c2b3eff5d0c25527e93cf2b55455bc0d7603fc2bed9cba139bde93f0",
+        "dimensions": [
+          1280,
+          720
+        ]
+      },
+      {
+        "ref": "main",
+        "path": "badges/masters/language/de.webp",
+        "http_status": 200,
+        "bytes": 5822,
+        "sha256": "0d3db5b6936ce62b61292792b540be0d936a51662b8e55f0906023b6879406b9",
+        "dimensions": [
+          1280,
+          720
+        ]
+      },
+      {
+        "ref": "main",
+        "path": "badges/web/resolution/4k.webp",
+        "http_status": 200,
+        "bytes": 11204,
+        "sha256": "d4b725e7b8b9ab01dbeed98cc929022ac80ee5ace831590cec073ecf560f26f9",
+        "dimensions": [
+          900,
+          489
+        ]
+      },
+      {
+        "ref": "main",
+        "path": "badges/previews/language-flags.png",
+        "http_status": 200,
+        "bytes": 164927,
+        "sha256": "0656428b83058bbc140e1f029432a9fdc367c286c1925586d5bde3b1980e6943",
+        "dimensions": [
+          737,
+          720
+        ]
+      },
+      {
+        "ref": "main",
+        "path": "badges/sources/approved-borderless/4k-master.webp",
+        "http_status": 200,
+        "bytes": 13754,
+        "sha256": "e5754c7100f86487c3ae33427b5c590adf8b7360495b727c90d85430b3560f93",
+        "dimensions": [
+          3840,
+          2160
+        ]
+      },
+      {
+        "ref": "main",
+        "path": "collections/by-decade/manifest.json",
+        "http_status": 200,
+        "bytes": 6798,
+        "sha256": "a8f817637ab44c5e84d74d01e114e0314e1774300bc0d040a2dcbb25f0f23818"
+      },
+      {
+        "ref": "main",
+        "path": "collections/by-decade/2000s-cover-4k.webp",
+        "http_status": 200,
+        "bytes": 258784,
+        "sha256": "33cb3a64b76da3ef55edae9010d6114741f2f40ca8f64cf4ba14351794b91a07",
+        "dimensions": [
+          1920,
+          1080
+        ]
+      },
+      {
+        "ref": "main",
+        "path": "collections/by-year/manifest.json",
+        "http_status": 200,
+        "bytes": 5068,
+        "sha256": "dbdb67e455028eee9310a4c67d519d4b6ea26a08b1cf28994d9a9649f7344043"
+      },
+      {
+        "ref": "main",
+        "path": "collections/by-year/2026-cover.webp",
+        "http_status": 200,
+        "bytes": 294718,
+        "sha256": "03d9260489eb69ab484d8bd2417d63b2f8f8c885c8f9453ae3f3d8db56caaf3d",
+        "dimensions": [
+          1920,
+          1080
+        ]
+      },
+      {
+        "ref": "main",
+        "path": "collections/hosted/manifest.json",
+        "http_status": 200,
+        "bytes": 447226,
+        "sha256": "a59fd043e00ffc5487b861baef5d1c570eea3060fd6c49ab9dd5ca5afa0f6926"
+      },
+      {
+        "ref": "main",
+        "path": "collections/hosted/discover/filme-im-trend-logo-b68e57a3c2.png",
+        "http_status": 200,
+        "bytes": 39089,
+        "sha256": "f0da9e14e2903e8770c8db5cc3b3154e4876ab656dc674f3cad1e8dde071c254",
+        "dimensions": [
+          1920,
+          245
+        ]
+      },
+      {
+        "ref": "main",
+        "path": "collections/discover/de/manifest.json",
+        "http_status": 200,
+        "bytes": 7716,
+        "sha256": "d9be3b4200494b7b7124d8e9a1e41c0e02972d12fc634431c863248277801f06"
+      },
+      {
+        "ref": "main",
+        "path": "collections/discover/de/new-movies-cover-de-4k.webp",
+        "http_status": 200,
+        "bytes": 319892,
+        "sha256": "eec1e419083dffde6bb39625ee6750c73092b0681354dee03478ea36117d690e",
+        "dimensions": [
+          1920,
+          1080
+        ]
+      },
+      {
+        "ref": "main",
+        "path": "collections/film-collections/de/manifest.json",
+        "http_status": 200,
+        "bytes": 170878,
+        "sha256": "ae653a5920f80740c400d2dc3adb6b41d3607695c8f93adb1f58d40f04723e5a"
+      },
+      {
+        "ref": "main",
+        "path": "collections/film-collections/de/000-action-filmsammlungen-cover-de-4k.webp",
+        "http_status": 200,
+        "bytes": 439012,
+        "sha256": "031e21c00ff82debcb418a732b5cce3ad3f395ef18955e61e7f00507d114a064",
+        "dimensions": [
+          1080,
+          1920
+        ]
+      },
+      {
+        "ref": "main",
+        "path": "collections/genres/de/manifest.json",
+        "http_status": 200,
+        "bytes": 28206,
+        "sha256": "932ae2a74c6965caca65658f4cc8e492d6c211de918fc41b434ecc9ab64a4833"
+      },
+      {
+        "ref": "main",
+        "path": "collections/genres/de/action-cover-de-4k.webp",
+        "http_status": 200,
+        "bytes": 740700,
+        "sha256": "2e10aaa2919a428f1f1fc01272c681ef5bba6ce5b295b45b73425673ec620fbc",
+        "dimensions": [
+          1920,
+          1080
+        ]
+      },
+      {
+        "ref": "main",
+        "path": "collections/moods/de/manifest.json",
+        "http_status": 200,
+        "bytes": 12532,
+        "sha256": "464c247caac52be7152908730249af80a2a20c8fa56863c2ffded526e415f424"
+      },
+      {
+        "ref": "main",
+        "path": "collections/moods/de/cozy-and-comforting-cover-de-4k.webp",
+        "http_status": 200,
+        "bytes": 256900,
+        "sha256": "f183537e6ff9fc7b289cb484e26e20f1435f1978f2bc02f883ff79f1721b6cbb",
+        "dimensions": [
+          1920,
+          1080
+        ]
+      }
+    ]
+  },
+  "evidence_scope": "Artwork and import checks cover the resized files. Remote checks cover the asset publication commit and main at publication time; no device test was performed."
 }
