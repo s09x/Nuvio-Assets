@@ -12,9 +12,9 @@
       "heading": "GEMÜTLICH & WOHLTUEND",
       "subtitle": "SANFTES, ENTSPANNENDES KINO FÜR DIE SEELE",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/cozy-and-comforting/v2/cozy-and-comforting-cover.png",
-      "width": 3840,
-      "height": 2160,
-      "sha256": "39e5f6fb3e6a64790e3c0d48070ff9c7638fb1ea8bee04b5df049756aacccd17"
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f183537e6ff9fc7b289cb484e26e20f1435f1978f2bc02f883ff79f1721b6cbb"
     },
     {
       "slug": "cozy-and-comforting",
@@ -26,9 +26,9 @@
       "heading": "GEMÜTLICH & WOHLTUEND",
       "subtitle": "SANFTES, ENTSPANNENDES KINO FÜR DIE SEELE",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/cozy-and-comforting/v2/cozy-and-comforting-hover.gif",
-      "width": 3840,
-      "height": 2160,
-      "sha256": "9fbc455d2e44918c439c759015a1a347a04b70a19001a98943c5d086a259f12e"
+      "width": 1920,
+      "height": 1080,
+      "sha256": "21c4ce6e3d159b66cc9c92dac3a4ec5de5681cecb7735c289b342cde2f009608"
     },
     {
       "slug": "mind-bending",
@@ -40,9 +40,9 @@
       "heading": "FASZINIEREND & VERWIRREND",
       "subtitle": "PSYCHOTHRILLER & VERÄNDERTE REALITÄTEN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/mind-bending/v2/mind-bending-cover.png",
-      "width": 3840,
-      "height": 2160,
-      "sha256": "772128448586f870ff4d508c79913884ef9a3778524d2c82d50075bf90bc3f27"
+      "width": 1920,
+      "height": 1080,
+      "sha256": "7bd3874c83fc9bba09474ef7fd5693f34a9c411487e14041e97386f7c028daf1"
     },
     {
       "slug": "mind-bending",
@@ -54,9 +54,9 @@
       "heading": "FASZINIEREND & VERWIRREND",
       "subtitle": "PSYCHOTHRILLER & VERÄNDERTE REALITÄTEN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/mind-bending/v2/mind-bending-hover.gif",
-      "width": 3840,
-      "height": 2160,
-      "sha256": "7c67e00492053a5db9d63210a3d1d76309a9c8413d99c5ec67fac530bd596d30"
+      "width": 1920,
+      "height": 1080,
+      "sha256": "14240f3c9bfa0b01fe832f1fa576be21a5e3c78566c5b4f2a5db73fe854df0c2"
     },
     {
       "slug": "adrenaline-rush",
@@ -68,9 +68,9 @@
       "heading": "ADRENALINSCHUB",
       "subtitle": "ACTION OHNE PAUSE, VERFOLGUNGEN & KÄMPFE",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/adrenaline-rush/v2/adrenaline-rush-cover.png",
-      "width": 3840,
-      "height": 2160,
-      "sha256": "58b2c73ca17f517e9ea888fa90867ba7e687b4bead7b62a41f730e42b1a8c5e8"
+      "width": 1920,
+      "height": 1080,
+      "sha256": "9d0fda96b49ca67c0a0ea7f30c49f4c8f71e33405c9dafbfd6163a478659fb77"
     },
     {
       "slug": "adrenaline-rush",
@@ -82,9 +82,9 @@
       "heading": "ADRENALINSCHUB",
       "subtitle": "ACTION OHNE PAUSE, VERFOLGUNGEN & KÄMPFE",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/adrenaline-rush/v2/adrenaline-rush-hover.gif",
-      "width": 3840,
-      "height": 2160,
-      "sha256": "a94c68c597cd52c03e6f516bad7b3070ec9266818d69e337f227fcd52f41fded"
+      "width": 1920,
+      "height": 1080,
+      "sha256": "5fcc36ceecf4ffaf16e42fa521aef475403a78e4e4dd5bcc0c0c2e09e5134b4a"
     },
     {
       "slug": "epic-and-sweeping",
@@ -96,9 +96,9 @@
       "heading": "EPISCH & MITREISSEND",
       "subtitle": "GROSSE GESCHICHTEN FÜR DIE GROSSE LEINWAND",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/epic-and-sweeping/v2/epic-and-sweeping-cover.png",
-      "width": 3840,
-      "height": 2160,
-      "sha256": "ab928e273a244a749d59003ac0645a546edcebc65a4b9ba3342457a07c6acc75"
+      "width": 1920,
+      "height": 1080,
+      "sha256": "7921b014977b4e79dd28616a2baaf4655d13f26f329c0d01c3afd3276b8810ea"
     },
     {
       "slug": "epic-and-sweeping",
@@ -110,9 +110,9 @@
       "heading": "EPISCH & MITREISSEND",
       "subtitle": "GROSSE GESCHICHTEN FÜR DIE GROSSE LEINWAND",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/epic-and-sweeping/v2/epic-and-sweeping-hover.gif",
-      "width": 3840,
-      "height": 2160,
-      "sha256": "4a135cdeda7339fbc87316a9af50628148c20ba4db708bdbe0b84cffcd46c57e"
+      "width": 1920,
+      "height": 1080,
+      "sha256": "7a9bd82490f1ebff9dd375c820d2c1a99583de8252622e1f4ea5a0135c783614"
     },
     {
       "slug": "feel-good",
@@ -124,9 +124,9 @@
       "heading": "ZUM WOHLFÜHLEN",
       "subtitle": "HERZERWÄRMENDE, AUFMUNTERNDE & FRÖHLICHE GESCHICHTEN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/feel-good/v2/feel-good-cover.png",
-      "width": 3840,
-      "height": 2160,
-      "sha256": "633d12b4b940a060ae079a6cdf033d1e6580259e57bd09f3611162b4d42df9b2"
+      "width": 1920,
+      "height": 1080,
+      "sha256": "e6ba4d8cfa2cc14888b692f0f4817edcde9450e9a4f562ef0a82c4ffc9cd72ae"
     },
     {
       "slug": "feel-good",
@@ -138,9 +138,9 @@
       "heading": "ZUM WOHLFÜHLEN",
       "subtitle": "HERZERWÄRMENDE, AUFMUNTERNDE & FRÖHLICHE GESCHICHTEN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/feel-good/v2/feel-good-hover.gif",
-      "width": 3840,
-      "height": 2160,
-      "sha256": "f67e3c5349069a7770557b8870294e1695d3456d598ae3af46321ba8aa6571e4"
+      "width": 1920,
+      "height": 1080,
+      "sha256": "36860ab1ae67222219abc08040fbc1d148897bb7f26f6ada11f6c7270d404c94"
     },
     {
       "slug": "slow-burn",
@@ -152,9 +152,9 @@
       "heading": "LANGSAM AUFGEBAUTE SPANNUNG",
       "subtitle": "GEDULD, BEKLEMMUNG & SPÄTE AUFLÖSUNG",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/slow-burn/v2/slow-burn-cover.png",
-      "width": 3840,
-      "height": 2160,
-      "sha256": "aceb77e19ac81676b7a8dbec2a10c2c55d50c6374ae048fe2d29b0023dd23ae4"
+      "width": 1920,
+      "height": 1080,
+      "sha256": "ee0f378c4aebc0c11e2e09087343345a338f41db0ac636e628351999d1baeee2"
     },
     {
       "slug": "slow-burn",
@@ -166,9 +166,9 @@
       "heading": "LANGSAM AUFGEBAUTE SPANNUNG",
       "subtitle": "GEDULD, BEKLEMMUNG & SPÄTE AUFLÖSUNG",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/slow-burn/v2/slow-burn-hover.gif",
-      "width": 3840,
-      "height": 2160,
-      "sha256": "8ec28c3bb6d219ddd05e898607a5cd46a3686412579605594b081a1e6d6726aa"
+      "width": 1920,
+      "height": 1080,
+      "sha256": "a10ad3bdbf57166722bee3d450b6e71256bee867b10b8594ea4592adf3a279b6"
     },
     {
       "slug": "tearjerkers",
@@ -180,9 +180,9 @@
       "heading": "ZUM WEINEN",
       "subtitle": "GESCHICHTEN, DIE DICH NICHT LOSLASSEN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/tearjerkers/v2/tearjerkers-cover.png",
-      "width": 3840,
-      "height": 2160,
-      "sha256": "31d39416bd3b8ae140747e1c9f3f61d61ea938d640d8e76562c4f7d2bfcd5db5"
+      "width": 1920,
+      "height": 1080,
+      "sha256": "2e4914d89d1031900b293e4bc9f847c8a6057db14f68da73f72424f730f85a7b"
     },
     {
       "slug": "tearjerkers",
@@ -194,9 +194,9 @@
       "heading": "ZUM WEINEN",
       "subtitle": "GESCHICHTEN, DIE DICH NICHT LOSLASSEN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/tearjerkers/v2/tearjerkers-hover.gif",
-      "width": 3840,
-      "height": 2160,
-      "sha256": "d5698144f7c5ad513dff7e23294565af8dc3e26f9df6dc1176319f735bc8644f"
+      "width": 1920,
+      "height": 1080,
+      "sha256": "ef1cb1edde5303ce4a23da7b763b8b7cd9e44fe7c0821e10890ee338764b9d44"
     },
     {
       "slug": "80s-and-90s-vibes",
@@ -208,9 +208,9 @@
       "heading": "FLAIR DER 80ER & 90ER",
       "subtitle": "NEON, NOSTALGIE & KASSETTENKULT",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/80s-and-90s-vibes/v2/80s-and-90s-vibes-cover.png",
-      "width": 3840,
-      "height": 2160,
-      "sha256": "9e1bef0bab924cae6a874065e46176707db04d460fa001cc59ed7ae17ab0b9b9"
+      "width": 1920,
+      "height": 1080,
+      "sha256": "abac1fc049e6dd03988dd30f11af9bf24f5d54ea8fdfeb0ac28c5ffae9a22a91"
     },
     {
       "slug": "80s-and-90s-vibes",
@@ -222,9 +222,9 @@
       "heading": "FLAIR DER 80ER & 90ER",
       "subtitle": "NEON, NOSTALGIE & KASSETTENKULT",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/80s-and-90s-vibes/v2/80s-and-90s-vibes-hover.gif",
-      "width": 3840,
-      "height": 2160,
-      "sha256": "b99d8456bcb5c3a3e6f80ec283fcb953e0ebd87a21f5b24a51d926be312d0be4"
+      "width": 1920,
+      "height": 1080,
+      "sha256": "5ff2e5d8a84f2e93d2124ca7885672830d0cde148b7a71aa141555e3a08d47ca"
     },
     {
       "slug": "dark-and-gritty",
@@ -236,9 +236,9 @@
       "heading": "DÜSTER & SCHONUNGSLOS",
       "subtitle": "ROHE, INTENSIVE & KOMPROMISSLOSE DRAMEN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/dark-and-gritty/v2/dark-and-gritty-cover.png",
-      "width": 3840,
-      "height": 2160,
-      "sha256": "c9ce16762bd9353193c8573bdc603673f4f1113d6e7904914f9ad7f45b571683"
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1831f2c527a439dfe6a509cf38fefc067241c0de30a6a1b7dd7876e0a517364c"
     },
     {
       "slug": "dark-and-gritty",
@@ -250,9 +250,9 @@
       "heading": "DÜSTER & SCHONUNGSLOS",
       "subtitle": "ROHE, INTENSIVE & KOMPROMISSLOSE DRAMEN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/dark-and-gritty/v2/dark-and-gritty-hover.gif",
-      "width": 3840,
-      "height": 2160,
-      "sha256": "a175e70736e66e7a20e9ef2eead1703b8e466491ec4538c79f3dd7497011ec31"
+      "width": 1920,
+      "height": 1080,
+      "sha256": "b9bb5769d03ca53b95295de2c5530d0e44abea49b88d78be654cfdf26cb428a2"
     },
     {
       "slug": "spooky-and-creepy",
@@ -264,9 +264,9 @@
       "heading": "GRUSELIG & UNHEIMLICH",
       "subtitle": "UNHEIMLICHE ATMOSPHÄRE & BEKLEMMENDE ALBTRÄUME",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/spooky-and-creepy/v2/spooky-and-creepy-cover.png",
-      "width": 3840,
-      "height": 2160,
-      "sha256": "20f1ca66206ae0d42eafe23a41282964a1202090a59b5517e0fc74d9fa8840ac"
+      "width": 1920,
+      "height": 1080,
+      "sha256": "a4739964e0109e784949f7601ee4765ae9b1478c53addb5ea0e09bfe65d60d83"
     },
     {
       "slug": "spooky-and-creepy",
@@ -278,9 +278,24 @@
       "heading": "GRUSELIG & UNHEIMLICH",
       "subtitle": "UNHEIMLICHE ATMOSPHÄRE & BEKLEMMENDE ALBTRÄUME",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/spooky-and-creepy/v2/spooky-and-creepy-hover.gif",
-      "width": 3840,
-      "height": 2160,
-      "sha256": "4e23e3ed72ca9588edc0a45e3102f31f1b5b429712018847152c164b7b40af62"
+      "width": 1920,
+      "height": 1080,
+      "sha256": "949420eecd78fcdbce01e36a125799cbab7bc2162dde2b703ccd380e94248141"
     }
-  ]
+  ],
+  "delivery": {
+    "resolution": "1080p",
+    "landscapeBounds": [
+      1920,
+      1080
+    ],
+    "portraitBounds": [
+      1080,
+      1920
+    ],
+    "resampling": "Lanczos",
+    "aspectRatioPreserved": true,
+    "upscaled": false,
+    "pathsPreserved": true
+  }
 }

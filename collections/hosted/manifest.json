@@ -1,6 +1,6 @@
 {
-  "description": "Original collection assets hosted alongside the customized 4K covers.",
-  "preservation": "Original file bytes, resolution, transparency, and animation are preserved.",
+  "description": "Hosted collection assets alongside customized 1080p covers.",
+  "preservation": "Formats, paths, transparency and animation are preserved. Oversized raster assets fit 1080p bounds; SVG and smaller raster files retain their original bytes. Source metadata is recorded separately for resized assets.",
   "assets": [
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/NEW_MOVIES_TitleLogo_v2.png",
@@ -76,11 +76,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/TRENDING_MOVIES_TitleLogo_v2.png",
-      "sha256": "b68e57a3c26c2ca0671c61254c00d0dd9871230b7c5fdb683028f31853588177",
-      "bytes": 25469,
+      "sha256": "f0da9e14e2903e8770c8db5cc3b3154e4876ab656dc674f3cad1e8dde071c254",
+      "bytes": 39089,
       "format": "PNG",
-      "width": 1945,
-      "height": 248,
+      "width": 1920,
+      "height": 245,
       "frames": 1,
       "hasAlpha": true,
       "file": "discover/filme-im-trend-logo-b68e57a3c2.png",
@@ -90,7 +90,11 @@
           "folderId": "folder-c2fa6b78",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "b68e57a3c26c2ca0671c61254c00d0dd9871230b7c5fdb683028f31853588177",
+      "sourceWidth": 1945,
+      "sourceHeight": 248,
+      "sourceBytes": 25469
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/1934d756.webp",
@@ -148,11 +152,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/discover/top-streaming-movies/v2/top-streaming-movies-logo.png",
-      "sha256": "829d40a1e3a04fc7de91fcb7cfc6c17ed6dfa00553bbd0332b44c7181d424cc2",
-      "bytes": 189578,
+      "sha256": "1bb51dbc804ebbee922bd4577d63f48b774ffd5c7f11138436424504152e2513",
+      "bytes": 208509,
       "format": "PNG",
-      "width": 1939,
-      "height": 467,
+      "width": 1920,
+      "height": 462,
       "frames": 1,
       "hasAlpha": true,
       "file": "discover/beste-filme-logo-829d40a1e3.png",
@@ -162,7 +166,11 @@
           "folderId": "folder-IHPHVHSB",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "829d40a1e3a04fc7de91fcb7cfc6c17ed6dfa00553bbd0332b44c7181d424cc2",
+      "sourceWidth": 1939,
+      "sourceHeight": 467,
+      "sourceBytes": 189578
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/refs/heads/main/collections/curated/top-rated/backdrops/t2_flat_1080p.jpg",
@@ -189,11 +197,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/discover/top-streaming-series/v2/top-streaming-series-logo.png",
-      "sha256": "63603bc4706dc8a8ee363a17e9b538e554b832bd656b36b2f27627dcd3b7de0c",
-      "bytes": 170033,
+      "sha256": "70703d3669859c13d2ea6ed4f961d51064b4025b3554e0c00173d243423367ca",
+      "bytes": 189247,
       "format": "PNG",
-      "width": 1939,
-      "height": 475,
+      "width": 1920,
+      "height": 470,
       "frames": 1,
       "hasAlpha": true,
       "file": "discover/beste-serien-logo-63603bc470.png",
@@ -203,7 +211,11 @@
           "folderId": "folder-XUX2DKEX",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "63603bc4706dc8a8ee363a17e9b538e554b832bd656b36b2f27627dcd3b7de0c",
+      "sourceWidth": 1939,
+      "sourceHeight": 475,
+      "sourceBytes": 170033
     },
     {
       "sourceUrl": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/213-netflix/logos/color/213_color_1.png?raw=true",
@@ -819,11 +831,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/action/action-backdrop.jpg",
-      "sha256": "1a35047f8c1334e07902c7d758478698057e4a32afa0c1d730dc33d559b5f168",
-      "bytes": 1339533,
+      "sha256": "c0490645724fe569cb1997fcb262c46b266729dbcd8b28dd1a6953ce06f050e4",
+      "bytes": 553029,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/action-backdrop-1a35047f8c.jpg",
@@ -833,7 +845,11 @@
           "folderId": "folder-JRWZVYWG",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "1a35047f8c1334e07902c7d758478698057e4a32afa0c1d730dc33d559b5f168",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1339533
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/ADVENTURE_TitleLogo.png",
@@ -855,11 +871,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/adventure/adventure-backdrop.jpg",
-      "sha256": "bb0dc64987a4a1abee88f4ffe414936bcb500b337c60ffb13e16bc7d80911624",
-      "bytes": 1372072,
+      "sha256": "07e9934c21881d5e144f71b09abfa2167b50930e10b86a3278db73eb7db5c669",
+      "bytes": 581184,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/abenteuer-backdrop-bb0dc64987.jpg",
@@ -869,7 +885,11 @@
           "folderId": "folder-CSJVDVSC",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "bb0dc64987a4a1abee88f4ffe414936bcb500b337c60ffb13e16bc7d80911624",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1372072
     },
     {
       "sourceUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/animation.png?raw=true",
@@ -891,11 +911,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/animation/animation-backdrop.jpg",
-      "sha256": "ae9ad5286b10183bde702433a9903a9f10627d4f139c7467939218a6e0db90cf",
-      "bytes": 1401939,
+      "sha256": "50faebbbd706267635e1a0d1a3b24d8271c15a8a6a0a239fb14d3f12b7b195c8",
+      "bytes": 621650,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/animation-backdrop-ae9ad5286b.jpg",
@@ -905,7 +925,11 @@
           "folderId": "folder-K8CIZ3LO",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "ae9ad5286b10183bde702433a9903a9f10627d4f139c7467939218a6e0db90cf",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1401939
     },
     {
       "sourceUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/anime.png?raw=true",
@@ -927,11 +951,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/anime/anime-backdrop.jpg",
-      "sha256": "f118387ee704e86eb55ddea7dc829c6392ada81d51e10f7445287754a83f6bae",
-      "bytes": 1585872,
+      "sha256": "524645eefc1ec20fe1dfd51528ef176927e8de2a5c80a36f94a00ef06421084c",
+      "bytes": 678860,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/anime-backdrop-f118387ee7.jpg",
@@ -941,7 +965,11 @@
           "folderId": "folder-AP4ISXTE",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "f118387ee704e86eb55ddea7dc829c6392ada81d51e10f7445287754a83f6bae",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1585872
     },
     {
       "sourceUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/comedy.png?raw=true",
@@ -963,11 +991,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/comedy/comedy-backdrop.jpg",
-      "sha256": "f6c626057c4e755d631a249d4df6ed5ff7aca60433d9c909995af7d9e2e07a92",
-      "bytes": 1305625,
+      "sha256": "3233181419ce6b33a75b410781a6dfb85b999d396851cd9b12355c5c4ef6043e",
+      "bytes": 564797,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/komodie-backdrop-f6c626057c.jpg",
@@ -977,7 +1005,11 @@
           "folderId": "folder-IWC8T1WM",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "f6c626057c4e755d631a249d4df6ed5ff7aca60433d9c909995af7d9e2e07a92",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1305625
     },
     {
       "sourceUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/crime.png?raw=true",
@@ -999,11 +1031,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/crime/crime-backdrop.jpg",
-      "sha256": "550a2ee6baec9fed6e775ed05d2b2c46aeb6b21c247c726562b910f64355c2a7",
-      "bytes": 1237373,
+      "sha256": "5161a272f9d7cb32c3a5b1d1203052ee90825afc92dcec8c90c5959a8cd4ddf2",
+      "bytes": 493770,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/krimi-backdrop-550a2ee6ba.jpg",
@@ -1013,15 +1045,19 @@
           "folderId": "folder-DTEQHREL",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "550a2ee6baec9fed6e775ed05d2b2c46aeb6b21c247c726562b910f64355c2a7",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1237373
     },
     {
       "sourceUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/documentary.png?raw=true",
-      "sha256": "0a9d21eab6fa862ea9725a6746f64762edb9b0fa439433ebb48311344ba9381f",
-      "bytes": 45309,
+      "sha256": "b221ba43d1a614576e91a0d5359d63ca7cdedf3324d2a27191a00692f2dc5304",
+      "bytes": 76374,
       "format": "PNG",
-      "width": 1976,
-      "height": 261,
+      "width": 1920,
+      "height": 254,
       "frames": 1,
       "hasAlpha": true,
       "file": "genres/dokumentation-logo-0a9d21eab6.png",
@@ -1031,15 +1067,19 @@
           "folderId": "folder-6DUG1MQF",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "0a9d21eab6fa862ea9725a6746f64762edb9b0fa439433ebb48311344ba9381f",
+      "sourceWidth": 1976,
+      "sourceHeight": 261,
+      "sourceBytes": 45309
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/documentary/documentary-backdrop.jpg",
-      "sha256": "bc1db8d491bd0e9667df64a765608c193f028c6ada202f1ebdb0635b30993d62",
-      "bytes": 1300548,
+      "sha256": "74677a40898e9a117df78d3bc84977693d2299b29d1cbea2d196771f2e99c010",
+      "bytes": 518676,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/dokumentation-backdrop-bc1db8d491.jpg",
@@ -1049,7 +1089,11 @@
           "folderId": "folder-6DUG1MQF",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "bc1db8d491bd0e9667df64a765608c193f028c6ada202f1ebdb0635b30993d62",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1300548
     },
     {
       "sourceUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/drama.png?raw=true",
@@ -1071,11 +1115,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/drama/drama-backdrop.jpg",
-      "sha256": "206d9d9a9da2efb7675b14fdf384fc53a3e49404109d7d083d24dbc218575a62",
-      "bytes": 1205765,
+      "sha256": "de7c93edc996c96cddbdcd3f504ded20b4f387eb2a08d8845e24c32dcac3255f",
+      "bytes": 508141,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/drama-backdrop-206d9d9a9d.jpg",
@@ -1085,7 +1129,11 @@
           "folderId": "folder-8Z2DZVUO",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "206d9d9a9da2efb7675b14fdf384fc53a3e49404109d7d083d24dbc218575a62",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1205765
     },
     {
       "sourceUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/family.png?raw=true",
@@ -1107,11 +1155,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/family/family-backdrop.jpg",
-      "sha256": "3b4ffb6454d995e5bb43b2228e5f4da65180897243d8d69023e7c13424728c45",
-      "bytes": 1445373,
+      "sha256": "1f1ea3432fa9455740680705bef2cf42d071e59d51f87f315161f6d5e59b97d1",
+      "bytes": 623910,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/familie-backdrop-3b4ffb6454.jpg",
@@ -1121,7 +1169,11 @@
           "folderId": "folder-FWKG65UR",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "3b4ffb6454d995e5bb43b2228e5f4da65180897243d8d69023e7c13424728c45",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1445373
     },
     {
       "sourceUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/fantasy.png?raw=true",
@@ -1143,11 +1195,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/fantasy/fantasy-backdrop.jpg",
-      "sha256": "c93d25ebed659b11ae985472bf4a116a557d38eae096cd6157be0e039050be5f",
-      "bytes": 1324908,
+      "sha256": "4738484c146f2ef066afe1fe1c7b7b3f77536988562df336fd3e27f783f5ce5d",
+      "bytes": 587372,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/fantasy-backdrop-c93d25ebed.jpg",
@@ -1157,7 +1209,11 @@
           "folderId": "folder-ZYDJZBEV",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "c93d25ebed659b11ae985472bf4a116a557d38eae096cd6157be0e039050be5f",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1324908
     },
     {
       "sourceUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/history.png?raw=true",
@@ -1179,11 +1235,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/history/history-backdrop.jpg",
-      "sha256": "a488464ecc97c29e347d81bad2d7448d8f296f7abbf291d246bd36157cb77ce1",
-      "bytes": 1117589,
+      "sha256": "2a2adf813e926fba7fd00799690d4b886eb773739f6268859c11144273e10a75",
+      "bytes": 474367,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/geschichte-backdrop-a488464ecc.jpg",
@@ -1193,7 +1249,11 @@
           "folderId": "folder-LCRKWAHO",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "a488464ecc97c29e347d81bad2d7448d8f296f7abbf291d246bd36157cb77ce1",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1117589
     },
     {
       "sourceUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/horror.png?raw=true",
@@ -1215,11 +1275,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/horror/horror-backdrop.jpg",
-      "sha256": "ac48652d02aa84c818033714509201b2192ce65c4ab11d280c43cc9f9f45d7b8",
-      "bytes": 975445,
+      "sha256": "a35b830ff00dcd8a74efaa31a02b2521af84d566418f5cc08d20d2b4a4194762",
+      "bytes": 413585,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/horror-backdrop-ac48652d02.jpg",
@@ -1229,7 +1289,11 @@
           "folderId": "folder-W7VQ4ZGQ",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "ac48652d02aa84c818033714509201b2192ce65c4ab11d280c43cc9f9f45d7b8",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 975445
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/k-drama/v2/k-drama-logo.png",
@@ -1251,11 +1315,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/k-drama/k-drama-backdrop.jpg",
-      "sha256": "cfb506cd01d319e7dcf698ba352c2e32dba8b7757dbd89cd0c1f2dd7af1b416f",
-      "bytes": 1144053,
+      "sha256": "f7b23c5d783df128570781cdf9b3bdb481a1ff9b2cb548408583523515953785",
+      "bytes": 489635,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/k-drama-backdrop-cfb506cd01.jpg",
@@ -1265,7 +1329,11 @@
           "folderId": "folder-KDRAMA01",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "cfb506cd01d319e7dcf698ba352c2e32dba8b7757dbd89cd0c1f2dd7af1b416f",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1144053
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Martial_Arts_TitleLogo.png",
@@ -1287,11 +1355,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/martial-arts/martial-arts-backdrop.jpg",
-      "sha256": "abd565465f35178d8a2df0274b2d5598e6269bc091e3b7b747927e21605faf9d",
-      "bytes": 1398167,
+      "sha256": "6d5601f710499fcee063edd90ec8ae952a8bcd8d0105bfcaab2c9d9678db8999",
+      "bytes": 616938,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/kampfsport-backdrop-abd565465f.jpg",
@@ -1301,7 +1369,11 @@
           "folderId": "folder-P3VIAWP0",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "abd565465f35178d8a2df0274b2d5598e6269bc091e3b7b747927e21605faf9d",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1398167
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Music___Musical_TitleLogo.png",
@@ -1323,11 +1395,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/music-musical/music-musical-backdrop.jpg",
-      "sha256": "ee6775c3e7a63c5405656065a0a6bc18bb58f0a2eff0f8413e3c2c6a0c4f1d73",
-      "bytes": 1291974,
+      "sha256": "f501423ba07047ab678988ef37a8051a1c95d7802a1835551001f25117da6c25",
+      "bytes": 567565,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/musik-musical-backdrop-ee6775c3e7.jpg",
@@ -1337,7 +1409,11 @@
           "folderId": "folder-5CTPRQ44",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "ee6775c3e7a63c5405656065a0a6bc18bb58f0a2eff0f8413e3c2c6a0c4f1d73",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1291974
     },
     {
       "sourceUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/mystery.png?raw=true",
@@ -1359,11 +1435,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/mystery/mystery-backdrop.jpg",
-      "sha256": "0447b003562fa726d533fa8fa8c75b27b28f38be84d4b58d2d70ea401b2ce1cf",
-      "bytes": 1275726,
+      "sha256": "e24f5cd99b8dfc2796f6952b3e88822d76b6214ff5965d475248e36d35b68451",
+      "bytes": 535869,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/mystery-backdrop-0447b00356.jpg",
@@ -1373,7 +1449,11 @@
           "folderId": "folder-KVW3FYE5",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "0447b003562fa726d533fa8fa8c75b27b28f38be84d4b58d2d70ea401b2ce1cf",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1275726
     },
     {
       "sourceUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/romance.png?raw=true",
@@ -1395,11 +1475,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/romance/romance-backdrop.jpg",
-      "sha256": "9c807059aa7594b827fbaf8f888a35c376806ca6e9e6cc4e6412005a0e0f1b9b",
-      "bytes": 1167918,
+      "sha256": "8b8696169508e327b900277f22f412ccd8356d7e876781a14b4ac5e0150f616e",
+      "bytes": 520660,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/romantik-backdrop-9c807059aa.jpg",
@@ -1409,7 +1489,11 @@
           "folderId": "folder-GXG1NG9E",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "9c807059aa7594b827fbaf8f888a35c376806ca6e9e6cc4e6412005a0e0f1b9b",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1167918
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Romantic_Comedy_TitleLogo.png",
@@ -1431,11 +1515,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/romantic-comedy/romantic-comedy-backdrop.jpg",
-      "sha256": "9d1bfb1ab3af6f5e8dbc3795ece470553c7a4c63600e335efeb1ef0736685104",
-      "bytes": 1351138,
+      "sha256": "7eae141ed2d2b28dd9d7b32d12f2038f1d7b86f86a630971b755692e468e46e6",
+      "bytes": 570303,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/romantische-komodie-backdrop-9d1bfb1ab3.jpg",
@@ -1445,7 +1529,11 @@
           "folderId": "folder-d1d8a13d",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "9d1bfb1ab3af6f5e8dbc3795ece470553c7a4c63600e335efeb1ef0736685104",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1351138
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Science_Fiction_TitleLogo.png",
@@ -1467,11 +1555,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/science-fiction/science-fiction-backdrop.jpg",
-      "sha256": "4c177f9140c7350080757706ece90d4091b55215715721f4b2159edb8bdaa4a3",
-      "bytes": 1147285,
+      "sha256": "5f079e67d34f4443c257934db451db796f3c3a25538c705424cc812907906586",
+      "bytes": 487594,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/science-fiction-backdrop-4c177f9140.jpg",
@@ -1481,7 +1569,11 @@
           "folderId": "folder-edbb0941",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "4c177f9140c7350080757706ece90d4091b55215715721f4b2159edb8bdaa4a3",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1147285
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Sports_TitleLogo.png",
@@ -1503,11 +1595,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/sports/sports-backdrop.jpg",
-      "sha256": "5bd64974b6ac8c3f2d353e26f039bfa92dfdf5f761e441b942583c13581b2f9d",
-      "bytes": 1255988,
+      "sha256": "93842855434f643e735516dcae2e18507b1f88e21af988d98d9e9efef4d65c1b",
+      "bytes": 551056,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/sport-backdrop-5bd64974b6.jpg",
@@ -1517,7 +1609,11 @@
           "folderId": "folder-VLDG4GZP",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "5bd64974b6ac8c3f2d353e26f039bfa92dfdf5f761e441b942583c13581b2f9d",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1255988
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Stand_Up_Comedy_TitleLogo.png",
@@ -1539,11 +1635,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/stand-up-comedy/stand-up-comedy-backdrop.jpg",
-      "sha256": "4098c5658db26c510c7579115dd095cf960bbb194be96051d092f6b463042c58",
-      "bytes": 1165173,
+      "sha256": "98922b1383a9b5529440a0b04da8ef5ee116b17f111c10e24c9814044215096e",
+      "bytes": 490612,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/stand-up-comedy-backdrop-4098c5658d.jpg",
@@ -1553,7 +1649,11 @@
           "folderId": "folder-8B3PEI1Y",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "4098c5658db26c510c7579115dd095cf960bbb194be96051d092f6b463042c58",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1165173
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Superhero_TitleLogo.png",
@@ -1575,11 +1675,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/superhero/superhero-backdrop.jpg",
-      "sha256": "e8f32252346a82300397e81bdf60179455664e56fd7a8e8117e7fb18f31191b3",
-      "bytes": 1432295,
+      "sha256": "a9bb950ca1364835fde13cf5dc247209b5d68c560af2ebb8f23c363b9d3dc6ee",
+      "bytes": 624359,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/superhelden-backdrop-e8f3225234.jpg",
@@ -1589,7 +1689,11 @@
           "folderId": "folder-Y0JJD3MR",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "e8f32252346a82300397e81bdf60179455664e56fd7a8e8117e7fb18f31191b3",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1432295
     },
     {
       "sourceUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/thriller.png?raw=true",
@@ -1611,11 +1715,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/thriller/thriller-backdrop.jpg",
-      "sha256": "d1cd9164de6b5d9c0ad65831f9802571b971384dfe39cc6e528cfbb7c56b56a2",
-      "bytes": 1160384,
+      "sha256": "d68d79715f807760670665dd4f4270159157e075362409e84ee5e555ccba3794",
+      "bytes": 494374,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/thriller-backdrop-d1cd9164de.jpg",
@@ -1625,7 +1729,11 @@
           "folderId": "folder-X9YZCXBH",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "d1cd9164de6b5d9c0ad65831f9802571b971384dfe39cc6e528cfbb7c56b56a2",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1160384
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/War_TitleLogo.png",
@@ -1647,11 +1755,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/war/war-backdrop.jpg",
-      "sha256": "d9e04e423847612b76184ac64c60a0b10df4341e7920f5a22854846d8b4d605e",
-      "bytes": 1244270,
+      "sha256": "7d1d2a54aea0cd1a8384fedf1ab399b1df844624c313ec28584ea3d1c582fd3d",
+      "bytes": 517042,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/krieg-backdrop-d9e04e4238.jpg",
@@ -1661,7 +1769,11 @@
           "folderId": "folder-SY0BJAAJ",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "d9e04e423847612b76184ac64c60a0b10df4341e7920f5a22854846d8b4d605e",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1244270
     },
     {
       "sourceUrl": "https://github.com/ImKaptain/nuvio-assets/blob/main/TitleLogos/Western_TitleLogo.png?raw=true",
@@ -1683,11 +1795,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/western/western-backdrop.jpg",
-      "sha256": "494808d254ec3ad87017aab5f92d24d8e8f4dec97bdcd5a31486bcffae957fef",
-      "bytes": 1260416,
+      "sha256": "cbf7a7e7043cb710f43729499e92750b39443c6fd5a7b5e766b548b7efd54e33",
+      "bytes": 505873,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "genres/western-backdrop-494808d254.jpg",
@@ -1697,7 +1809,11 @@
           "folderId": "folder-VHE2JOX2",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "494808d254ec3ad87017aab5f92d24d8e8f4dec97bdcd5a31486bcffae957fef",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1260416
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/cozy-and-comforting/v2/cozy-and-comforting-logo.png",
@@ -1719,11 +1835,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/cozy-and-comforting/cozy-and-comforting-backdrop.jpg",
-      "sha256": "3b458d816f146ec31c6fa12162f29ce291df200b7adddbeb8f5d6a2c045e84e5",
-      "bytes": 1286639,
+      "sha256": "c8bb19ecf4dd96a332491930c6ef19f0e3c7e9aecadb357cb67f7563ff36c234",
+      "bytes": 557675,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "moods/gemutlich-wohltuend-backdrop-3b458d816f.jpg",
@@ -1733,7 +1849,11 @@
           "folderId": "folder-W52X6SMF",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "3b458d816f146ec31c6fa12162f29ce291df200b7adddbeb8f5d6a2c045e84e5",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1286639
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/mind-bending/v2/mind-bending-logo.png",
@@ -1755,11 +1875,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/mind-bending/mind-bending-backdrop.jpg",
-      "sha256": "02393d9b6b4dd559e801b3a2b53262b5095eec0a306905dfde3a6155ce17e1fb",
-      "bytes": 1222817,
+      "sha256": "7843069d42be617ce5756e4058d177d5f16d7f4fd8cf1a9d8f4c2d8caf95e9d3",
+      "bytes": 521975,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "moods/faszinierend-verwirrend-backdrop-02393d9b6b.jpg",
@@ -1769,7 +1889,11 @@
           "folderId": "folder-7TSDBZYI",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "02393d9b6b4dd559e801b3a2b53262b5095eec0a306905dfde3a6155ce17e1fb",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1222817
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/adrenaline-rush/v2/adrenaline-rush-logo.png",
@@ -1791,11 +1915,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/adrenaline-rush/adrenaline-rush-backdrop.jpg",
-      "sha256": "50064defecddb204cc95ec3e52ffc9ad512c11d99a9df778a0a19e0e74df8d6f",
-      "bytes": 1343463,
+      "sha256": "d36d6cf646733e07bec1648a20958ba7e65291c8ddce481046ec85d283333652",
+      "bytes": 541366,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "moods/adrenalinschub-backdrop-50064defec.jpg",
@@ -1805,7 +1929,11 @@
           "folderId": "folder-S21P049B",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "50064defecddb204cc95ec3e52ffc9ad512c11d99a9df778a0a19e0e74df8d6f",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1343463
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/epic-and-sweeping/v2/epic-and-sweeping-logo.png",
@@ -1827,11 +1955,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/epic-and-sweeping/epic-and-sweeping-backdrop.jpg",
-      "sha256": "b76b5a5f89439278f85e198576100584469c00bed1a84c71fd6fcfe2169d7795",
-      "bytes": 1221849,
+      "sha256": "93fe284194e10cfaaeeaeb9e3b854659e6a845cc4f0fd84c63d56213a589f823",
+      "bytes": 513837,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "moods/episch-mitreiend-backdrop-b76b5a5f89.jpg",
@@ -1841,7 +1969,11 @@
           "folderId": "folder-070BQVHR",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "b76b5a5f89439278f85e198576100584469c00bed1a84c71fd6fcfe2169d7795",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1221849
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/feel-good/v2/feel-good-logo.png",
@@ -1863,11 +1995,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/feel-good/feel-good-backdrop.jpg",
-      "sha256": "25af697c9913264c13d684884b52455aea2ed70decbc902b07f4cbf6d9298a16",
-      "bytes": 1248398,
+      "sha256": "99d12e332b1da873c5fa6881f1d53ca10c0f2080667dfb85d8cc23d9323a0768",
+      "bytes": 553150,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "moods/zum-wohlfuhlen-backdrop-25af697c99.jpg",
@@ -1877,7 +2009,11 @@
           "folderId": "folder-7AXTM9QX",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "25af697c9913264c13d684884b52455aea2ed70decbc902b07f4cbf6d9298a16",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1248398
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/slow-burn/v2/slow-burn-logo.png",
@@ -1899,11 +2035,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/slow-burn/slow-burn-backdrop.jpg",
-      "sha256": "1c982673f9e69e94f06eaa79b8179c1ea992803f9503d06b939fe848f77d4785",
-      "bytes": 1070121,
+      "sha256": "b4e2592713309b9e2113c517152c0091d3602d9554b6f8a8e1ddc71abd90660c",
+      "bytes": 445771,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "moods/langsam-aufgebaute-spannung-backdrop-1c982673f9.jpg",
@@ -1913,7 +2049,11 @@
           "folderId": "folder-RSVZ5OM5",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "1c982673f9e69e94f06eaa79b8179c1ea992803f9503d06b939fe848f77d4785",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1070121
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/tearjerkers/v2/tearjerkers-logo.png",
@@ -1935,11 +2075,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/tearjerkers/tearjerkers-backdrop.jpg",
-      "sha256": "8d3244b46c72f2bdc9ba34344efe104f2fa6bcc015320eb239a6429873d543f1",
-      "bytes": 1177457,
+      "sha256": "61b1fe415dfff1e3067602f13dcf20c714db10b56f54ab32dd9a268868673eb5",
+      "bytes": 488643,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "moods/zum-weinen-backdrop-8d3244b46c.jpg",
@@ -1949,7 +2089,11 @@
           "folderId": "folder-SJGV86EH",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "8d3244b46c72f2bdc9ba34344efe104f2fa6bcc015320eb239a6429873d543f1",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1177457
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/80s-and-90s-vibes/v2/80s-and-90s-vibes-logo.png",
@@ -1971,11 +2115,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/80s-and-90s-vibes/80s-and-90s-vibes-backdrop.jpg",
-      "sha256": "c079c7fc98e454c26674335d31104c7c5cfdc9638773d4ed90a7ca340a9c82e6",
-      "bytes": 1297488,
+      "sha256": "0242d2a26b551b3e6ac8b3b1f147571e8a0a84f04df4258d6eba91195923893f",
+      "bytes": 570812,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "moods/flair-der-80er-90er-backdrop-c079c7fc98.jpg",
@@ -1985,7 +2129,11 @@
           "folderId": "folder-VRAANHHD",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "c079c7fc98e454c26674335d31104c7c5cfdc9638773d4ed90a7ca340a9c82e6",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1297488
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/dark-and-gritty/v2/dark-and-gritty-logo.png",
@@ -2007,11 +2155,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/dark-and-gritty/dark-and-gritty-backdrop.jpg",
-      "sha256": "9f6a7d13b15d215305a9ca86e6ea51df8a903fd1764fb3493de03334e3a19055",
-      "bytes": 1229643,
+      "sha256": "46f2b94f76db4b207c1885f63e1669ab9411baefdd99f967ef5cab360880a40f",
+      "bytes": 504838,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "moods/duster-schonungslos-backdrop-9f6a7d13b1.jpg",
@@ -2021,7 +2169,11 @@
           "folderId": "folder-M50463BF",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "9f6a7d13b15d215305a9ca86e6ea51df8a903fd1764fb3493de03334e3a19055",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1229643
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/spooky-and-creepy/v2/spooky-and-creepy-logo.png",
@@ -2043,11 +2195,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/moods-and-vibes/spooky-and-creepy/spooky-and-creepy-backdrop.jpg",
-      "sha256": "8fc2e2e74d11fd81bc4144d0a34ec6bd25ff8e4c340c3505cea96d70ff4985c2",
-      "bytes": 1235607,
+      "sha256": "5982d07f5b45b5e1e0097e7629e5a047fdc142e07fe18be24e2cde63a071d386",
+      "bytes": 505281,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "moods/gruselig-unheimlich-backdrop-8fc2e2e74d.jpg",
@@ -2057,7 +2209,11 @@
           "folderId": "folder-79A8YOOM",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "8fc2e2e74d11fd81bc4144d0a34ec6bd25ff8e4c340c3505cea96d70ff4985c2",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1235607
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/companies/3172-blumhouse-productions/logos/white/3172_white_1.png",
@@ -3452,11 +3608,11 @@
     },
     {
       "sourceUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/decades/backdrop/1960s.jpg?raw=true",
-      "sha256": "235a4a663a11669adb4a82412b228973fd7ac63e6f67721ac7d5e598d66f4356",
-      "bytes": 1255826,
+      "sha256": "20b4ba114abfc9fe9a55720710394ebc90e489812b9748f7d40713ac0b281a8d",
+      "bytes": 955831,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "by-year/filme-der-1960er-backdrop-235a4a663a.jpg",
@@ -3466,7 +3622,11 @@
           "folderId": "folder-NEW60SMO",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "235a4a663a11669adb4a82412b228973fd7ac63e6f67721ac7d5e598d66f4356",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1255826
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Misc/50s%20Movies/50s%20Movies_Logo.png",
@@ -3488,11 +3648,11 @@
     },
     {
       "sourceUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/decades/backdrop/1950s.jpg?raw=true",
-      "sha256": "09957a034170a1522a91a61ee35b3603b91aeb907086aac92f96f0c3754cc489",
-      "bytes": 1118417,
+      "sha256": "d50b2c87fb689e5341272fcd513bba5a92936a73e72dd9b68f52552e29447359",
+      "bytes": 850712,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "by-year/filme-der-1950er-backdrop-09957a0341.jpg",
@@ -3502,15 +3662,19 @@
           "folderId": "folder-NEW50SMO",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "09957a034170a1522a91a61ee35b3603b91aeb907086aac92f96f0c3754cc489",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1118417
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/discover-anime/discover-anime-hover.png",
-      "sha256": "7a2f5df3077eb5ab8e84b4102470053403dfd4c0b5d63da4235509d61cb4c3c9",
-      "bytes": 4060252,
+      "sha256": "7beac29e030aaf93d3f210cb07fc50123e9c02e1c693eecba71293ec0934e003",
+      "bytes": 2801898,
       "format": "PNG",
-      "width": 2560,
-      "height": 1440,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "anime/anime-entdecken-hover-7a2f5df307.png",
@@ -3520,7 +3684,11 @@
           "folderId": "folder-08IC2WBN",
           "field": "focusGifUrl"
         }
-      ]
+      ],
+      "sourceSha256": "7a2f5df3077eb5ab8e84b4102470053403dfd4c0b5d63da4235509d61cb4c3c9",
+      "sourceWidth": 2560,
+      "sourceHeight": 1440,
+      "sourceBytes": 4060252
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/discover-anime/discover-anime-logo.png",
@@ -3542,11 +3710,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/discover-anime/discover-anime-cover.png",
-      "sha256": "4cd818c4e4d5b34dde0b684890e60126a3c3dc91dcd010cff9b045f103cbaee2",
-      "bytes": 4198737,
+      "sha256": "962d1dca54387fd21aa11f6e4eb9fad76ce5dcce53ba349e10ec9656b38d5a30",
+      "bytes": 2920986,
       "format": "PNG",
-      "width": 2560,
-      "height": 1440,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "anime/anime-entdecken-cover-4cd818c4e4.png",
@@ -3556,15 +3724,19 @@
           "folderId": "folder-08IC2WBN",
           "field": "coverImageUrl"
         }
-      ]
+      ],
+      "sourceSha256": "4cd818c4e4d5b34dde0b684890e60126a3c3dc91dcd010cff9b045f103cbaee2",
+      "sourceWidth": 2560,
+      "sourceHeight": 1440,
+      "sourceBytes": 4198737
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/discover-anime/discover-anime-backdrop.jpg",
-      "sha256": "328ba4d813e8007b9147cecb0fd413083b041bac72ad995c30e5b431f5632c1a",
-      "bytes": 1501038,
+      "sha256": "a8f2e63cf016c3ed0138a9e681e3496038554e2c6ad3fcfca6c83155626f9352",
+      "bytes": 646895,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "anime/anime-entdecken-backdrop-328ba4d813.jpg",
@@ -3574,15 +3746,19 @@
           "folderId": "folder-08IC2WBN",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "328ba4d813e8007b9147cecb0fd413083b041bac72ad995c30e5b431f5632c1a",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1501038
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/shonen-and-action-anime/shonen-and-action-anime-hover.png",
-      "sha256": "8d9c4ff7b2357ea66eff32d7925382e4d840cd2913f9e967af66a57434966e98",
-      "bytes": 4487330,
+      "sha256": "514c2497c82d286eea76194d195d74549c78674c48a15487a08a04df1cb97a59",
+      "bytes": 2935293,
       "format": "PNG",
-      "width": 2560,
-      "height": 1440,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "anime/shonen-action-anime-hover-8d9c4ff7b2.png",
@@ -3592,7 +3768,11 @@
           "folderId": "folder-QCEU9Z9A",
           "field": "focusGifUrl"
         }
-      ]
+      ],
+      "sourceSha256": "8d9c4ff7b2357ea66eff32d7925382e4d840cd2913f9e967af66a57434966e98",
+      "sourceWidth": 2560,
+      "sourceHeight": 1440,
+      "sourceBytes": 4487330
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/shonen-and-action-anime/shonen-and-action-anime-logo.png",
@@ -3614,11 +3794,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/shonen-and-action-anime/shonen-and-action-anime-cover.png",
-      "sha256": "f8abf58e872288a9b453e4f7ce3b803e2f61b4a38ccf5072dc5b5c5a6971f93d",
-      "bytes": 4428000,
+      "sha256": "32b4cdc9a73888dccfab71976fd7837a66d3df3be06b4d7b8825b2799de048db",
+      "bytes": 2895924,
       "format": "PNG",
-      "width": 2560,
-      "height": 1440,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "anime/shonen-action-anime-cover-f8abf58e87.png",
@@ -3628,15 +3808,19 @@
           "folderId": "folder-QCEU9Z9A",
           "field": "coverImageUrl"
         }
-      ]
+      ],
+      "sourceSha256": "f8abf58e872288a9b453e4f7ce3b803e2f61b4a38ccf5072dc5b5c5a6971f93d",
+      "sourceWidth": 2560,
+      "sourceHeight": 1440,
+      "sourceBytes": 4428000
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/shonen-and-action-anime/shonen-and-action-anime-backdrop.jpg",
-      "sha256": "de0b0caa01b0e534f12892173821d6c3f6f82eb51f1970eb304a89f77d38267f",
-      "bytes": 1493083,
+      "sha256": "aee711b790a066777d51971efbf1847881a32faa66491d680564102f9e5acfed",
+      "bytes": 644930,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "anime/shonen-action-anime-backdrop-de0b0caa01.jpg",
@@ -3646,15 +3830,19 @@
           "folderId": "folder-QCEU9Z9A",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "de0b0caa01b0e534f12892173821d6c3f6f82eb51f1970eb304a89f77d38267f",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1493083
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/studio-spotlight/studio-spotlight-hover.png",
-      "sha256": "3215b4f9d561cfaccbbee9723f281dca1a512326ce8c6addaf785e9cbd939e19",
-      "bytes": 2413475,
+      "sha256": "00b68d3c3b83d54eb94214a63a6e25ab631dd46d55ab397998f68b0de967a796",
+      "bytes": 1700703,
       "format": "PNG",
-      "width": 2560,
-      "height": 1440,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "anime/studios-im-fokus-hover-3215b4f9d5.png",
@@ -3664,7 +3852,11 @@
           "folderId": "folder-9RP4Z63N",
           "field": "focusGifUrl"
         }
-      ]
+      ],
+      "sourceSha256": "3215b4f9d561cfaccbbee9723f281dca1a512326ce8c6addaf785e9cbd939e19",
+      "sourceWidth": 2560,
+      "sourceHeight": 1440,
+      "sourceBytes": 2413475
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/studio-spotlight/studio-spotlight-logo.png",
@@ -3686,11 +3878,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/studio-spotlight/studio-spotlight-cover.png",
-      "sha256": "2e24e4886cc285c7b075014fb2296be21c3cdc904b35e79df8489181bc493539",
-      "bytes": 2365251,
+      "sha256": "fa7d25fbede6f0a4fe91b9bdf2e3e50b785e1f3a0cd7966b20fba2a30db56517",
+      "bytes": 1672815,
       "format": "PNG",
-      "width": 2560,
-      "height": 1440,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "anime/studios-im-fokus-cover-2e24e4886c.png",
@@ -3700,15 +3892,19 @@
           "folderId": "folder-9RP4Z63N",
           "field": "coverImageUrl"
         }
-      ]
+      ],
+      "sourceSha256": "2e24e4886cc285c7b075014fb2296be21c3cdc904b35e79df8489181bc493539",
+      "sourceWidth": 2560,
+      "sourceHeight": 1440,
+      "sourceBytes": 2365251
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/studio-spotlight/studio-spotlight-backdrop.jpg",
-      "sha256": "4b3e465c9fda53b9151eef667467c375526f426ea4f8247818056a506878ee02",
-      "bytes": 1596215,
+      "sha256": "1b9f1113aa624261f279c5a95ad429cc62c15ee0d7541568410c0a3079f91246",
+      "bytes": 685316,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "anime/studios-im-fokus-backdrop-4b3e465c9f.jpg",
@@ -3718,15 +3914,19 @@
           "folderId": "folder-9RP4Z63N",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "4b3e465c9fda53b9151eef667467c375526f426ea4f8247818056a506878ee02",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1596215
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/isekai-and-fantasy-sagas/isekai-and-fantasy-sagas-hover.png",
-      "sha256": "2e26f6263288eafef4aba0e51c13c27608aeab8c5e9db94835f339f8e389128d",
-      "bytes": 3678924,
+      "sha256": "66ca5d88f135a922da7fcdf296d13af5dfa10d48899a958518dfd720f767af86",
+      "bytes": 2508864,
       "format": "PNG",
-      "width": 2560,
-      "height": 1440,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "anime/isekai-fantasysagas-hover-2e26f62632.png",
@@ -3736,7 +3936,11 @@
           "folderId": "folder-JQ8I3SCI",
           "field": "focusGifUrl"
         }
-      ]
+      ],
+      "sourceSha256": "2e26f6263288eafef4aba0e51c13c27608aeab8c5e9db94835f339f8e389128d",
+      "sourceWidth": 2560,
+      "sourceHeight": 1440,
+      "sourceBytes": 3678924
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/isekai-and-fantasy-sagas/isekai-and-fantasy-sagas-logo.png",
@@ -3758,11 +3962,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/isekai-and-fantasy-sagas/isekai-and-fantasy-sagas-cover.png",
-      "sha256": "f5b81694a327d46ada712a84b774b543c70f08901bb0794e003470f936f23b98",
-      "bytes": 3765974,
+      "sha256": "6103c389497c672e9ab93241f6a404d4af8978c02f309329240c9b7f4a20d793",
+      "bytes": 2586982,
       "format": "PNG",
-      "width": 2560,
-      "height": 1440,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "anime/isekai-fantasysagas-cover-f5b81694a3.png",
@@ -3772,15 +3976,19 @@
           "folderId": "folder-JQ8I3SCI",
           "field": "coverImageUrl"
         }
-      ]
+      ],
+      "sourceSha256": "f5b81694a327d46ada712a84b774b543c70f08901bb0794e003470f936f23b98",
+      "sourceWidth": 2560,
+      "sourceHeight": 1440,
+      "sourceBytes": 3765974
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/isekai-and-fantasy-sagas/isekai-and-fantasy-sagas-backdrop.jpg",
-      "sha256": "a029dbe334b266dd5467138065a2d849b3238f9a1458eb135e77beb396de4040",
-      "bytes": 1616053,
+      "sha256": "40113ec4b84d63d9a956b0ca6a4897521b42400f71320e9891199859173f2d41",
+      "bytes": 676156,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "anime/isekai-fantasysagas-backdrop-a029dbe334.jpg",
@@ -3790,15 +3998,19 @@
           "folderId": "folder-JQ8I3SCI",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "a029dbe334b266dd5467138065a2d849b3238f9a1458eb135e77beb396de4040",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1616053
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/slice-of-life-and-romance/slice-of-life-and-romance-hover.png",
-      "sha256": "aea2b75f7132488f9d2a33b885ec9563122d8fe09d70aadf97d32aa3d1095b97",
-      "bytes": 4182194,
+      "sha256": "a07e8d5039b47d0b18b0caa7c9745fba85ec00fd0e3779326e70b76d3af7ca23",
+      "bytes": 2749640,
       "format": "PNG",
-      "width": 2560,
-      "height": 1440,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "anime/alltagsgeschichten-romantik-hover-aea2b75f71.png",
@@ -3808,7 +4020,11 @@
           "folderId": "folder-FML2DNZO",
           "field": "focusGifUrl"
         }
-      ]
+      ],
+      "sourceSha256": "aea2b75f7132488f9d2a33b885ec9563122d8fe09d70aadf97d32aa3d1095b97",
+      "sourceWidth": 2560,
+      "sourceHeight": 1440,
+      "sourceBytes": 4182194
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/slice-of-life-and-romance/slice-of-life-and-romance-logo.png",
@@ -3830,11 +4046,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/slice-of-life-and-romance/slice-of-life-and-romance-cover.png",
-      "sha256": "1507278a839f4e94b31017a85575bfd1c003f786c23d5bc48166a5048d1771c6",
-      "bytes": 4340608,
+      "sha256": "f0f3d5fa062918a6a8846d4fc3761d8b39247ea290bd82a89f464e3452793c02",
+      "bytes": 2853495,
       "format": "PNG",
-      "width": 2560,
-      "height": 1440,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "anime/alltagsgeschichten-romantik-cover-1507278a83.png",
@@ -3844,15 +4060,19 @@
           "folderId": "folder-FML2DNZO",
           "field": "coverImageUrl"
         }
-      ]
+      ],
+      "sourceSha256": "1507278a839f4e94b31017a85575bfd1c003f786c23d5bc48166a5048d1771c6",
+      "sourceWidth": 2560,
+      "sourceHeight": 1440,
+      "sourceBytes": 4340608
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/slice-of-life-and-romance/slice-of-life-and-romance-backdrop.jpg",
-      "sha256": "3add5988c277dc8ea6d683e0110154a07865fa17d27ef7944256f10bca99ccab",
-      "bytes": 1631219,
+      "sha256": "5120b52659e61aeb8a63c99b7f5e275f27979f706deb597ab65c9c2837fc4cfd",
+      "bytes": 700614,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "anime/alltagsgeschichten-romantik-backdrop-3add5988c2.jpg",
@@ -3862,15 +4082,19 @@
           "folderId": "folder-FML2DNZO",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "3add5988c277dc8ea6d683e0110154a07865fa17d27ef7944256f10bca99ccab",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1631219
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/sports-and-competition-anime/sports-and-competition-anime-hover.png",
-      "sha256": "c480c31bd726f351f9526bb9b526b2df48ed42d256141a105d0bb353847301ae",
-      "bytes": 3299217,
+      "sha256": "675dd2aa3b51acd1b203c6a57066e2629e7d20a389f33ae79ddffc7b5631623c",
+      "bytes": 2243362,
       "format": "PNG",
-      "width": 2560,
-      "height": 1440,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "anime/sport-wettkampf-anime-hover-c480c31bd7.png",
@@ -3880,7 +4104,11 @@
           "folderId": "folder-CDMZH7S0",
           "field": "focusGifUrl"
         }
-      ]
+      ],
+      "sourceSha256": "c480c31bd726f351f9526bb9b526b2df48ed42d256141a105d0bb353847301ae",
+      "sourceWidth": 2560,
+      "sourceHeight": 1440,
+      "sourceBytes": 3299217
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/sports-and-competition-anime/sports-and-competition-anime-logo.png",
@@ -3902,11 +4130,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/sports-and-competition-anime/sports-and-competition-anime-cover.png",
-      "sha256": "3fb3bc24a394e7c83e14feaed2449ced2fe598de62d7cc9d6069787847504260",
-      "bytes": 3068578,
+      "sha256": "9139f64db96c23524778e8a8cf80382a8bfaf08bef5c69d5d1a0477ff9d80866",
+      "bytes": 2095357,
       "format": "PNG",
-      "width": 2560,
-      "height": 1440,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "anime/sport-wettkampf-anime-cover-3fb3bc24a3.png",
@@ -3916,15 +4144,19 @@
           "folderId": "folder-CDMZH7S0",
           "field": "coverImageUrl"
         }
-      ]
+      ],
+      "sourceSha256": "3fb3bc24a394e7c83e14feaed2449ced2fe598de62d7cc9d6069787847504260",
+      "sourceWidth": 2560,
+      "sourceHeight": 1440,
+      "sourceBytes": 3068578
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/anime/sports-and-competition-anime/sports-and-competition-anime-backdrop.jpg",
-      "sha256": "7ac2bd09bf3edc016b0357adc95e733b680164aec6c930eba0cd7b5bfba8b4c1",
-      "bytes": 1578520,
+      "sha256": "1d19aeb25cb681f670ceb61e03fdf1e75a892ba4f7562736570e097f3be5deae",
+      "bytes": 669867,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "anime/sport-wettkampf-anime-backdrop-7ac2bd09bf.jpg",
@@ -3934,7 +4166,11 @@
           "folderId": "folder-CDMZH7S0",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "7ac2bd09bf3edc016b0357adc95e733b680164aec6c930eba0cd7b5bfba8b4c1",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1578520
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/refs/heads/main/TitleLogos/ACTION_TitleLogo.png",
@@ -4357,11 +4593,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/28_Days_Weeks_Years_Later_Collection/28_Days_Weeks_Years_Later_Collection_Backdrop.jpg",
-      "sha256": "5a8ea9813feb180278592879c592a64cca0d88646ce528ed0ea97ba5e462dda8",
-      "bytes": 886528,
+      "sha256": "6e8fa8b62fbef17194ffb6a3d0c90e581e5a8d3f00d1e95050843134d4772128",
+      "bytes": 697296,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/28-days-weeks-years-later-sammlung-backdrop-5a8ea9813f.jpg",
@@ -4371,15 +4607,19 @@
           "folderId": "folder-AO9B0UT3",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "5a8ea9813feb180278592879c592a64cca0d88646ce528ed0ea97ba5e462dda8",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 886528
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/5imuR4m3p8BOHgzhuGKDb5vXdvN.png",
-      "sha256": "c8e2ae00e9561d056f90a919a8921a3cde3d1721e99eb390d2ab574a4b6eb407",
-      "bytes": 210409,
+      "sha256": "4cb2e5737efea26f99b1e3566ee28320e66d702584c7881fd11e8d250aef495d",
+      "bytes": 201870,
       "format": "PNG",
-      "width": 4070,
-      "height": 1083,
+      "width": 1920,
+      "height": 511,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/a-nightmare-on-elm-street-logo-c8e2ae00e9.png",
@@ -4389,7 +4629,11 @@
           "folderId": "folder-KJZ5BUX7",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "c8e2ae00e9561d056f90a919a8921a3cde3d1721e99eb390d2ab574a4b6eb407",
+      "sourceWidth": 4070,
+      "sourceHeight": 1083,
+      "sourceBytes": 210409
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/9e3e50fe.webp",
@@ -4411,11 +4655,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/lQLam7R8VgaRoZzyarMJmLoVrFb.png",
-      "sha256": "479215015545451eda49a760e7c43d0d37ea2d9e24365740b382f209ab49a085",
-      "bytes": 84825,
+      "sha256": "a9e0bebac060e4cc651eb5bc36c06203e55bf4a61f064539ebaf0114087ac0b7",
+      "bytes": 50249,
       "format": "PNG",
-      "width": 4314,
-      "height": 593,
+      "width": 1920,
+      "height": 264,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/a-quiet-place-logo-4792150155.png",
@@ -4425,7 +4669,11 @@
           "folderId": "folder-XSN1INN6",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "479215015545451eda49a760e7c43d0d37ea2d9e24365740b382f209ab49a085",
+      "sourceWidth": 4314,
+      "sourceHeight": 593,
+      "sourceBytes": 84825
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/9b5dc7e4.webp",
@@ -4447,11 +4695,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/p3I5t39NzMehPrLzsDwrTHtgQ32.png",
-      "sha256": "3d9540e8663cb5b5c7258b9fdbb9cb35dedd7f6dd39f066b789648e202054a18",
-      "bytes": 203825,
+      "sha256": "d80f35f204ca1d2f9a279fc7246946eac91fde7f329894616cbf6855d7cd3650",
+      "bytes": 168510,
       "format": "PNG",
-      "width": 4253,
-      "height": 1227,
+      "width": 1920,
+      "height": 554,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/ace-ventura-logo-3d9540e866.png",
@@ -4461,7 +4709,11 @@
           "folderId": "folder-IOF3LR1A",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "3d9540e8663cb5b5c7258b9fdbb9cb35dedd7f6dd39f066b789648e202054a18",
+      "sourceWidth": 4253,
+      "sourceHeight": 1227,
+      "sourceBytes": 203825
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d24af4df.webp",
@@ -4501,11 +4753,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/kUHyN9PzQ59e2n3CwqMG99yxBvh.jpg",
-      "sha256": "5051f73319aa6c9c374ed1e37e0bfbea411823441526ed201f8ffa65fe9b0547",
-      "bytes": 1278092,
+      "sha256": "975ef89c90a921fbebd052795caa9ad34daf1121a7fa99b2b97463698fcfc1d4",
+      "bytes": 869195,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/aladdin-sammlung-backdrop-5051f73319.jpg",
@@ -4515,7 +4767,11 @@
           "folderId": "folder-F41E9238",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "5051f73319aa6c9c374ed1e37e0bfbea411823441526ed201f8ffa65fe9b0547",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1278092
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/riI33EA1vYQ1szTtMe0NR7TwV1p.png",
@@ -4591,11 +4847,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/8KwICHNTFRl5Y2zif64wGrPUsQn.png",
-      "sha256": "ad15cd0bbe5513f98700eaf0a760084580d1d20cc6da7f1d7ff337213d0b3274",
-      "bytes": 1121207,
+      "sha256": "cd3f090592589f18cc4e646b032745ce1deddb4f69b260523bed126befe16ab2",
+      "bytes": 976209,
       "format": "PNG",
-      "width": 3056,
-      "height": 1255,
+      "width": 1920,
+      "height": 788,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/alvin-und-die-chipmunks-logo-ad15cd0bbe.png",
@@ -4605,7 +4861,11 @@
           "folderId": "folder-6AKYJNFB",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "ad15cd0bbe5513f98700eaf0a760084580d1d20cc6da7f1d7ff337213d0b3274",
+      "sourceWidth": 3056,
+      "sourceHeight": 1255,
+      "sourceBytes": 1121207
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/1b675b4f.webp",
@@ -4789,11 +5049,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Avatar_Collection/Avatar_Collection_Backdrop.jpg",
-      "sha256": "26fa7b28bac437671b616f2070ba9bb0a8d9abe9e5c3e5050ab72c680ae19e40",
-      "bytes": 361578,
+      "sha256": "ae9c3d3350d0cd7dc1299f94a60b91c9d7802971f7425a1b419c55f96525cbd1",
+      "bytes": 383358,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/avatar-sammlung-backdrop-26fa7b28ba.jpg",
@@ -4803,15 +5063,19 @@
           "folderId": "folder-F49819FR",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "26fa7b28bac437671b616f2070ba9bb0a8d9abe9e5c3e5050ab72c680ae19e40",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 361578
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/jyhwiYJ05nhIkgx9UDVpUCrQ8Hm.png",
-      "sha256": "dea343154fd0fca5a7156593df3d9f50f1ef0806cfe5d2410262229a11ed5fb8",
-      "bytes": 2904774,
+      "sha256": "82797f22ed3afef38865b72a84eb4dbed544e681e535b944b0e0e341e310ccb0",
+      "bytes": 1706879,
       "format": "PNG",
-      "width": 2784,
-      "height": 1283,
+      "width": 1920,
+      "height": 885,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/zuruck-in-die-zukunft-logo-dea343154f.png",
@@ -4821,7 +5085,11 @@
           "folderId": "folder-X582BX4A",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "dea343154fd0fca5a7156593df3d9f50f1ef0806cfe5d2410262229a11ed5fb8",
+      "sourceWidth": 2784,
+      "sourceHeight": 1283,
+      "sourceBytes": 2904774
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/a99f18a9.webp",
@@ -4843,11 +5111,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/12tlRLp0fD2GMbIcYSxkL41JzNE.png",
-      "sha256": "9b9769ddd5dfb02b364bada8796cf5426defebf6a83826f7b87d94b1fd49c570",
-      "bytes": 2237979,
+      "sha256": "72eb63e496c05b1222032ee7aec08882ca716ad782de9c9cee7ee6f3e490086e",
+      "bytes": 1249426,
       "format": "PNG",
-      "width": 2885,
-      "height": 1224,
+      "width": 1920,
+      "height": 815,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/bad-boys-logo-9b9769ddd5.png",
@@ -4857,7 +5125,11 @@
           "folderId": "folder-MOHS9H0N",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "9b9769ddd5dfb02b364bada8796cf5426defebf6a83826f7b87d94b1fd49c570",
+      "sourceWidth": 2885,
+      "sourceHeight": 1224,
+      "sourceBytes": 2237979
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d024dd8b.webp",
@@ -4969,11 +5241,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/bXCm94g4TXKmACRj02ZlvmKp09m.jpg",
-      "sha256": "2441a64eeb52d6c6e6785fa3f9d83c4ad9e2baa94a18c927b271c991858e9a14",
-      "bytes": 637829,
+      "sha256": "2a33c0197a52cc80fdf4bc3728f17b73665acf28514d527b4fb91b66d031fe88",
+      "bytes": 513532,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/die-schone-und-das-biest-sammlung-backdrop-2441a64eeb.jpg",
@@ -4983,7 +5255,11 @@
           "folderId": "folder-B0C69755",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "2441a64eeb52d6c6e6785fa3f9d83c4ad9e2baa94a18c927b271c991858e9a14",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 637829
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/qjQ2Yj6hg5NI7n3kr3dWbrKECX1.png",
@@ -5023,11 +5299,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/eQvRMPGpmxD75KoblGmDVFErh0q.png",
-      "sha256": "f0b9d10a0630cb5786d09b60475aee0bb1a0799fb943f48825ba594bf2f9ef6c",
-      "bytes": 33275,
+      "sha256": "3967eda72f09af6bfd5db955e892bbb7192cbae91f7ceeef7a24ed8ebe9c7dbc",
+      "bytes": 9544,
       "format": "PNG",
-      "width": 3941,
-      "height": 560,
+      "width": 1920,
+      "height": 273,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/beverly-hills-cop-logo-f0b9d10a06.png",
@@ -5037,7 +5313,11 @@
           "folderId": "folder-U5TZUOB0",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "f0b9d10a0630cb5786d09b60475aee0bb1a0799fb943f48825ba594bf2f9ef6c",
+      "sourceWidth": 3941,
+      "sourceHeight": 560,
+      "sourceBytes": 33275
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/4bff543c.webp",
@@ -5059,11 +5339,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/3gufeHC4kxiiU0yRjefYKtpKDjj.png",
-      "sha256": "0828951a7e758cee5351196ba93a4d243de9bc6a73cec19bf0113dff687a50e1",
-      "bytes": 646985,
+      "sha256": "0b0c734af4f681c6c9a48a53f254e17dc7d0f1280c10c10b7b32fa42caf1252f",
+      "bytes": 529159,
       "format": "PNG",
-      "width": 2272,
-      "height": 1300,
+      "width": 1888,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/big-mamas-haus-logo-0828951a7e.png",
@@ -5073,7 +5353,11 @@
           "folderId": "folder-7BX3LL9D",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "0828951a7e758cee5351196ba93a4d243de9bc6a73cec19bf0113dff687a50e1",
+      "sourceWidth": 2272,
+      "sourceHeight": 1300,
+      "sourceBytes": 646985
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/119804c2.webp",
@@ -5203,11 +5487,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/pJaqFpeW9kaoowXPXxIeOeWA7JS.png",
-      "sha256": "6876646707795dd0f27c532d056ef01fc47153bf1e689919f58c0b899f7cca84",
-      "bytes": 190801,
+      "sha256": "fbb86055a88788ce24e528026b142e65f1e40406588678fa825f040eb4f42b80",
+      "bytes": 154107,
       "format": "PNG",
-      "width": 1550,
-      "height": 1263,
+      "width": 1325,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/bridget-jones-logo-6876646707.png",
@@ -5217,7 +5501,11 @@
           "folderId": "folder-F7ED3T81",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "6876646707795dd0f27c532d056ef01fc47153bf1e689919f58c0b899f7cca84",
+      "sourceWidth": 1550,
+      "sourceHeight": 1263,
+      "sourceBytes": 190801
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/1cfcfad9.webp",
@@ -5293,11 +5581,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/87UMdcpugFmgVz2VgEopExuckMc.jpg",
-      "sha256": "aaf2661346a829b7cd2fc123dd9b7fe9f8635eae54547f3c1feccd80c5490af0",
-      "bytes": 975446,
+      "sha256": "dcfb81f1d57a82bc9a0716de782e90e8782821c9d792975c3a9151baf33ccc0a",
+      "bytes": 642638,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/candyman-sammlung-backdrop-aaf2661346.jpg",
@@ -5307,7 +5595,11 @@
           "folderId": "folder-7BEF8127",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "aaf2661346a829b7cd2fc123dd9b7fe9f8635eae54547f3c1feccd80c5490af0",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 975446
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/xSDu2zGuG0Ji2sEAZZNmyhQtaiU.png",
@@ -5419,11 +5711,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/5xMZC3hyLICnJ03VMXnvwJOH8qv.png",
-      "sha256": "04bc02aa46108f0e928d5eecae17b1cd0871a8a5a51fb2e6dbf16dfe872b02d8",
-      "bytes": 661515,
+      "sha256": "815e058fcbef884bb4f2c6a6950c8b5ba79b7e6063cc4acd3b137b9fb93da0d1",
+      "bytes": 627579,
       "format": "PNG",
-      "width": 2053,
-      "height": 865,
+      "width": 1920,
+      "height": 809,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/clerks-logo-04bc02aa46.png",
@@ -5433,7 +5725,11 @@
           "folderId": "folder-HTIDPKBZ",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "04bc02aa46108f0e928d5eecae17b1cd0871a8a5a51fb2e6dbf16dfe872b02d8",
+      "sourceWidth": 2053,
+      "sourceHeight": 865,
+      "sourceBytes": 661515
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/47ecb5a6.webp",
@@ -5455,11 +5751,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Cloudy_with_a_Chance_of_Meatballs_Collection_TitleLogo.png",
-      "sha256": "a6d342f05fc4076efe63a82c40459204d7d4134ef3f495111dc84a05365b3558",
-      "bytes": 4377226,
+      "sha256": "1570028031326699f810c5a92a528b82c715ea3046ccac583fb508c3a89e54d8",
+      "bytes": 1528607,
       "format": "PNG",
-      "width": 3848,
-      "height": 1240,
+      "width": 1920,
+      "height": 619,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/wolkig-mit-aussicht-auf-fleischballchen-sammlung-logo-a6d342f05f.png",
@@ -5469,7 +5765,11 @@
           "folderId": "folder-YOI5X3WM",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "a6d342f05fc4076efe63a82c40459204d7d4134ef3f495111dc84a05365b3558",
+      "sourceWidth": 3848,
+      "sourceHeight": 1240,
+      "sourceBytes": 4377226
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Cloudy_with_a_Chance_of_Meatballs_Collection/Cloudy_with_a_Chance_of_Meatballs_Collection_Backdrop.jpg",
@@ -5491,11 +5791,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Cloverfield_collection_TitleLogo.png",
-      "sha256": "c3008fab89fc58d28e05021ebb32458e51c11ca629fb37c0596b9d94249ab23b",
-      "bytes": 204043,
+      "sha256": "eeee46db87d492ff29172f3b1d3f980805a1c08cb7993b3ea1ca6fcdd2c0afa5",
+      "bytes": 65906,
       "format": "PNG",
-      "width": 4312,
-      "height": 512,
+      "width": 1920,
+      "height": 228,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/cloverfield-sammlung-logo-c3008fab89.png",
@@ -5505,7 +5805,11 @@
           "folderId": "folder-O0PUA7V6",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "c3008fab89fc58d28e05021ebb32458e51c11ca629fb37c0596b9d94249ab23b",
+      "sourceWidth": 4312,
+      "sourceHeight": 512,
+      "sourceBytes": 204043
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/3UUCqeEvakXfTDWlE6otfawwA0A.png",
@@ -5527,11 +5831,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/rJw7mflYzuHXBdRYEJyjAXDru5t.jpg",
-      "sha256": "a45615fb5ad1ee94438f64bccad940baf29a0dcb64953ebfdb89ebe4b600ba59",
-      "bytes": 641390,
+      "sha256": "07ff72ce2c826dcd1a7b3068e9771c39c19d6020e452665bee176a672a56d71d",
+      "bytes": 522806,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/conan-der-barbar-sammlung-backdrop-a45615fb5a.jpg",
@@ -5541,15 +5845,19 @@
           "folderId": "folder-B4E8C290",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "a45615fb5ad1ee94438f64bccad940baf29a0dcb64953ebfdb89ebe4b600ba59",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 641390
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/Al4f6NqlAZV50JXFJbfMNOZLiZP.png",
-      "sha256": "8dd069bf5aec65bfae54c48846feb0d095c40d3338193527b1f803339a0c889e",
-      "bytes": 25741,
+      "sha256": "eedd78d7b7c8abdd449bda76a20a4144aa71234f9a328089de8f71f1f382ed37",
+      "bytes": 23402,
       "format": "PNG",
-      "width": 3654,
-      "height": 1204,
+      "width": 1920,
+      "height": 633,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/creed-logo-8dd069bf5a.png",
@@ -5559,7 +5867,11 @@
           "folderId": "folder-C1ACADFD",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "8dd069bf5aec65bfae54c48846feb0d095c40d3338193527b1f803339a0c889e",
+      "sourceWidth": 3654,
+      "sourceHeight": 1204,
+      "sourceBytes": 25741
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/4f50b205.webp",
@@ -5635,11 +5947,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/AlNcktkWPPKxZgtnmyHC486tzmK.jpg",
-      "sha256": "3ffb753fa73422956f0e24cb067f32c6ff5c535b9363645c76297ef69e27ff49",
-      "bytes": 303753,
+      "sha256": "6e28913c122288f9bbe8a781d4af6c2f9f5cd378d11b81ae616ba41bbe5709b6",
+      "bytes": 325441,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/death-wish-sammlung-backdrop-3ffb753fa7.jpg",
@@ -5649,7 +5961,11 @@
           "folderId": "folder-31D5B2FE",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "3ffb753fa73422956f0e24cb067f32c6ff5c535b9363645c76297ef69e27ff49",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 303753
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/xhPL1PDIweY7WTHC4fwGYgtGzvU.png",
@@ -5761,11 +6077,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/rvIPOWt87wJMn0WEXf5t8bWjccd.png",
-      "sha256": "11c10bb83b4734220c4f745970c86f7cffcc0aa482a035de3fa63bcd3bef493b",
-      "bytes": 145140,
+      "sha256": "2fe09c223418acb76ed0595fb88fd83940ce90c91ca69256449f43af5a76f01d",
+      "bytes": 223881,
       "format": "PNG",
-      "width": 2642,
-      "height": 1295,
+      "width": 1920,
+      "height": 941,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/gregs-tagebuch-logo-11c10bb83b.png",
@@ -5775,7 +6091,11 @@
           "folderId": "folder-DPKGQKLD",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "11c10bb83b4734220c4f745970c86f7cffcc0aa482a035de3fa63bcd3bef493b",
+      "sourceWidth": 2642,
+      "sourceHeight": 1295,
+      "sourceBytes": 145140
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/dbbf0ee5.webp",
@@ -5869,11 +6189,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/g0dM9AJlCXmNttrE6DtEkc1BQDq.png",
-      "sha256": "be185fa93af2d8779546d33ba532e28aa868061393c5fb195d0e65f20db4a8aa",
-      "bytes": 1882266,
+      "sha256": "4647a0fb78154775c3598bdd98c0780d63e0a8ba5f468872233d60e6e63befb2",
+      "bytes": 482954,
       "format": "PNG",
-      "width": 4320,
-      "height": 570,
+      "width": 1920,
+      "height": 253,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/die-bestimmung-logo-be185fa93a.png",
@@ -5883,7 +6203,11 @@
           "folderId": "folder-53QK358F",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "be185fa93af2d8779546d33ba532e28aa868061393c5fb195d0e65f20db4a8aa",
+      "sourceWidth": 4320,
+      "sourceHeight": 570,
+      "sourceBytes": 1882266
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f4dd4179.webp",
@@ -5977,11 +6301,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/rDNGAgJ4TpaAXGJimZyoQrKOHfV.png",
-      "sha256": "08a44edbf7e5163f76b473f366834d434021cc1bfdc36e338438513b2695637c",
-      "bytes": 1613361,
+      "sha256": "c5c55a77b2389e82b8fe614ac3c98237ca0e4357a1179afb3558f7761723180d",
+      "bytes": 448231,
       "format": "PNG",
-      "width": 4320,
-      "height": 797,
+      "width": 1920,
+      "height": 354,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/dumm-und-dummer-sammlung-logo-08a44edbf7.png",
@@ -5991,7 +6315,11 @@
           "folderId": "folder-8C0F231B",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "08a44edbf7e5163f76b473f366834d434021cc1bfdc36e338438513b2695637c",
+      "sourceWidth": 4320,
+      "sourceHeight": 797,
+      "sourceBytes": 1613361
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/saUnj5K6buVafDfLfTozDH2eqdC.jpg",
@@ -6067,11 +6395,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Eastrail_177_Trilogy/Eastrail_177_Trilogy_Backdrop.jpg",
-      "sha256": "0eb7d0186cf0711a8ee1e8d6b2b06e998e031060e745f0a0216d57338f9cf9e7",
-      "bytes": 1935245,
+      "sha256": "88f284e12e8908c282b0c02ee80eb2ac3cebf0d7d18d07a78c8804d56cff2663",
+      "bytes": 1166044,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/eastrail-177-trilogie-backdrop-0eb7d0186c.jpg",
@@ -6081,15 +6409,19 @@
           "folderId": "folder-R1WHDLHR",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "0eb7d0186cf0711a8ee1e8d6b2b06e998e031060e745f0a0216d57338f9cf9e7",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1935245
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/pNOxxg9Od4s9IrVTH5kCTFwhzl1.png",
-      "sha256": "0d249e291f7880b465dab2ef6d6ea223dfe64aaf4b3fd416881edd87449bece1",
-      "bytes": 95728,
+      "sha256": "1aec3272fe645a4640f5729340d2aabdee7d383abfdb0678a25dc5d212db68a3",
+      "bytes": 45792,
       "format": "PNG",
-      "width": 7924,
-      "height": 1366,
+      "width": 1920,
+      "height": 331,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/enola-holmes-logo-0d249e291f.png",
@@ -6099,7 +6431,11 @@
           "folderId": "folder-76513F64",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "0d249e291f7880b465dab2ef6d6ea223dfe64aaf4b3fd416881edd87449bece1",
+      "sourceWidth": 7924,
+      "sourceHeight": 1366,
+      "sourceBytes": 95728
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/684543b2.webp",
@@ -6157,11 +6493,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/hJn0nzjZoUzuGtkXdHbLy5YjjsJ.png",
-      "sha256": "d51610d446b7223cf751d803f54aa11b55dfb4f4cbbf10c9ca37cd9180a7a7c6",
-      "bytes": 87447,
+      "sha256": "a1a6ba62ab89b363f31ab7facb9cabd65df30d767014effc8f2ee7b837327905",
+      "bytes": 57386,
       "format": "PNG",
-      "width": 4319,
-      "height": 494,
+      "width": 1920,
+      "height": 220,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/escape-room-logo-d51610d446.png",
@@ -6171,7 +6507,11 @@
           "folderId": "folder-5EE83CE6",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "d51610d446b7223cf751d803f54aa11b55dfb4f4cbbf10c9ca37cd9180a7a7c6",
+      "sourceWidth": 4319,
+      "sourceHeight": 494,
+      "sourceBytes": 87447
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/41d2016e.webp",
@@ -6283,11 +6623,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/gxBbFVb2SUWtHTJQXjwAtEPTWcA.jpg",
-      "sha256": "5320e5fa35423c12a70de403f6c05bae0e757519a17973c54529d301f4c86fda",
-      "bytes": 796118,
+      "sha256": "ca6c45db3121c473a1042eb4e37b4a78667e5c05ddb76755b52256ace403ea70",
+      "bytes": 523149,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/extraction-sammlung-backdrop-5320e5fa35.jpg",
@@ -6297,7 +6637,11 @@
           "folderId": "folder-6A318DF1",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "5320e5fa35423c12a70de403f6c05bae0e757519a17973c54529d301f4c86fda",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 796118
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/oXIpV1oAPjx5az5laFsCPmcCZfS.png",
@@ -6373,11 +6717,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/v68y0huX0liNadVHrlcPwZTlyzN.png",
-      "sha256": "5a75cb811cc9c33f427d8f353e923b4042d2e8873f9d12d49d3841a1302323f6",
-      "bytes": 539529,
+      "sha256": "0bc00ced99b58e87dadf1505c9d00146324ec56bd4c8c43431b2e45b5b647f3f",
+      "bytes": 247330,
       "format": "PNG",
-      "width": 3185,
-      "height": 1071,
+      "width": 1920,
+      "height": 646,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/final-destination-logo-5a75cb811c.png",
@@ -6387,7 +6731,11 @@
           "folderId": "folder-7QJEQRSP",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "5a75cb811cc9c33f427d8f353e923b4042d2e8873f9d12d49d3841a1302323f6",
+      "sourceWidth": 3185,
+      "sourceHeight": 1071,
+      "sourceBytes": 539529
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/8704d342.webp",
@@ -6481,11 +6829,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/G_I__Joe__Live-Action__Collection_TitleLogo.png",
-      "sha256": "cd6fe65ba3d0ddd2a7e88792d270be3a7cf2db49b2f15e5da465b2c3bec716b9",
-      "bytes": 1795083,
+      "sha256": "1e0d3ce4bc9f7ee22ad1049915f4ef2420cf8235fb374561b8d3898996a42b65",
+      "bytes": 495198,
       "format": "PNG",
-      "width": 4274,
-      "height": 656,
+      "width": 1920,
+      "height": 295,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/g-i-joe-realverfilmung-sammlung-logo-cd6fe65ba3.png",
@@ -6495,7 +6843,11 @@
           "folderId": "folder-M8NF0CBI",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "cd6fe65ba3d0ddd2a7e88792d270be3a7cf2db49b2f15e5da465b2c3bec716b9",
+      "sourceWidth": 4274,
+      "sourceHeight": 656,
+      "sourceBytes": 1795083
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/G_I__Joe__Live-Action__Collection/G_I__Joe__Live-Action__Collection_Backdrop.jpg",
@@ -6517,11 +6869,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/zZaNFDIURV51vMsNYGKc7Uguymj.png",
-      "sha256": "3badcb485d96357b984b0f20ad740d3118c7d71c0e7975f8ee5c0aaf65c051a7",
-      "bytes": 130411,
+      "sha256": "8283b37f776eb035b2dbb1009cf2c90fcc2a8cbd71906b492877e85aa74f4530",
+      "bytes": 77578,
       "format": "PNG",
-      "width": 4300,
-      "height": 498,
+      "width": 1920,
+      "height": 222,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/ghostbusters-logo-3badcb485d.png",
@@ -6531,7 +6883,11 @@
           "folderId": "folder-9ANELR9B",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "3badcb485d96357b984b0f20ad740d3118c7d71c0e7975f8ee5c0aaf65c051a7",
+      "sourceWidth": 4300,
+      "sourceHeight": 498,
+      "sourceBytes": 130411
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/aa56d929.webp",
@@ -6625,11 +6981,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Grown_Ups_Collection_TitleLogo.png",
-      "sha256": "e2cc2e76b09b4b5c93b7f36b5d6c12da35e2d2333652292b8a0afa1140ac6da3",
-      "bytes": 1609373,
+      "sha256": "7db4ed4bafdf0ef97ee4407e3a81481dcebdf526fd5ab63ce6bc13d80762cbeb",
+      "bytes": 469931,
       "format": "PNG",
-      "width": 4315,
-      "height": 597,
+      "width": 1920,
+      "height": 266,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/kindskopfe-sammlung-logo-e2cc2e76b0.png",
@@ -6639,7 +6995,11 @@
           "folderId": "folder-WWCP4J8A",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "e2cc2e76b09b4b5c93b7f36b5d6c12da35e2d2333652292b8a0afa1140ac6da3",
+      "sourceWidth": 4315,
+      "sourceHeight": 597,
+      "sourceBytes": 1609373
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Grown_Ups_Collection/Grown_Ups_Collection_Backdrop.jpg",
@@ -6697,11 +7057,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/8diaqIjnZbpQupgtsv9Dun1HmLq.png",
-      "sha256": "1cfb09098b5d739d4fbb7e0d04a727f29c74f5b285cbd2eb3b329f8f692b37b6",
-      "bytes": 184298,
+      "sha256": "e6158f2a516a614f9ea5c54c17fe07bc415fd16e26fea2941e56f2de54dce811",
+      "bytes": 58420,
       "format": "PNG",
-      "width": 4316,
-      "height": 640,
+      "width": 1920,
+      "height": 285,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/halloween-logo-1cfb09098b.png",
@@ -6711,7 +7071,11 @@
           "folderId": "folder-WID9KLHT",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "1cfb09098b5d739d4fbb7e0d04a727f29c74f5b285cbd2eb3b329f8f692b37b6",
+      "sourceWidth": 4316,
+      "sourceHeight": 640,
+      "sourceBytes": 184298
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/2e655d54.webp",
@@ -6877,11 +7241,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/4Et15vXHzqeYj24w3XMxkE4qkZc.png",
-      "sha256": "40e1c646c9859089e761ede5eb2670c2cb112cfacc44c1e1929fa21ce88e3e6f",
-      "bytes": 3278959,
+      "sha256": "663651a9e00585dc5f3af1675148928a960118666715c75250ea52766422a377",
+      "bytes": 888406,
       "format": "PNG",
-      "width": 4319,
-      "height": 1062,
+      "width": 1920,
+      "height": 472,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/hellboy-sammlung-logo-40e1c646c9.png",
@@ -6891,7 +7255,11 @@
           "folderId": "folder-8741500F",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "40e1c646c9859089e761ede5eb2670c2cb112cfacc44c1e1929fa21ce88e3e6f",
+      "sourceWidth": 4319,
+      "sourceHeight": 1062,
+      "sourceBytes": 3278959
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/qpFCHvjPCEGDW6RPBCdV9iq1yI4.jpg",
@@ -6967,11 +7335,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Highlander_Collection/Highlander_Collection_Backdrop.jpg",
-      "sha256": "1495f1c7ede3465b8aabd4ce6e05a4d1102f3ebb2240adabd6f21c5895ec4759",
-      "bytes": 2238459,
+      "sha256": "25e0b99bf1263cbb78172704688b1ceda302c220105f9d169ba91bc9c5ec4653",
+      "bytes": 1290897,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/highlander-sammlung-backdrop-1495f1c7ed.jpg",
@@ -6981,7 +7349,11 @@
           "folderId": "folder-ZWC6BB73",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "1495f1c7ede3465b8aabd4ce6e05a4d1102f3ebb2240adabd6f21c5895ec4759",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 2238459
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/iBtfiGQXX1p52i2jzsYixKxZEyF.png",
@@ -7129,11 +7501,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/c8KkElskVt690h6H1Xhi05SC9I9.png",
-      "sha256": "0ef8b477ab926499fa033a6832ccf73b3cdd735955cf8692d3697c6c09f5578d",
-      "bytes": 1633733,
+      "sha256": "0aa3c5f2dc4c03a1a834b53651f785cdc1a3664037365ad9f655bc3cd966be43",
+      "bytes": 1395422,
       "format": "PNG",
-      "width": 2000,
-      "height": 579,
+      "width": 1920,
+      "height": 556,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/ice-age-logo-0ef8b477ab.png",
@@ -7143,7 +7515,11 @@
           "folderId": "folder-GRLYVJ19",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "0ef8b477ab926499fa033a6832ccf73b3cdd735955cf8692d3697c6c09f5578d",
+      "sourceWidth": 2000,
+      "sourceHeight": 579,
+      "sourceBytes": 1633733
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/0a2c8559.webp",
@@ -7219,11 +7595,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Inside_Out_Collection/Inside_Out_Collection_Backdrop.jpg",
-      "sha256": "bb90ebcc2416874674cef3036fb498e2d759baf845a44b3f39088ec7cdadb0e8",
-      "bytes": 883453,
+      "sha256": "27148f43768738474bc6511c00d606dd874d70dc7af3061cfc550cf4c4b23200",
+      "bytes": 633765,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/alles-steht-kopf-sammlung-backdrop-bb90ebcc24.jpg",
@@ -7233,15 +7609,19 @@
           "folderId": "folder-WKWXVLKA",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "bb90ebcc2416874674cef3036fb498e2d759baf845a44b3f39088ec7cdadb0e8",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 883453
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/6y11lYvQ9wMcnFTRklLRQyq2GKW.png",
-      "sha256": "40b1ff8711001368bd7b6e2a214467ebdab9bcff73d446243073dca2eaeea52d",
-      "bytes": 297973,
+      "sha256": "a5d118f70082ec4bd109f29788172e4e713e11b6e4b71473d298611c75bdb5fe",
+      "bytes": 91592,
       "format": "PNG",
-      "width": 4316,
-      "height": 1158,
+      "width": 1920,
+      "height": 515,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/insidious-logo-40b1ff8711.png",
@@ -7251,7 +7631,11 @@
           "folderId": "folder-K5OYMCK5",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "40b1ff8711001368bd7b6e2a214467ebdab9bcff73d446243073dca2eaeea52d",
+      "sourceWidth": 4316,
+      "sourceHeight": 1158,
+      "sourceBytes": 297973
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/403dd5ba.webp",
@@ -7273,11 +7657,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/zJTKOKXCc0NIqs0QIlMwtOka0i8.png",
-      "sha256": "d972b7a7ef847e83c05144e3601b0e68097365dc0d994e9da10c0774588f7232",
-      "bytes": 302209,
+      "sha256": "17290609b2e918a21b7b8015266ec06ef71c8b8bce8b2af06649f0c041396138",
+      "bytes": 204676,
       "format": "PNG",
-      "width": 2378,
-      "height": 292,
+      "width": 1920,
+      "height": 236,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/ip-man-sammlung-logo-d972b7a7ef.png",
@@ -7287,15 +7671,19 @@
           "folderId": "folder-BD340B72",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "d972b7a7ef847e83c05144e3601b0e68097365dc0d994e9da10c0774588f7232",
+      "sourceWidth": 2378,
+      "sourceHeight": 292,
+      "sourceBytes": 302209
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/rVdFzHgzvUcp0lJPGG3Cewy9hgs.jpg",
-      "sha256": "acd83d48ed21c9a021af2b70065e7edd08685fffdfa31beb281077e8193aa571",
-      "bytes": 227170,
+      "sha256": "b94cd5000061df5e4cd4b1c7cf5b9d38853ac87db60006a57837fa1d924296c9",
+      "bytes": 451826,
       "format": "JPEG",
-      "width": 2560,
-      "height": 1440,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/ip-man-sammlung-backdrop-acd83d48ed.jpg",
@@ -7305,15 +7693,19 @@
           "folderId": "folder-BD340B72",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "acd83d48ed21c9a021af2b70065e7edd08685fffdfa31beb281077e8193aa571",
+      "sourceWidth": 2560,
+      "sourceHeight": 1440,
+      "sourceBytes": 227170
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/fZbk05loJ4K4ce9Dl5GlpFhmZ6g.png",
-      "sha256": "326fdc9d23d84920bb3100f8a1e684698720f7c95e3d55fe3439c8582f56e715",
-      "bytes": 59512,
+      "sha256": "86658c3446dd331b14a3a8b62040dd0e27839d1124671aed5d0d9747a50cf1e8",
+      "bytes": 80667,
       "format": "PNG",
-      "width": 3252,
-      "height": 976,
+      "width": 1920,
+      "height": 576,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/es-logo-326fdc9d23.png",
@@ -7323,7 +7715,11 @@
           "folderId": "folder-0V63GE6Q",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "326fdc9d23d84920bb3100f8a1e684698720f7c95e3d55fe3439c8582f56e715",
+      "sourceWidth": 3252,
+      "sourceHeight": 976,
+      "sourceBytes": 59512
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/9a22fdd1.webp",
@@ -7363,11 +7759,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Jack_Reacher_Collection/Jack_Reacher_Collection_Backdrop.jpg",
-      "sha256": "2a5c016f8077f26ac770b068223cc84e5e641db8274107c0d71346a380a34f71",
-      "bytes": 1757557,
+      "sha256": "e613173931119baae250e5c226a3705f75272fe5f015ef41b88c2dc7d48ed7a3",
+      "bytes": 892798,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/jack-reacher-sammlung-backdrop-2a5c016f80.jpg",
@@ -7377,7 +7773,11 @@
           "folderId": "folder-MPLDA6KJ",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "2a5c016f8077f26ac770b068223cc84e5e641db8274107c0d71346a380a34f71",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1757557
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/dixRLiHxOMJTfHfIhUzdyTDQJby.png",
@@ -7435,11 +7835,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/ldEdyu47fbiVl4vwdYMuPYYp4po.png",
-      "sha256": "629dd37322b3a40f9bd668d6ffbe99b3ac0874b15608cc74f3deae0ee4451d00",
-      "bytes": 144422,
+      "sha256": "abe1cb9afe66dacfb13339f9d5a89009f2b46bf8480ec43da35e95ad500c2ee4",
+      "bytes": 121278,
       "format": "PNG",
-      "width": 4196,
-      "height": 1289,
+      "width": 1920,
+      "height": 590,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/der-weie-hai-logo-629dd37322.png",
@@ -7449,7 +7849,11 @@
           "folderId": "folder-EX4SNDUJ",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "629dd37322b3a40f9bd668d6ffbe99b3ac0874b15608cc74f3deae0ee4451d00",
+      "sourceWidth": 4196,
+      "sourceHeight": 1289,
+      "sourceBytes": 144422
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/2e1db531.webp",
@@ -7507,11 +7911,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/eVXvH6j4qM8ZEqZfw5bZ6JGQxqZ.png",
-      "sha256": "476391af182b1114dac6f673f1ea39990f0d12ab9862e1daa9863a96db805701",
-      "bytes": 4654822,
+      "sha256": "097b6f0f6632ae3191912824988c2a955b12724b7701f5d216c1cc6bd1607918",
+      "bytes": 2020475,
       "format": "PNG",
-      "width": 3603,
-      "height": 1202,
+      "width": 1920,
+      "height": 641,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/john-wick-logo-476391af18.png",
@@ -7521,7 +7925,11 @@
           "folderId": "folder-0WVX71K4",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "476391af182b1114dac6f673f1ea39990f0d12ab9862e1daa9863a96db805701",
+      "sourceWidth": 3603,
+      "sourceHeight": 1202,
+      "sourceBytes": 4654822
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/a2a06c19.webp",
@@ -7687,11 +8095,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/pDLmFlKLIZD2LvJdDknOPU5ts4q.png",
-      "sha256": "4b8c8da4022784cd4303a4c5b1765c802609524693a3beb5d0de65585436ed65",
-      "bytes": 1596363,
+      "sha256": "a0d5b120ff61fc5459344ba6234ffbdcea2f46a3c7da39948ce386790bfd0c34",
+      "bytes": 832362,
       "format": "PNG",
-      "width": 2902,
-      "height": 1293,
+      "width": 1920,
+      "height": 855,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/kick-ass-sammlung-logo-4b8c8da402.png",
@@ -7701,7 +8109,11 @@
           "folderId": "folder-1187D75D",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "4b8c8da4022784cd4303a4c5b1765c802609524693a3beb5d0de65585436ed65",
+      "sourceWidth": 2902,
+      "sourceHeight": 1293,
+      "sourceBytes": 1596363
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/fYMsCXEMguNlSORJIHydfBgOnty.jpg",
@@ -7723,11 +8135,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/8TYeXDkdgYMq7vmgbpmeBRmpWFr.png",
-      "sha256": "53ce71794ff86aeb99f9f9823041a98fb7cb91f4ad4330e598175d65b9b5fee7",
-      "bytes": 48621,
+      "sha256": "908412275a9b77a2a5a1705a8e855d744a66d934e778e4dbee8b560a261ef158",
+      "bytes": 47671,
       "format": "PNG",
-      "width": 3289,
-      "height": 675,
+      "width": 1920,
+      "height": 394,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/king-kong-1976-logo-53ce71794f.png",
@@ -7737,7 +8149,11 @@
           "folderId": "folder-5N39A7GE",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "53ce71794ff86aeb99f9f9823041a98fb7cb91f4ad4330e598175d65b9b5fee7",
+      "sourceWidth": 3289,
+      "sourceHeight": 675,
+      "sourceBytes": 48621
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/78dde437.webp",
@@ -7759,11 +8175,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/iBSqLtHA9ZerSVviA0GFFdFKeg2.png",
-      "sha256": "f17a1fc2ff27a3f8a39fd09cee9fd8328d058bc4302e4b538846ce5cdad8cc1f",
-      "bytes": 1025630,
+      "sha256": "c095d052395f8000793bfe4fe96c7323ff519d0d33d03e3c86d1eda2a87dee2c",
+      "bytes": 432311,
       "format": "PNG",
-      "width": 3591,
-      "height": 1294,
+      "width": 1920,
+      "height": 692,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/kingsman-logo-f17a1fc2ff.png",
@@ -7773,7 +8189,11 @@
           "folderId": "folder-O0ZGRFZ7",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "f17a1fc2ff27a3f8a39fd09cee9fd8328d058bc4302e4b538846ce5cdad8cc1f",
+      "sourceWidth": 3591,
+      "sourceHeight": 1294,
+      "sourceBytes": 1025630
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/24d34bee.webp",
@@ -7795,11 +8215,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/aYKRKkxwkHTP3sGHp8E5tnNHhvy.png",
-      "sha256": "1039aa7954a6aef489190145a3843ae2a810fdc11ed16ff0ee531b7bf2448c36",
-      "bytes": 126976,
+      "sha256": "afd2c1e1c7b4d828def43d1a4d02ae8656d56e1b3fc29ce3bec72bd8efee9c92",
+      "bytes": 90182,
       "format": "PNG",
-      "width": 4319,
-      "height": 1114,
+      "width": 1920,
+      "height": 495,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/knives-out-logo-1039aa7954.png",
@@ -7809,7 +8229,11 @@
           "folderId": "folder-679D11BD",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "1039aa7954a6aef489190145a3843ae2a810fdc11ed16ff0ee531b7bf2448c36",
+      "sourceWidth": 4319,
+      "sourceHeight": 1114,
+      "sourceBytes": 126976
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/567f3f02.webp",
@@ -7831,11 +8255,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/gkpcd4k3IrkqIAqRBNLLjBHGYyr.png",
-      "sha256": "eda286c9694556c7e66985fa97c9f4c7d8f8dcfc4f39983a2c0de07a570fa848",
-      "bytes": 1593982,
+      "sha256": "e20926dee2d26520adc6d03ff3d388a91cafb761c4b8078929a50aaffd5ca503",
+      "bytes": 1001887,
       "format": "PNG",
-      "width": 2385,
-      "height": 729,
+      "width": 1920,
+      "height": 587,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/kung-fu-panda-logo-eda286c969.png",
@@ -7845,7 +8269,11 @@
           "folderId": "folder-X2VO0H0D",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "eda286c9694556c7e66985fa97c9f4c7d8f8dcfc4f39983a2c0de07a570fa848",
+      "sourceWidth": 2385,
+      "sourceHeight": 729,
+      "sourceBytes": 1593982
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/730dc93b.webp",
@@ -7867,11 +8295,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/lInBEH0FwPhdJGumYd12Ve4jqNV.png",
-      "sha256": "ae04d0ecb1171d8d7cdbd8f26b87b9990c3acf45283a66268f8795b850550c86",
-      "bytes": 291326,
+      "sha256": "f799b6aa304aa9a33bda6381b5e2bd5854f5cb35ecdfb70717bf911da6441034",
+      "bytes": 253802,
       "format": "PNG",
-      "width": 1385,
-      "height": 1190,
+      "width": 1257,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/naturlich-blond-logo-ae04d0ecb1.png",
@@ -7881,7 +8309,11 @@
           "folderId": "folder-5RJTENQ3",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "ae04d0ecb1171d8d7cdbd8f26b87b9990c3acf45283a66268f8795b850550c86",
+      "sourceWidth": 1385,
+      "sourceHeight": 1190,
+      "sourceBytes": 291326
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/1dc7f19f.webp",
@@ -8011,11 +8443,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/4WxLPaAiWA2bCEW76XRwt09hmBJ.png",
-      "sha256": "274594fb113fa8eea2dc48860f2edf87221965f6926544281aaebbb3cbde5ef8",
-      "bytes": 1909534,
+      "sha256": "db3fad58e12e95b94d52ec3a7195a571918ee7510feb38bfaf14a8776d7ef595",
+      "bytes": 1173039,
       "format": "PNG",
-      "width": 2386,
-      "height": 755,
+      "width": 1920,
+      "height": 608,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/madagascar-logo-274594fb11.png",
@@ -8025,7 +8457,11 @@
           "folderId": "folder-XZYOGHCP",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "274594fb113fa8eea2dc48860f2edf87221965f6926544281aaebbb3cbde5ef8",
+      "sourceWidth": 2386,
+      "sourceHeight": 755,
+      "sourceBytes": 1909534
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/19d50398.webp",
@@ -8047,11 +8483,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/99v62uPvDBtK2JOdwbz1xDz5T3B.png",
-      "sha256": "96ab87900daf0ea0d59996f2caab6115831a966ea4cbb6ddbdc6064c9afa6795",
-      "bytes": 534696,
+      "sha256": "d4eedf6ad8e8adefb55a1f66e974c43bbfa0473d8e64315384a0da393b4bd09a",
+      "bytes": 376793,
       "format": "PNG",
-      "width": 2383,
-      "height": 225,
+      "width": 1920,
+      "height": 181,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/magic-mike-logo-96ab87900d.png",
@@ -8061,7 +8497,11 @@
           "folderId": "folder-8D9BC163",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "96ab87900daf0ea0d59996f2caab6115831a966ea4cbb6ddbdc6064c9afa6795",
+      "sourceWidth": 2383,
+      "sourceHeight": 225,
+      "sourceBytes": 534696
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/e140a9b7.webp",
@@ -8263,11 +8703,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/8tVB5kzZe0y3CjxEt0LGATOrLHZ.png",
-      "sha256": "d2783cd7aa229c6870f1de568fbc21916d6866f035046e019ba3df265f45232e",
-      "bytes": 163681,
+      "sha256": "7280f888951d8c667ee39f1f944e27bd8af66bc9297f51fc72297bf5a5a751d3",
+      "bytes": 92760,
       "format": "PNG",
-      "width": 2923,
-      "height": 1174,
+      "width": 1920,
+      "height": 771,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/missing-in-action-logo-d2783cd7aa.png",
@@ -8277,7 +8717,11 @@
           "folderId": "folder-4E6361FA",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "d2783cd7aa229c6870f1de568fbc21916d6866f035046e019ba3df265f45232e",
+      "sourceWidth": 2923,
+      "sourceHeight": 1174,
+      "sourceBytes": 163681
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/16d84c2e.webp",
@@ -8389,11 +8833,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/bCgW3MoAyabfEaq70v9a43P9CCF.jpg",
-      "sha256": "f79207aa12c45060eb9071c6dff11651c7c1019fc71b7c693d63d1b291823242",
-      "bytes": 592119,
+      "sha256": "5e1d1047ef63eaf63945da28aed7a312e6ee3298e539b81ed5f40512e430bea8",
+      "bytes": 445299,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/mortal-kombat-sammlung-backdrop-f79207aa12.jpg",
@@ -8403,7 +8847,11 @@
           "folderId": "folder-84272982",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "f79207aa12c45060eb9071c6dff11651c7c1019fc71b7c693d63d1b291823242",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 592119
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/b6F2VAnvzh7tmJp0EjQVBI3W4KM.png",
@@ -8425,11 +8873,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/1KkIBhX5MTwVoNJzD0JMv059Ck0.jpg",
-      "sha256": "b5a5d119cf639ceacd53b4429cb8ca8690e0dc944e41eb239bcd94bedcb8fb3f",
-      "bytes": 1656467,
+      "sha256": "746002ff13b60bc7abedb227e835818e36fe2a643f74149432d6d057bae57db5",
+      "bytes": 760358,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/mulan-sammlung-backdrop-b5a5d119cf.jpg",
@@ -8439,15 +8887,19 @@
           "folderId": "folder-92D6C127",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "b5a5d119cf639ceacd53b4429cb8ca8690e0dc944e41eb239bcd94bedcb8fb3f",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1656467
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/qIpMIw7hCehxi6s8F9ZgeVJK7AF.png",
-      "sha256": "281451c05c0a39a0dc2ef0fea12ef93ebbc0c08a9fea65341eadcdeb4176f347",
-      "bytes": 616134,
+      "sha256": "7d9a66d0ba59970e4ea60fbcfef74f2d8159002c8d7925e3a3f20e81deb94a15",
+      "bytes": 414835,
       "format": "PNG",
-      "width": 2918,
-      "height": 1298,
+      "width": 1920,
+      "height": 854,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/my-hero-academia-logo-281451c05c.png",
@@ -8457,7 +8909,11 @@
           "folderId": "folder-BE0409EB",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "281451c05c0a39a0dc2ef0fea12ef93ebbc0c08a9fea65341eadcdeb4176f347",
+      "sourceWidth": 2918,
+      "sourceHeight": 1298,
+      "sourceBytes": 616134
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d6f477b7.webp",
@@ -8623,11 +9079,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/vYCqfw4HaoMaqfdvpkoLvSnZM5Q.png",
-      "sha256": "7fb26e696903c54e61170da9ae1c4f64428ad82c8d0b09c6af359f6361a70569",
-      "bytes": 590016,
+      "sha256": "2e47473df705b153f7cc6dae1a863e9cc8e1939658fbf310d5679dcd8d292f4b",
+      "bytes": 246657,
       "format": "PNG",
-      "width": 3730,
-      "height": 483,
+      "width": 1920,
+      "height": 249,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/die-unfassbaren-logo-7fb26e6969.png",
@@ -8637,7 +9093,11 @@
           "folderId": "folder-32QHZQMQ",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "7fb26e696903c54e61170da9ae1c4f64428ad82c8d0b09c6af359f6361a70569",
+      "sourceWidth": 3730,
+      "sourceHeight": 483,
+      "sourceBytes": 590016
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/3f5d4354.webp",
@@ -8803,11 +9263,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/vEJKowxLkU1DpGXfhRRNkzbVGix.png",
-      "sha256": "5d6075982aa5263affcfea334d6167791477d896bde79c1aa14539f60a7e0e7d",
-      "bytes": 579334,
+      "sha256": "91f892e1597ddc97316721ce7ce606632996dd0c69e2e21ab348722530f71439",
+      "bytes": 406629,
       "format": "PNG",
-      "width": 2380,
-      "height": 170,
+      "width": 1920,
+      "height": 137,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/pacific-rim-logo-5d6075982a.png",
@@ -8817,7 +9277,11 @@
           "folderId": "folder-WN0TBPTM",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "5d6075982aa5263affcfea334d6167791477d896bde79c1aa14539f60a7e0e7d",
+      "sourceWidth": 2380,
+      "sourceHeight": 170,
+      "sourceBytes": 579334
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/5ab9bb51.webp",
@@ -8875,11 +9339,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/3XLAnXoZJsve130dGauLPG6EJv3.png",
-      "sha256": "e90023f45be10139bd2d4843547b396b42a71248ce973adf6a37bee4d6222347",
-      "bytes": 2162196,
+      "sha256": "ad11918267d63fb0dd2068a7db2c86687bd5c671aef3ffde72408a197e90f0ed",
+      "bytes": 651029,
       "format": "PNG",
-      "width": 4319,
-      "height": 766,
+      "width": 1920,
+      "height": 341,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/paranormal-activity-logo-e90023f45b.png",
@@ -8889,7 +9353,11 @@
           "folderId": "folder-R96DZK69",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "e90023f45be10139bd2d4843547b396b42a71248ce973adf6a37bee4d6222347",
+      "sourceWidth": 4319,
+      "sourceHeight": 766,
+      "sourceBytes": 2162196
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/738f03a6.webp",
@@ -8911,11 +9379,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/bPjSRjigOlEnz1r6H92raaqwhJx.png",
-      "sha256": "631ee418ad15995be6b70e2da4d630ef0546897b0793a70fc6db644d06991ae0",
-      "bytes": 793004,
+      "sha256": "a219624b1bd8ac3e5e70489ab4b5b569015ca333ae45bf9a1fd41afc6396f385",
+      "bytes": 760248,
       "format": "PNG",
-      "width": 2109,
-      "height": 360,
+      "width": 1920,
+      "height": 328,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/percy-jackson-logo-631ee418ad.png",
@@ -8925,7 +9393,11 @@
           "folderId": "folder-WRDHWZ5K",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "631ee418ad15995be6b70e2da4d630ef0546897b0793a70fc6db644d06991ae0",
+      "sourceWidth": 2109,
+      "sourceHeight": 360,
+      "sourceBytes": 793004
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d321771a.webp",
@@ -8965,11 +9437,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/iYqhzS4ToJbcx3lbpy33MbDVsE9.jpg",
-      "sha256": "e4da41c281b693dcc9fe0cb1183fc5ffcd0f36f16f61db907468b3e23e011a88",
-      "bytes": 400399,
+      "sha256": "b6d8f4702b8d7b7aa740f25e936a335d4c1d01b6f246ab396e6caaacbd0be938",
+      "bytes": 235048,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/phantasm-sammlung-backdrop-e4da41c281.jpg",
@@ -8979,7 +9451,11 @@
           "folderId": "folder-02D0DACC",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "e4da41c281b693dcc9fe0cb1183fc5ffcd0f36f16f61db907468b3e23e011a88",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 400399
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/o0s0xqUcaWWv0Kh3QYmfxSQjmPD.png",
@@ -9055,11 +9531,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/5Jn7FPpVjA8ZxkAmqWMvrZvQJ5b.png",
-      "sha256": "3d920cc424f19c591c9ee0368d336c8590a0fc9a61ac7b14f3d8948c100c87a9",
-      "bytes": 26354,
+      "sha256": "9fe1bb6f205857053e1a29bf7d80284ba2c03470f3e1b5e5fd92d225cb2f1ade",
+      "bytes": 42340,
       "format": "PNG",
-      "width": 1930,
-      "height": 922,
+      "width": 1920,
+      "height": 917,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/planet-der-affen-original-logo-3d920cc424.png",
@@ -9069,7 +9545,11 @@
           "folderId": "folder-5WWDM0GW",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "3d920cc424f19c591c9ee0368d336c8590a0fc9a61ac7b14f3d8948c100c87a9",
+      "sourceWidth": 1930,
+      "sourceHeight": 922,
+      "sourceBytes": 26354
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/e90b07a1.webp",
@@ -9181,11 +9661,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/dEkJGGXnUlH6xEOjE4NYpgf378H.jpg",
-      "sha256": "a8ac4e97d8706f2db29a305cf91f9c4f5b5b088e575dfc9bfe655749bba07b61",
-      "bytes": 433074,
+      "sha256": "58fb80047dae1c9b1716e4abc181519fff48ac0b4649b5933f4f2b50f94731a7",
+      "bytes": 668960,
       "format": "JPEG",
-      "width": 2660,
-      "height": 1496,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/police-academy-sammlung-backdrop-a8ac4e97d8.jpg",
@@ -9195,7 +9675,11 @@
           "folderId": "folder-2A875AEE",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "a8ac4e97d8706f2db29a305cf91f9c4f5b5b088e575dfc9bfe655749bba07b61",
+      "sourceWidth": 2660,
+      "sourceHeight": 1496,
+      "sourceBytes": 433074
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/AbHBpWSenhpsDGh73UKk7AUPtNn.png",
@@ -9235,11 +9719,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/SQYWzhqELvXJPAqu0YL3I6nODd.png",
-      "sha256": "2cba21b8b0ab6e9ee22edb93cc24e4096e36ed59fa168e8248a0bbd46c333dc6",
-      "bytes": 121501,
+      "sha256": "6cbb83b306e11e9da3bd6d9161b42f0115cebc2fdb107bf4a5696a1cc2cf7806",
+      "bytes": 86250,
       "format": "PNG",
-      "width": 4319,
-      "height": 553,
+      "width": 1920,
+      "height": 246,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/poltergeist-logo-2cba21b8b0.png",
@@ -9249,7 +9733,11 @@
           "folderId": "folder-094KA6ZE",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "2cba21b8b0ab6e9ee22edb93cc24e4096e36ed59fa168e8248a0bbd46c333dc6",
+      "sourceWidth": 4319,
+      "sourceHeight": 553,
+      "sourceBytes": 121501
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/35a14e41.webp",
@@ -9271,11 +9759,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/wnGqljuqb2KBNJQ0GCEoUjcAnTU.png",
-      "sha256": "af6b7987383afb05b0e6fc8f59958a7070ea2704c8a5b02457cbe364941e8618",
-      "bytes": 575096,
+      "sha256": "73f3c0a4d196959902af4433f8ae68107f46c9e47493399c48234bd3628d701e",
+      "bytes": 174402,
       "format": "PNG",
-      "width": 4315,
-      "height": 1026,
+      "width": 1920,
+      "height": 457,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/predator-logo-af6b798738.png",
@@ -9285,7 +9773,11 @@
           "folderId": "folder-26RPSH1H",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "af6b7987383afb05b0e6fc8f59958a7070ea2704c8a5b02457cbe364941e8618",
+      "sourceWidth": 4315,
+      "sourceHeight": 1026,
+      "sourceBytes": 575096
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/7955e41c.webp",
@@ -9307,11 +9799,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/3TLppfrmhnuldfXozpCmUIK6iXV.png",
-      "sha256": "cc403c9c7aa1f8a03629959a5fd73992bdb0785958ea3f0a4ab9ee5980d2d6b8",
-      "bytes": 102695,
+      "sha256": "91a61d6327c51cd5a109dfbffa985de59501062e62f10a35edf7eaa4085bf065",
+      "bytes": 73828,
       "format": "PNG",
-      "width": 3835,
-      "height": 1281,
+      "width": 1920,
+      "height": 641,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/psycho-sammlung-logo-cc403c9c7a.png",
@@ -9321,7 +9813,11 @@
           "folderId": "folder-B6B1A3F5",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "cc403c9c7aa1f8a03629959a5fd73992bdb0785958ea3f0a4ab9ee5980d2d6b8",
+      "sourceWidth": 3835,
+      "sourceHeight": 1281,
+      "sourceBytes": 102695
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/qawcCCyJNcdOpDRuXo5aJJycecY.jpg",
@@ -9343,11 +9839,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/6TtEi8Jt0dqlEsFofnImnWug1tW.png",
-      "sha256": "bd260b53ead1ae53a5ddc4868d405f55ae7eac65b95ab32aa9aee32a3e1f3c63",
-      "bytes": 80036,
+      "sha256": "0b2b5d40ca62a5c0f37905eda5879c25165b1fc3d1188d1f4571553a6f651570",
+      "bytes": 71031,
       "format": "PNG",
-      "width": 3816,
-      "height": 1293,
+      "width": 1920,
+      "height": 651,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/rambo-logo-bd260b53ea.png",
@@ -9357,7 +9853,11 @@
           "folderId": "folder-QUEZYOGP",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "bd260b53ead1ae53a5ddc4868d405f55ae7eac65b95ab32aa9aee32a3e1f3c63",
+      "sourceWidth": 3816,
+      "sourceHeight": 1293,
+      "sourceBytes": 80036
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/4d2b1f54.webp",
@@ -9667,11 +10167,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/tB5KgbNm7Qk7Wesm9ZbQ4nZz9px.png",
-      "sha256": "e5a8aac91d3b45f5d8750441b64bc4797c62d1c00466b84b7f0816a4c63e2703",
-      "bytes": 631355,
+      "sha256": "a9fa7d6729bdf4eb12013109ceea3c8360f1fba4b485f95572d0424de5e24e86",
+      "bytes": 601919,
       "format": "PNG",
-      "width": 1946,
-      "height": 353,
+      "width": 1920,
+      "height": 348,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/scooby-doo-logo-e5a8aac91d.png",
@@ -9681,7 +10181,11 @@
           "folderId": "folder-OXLYM1Z0",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "e5a8aac91d3b45f5d8750441b64bc4797c62d1c00466b84b7f0816a4c63e2703",
+      "sourceWidth": 1946,
+      "sourceHeight": 353,
+      "sourceBytes": 631355
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/52e24fd9.webp",
@@ -9757,11 +10261,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/dvFvX16cpsj2Us6Lvb03Oq4eEZI.jpg",
-      "sha256": "09859d71591819ca7df1fb21d1f19b1a08201dc63911f563b76a6230fc3b892c",
-      "bytes": 707820,
+      "sha256": "c127d02a69c2991708176e6b996953ec2ec48654ec49368ef3c2b4f91c217641",
+      "bytes": 622629,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/shaft-sammlung-backdrop-09859d7159.jpg",
@@ -9771,7 +10275,11 @@
           "folderId": "folder-565F8621",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "09859d71591819ca7df1fb21d1f19b1a08201dc63911f563b76a6230fc3b892c",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 707820
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/kZeHzQhlYhX8JThSQyTjb4j1eh6.png",
@@ -9847,11 +10355,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/995VQDIxH5nKRLt5qXqmMdPj0kz.png",
-      "sha256": "ef0818b3dba1c70e94a711286c21d8dd70e375e5eea51a1d76d17f1d4d000e9c",
-      "bytes": 27793,
+      "sha256": "67b148bfc25a4ae43089709ade6a08ec934c788b4d4ce75d7c7c6c358d8dee6e",
+      "bytes": 13705,
       "format": "PNG",
-      "width": 3913,
-      "height": 562,
+      "width": 1920,
+      "height": 276,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/sicario-logo-ef0818b3db.png",
@@ -9861,7 +10369,11 @@
           "folderId": "folder-KZKZCR0D",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "ef0818b3dba1c70e94a711286c21d8dd70e375e5eea51a1d76d17f1d4d000e9c",
+      "sourceWidth": 3913,
+      "sourceHeight": 562,
+      "sourceBytes": 27793
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/4cd652cf.webp",
@@ -9901,11 +10413,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/jWF319ozJUsXY6x8y4XghLoX8cD.jpg",
-      "sha256": "96e832ecc0c38e4d117dac3198a60160359e8bf710852af4d183acd7a78b1a74",
-      "bytes": 232050,
+      "sha256": "fd7dc9217f5b2b76a96319e7f655c9c225d031301db1fb0c6cd9e59bcdf94ca5",
+      "bytes": 569848,
       "format": "JPEG",
-      "width": 2000,
-      "height": 1125,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/silent-hill-sammlung-backdrop-96e832ecc0.jpg",
@@ -9915,7 +10427,11 @@
           "folderId": "folder-6CB17807",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "96e832ecc0c38e4d117dac3198a60160359e8bf710852af4d183acd7a78b1a74",
+      "sourceWidth": 2000,
+      "sourceHeight": 1125,
+      "sourceBytes": 232050
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/l1cl4X7oXiZLqLP7kENvQu8yAQ8.png",
@@ -9991,11 +10507,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/stOUdTJvf0a77uTI8lTQ3ZYhsNX.png",
-      "sha256": "4ff975f8ea548e714ffe0e55712d7142b71cfca264bc4d1204f6a7269bcdd2d4",
-      "bytes": 66193,
+      "sha256": "26a13fd63fc5ecd1ef57c3c11cc1d2faadbdbd14480130dbaebfc6c70e628ed6",
+      "bytes": 20260,
       "format": "PNG",
-      "width": 4230,
-      "height": 463,
+      "width": 1920,
+      "height": 210,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/sniper-logo-4ff975f8ea.png",
@@ -10005,7 +10521,11 @@
           "folderId": "folder-B8C5C0EA",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "4ff975f8ea548e714ffe0e55712d7142b71cfca264bc4d1204f6a7269bcdd2d4",
+      "sourceWidth": 4230,
+      "sourceHeight": 463,
+      "sourceBytes": 66193
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/257ddace.webp",
@@ -10045,11 +10565,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/waNV7lQsnMzjQKelCgvF3T927LL.jpg",
-      "sha256": "4ebd5afcb868c152b9eb1e52e52cd54fe1a299e74fbc3993bfa773cf7b607422",
-      "bytes": 1023344,
+      "sha256": "b98b65e26dd5b19ab8ae1793e46bf2f4bae2a056bd0ed696d5ae0d570443673d",
+      "bytes": 865869,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/speed-sammlung-backdrop-4ebd5afcb8.jpg",
@@ -10059,7 +10579,11 @@
           "folderId": "folder-81751D14",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "4ebd5afcb868c152b9eb1e52e52cd54fe1a299e74fbc3993bfa773cf7b607422",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1023344
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/kNPXwReF35JpWBqGw8HadykznPT.png",
@@ -10099,11 +10623,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/xrM5rEtoW0Hd0QXmy5b4WBGZuHd.png",
-      "sha256": "90cf04dcc7ef3666b9c9102064092076eaaba6854e1fef51dfb2c906eb603171",
-      "bytes": 4650098,
+      "sha256": "c5451c213052f1e1cb9d3e0ef2ae4661a2ce3ce2b748416a7a04c2c16dcb8e06",
+      "bytes": 1286927,
       "format": "PNG",
-      "width": 4049,
-      "height": 1299,
+      "width": 1920,
+      "height": 616,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/spider-man-spider-verse-logo-90cf04dcc7.png",
@@ -10113,7 +10637,11 @@
           "folderId": "folder-1RKKSJG8",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "90cf04dcc7ef3666b9c9102064092076eaaba6854e1fef51dfb2c906eb603171",
+      "sourceWidth": 4049,
+      "sourceHeight": 1299,
+      "sourceBytes": 4650098
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/e0bb12fc.webp",
@@ -10351,11 +10879,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/jaTikg9RTC5Uw1GZk18UekCEoJ1.png",
-      "sha256": "32b725163e4d29caedfb7edb48a2c528fa2efaa0924d238c2e59c1688053389f",
-      "bytes": 562519,
+      "sha256": "f1b1f7651cfea639aec923f35a0fc40dab0a3df7a81aaedffcf53538643f31dc",
+      "bytes": 254315,
       "format": "PNG",
-      "width": 3163,
-      "height": 1296,
+      "width": 1920,
+      "height": 787,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/step-up-logo-32b725163e.png",
@@ -10365,7 +10893,11 @@
           "folderId": "folder-24ACF7AD",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "32b725163e4d29caedfb7edb48a2c528fa2efaa0924d238c2e59c1688053389f",
+      "sourceWidth": 3163,
+      "sourceHeight": 1296,
+      "sourceBytes": 562519
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/96208341.webp",
@@ -10387,11 +10919,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/oRXlsX6MoZBydSoMRfW3AKRd3lJ.png",
-      "sha256": "bc802c454ff69e22e9aa052d7a1a6378eb19dd68999a3cbaacae193584a8b2c4",
-      "bytes": 1360388,
+      "sha256": "12c5b12f85bd85500011f277066a18c4ffecd8f84db2a74e2985df287f03d308",
+      "bytes": 838414,
       "format": "PNG",
-      "width": 2810,
-      "height": 1299,
+      "width": 1920,
+      "height": 888,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/superman-klassiker-sammlung-logo-bc802c454f.png",
@@ -10401,7 +10933,11 @@
           "folderId": "folder-40C5BBFC",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "bc802c454ff69e22e9aa052d7a1a6378eb19dd68999a3cbaacae193584a8b2c4",
+      "sourceWidth": 2810,
+      "sourceHeight": 1299,
+      "sourceBytes": 1360388
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/la0EhOrgVAiY8sf3ILz3wgoaNXH.jpg",
@@ -10423,11 +10959,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/Taken_Collection_TitleLogo.png",
-      "sha256": "7ffd35c09607868a2310427658e96cf8c12e3fc2c2e9ee27666c90be3307489e",
-      "bytes": 2790908,
+      "sha256": "8ca2aec32b4b4bd733617d583e9efc6a202d79a3bb25b7d25994007aeb8e739c",
+      "bytes": 740546,
       "format": "PNG",
-      "width": 4283,
-      "height": 799,
+      "width": 1920,
+      "height": 358,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/taken-sammlung-logo-7ffd35c096.png",
@@ -10437,7 +10973,11 @@
           "folderId": "folder-AOC9T1JO",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "7ffd35c09607868a2310427658e96cf8c12e3fc2c2e9ee27666c90be3307489e",
+      "sourceWidth": 4283,
+      "sourceHeight": 799,
+      "sourceBytes": 2790908
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Taken_Collection/Taken_Collection_Backdrop.jpg",
@@ -10549,11 +11089,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Texas_Chainsaw_Massacre_Collection/Texas_Chainsaw_Massacre_Collection_Backdrop.jpg",
-      "sha256": "d4c4fa77288806cc46e72da8f16eeee691ad067a54dab64e53cb69fa64c5f52c",
-      "bytes": 832641,
+      "sha256": "d0352064b8353dba1edc1b2de3b063cf1782308dd31d62cfa5ad1207aea91cc8",
+      "bytes": 678340,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/texas-chainsaw-massacre-sammlung-backdrop-d4c4fa7728.jpg",
@@ -10563,15 +11103,19 @@
           "folderId": "folder-IDUJJRK7",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "d4c4fa77288806cc46e72da8f16eeee691ad067a54dab64e53cb69fa64c5f52c",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 832641
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/rAzye8dwApe0sGoUFisrvMHgG3Y.png",
-      "sha256": "7bad955080712a3ffeae769d5e22c93e9ad91f127833527dbe618189298b0a4a",
-      "bytes": 168948,
+      "sha256": "c843d3fdf1d2c5492fc16dfb595ac70bb2a8bc6bd08cd90f2f8abe92c05faba5",
+      "bytes": 142579,
       "format": "PNG",
-      "width": 3280,
-      "height": 1299,
+      "width": 1920,
+      "height": 760,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/die-addams-family-animation-logo-7bad955080.png",
@@ -10581,7 +11125,11 @@
           "folderId": "folder-VY74USVO",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "7bad955080712a3ffeae769d5e22c93e9ad91f127833527dbe618189298b0a4a",
+      "sourceWidth": 3280,
+      "sourceHeight": 1299,
+      "sourceBytes": 168948
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/012696b6.webp",
@@ -10621,11 +11169,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/gBiIgmPOks4sEBpZABmyG0djczE.jpg",
-      "sha256": "01e5760968fde9cdda1d02fef0cb2a67a7185cb6d4342f7ac567deccf8f61417",
-      "bytes": 548415,
+      "sha256": "78cc1cbc046f782875875715e21394096c2214226e3588a137b98281e9d91011",
+      "bytes": 528234,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/the-amityville-sammlung-backdrop-01e5760968.jpg",
@@ -10635,15 +11183,19 @@
           "folderId": "folder-1F3CA0F4",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "01e5760968fde9cdda1d02fef0cb2a67a7185cb6d4342f7ac567deccf8f61417",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 548415
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/The_Avengers_Collection_TitleLogo.png",
-      "sha256": "2e19de19112fe89028ec8295dafbc837ff553a1799d76ec5c7fddcf3d862f5cb",
-      "bytes": 3522158,
+      "sha256": "593efac6052d3fd3d49521096a9e815b5518f95d8749944ad6b532cccb863b39",
+      "bytes": 1403421,
       "format": "PNG",
-      "width": 3665,
-      "height": 1257,
+      "width": 1920,
+      "height": 659,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/the-avengers-sammlung-logo-2e19de1911.png",
@@ -10653,7 +11205,11 @@
           "folderId": "folder-59YRE6DB",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "2e19de19112fe89028ec8295dafbc837ff553a1799d76ec5c7fddcf3d862f5cb",
+      "sourceWidth": 3665,
+      "sourceHeight": 1257,
+      "sourceBytes": 3522158
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/The_Avengers_Collection/The_Avengers_Collection_Backdrop.jpg",
@@ -10693,11 +11249,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/cgnAVaq85tsCFr4IbNPACIuGCwP.jpg",
-      "sha256": "54853417bf6b51447363b2c222ea87ed259441f7d942d42a00a93914bc5985e0",
-      "bytes": 853723,
+      "sha256": "cc95cff466fd88065ac06cf0cd41855e70b120d4fb8921e6000ad56cb7656343",
+      "bytes": 597339,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/before-trilogie-backdrop-54853417bf.jpg",
@@ -10707,7 +11263,11 @@
           "folderId": "folder-8C2EB350",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "54853417bf6b51447363b2c222ea87ed259441f7d942d42a00a93914bc5985e0",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 853723
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/7BHdDm9BL48P8lt2vNd8smU9r34.png",
@@ -10855,11 +11415,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/potVKeeWBMr0SRgJLGKugjz6Kfg.png",
-      "sha256": "0709285b269a2987463b2591c95f81151839c7fa303cd11a91e95346eabb6b40",
-      "bytes": 87167,
+      "sha256": "efa551a69909b56a7ed57b5ce4827ef88f1ab54801a3ba8806292114704cf279",
+      "bytes": 46099,
       "format": "PNG",
-      "width": 4262,
-      "height": 743,
+      "width": 1920,
+      "height": 335,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/the-chronicles-of-riddick-sammlung-logo-0709285b26.png",
@@ -10869,15 +11429,19 @@
           "folderId": "folder-5E9D25FA",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "0709285b269a2987463b2591c95f81151839c7fa303cd11a91e95346eabb6b40",
+      "sourceWidth": 4262,
+      "sourceHeight": 743,
+      "sourceBytes": 87167
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/n5jED8ITkX9VgFCZXsznhk9ERbA.jpg",
-      "sha256": "1a09fb02ef125b4ebb3b0fae78be82a617740eba421b4b1204bfb69166a4d5f9",
-      "bytes": 637120,
+      "sha256": "373314cef2984f52223008c5b0e57cdf2daf9adbd8705f5ec9f76652f28d5339",
+      "bytes": 523393,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/the-chronicles-of-riddick-sammlung-backdrop-1a09fb02ef.jpg",
@@ -10887,7 +11451,11 @@
           "folderId": "folder-5E9D25FA",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "1a09fb02ef125b4ebb3b0fae78be82a617740eba421b4b1204bfb69166a4d5f9",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 637120
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/5qjvxFhRZtvm4mcV90X9QNYLZVj.png",
@@ -11071,11 +11639,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/fZQ6n1VcrOAGxRVLkfhP41CjBQ2.png",
-      "sha256": "8b5e7b9a0523cf09dbe8bc72457fa1447810ba484816dfc11502ca03fe358733",
-      "bytes": 113637,
+      "sha256": "730d0a54ae880165d4d3760d9419b7f25772ce4ff1a75191fff0f1f0dcfca961",
+      "bytes": 71484,
       "format": "PNG",
-      "width": 4246,
-      "height": 579,
+      "width": 1920,
+      "height": 262,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/der-exorzist-logo-8b5e7b9a05.png",
@@ -11085,7 +11653,11 @@
           "folderId": "folder-BV10CREW",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "8b5e7b9a0523cf09dbe8bc72457fa1447810ba484816dfc11502ca03fe358733",
+      "sourceWidth": 4246,
+      "sourceHeight": 579,
+      "sourceBytes": 113637
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/b4d6b111.webp",
@@ -11215,11 +11787,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/kysDTCloxUPJ1BILI4f8gs74fcr.png",
-      "sha256": "b3887b2fcea0cf59284442540c80208b95e12e0dcbe0735ffb006daf34b745b7",
-      "bytes": 187959,
+      "sha256": "630d2adc34826802ad148716934478b7c2d1eeb87e4d6c5db6f097f4a6905ce0",
+      "bytes": 190832,
       "format": "PNG",
-      "width": 1660,
-      "height": 1271,
+      "width": 1411,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/der-pate-logo-b3887b2fce.png",
@@ -11229,7 +11801,11 @@
           "folderId": "folder-8E15F6E7",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "b3887b2fcea0cf59284442540c80208b95e12e0dcbe0735ffb006daf34b745b7",
+      "sourceWidth": 1660,
+      "sourceHeight": 1271,
+      "sourceBytes": 187959
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/a07466a7.webp",
@@ -11359,11 +11935,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/h5DwmLJAw9xr9Sx33G0ckg7yjTB.png",
-      "sha256": "12156ded0e28185f57c59b020d034401d66010daed65bd1dab8f99b369691034",
-      "bytes": 1109786,
+      "sha256": "b9e15b6d6b1b4131b2b667cc2419f48c9612a9022a3bca49cdb872e5003a60e9",
+      "bytes": 1074846,
       "format": "PNG",
-      "width": 2000,
-      "height": 651,
+      "width": 1920,
+      "height": 625,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/der-hobbit-logo-12156ded0e.png",
@@ -11373,7 +11949,11 @@
           "folderId": "folder-XT8PKMOL",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "12156ded0e28185f57c59b020d034401d66010daed65bd1dab8f99b369691034",
+      "sourceWidth": 2000,
+      "sourceHeight": 651,
+      "sourceBytes": 1109786
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/63eaa0be.webp",
@@ -11395,11 +11975,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/kQzZ9i5e2uHJ1ayT72Q4qetdnf2.png",
-      "sha256": "a45159311bcaf13698df021b2878c66d66a670cf87dcb4620f5261d5727fff0f",
-      "bytes": 1692147,
+      "sha256": "d27461155234fce479e29020bcee8de0087b722645bdc138e1bf25d9fb00e5bc",
+      "bytes": 432395,
       "format": "PNG",
-      "width": 4301,
-      "height": 941,
+      "width": 1920,
+      "height": 420,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/die-tribute-von-panem-logo-a45159311b.png",
@@ -11409,7 +11989,11 @@
           "folderId": "folder-GO9EJ7WK",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "a45159311bcaf13698df021b2878c66d66a670cf87dcb4620f5261d5727fff0f",
+      "sourceWidth": 4301,
+      "sourceHeight": 941,
+      "sourceBytes": 1692147
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/33baa193.webp",
@@ -11431,11 +12015,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/3HPRaJU7yuBsG13wFrW3Znxo5R0.png",
-      "sha256": "e6754f722a498f18d2dc12990f0a7834a5672ece83e840287781ac983bb33f47",
-      "bytes": 22743,
+      "sha256": "c280ebf115045e320b75e02d3db84cba9da3501372ca4a2bbf757b46686aa088",
+      "bytes": 50010,
       "format": "PNG",
-      "width": 1999,
-      "height": 418,
+      "width": 1920,
+      "height": 401,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/die-unglaublichen-logo-e6754f722a.png",
@@ -11445,7 +12029,11 @@
           "folderId": "folder-4DSFHELZ",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "e6754f722a498f18d2dc12990f0a7834a5672ece83e840287781ac983bb33f47",
+      "sourceWidth": 1999,
+      "sourceHeight": 418,
+      "sourceBytes": 22743
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/3bbbd8ee.webp",
@@ -11467,11 +12055,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/i5LC9btXPhUMPgghC9FgV7f7HI3.png",
-      "sha256": "a938bba02c9a5479aba9e202313f9bb7b5df640f2c572a9aa99c4296ffe33c0e",
-      "bytes": 94663,
+      "sha256": "58274ccb6703c0619e9fd83c323fb5992d7fa1ced7a9fcc89203eab7702a6046",
+      "bytes": 90091,
       "format": "PNG",
-      "width": 1276,
-      "height": 1287,
+      "width": 1080,
+      "height": 1089,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/the-jack-ryan-sammlung-logo-a938bba02c.png",
@@ -11481,15 +12069,19 @@
           "folderId": "folder-C54E7AC3",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "a938bba02c9a5479aba9e202313f9bb7b5df640f2c572a9aa99c4296ffe33c0e",
+      "sourceWidth": 1276,
+      "sourceHeight": 1287,
+      "sourceBytes": 94663
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/plXRyDY6H9RolPVkVvWpPyjWnkX.jpg",
-      "sha256": "cc34ef88cc461315f9f788ca705b6251cf3f85d41821d8c1d748f1457be5ef7b",
-      "bytes": 1649549,
+      "sha256": "0d0920ddc62005382017d09215e8b49144334d79431f82a95266486ae6206ba1",
+      "bytes": 978515,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/the-jack-ryan-sammlung-backdrop-cc34ef88cc.jpg",
@@ -11499,7 +12091,11 @@
           "folderId": "folder-C54E7AC3",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "cc34ef88cc461315f9f788ca705b6251cf3f85d41821d8c1d748f1457be5ef7b",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1649549
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/nWbcex1tw1CWkCNJLdjeJMKAOd.png",
@@ -11557,11 +12153,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/zDkQ0BPPhsmepLGZJx0aXVAuKG6.jpg",
-      "sha256": "f377e54ba4cc58c7c380a8bb66f3ac17afdd0994bc284f166cd238135dd23929",
-      "bytes": 1169737,
+      "sha256": "c436a82677f236f9d035638ffbe6f2b1e34c68c007a95715a94c3c85c6a1191b",
+      "bytes": 841338,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/in-einem-land-vor-unserer-zeit-sammlung-backdrop-f377e54ba4.jpg",
@@ -11571,7 +12167,11 @@
           "folderId": "folder-764AB5EC",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "f377e54ba4cc58c7c380a8bb66f3ac17afdd0994bc284f166cd238135dd23929",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1169737
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/2kTDt0uOb4xQzvw1h8ZRufoXNCX.png",
@@ -11611,11 +12211,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/8kw87NeN3wsQGAriluulMCOTcix.png",
-      "sha256": "94028f90d9253079f4238ee96e3c64dce42a8954faf459994c9f39cc2884146e",
-      "bytes": 1962817,
+      "sha256": "95be7da3fb0daeddec96f308b7f83eaac8199d4074aa96d5bf30ed74658c7794",
+      "bytes": 1899809,
       "format": "PNG",
-      "width": 1922,
-      "height": 739,
+      "width": 1920,
+      "height": 738,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/der-konig-der-lowen-sammlung-logo-94028f90d9.png",
@@ -11625,7 +12225,11 @@
           "folderId": "folder-5C598ACF",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "94028f90d9253079f4238ee96e3c64dce42a8954faf459994c9f39cc2884146e",
+      "sourceWidth": 1922,
+      "sourceHeight": 739,
+      "sourceBytes": 1962817
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/A9IEaj9cPAwEgFnTmteB70oxgJY.jpg",
@@ -11665,11 +12269,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/gt7ccJrOgeOTWggy1PubLhWxX9g.jpg",
-      "sha256": "0eb7db72f990e49d1ead18bc3cc57d2865eca0c29bae401b3352e2826fced48b",
-      "bytes": 491570,
+      "sha256": "2ed391f0c9e54bc5a8a15d94d6f01caf4c102b365944b1a279a5859aa9c9165b",
+      "bytes": 395325,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/arielle-die-meerjungfrau-sammlung-backdrop-0eb7db72f9.jpg",
@@ -11679,15 +12283,19 @@
           "folderId": "folder-83BBDF9E",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "0eb7db72f990e49d1ead18bc3cc57d2865eca0c29bae401b3352e2826fced48b",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 491570
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/dMAXhf7jVsc8Qsx26wsoOmoQh3r.png",
-      "sha256": "9532e525b0dd8f07a8f1136c1e1a2ef1f2031915ab6a7301ea0a7c7680872516",
-      "bytes": 842984,
+      "sha256": "3c18ca0cb6af27ba68dce18da2b611b0fc4359b8441f5e5b795014bb78b29798",
+      "bytes": 758707,
       "format": "PNG",
-      "width": 2100,
-      "height": 442,
+      "width": 1920,
+      "height": 404,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/der-herr-der-ringe-logo-9532e525b0.png",
@@ -11697,7 +12305,11 @@
           "folderId": "folder-D4DC9YMI",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "9532e525b0dd8f07a8f1136c1e1a2ef1f2031915ab6a7301ea0a7c7680872516",
+      "sourceWidth": 2100,
+      "sourceHeight": 442,
+      "sourceBytes": 842984
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/ec520a47.webp",
@@ -11755,11 +12367,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/mBzSW4vQJOkRbN9L1siz3VvZTzT.png",
-      "sha256": "f91d31c26094ae350d38087dc4502d60758a103864279f18fb249c584c65afaa",
-      "bytes": 36689,
+      "sha256": "62534d8eed8880bd77f323ba3e24134c50eac9c39ee522f27c30ce51aefdc712",
+      "bytes": 17425,
       "format": "PNG",
-      "width": 4296,
-      "height": 481,
+      "width": 1920,
+      "height": 215,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/the-maze-runner-logo-f91d31c260.png",
@@ -11769,7 +12381,11 @@
           "folderId": "folder-Y9M2V713",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "f91d31c26094ae350d38087dc4502d60758a103864279f18fb249c584c65afaa",
+      "sourceWidth": 4296,
+      "sourceHeight": 481,
+      "sourceBytes": 36689
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/ddc85c0a.webp",
@@ -11791,11 +12407,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/xjzbSDGtnxnr2E1eXWTEcmVbuZR.png",
-      "sha256": "8bce2ba2da689b303b0606ba8a966c8426caed4d4716f3626a12831aee975ff9",
-      "bytes": 96819,
+      "sha256": "4c5cdd481535edc5401038a9fa22564e566478de6cdf2b711f753365cf062f9b",
+      "bytes": 80601,
       "format": "PNG",
-      "width": 4198,
-      "height": 1297,
+      "width": 1920,
+      "height": 593,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/the-meg-sammlung-logo-8bce2ba2da.png",
@@ -11805,15 +12421,19 @@
           "folderId": "folder-B1AA1DFB",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "8bce2ba2da689b303b0606ba8a966c8426caed4d4716f3626a12831aee975ff9",
+      "sourceWidth": 4198,
+      "sourceHeight": 1297,
+      "sourceBytes": 96819
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/rNoyJmjdhgn30bVbvd8n3DJMocB.jpg",
-      "sha256": "2fbc84e93fcb3b0db78c6d67f20960a6d90d059448d4acd87e09887748205fb6",
-      "bytes": 1885591,
+      "sha256": "21fc1d2daf231c97f24f8f7f43f3fa5bbeb2c180c47735daf6c5ddb982bb26e6",
+      "bytes": 1217544,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/the-meg-sammlung-backdrop-2fbc84e93f.jpg",
@@ -11823,7 +12443,11 @@
           "folderId": "folder-B1AA1DFB",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "2fbc84e93fcb3b0db78c6d67f20960a6d90d059448d4acd87e09887748205fb6",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 1885591
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/kGAFHJvB6l9BWaXRUPIXf5XbuRV.png",
@@ -11899,11 +12523,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/zDGV2nA4UBVZK9PV4Sb0Dcwlxbk.png",
-      "sha256": "494a4045b2b4ef381faa9f4322df2a35b9c1bba44b42e8684cc8cdba79a48f76",
-      "bytes": 142449,
+      "sha256": "9485fa77ff7f36c536a3b091c4c263a0fdef95bcc3cde9e22730881403330a1a",
+      "bytes": 69130,
       "format": "PNG",
-      "width": 2912,
-      "height": 1145,
+      "width": 1920,
+      "height": 755,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/die-nackte-kanone-sammlung-logo-494a4045b2.png",
@@ -11913,7 +12537,11 @@
           "folderId": "folder-8AECD2FF",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "494a4045b2b4ef381faa9f4322df2a35b9c1bba44b42e8684cc8cdba79a48f76",
+      "sourceWidth": 2912,
+      "sourceHeight": 1145,
+      "sourceBytes": 142449
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/patl2k4AK0S6wVo1DwOp4nmvNLm.jpg",
@@ -11971,11 +12599,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/nqAKOZgmcRAEcYax0wLSwepIESP.png",
-      "sha256": "992e866778f3d439b2a4ec63725336b22bd52f522fa02a43480f74152f0aa528",
-      "bytes": 82907,
+      "sha256": "41afb613e46ab8694d69e1f37ab86ebb70fb16a6ebd9cfde93f76c0fcd63bf9b",
+      "bytes": 31637,
       "format": "PNG",
-      "width": 3260,
-      "height": 1298,
+      "width": 1920,
+      "height": 764,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/das-omen-logo-992e866778.png",
@@ -11985,7 +12613,11 @@
           "folderId": "folder-5EBJHPQ5",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "992e866778f3d439b2a4ec63725336b22bd52f522fa02a43480f74152f0aa528",
+      "sourceWidth": 3260,
+      "sourceHeight": 1298,
+      "sourceBytes": 82907
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f9f73a7c.webp",
@@ -12007,11 +12639,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/kWmmYSxDwKfgfrsVIVYlkI3KQRw.png",
-      "sha256": "e84d5ba3f4621b261b58cfd696dd8abe59f48a7ca5a3cdfbc47df0fb1f51945d",
-      "bytes": 1344574,
+      "sha256": "a2bdf3222220af2145fb317949bf112809f122774f0c1899cd40dd0526c19978",
+      "bytes": 723462,
       "format": "PNG",
-      "width": 3000,
-      "height": 1663,
+      "width": 1920,
+      "height": 1064,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/der-rosarote-panther-original-logo-e84d5ba3f4.png",
@@ -12021,15 +12653,19 @@
           "folderId": "folder-CDEB2EBB",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "e84d5ba3f4621b261b58cfd696dd8abe59f48a7ca5a3cdfbc47df0fb1f51945d",
+      "sourceWidth": 3000,
+      "sourceHeight": 1663,
+      "sourceBytes": 1344574
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/eVHH8peqVMN9VcEZvn9yTG6SDed.jpg",
-      "sha256": "d0381ba13065b0cae16634889d0eb296801a2f40d1dc9e04f63414b276c9a4f7",
-      "bytes": 560131,
+      "sha256": "c506a8ec67c3b8dab9070c5b5bcc672fcfff72a8ecd7a616d519acc34a30facf",
+      "bytes": 479328,
       "format": "JPEG",
-      "width": 3840,
-      "height": 2160,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/der-rosarote-panther-original-backdrop-d0381ba130.jpg",
@@ -12039,7 +12675,11 @@
           "folderId": "folder-CDEB2EBB",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "d0381ba13065b0cae16634889d0eb296801a2f40d1dc9e04f63414b276c9a4f7",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "sourceBytes": 560131
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/xOJpuZVTQ7tUiBtsXhGO7c4VWWa.png",
@@ -12115,11 +12755,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/TitleLogos/The_Raid_Collection_TitleLogo.png",
-      "sha256": "84062b180bb83359414c9a82678feb9909b93ddec8b5986aa55bf603922e0ac6",
-      "bytes": 14184,
+      "sha256": "75243d96e097dbb71c0b51cc8449cec96f22178b91f861e81397b0e094640095",
+      "bytes": 6401,
       "format": "PNG",
-      "width": 2874,
-      "height": 352,
+      "width": 1920,
+      "height": 235,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/the-raid-sammlung-logo-84062b180b.png",
@@ -12129,7 +12769,11 @@
           "folderId": "folder-A8678P2N",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "84062b180bb83359414c9a82678feb9909b93ddec8b5986aa55bf603922e0ac6",
+      "sourceWidth": 2874,
+      "sourceHeight": 352,
+      "sourceBytes": 14184
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/The_Raid_Collection/The_Raid_Collection_Backdrop.jpg",
@@ -12224,11 +12868,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/rKa9Nx344BrH7TCwGIArSbf0zqT.png",
-      "sha256": "0eba8a05278f255ce9f8adfa07dfed91fa426b2904d25eaeb632e625cc4673dc",
-      "bytes": 245284,
+      "sha256": "c8b562b21ac788a0c114d4be26908bc94f6d5b064144053f5c48c18aa18cf7f2",
+      "bytes": 204071,
       "format": "PNG",
-      "width": 2230,
-      "height": 327,
+      "width": 1920,
+      "height": 282,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/terminator-logo-0eba8a0527.png",
@@ -12238,7 +12882,11 @@
           "folderId": "folder-O995DQEI",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "0eba8a05278f255ce9f8adfa07dfed91fa426b2904d25eaeb632e625cc4673dc",
+      "sourceWidth": 2230,
+      "sourceHeight": 327,
+      "sourceBytes": 245284
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/ea81e39e.webp",
@@ -12260,11 +12908,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/jU5GX2LcB2olrcyKcvURpRkkjY8.png",
-      "sha256": "cfc09273471a5070de6e1f6706affede05bb48044a3d33fc8bf1f39a777ef008",
-      "bytes": 1832166,
+      "sha256": "c3129cf18081e6cd402564cca28d588f43e251c1217402b8dac9dc4a1eeed5e7",
+      "bytes": 592042,
       "format": "PNG",
-      "width": 3845,
-      "height": 414,
+      "width": 1920,
+      "height": 207,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/the-transporter-logo-cfc0927347.png",
@@ -12274,7 +12922,11 @@
           "folderId": "folder-PD54TO8F",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "cfc09273471a5070de6e1f6706affede05bb48044a3d33fc8bf1f39a777ef008",
+      "sourceWidth": 3845,
+      "sourceHeight": 414,
+      "sourceBytes": 1832166
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/c0df25f5.webp",
@@ -12296,11 +12948,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/yYHBM5RxdmXoWivayS6CcRWJBnM.png",
-      "sha256": "0c05165c4bb004ed06644375d1dc4bcaa2b7c7fafd6b9a95a046310623fa5413",
-      "bytes": 87392,
+      "sha256": "059e7b7871b298456abda5366ecb6f9e7e5a51ae456cb338defe031bb59067cd",
+      "bytes": 97576,
       "format": "PNG",
-      "width": 2518,
-      "height": 1294,
+      "width": 1920,
+      "height": 987,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/twilight-logo-0c05165c4b.png",
@@ -12310,7 +12962,11 @@
           "folderId": "folder-294EE0I6",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "0c05165c4bb004ed06644375d1dc4bcaa2b7c7fafd6b9a95a046310623fa5413",
+      "sourceWidth": 2518,
+      "sourceHeight": 1294,
+      "sourceBytes": 87392
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f0fdb49a.webp",
@@ -12476,11 +13132,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/rEecMWoZd3Y6MXnQZ8rQtGvpWiB.png",
-      "sha256": "4ca933343590f3e6c11b1db79c0790a8d3caba50c71ca16467918792db8e4f6d",
-      "bytes": 722155,
+      "sha256": "a407e5dce87c9a5630d2b082f6eedaa539632644107946aa9e041e63485e906a",
+      "bytes": 262932,
       "format": "PNG",
-      "width": 4040,
-      "height": 916,
+      "width": 1920,
+      "height": 435,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/tremors-logo-4ca9333435.png",
@@ -12490,7 +13146,11 @@
           "folderId": "folder-JJNT63VF",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "4ca933343590f3e6c11b1db79c0790a8d3caba50c71ca16467918792db8e4f6d",
+      "sourceWidth": 4040,
+      "sourceHeight": 916,
+      "sourceBytes": 722155
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/03660c63.webp",
@@ -12764,11 +13424,11 @@
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/yxdjojw1VqDupCc25lXaclIcDZ0.png",
-      "sha256": "02340045c2f9ef28237408e275abaa407b3fda4bfeb3b73c45293f5408eecb98",
-      "bytes": 136318,
+      "sha256": "100e4a2fe07c7c13a73a43f4a79bed5bbd58ae283ec945f854c6c9c1b4a40d19",
+      "bytes": 41190,
       "format": "PNG",
-      "width": 4320,
-      "height": 1300,
+      "width": 1920,
+      "height": 578,
       "frames": 1,
       "hasAlpha": true,
       "file": "film-collections/xxx-logo-02340045c2.png",
@@ -12778,7 +13438,11 @@
           "folderId": "folder-ERODGFUC",
           "field": "titleLogoUrl"
         }
-      ]
+      ],
+      "sourceSha256": "02340045c2f9ef28237408e275abaa407b3fda4bfeb3b73c45293f5408eecb98",
+      "sourceWidth": 4320,
+      "sourceHeight": 1300,
+      "sourceBytes": 136318
     },
     {
       "sourceUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/5f8e37cd.webp",
@@ -12818,11 +13482,11 @@
     },
     {
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/Zombieland_Collection/Zombieland_Collection_Backdrop.jpg",
-      "sha256": "4a746788be07f678fbc198756c145b8dd8391ab9fd6447bd35cfd5a887962e7d",
-      "bytes": 619278,
+      "sha256": "cdb4cd67eacb48170da3872d28dc14a59e1d0ef12ccde3d8a9c4a133b5c8ddcb",
+      "bytes": 799543,
       "format": "JPEG",
-      "width": 2560,
-      "height": 1440,
+      "width": 1920,
+      "height": 1080,
       "frames": 1,
       "hasAlpha": false,
       "file": "film-collections/zombieland-sammlung-backdrop-4a746788be.jpg",
@@ -12832,7 +13496,11 @@
           "folderId": "folder-YF147GV8",
           "field": "heroBackdropUrl"
         }
-      ]
+      ],
+      "sourceSha256": "4a746788be07f678fbc198756c145b8dd8391ab9fd6447bd35cfd5a887962e7d",
+      "sourceWidth": 2560,
+      "sourceHeight": 1440,
+      "sourceBytes": 619278
     },
     {
       "sourceUrl": "https://image.tmdb.org/t/p/original/kgMxsJm4fdiFCzzKElood8WXb7c.png",
@@ -12870,5 +13538,20 @@
         }
       ]
     }
-  ]
+  ],
+  "delivery": {
+    "resolution": "1080p",
+    "landscapeBounds": [
+      1920,
+      1080
+    ],
+    "portraitBounds": [
+      1080,
+      1920
+    ],
+    "resampling": "Lanczos",
+    "aspectRatioPreserved": true,
+    "upscaled": false,
+    "pathsPreserved": true
+  }
 }

@@ -74,12 +74,20 @@ def encode(image, path):
         assert decoded.convert("RGBA").tobytes() == image.tobytes(), path
 
 
+def encode_master(image, path):
+    # Keep approved source geometry, then export the delivery canvas at 720p.
+    image = image.convert("RGBA")
+    image.thumbnail((1280, 720), Image.Resampling.LANCZOS)
+    assert image.size == (1280, 720), "Master input must be a 16:9 canvas"
+    encode(image, path)
+
+
 def save_art(image, master, web, flag=False):
     image = ink(image)
     image.thumbnail((3520,1840),Image.Resampling.LANCZOS)
     canvas = Image.new("RGBA",(3840,2160))
     canvas.alpha_composite(image,((3840-image.width)//2,(2160-image.height)//2))
-    encode(canvas,master)
+    encode_master(canvas,master)
     save_web(image,web,flag)
 
 
@@ -119,8 +127,8 @@ def main():
         if "seed_master" in job:
             source=root/job["seed_master"]
             assert sha(source)==job["seed_master_sha256"]
-            if source.suffix==".webp":shutil.copyfile(source,master)
-            else:encode(Image.open(source).convert("RGBA"),master)
+            with Image.open(source) as image:
+                encode_master(image,master)
             source=root/job["seed_web"]
             assert sha(source)==job["seed_web_sha256"]
             shutil.copyfile(source,web)
@@ -150,7 +158,7 @@ def main():
             save_art(text_art(job["label"],args.font),master,web)
         with Image.open(master) as decoded:
             decoded.load()
-            assert decoded.size==(3840,2160) and decoded.mode=="RGBA"
+            assert decoded.size==(1280,720) and decoded.mode=="RGBA"
             assert decoded.getchannel("A").getextrema()==(0,255)
         with Image.open(web) as decoded:
             decoded.load()
@@ -178,7 +186,7 @@ def main():
         for key in obsolete:item.pop(key,None)
         item.update(results[job["id"]])
         item.update({"label":job["label"],"name":job.get("name",item["name"]),"status":"approved-for-publication",
-            "width":3840,"height":2160,"recommended_background":job.get("recommended_background","dark"),
+            "width":1280,"height":720,"recommended_background":job.get("recommended_background","dark"),
             "provenance":job["provenance"],"design_revision":"2.0.0"})
         if job["kind"]=="flat-language-flag":item["flag_country_code"]=job["country_code"]
     assert len(results)==1037

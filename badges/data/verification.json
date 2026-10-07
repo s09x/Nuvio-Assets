@@ -4,30 +4,19 @@
   "catalog_assets": 1037,
   "asset_files": 2074,
   "master_dimensions": [
-    3840,
-    2160
+    1280,
+    720
   ],
   "master_format": "lossless WebP RGBA",
   "all_file_hashes_verified": true,
   "all_master_dimensions_verified": true,
   "all_master_alpha_ranges_verified": true,
   "lossless_encode_decode_verified": true,
-  "source_mappings": 698,
-  "missing_source_mappings": 0,
-  "kind_counts": {
-    "neutral-text": 892,
-    "user-edited-logo": 1,
-    "original-logo": 94,
-    "flat-language-flag": 50
-  },
-  "layout_checks": 2074,
-  "non_flag_opaque_ink_clipped": 0,
-  "centered_language_flags": 50,
-  "approved_seed_pairs_preserved": 16,
-  "hdr10_master_rgba_matches_approved_png": true,
-  "added_frames": 0,
-  "added_shadows": 0,
-  "added_material_effects": 0,
+  "app_images_byte_identical": true,
+  "archived_sources_byte_identical": true,
+  "import_manifest_byte_identical": true,
+  "renderer_seed_exports_verified": 16,
   "device_test_performed": false,
-  "scope_note": "Complete pinned finite catalog; arbitrary runtime values and future formats are not claimed to be pre-rendered."
+  "historical_checks": "Existing flag source geometry and unchanged app-layout evidence remain applicable. Earlier publication reports refer to the pre-resize remote release.",
+  "renderer_full_font_rebuild": "Not performed; approved external font is not supplied in the repository."
 }

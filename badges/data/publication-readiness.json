@@ -41,5 +41,13 @@
   "manifest_versions_match_all_delivered_images": true,
   "asset_publication_commit": "1aca4f876e7140a3501b4826f13d6fc078b9ae99",
   "manifest_http_status": 200,
-  "anonymous_image_downloads_verified": 180
+  "anonymous_image_downloads_verified": 180,
+  "evidence_scope": "Historical publication of release 2.0.0 before the local 720p resize. HTTP and remote checks below were not rerun for the resized files.",
+  "pending_resolution_change": {
+    "master_dimensions": [
+      1280,
+      720
+    ],
+    "published": false
+  }
 }

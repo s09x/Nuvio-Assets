@@ -7713,7 +7713,7 @@
       "label": "Dolby",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "7071f0b6003c6f87834eabbc7786705ed11cfaae61561f9b951f390cf3f61375",
+      "preserved_master_sha256": "ef186a7ba01cb7b1551e8d242b6b42e0dbbf77e03edc112c684d213009ef6432",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/dolby.svg",
@@ -7728,7 +7728,7 @@
       "label": "Dolby Atmos",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "c15c6ec9b5dd345d014f09da7cc8dc9b8c90660877973d06996c77ee150932a6",
+      "preserved_master_sha256": "bca898490d03731bbe56434186caf318fb5479392b2e057a2885a75942d54636",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/dolby-atmos.svg",
@@ -7747,7 +7747,7 @@
       "label": "Dolby Digital",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "11ad9bd19fa3ce4d6ed9649b58db9a15a655747cdef6c4afc9a12a9c9f1f6e07",
+      "preserved_master_sha256": "04f38fe6fe12b412ef2a021091241a817c5e764e1b5025cd1bf6e9abb8e2c01a",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/dolby-digital.svg",
@@ -7762,7 +7762,7 @@
       "label": "Dolby Digital Plus",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "8f9a32809d7144381144c769665daa826abc0e8e32e8487ef455e0e5389e63a3",
+      "preserved_master_sha256": "7db13e336c20d5b15930d4686fac14c26477a6b5138818baed017eb0c3f3cf31",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/dolby-digital-plus.svg",
@@ -7777,7 +7777,7 @@
       "label": "Dolby TrueHD",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "bf86bd678fa84938efbead3a801550288af1ef504a3dbc5865cf4a6e4de0cc72",
+      "preserved_master_sha256": "75a98e9cb54ef0628dfc1b8d9a24f26c3cf3230e1ce716d1739a84a7932b2912",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/dolby-truehd.svg",
@@ -7792,7 +7792,7 @@
       "label": "DTS",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "293d584bf7064117a2470e40389eba7f33ecf0ac9dc8bd35883f4f8e4d20a393",
+      "preserved_master_sha256": "1259b43985c1e5139365e52c96937dabe80c22dd6364dcbb4e6e671d2a42fe39",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/dts.svg",
@@ -7811,7 +7811,7 @@
       "label": "DTS-HD Master Audio",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "f66efa5ab70566f536a680062e23ebbae99c6a9e849a8fda48f262334894082b",
+      "preserved_master_sha256": "d783230649dec5e851c2786e305d4111156268d9b7ce00f60c52a8b95336fc09",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/dts-hd-ma.svg",
@@ -7826,7 +7826,7 @@
       "label": "Dolby Vision",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "abd0506d15d42efb4ec55bedefc1c8196b452051a49cedeb5d7d8637a69e9a01",
+      "preserved_master_sha256": "0f65b7e2a7a3ff9a04cad14901304cd7301a9135f2a92d5a31ca52e852575de9",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/dolby-vision.svg",
@@ -7845,7 +7845,7 @@
       "label": "HDR10+",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "f6c775454ad05665d92ab5282d325fb1ca70c856896081b801117aa679c20605",
+      "preserved_master_sha256": "ac99dcab40aca69bb49e5ebbc540dce1425b2abb15e984e89604f29ed9c3cb9c",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/hdr10plus.png",
@@ -7864,7 +7864,7 @@
       "label": "HDR10+ Advanced",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "df0f4b394c552d5c7990644fd322d0c6a0e03622156a5086abae389c63a52902",
+      "preserved_master_sha256": "1f8c2346c8d8a82681547c50648f805481af50b493b6135f1b4c096c94c1db40",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/hdr10plus-advanced.png",
@@ -7879,7 +7879,7 @@
       "label": "HDR10+ Gaming",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "a48d339e965f62aa760e114fd9c63f5a4281dbe30b10fafdb1624b1551123ba7",
+      "preserved_master_sha256": "642fcb205269d1b6564850f794f9ec35038728b5314c48c83a74fca25d211245",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/hdr10plus-gaming.png",
@@ -7894,7 +7894,7 @@
       "label": "IMAX Enhanced",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "468c2447f84ed1f7307b244b34f4484b2a81611da8ebb12fa97d86f699831b7d",
+      "preserved_master_sha256": "a23a76e24a5a87303be7ca8d329b5f6c8c17a0313b839d603f78ff39088d9da5",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/imax-enhanced.svg",
@@ -7909,7 +7909,7 @@
       "label": "Blu-ray Disc",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "4512f45ec1bc2344187b61a6d453066299dfee8db18e4a4cb59ed7cccbfd00fe",
+      "preserved_master_sha256": "e3d87b55b39de42c0eaf533d620ff9e126d8fee1ab42e377c608d5930556f2ba",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/blu-ray.svg",
@@ -7928,7 +7928,7 @@
       "label": "Ultra HD Blu-ray",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "3fdf6c45e8aca21fb83575d3b61b65d96ff8f98b622f493fd5f969100195ee5e",
+      "preserved_master_sha256": "be769ca7d94b6bc4583299b6180009050c29064c9065c75a862d1e138d915aea",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/uhd-blu-ray.svg",
@@ -7943,7 +7943,7 @@
       "label": "Blu-ray 3D",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "839f2f7552d86c2f2dbd123f9e4b87602c980b4d8ad6b65c9a0f621e9da4c3e9",
+      "preserved_master_sha256": "6a8d0df0ac9deb88be4e5bbe367c2f88a3f3bfe4d38e666f91e7f1b2a37eeaa4",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/blu-ray-3d.svg",
@@ -7958,7 +7958,7 @@
       "label": "4K Ultra HD",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "990d9077c3b57ca61cb112a6915186359e008cfcdaa3cf646fdfddef01ef6f07",
+      "preserved_master_sha256": "41a6d8724f3673dbe0cffaf2f6fe47f94da859bbdb2f56bbb6ba0044f7c94053",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/blu-ray-4k.svg",
@@ -7973,7 +7973,7 @@
       "label": "DVD",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "33691e70ef707c68b01a0382faeb79aba08010467e04b17ec365b55c452ef84d",
+      "preserved_master_sha256": "b907b33248d97c978c7c340598b341e3a28eef4d61d477a75e378d2f1f61ceda",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/dvd.svg",
@@ -7988,7 +7988,7 @@
       "label": "Apple TV",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "069ac3cd762324c7840647ea9d25500201ab6e2c536103bb32c83d4ba84c9363",
+      "preserved_master_sha256": "3855967e7b7a8e992c581b0b04fe4979edd532c900e5c8e2230d7621a7340931",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/apple-tv.svg",
@@ -8003,7 +8003,7 @@
       "label": "Netflix",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "a60915b1c1723809c1684fdb4efb7ada5e8c49ac8d921b56042e0f83a9114e35",
+      "preserved_master_sha256": "ae810ea9256415801fbf9741e55b69e4723d78a4a25c3a54d7fd38e56ed686f7",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/netflix.png",
@@ -8018,7 +8018,7 @@
       "label": "Disney+",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "74238c284d6caffc89429f140231cc18f9122e58cc971dd540bfd9a68b9c2fae",
+      "preserved_master_sha256": "59e03481770359356cd96b2d1af426eae389cad2ca86655c17293146577494f0",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/disney-plus.png",
@@ -8033,7 +8033,7 @@
       "label": "Prime Video",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "6da60ab42ba3a5f78fb71bce203c333675ea02f5c08f83fd5fa93000b914a18f",
+      "preserved_master_sha256": "4e097260ec39d8758d3a76f8f0b094ace4c26cfc3f0c029d53ffa4549f6f9974",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/prime-video.png",
@@ -8048,7 +8048,7 @@
       "label": "Paramount+",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "86d4e022cdda777d3900410beb44ed1dd48e561921366a546280a1c09b81edab",
+      "preserved_master_sha256": "6be5804dd065b27fd27319bfa884a33130c394aee7e3b25cba9d19ccf5cc05cc",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/paramount-plus.png",
@@ -8063,7 +8063,7 @@
       "label": "Hulu",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "7389b4ba1064cfe66c682d09ca5bf89b0bfaeb1f7dd7968761b3b726d26ae442",
+      "preserved_master_sha256": "b816ff26eb2a3950b3c1d7f208e57891de84d71d042531e39ab13bfca8a70845",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/hulu.png",
@@ -8078,7 +8078,7 @@
       "label": "Magenta TV",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "2bf753f1d6533275b53d384c8d699c2bebf62d5d91cdec9557be57724dd1fb6c",
+      "preserved_master_sha256": "2664b113dac27698e096df4fdb737b972333c39b7838321dc38cfd5b4849ae83",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/magenta-tv.png",
@@ -8093,7 +8093,7 @@
       "label": "Rakuten TV",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "84a148f4707b905be177c5f12130db941d6c8d62bbf74d492731a7063950e4a7",
+      "preserved_master_sha256": "7781d12126827d0bd9fd41e1af3d7a8827a1429346d8a33c565423573daf7244",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/rakuten-tv.png",
@@ -8108,7 +8108,7 @@
       "label": "YouTube",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "ac69f920f18ce9b8aafc4458388aa1397732a350d31d2ba1f78de8195848e760",
+      "preserved_master_sha256": "9b83d10be1916a76d00a7be4650fd360c94172936052783cfcaa8f7e7896bec8",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/youtube.png",
@@ -8123,7 +8123,7 @@
       "label": "IVI",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "a700bbbcb23883ee97f6dbf5a39f65dd858778e1a2dab1ffc06a521a45c4a341",
+      "preserved_master_sha256": "5967ca3f306eaf3b7bad2def4e951117d573b3620d243d6ec3670a7da9d2edc1",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/ivi.png",
@@ -8138,7 +8138,7 @@
       "label": "MEGOGO",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "6663cdc2c47d71f1845f0c83f12d484401c93d54df2173cc34294fb0fd9c8a39",
+      "preserved_master_sha256": "b165c98952f86c2a052d14a040d42d91067b65d3826bd7bbfcf2377432312865",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/megogo.png",
@@ -8153,7 +8153,7 @@
       "label": "WATCHA",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "5f7414a870869c67347f9ce0c55b1e3e0e2420a256e3e2f513f385647a20d0a6",
+      "preserved_master_sha256": "b32117053946d7295a1d654e86ba5f3e734c98817d27f381d82bdee05f93f49f",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/watcha.png",
@@ -8168,7 +8168,7 @@
       "label": "TVING",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "880e040175a488ae3c011ecd392f7e841cd1f9177414d2633f4abdd1bc60b684",
+      "preserved_master_sha256": "b8451391eefe93a63b237567ab968efcfef8631b5a9ec0572ed168b713a62f2c",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/tving.png",
@@ -8183,7 +8183,7 @@
       "label": "iQIYI",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "fd5c162a39191ae7f256cb8dd0ae40546537daa96b1a074b9a786235fda7f83f",
+      "preserved_master_sha256": "f9a4872428f94eb83a0da95205488f6b8927c88106f4fe6e51070eb4690d1f19",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/iqiyi.png",
@@ -8198,7 +8198,7 @@
       "label": "DTS:X",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "f352b583920e5e836471937577197f5eda59e64a06b5fadcac7ef9dae2e8b50a",
+      "preserved_master_sha256": "28586ce6f550762e829616550778e34353ac0948ce9194acf551215a1a0901c0",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/dts-x.png",
@@ -8213,7 +8213,7 @@
       "label": "HBO Max",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "8f7cd9bb9b2aa809e93d69c007308e2fe26188cf37edc288675a8f50e2bebdd4",
+      "preserved_master_sha256": "902a083b2dd97976149127b0f06b872a29cbb1b5a4584a5415e369e296d52699",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/hbo-max.svg",
@@ -8228,7 +8228,7 @@
       "label": "Peacock",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "1f441a1a4b42f51107f2915600a28da5aec97d65281aaf6b7a2539709ee215f3",
+      "preserved_master_sha256": "cfebbc1c71b63b89c141ce8d0d945f37b9c5228bbeeffbcaa5f421141f1ed04d",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/peacock.svg",
@@ -8243,7 +8243,7 @@
       "label": "Crunchyroll",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "84848e03fa140433d1788584111b6c9e90ddeb550d4106d58a0fed43b47090ce",
+      "preserved_master_sha256": "2f36ab68a9039869a444a11a1cf0503b6bb82e503a7da108d642833ca29cab27",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/crunchyroll.png",
@@ -8258,7 +8258,7 @@
       "label": "Discovery+",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "906e1cbda84aca65fd7d98a3a52407190433c98ae473729ad8d09f80e9adc5e4",
+      "preserved_master_sha256": "db07e1e6e90ce3cdf5fc2d682208eeb670e0716ac2c184d5de88dcddffd8bd19",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/discovery-plus.svg",
@@ -8273,7 +8273,7 @@
       "label": "MUBI",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "b45a82f9bb465d4c346aa4249a42d785eb727f9556390dfad05f9ca7d7c437c4",
+      "preserved_master_sha256": "6b9fac7d350c80221eeef68a7a12e92e9a9881f3eaa479d4cec961ebaadb1f4a",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/mubi.svg",
@@ -8288,7 +8288,7 @@
       "label": "Plex",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "fba1f51eb1a3298057e5a3f27bdec8d9b9cdbdd2f5659df7269218ad6967920a",
+      "preserved_master_sha256": "5e5ccbd377c2c0ed22fbc2202006aae484c28f5840ff0dc672a8bb2817f41072",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/plex.svg",
@@ -8303,7 +8303,7 @@
       "label": "Pluto TV",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "740f9fb382e88179790f59ffec90edefcc3a0d0ce736d03d9c1f8b006afb7833",
+      "preserved_master_sha256": "ab9ab0083ec6c31fcdc03855b414eaef395c89f2e30d5c7e92d7dc65e66f0da8",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/pluto-tv.svg",
@@ -8318,7 +8318,7 @@
       "label": "Tubi",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "e51b50d0b034ba1d89504ccf34ec029f184f4b8070871b94e4933bd6fdb9357c",
+      "preserved_master_sha256": "88d6b67f7ad2e5f7cd2ec69cb413304767f740b010867abae6e665e71c7cc054",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/tubi.svg",
@@ -8333,7 +8333,7 @@
       "label": "ARTE",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "3ec051afef25185a6880dfb0cc23e4a9913263b1b50082e5bedb910d66165373",
+      "preserved_master_sha256": "4b34a8c1cb83f6e70f37d4308d07110303bff19717a1b68bd92c02dc9f0f2860",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/arte.svg",
@@ -8348,7 +8348,7 @@
       "label": "ARD",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "cb8b65accc031ae29221b30bc5aa772b11badab457f2c89b7e866fc56454765c",
+      "preserved_master_sha256": "96133777d1bec41069c4eca27aca7a8003f5e46e3f410cedafcdefc4d54ca91e",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/ard.svg",
@@ -8363,7 +8363,7 @@
       "label": "ZDF",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "6ab9c18dae83639f7f62cbe2f72fdae4bea8c4cf8717277bb837c39f246a7b3f",
+      "preserved_master_sha256": "b63cb977dfb1449d3f7c24fb9d37d2c0970a175bfbf90bc1b2a9b30fa2231ee8",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/zdf.svg",
@@ -8378,7 +8378,7 @@
       "label": "RTL+",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "876efd6dc2d7e180d6609bc2889816b4b88e47e14656a96348011c755a5a5620",
+      "preserved_master_sha256": "77a7965ba5b7515beecdd807898db46afa8e2c3819921968f458325b37e0f702",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/rtl-plus.svg",
@@ -8393,7 +8393,7 @@
       "label": "Joyn",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "0c33b0d568c9d3726bc2872fd62ce4d82fc063792a0bb4f86fe610cbc79ec258",
+      "preserved_master_sha256": "0baa31f3593c13e462ad8b0cad235479f79cd797ca81f918173dc50f8b85ef78",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/joyn.svg",
@@ -8408,7 +8408,7 @@
       "label": "WOW",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "2416dd36489c46bd28f9b9c46cc87a8079ac78d46e77751b813ea44872ace635",
+      "preserved_master_sha256": "854e1ea45d1f590c9b61d15c2b920af2ee12c497ee028cfacd1ff4934e33007a",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/wow.svg",
@@ -8423,7 +8423,7 @@
       "label": "DAZN",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "77fc2dfa7731050f4552139254e7648885cc524d3fbbd9b8161fb844ae14a0f6",
+      "preserved_master_sha256": "f04946a55a7e028b8e082f717fced8fb7eeda0b8b7746d68d29cadd796f00baf",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/dazn.svg",
@@ -8438,7 +8438,7 @@
       "label": "Sky",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "4ccde2e5969ec6ecee610431a4179c7e9a89c2c11925c2830add4ada0c2acbf0",
+      "preserved_master_sha256": "6d8dd2d7eaf79b60a5a7b2fb2fea1e648f7b34666d6fd7efe5e58ebf5ea0d665",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/sky.svg",
@@ -8453,7 +8453,7 @@
       "label": "NOW",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "8d98c0942828c4a15b093fe600c4f8db303e02bbd10af0068412622b0b504a14",
+      "preserved_master_sha256": "a0776848b4eb8b7e3e2e29dacb8425f0e4b67b83ef05b3d38b67b6f45f86ffea",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/now.svg",
@@ -8468,7 +8468,7 @@
       "label": "CANAL+",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "6c191f30294d23518c13f34fd422c3474005182ccc7940813c3778faf84eb530",
+      "preserved_master_sha256": "34a4b352f2813ab4c2f97075532354ca4e3d8c58008fa6e7b4be7d715116e005",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/canal-plus.svg",
@@ -8483,7 +8483,7 @@
       "label": "TorBox",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "66dd988faf452d86446c85a7439e5c22b5f9431c7bd79f139c4118dd5966150b",
+      "preserved_master_sha256": "00211c21163be530ec2f0e9f491eeeff56c290c800e4ef5ae412503dc3ff8136",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/torbox.svg",
@@ -8498,7 +8498,7 @@
       "label": "Premiumize",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "0a4ac7220a6a54dce179312fa67e3f2232e7571d54b97f1d14a45d47d1e983ab",
+      "preserved_master_sha256": "b24610c69cc9486b47f009fa32913355e4e0fb3f81f68f4ee5708150ea1ad42f",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/premiumize.svg",
@@ -8513,7 +8513,7 @@
       "label": "Real-Debrid",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "8c232bec615885df607b7d4a19647aeb85fbafdedb0fd461edcca29f9d0fbf1d",
+      "preserved_master_sha256": "d63c1c9808cfce60f02e0b692009eeb3441cf3a69fe836cef6a6ab49cf27ad5f",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/real-debrid.png",
@@ -8528,7 +8528,7 @@
       "label": "AllDebrid",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "6a287a4ddaee1dc85084f6ad6a1378260f5a3af961ea1d8b23e2fb3854d713c0",
+      "preserved_master_sha256": "6df1874e3f4a0d85dedc5dccad291d55e3821e8ab8f23847138f18fda1003ba1",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/all-debrid.png",
@@ -8543,7 +8543,7 @@
       "label": "Debrid-Link",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "177028d11e9c2e032e3e80ed464c5ef188d3dde88f6638430f6a8268392a8bb2",
+      "preserved_master_sha256": "922975fc5bdef4f6c68ec3aba427399afbcee360f6e079bf7706374ce08717bf",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/debrid-link.svg",
@@ -8558,7 +8558,7 @@
       "label": "Easynews",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "b08315043862951f26bcade8f04563b37d6e56163141e3681fcfa28dc2a2c853",
+      "preserved_master_sha256": "58605a41e9864f807a6f459eaa897e567c9b421e4225f88ec2f38be9ff243924",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/easynews.png",
@@ -8573,7 +8573,7 @@
       "label": "Put.io",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "4557f11fec989e59dab8e752f44dab4ffdf292ecb42946271aa08e6ff41b5073",
+      "preserved_master_sha256": "8affdbf17a4cba48d87377793c8246008ca8e41f9744d32cbcc48147c509fcb9",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/put-io.png",
@@ -8588,7 +8588,7 @@
       "label": "Offcloud",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "98f285711b95c372af18d90bcb634b48c571597d819ecfe421c48a3cb3bd15fe",
+      "preserved_master_sha256": "27ee2e0168b033dd2efa66ba1a4b213e9fe429491d6d2a29b53840db3ff85033",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/offcloud.png",
@@ -8653,7 +8653,7 @@
       "label": "IMAX",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "abf17810bf204801cb0e02bbe2081658c4b36fecc3550380bc96a4c994cc2c3c",
+      "preserved_master_sha256": "32d16fb0e54a7b67fc536176055eca865d79e22402ef5b4e59286561507d29fb",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/imax.svg",
@@ -8668,7 +8668,7 @@
       "label": "Criterion Collection",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "04e0e77ffd2df0c2f6f43b5f0f52edec3ddbcf0b6c21eee1ddaef6e27fec910a",
+      "preserved_master_sha256": "bbdc80716ac23cab65f5eba4def96f70198b6c846e9814d1f28ec34fdfd0277e",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/criterion-collection.svg",
@@ -9213,7 +9213,7 @@
       "label": "EasyDebrid",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "ba6ff794d9f2d83e05dc06393b546ce417358c130fdf7a586d36c1c52a028545",
+      "preserved_master_sha256": "e732bb83e4da547b1e1592acb8fa46faff814a4247eee72cfa22b6bff52409d8",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/easydebrid.png",
@@ -9228,7 +9228,7 @@
       "label": "Debrider",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "3d12dbf627fbeecd72755a1acb97469820a99947f9211eda3eeb32b34effeaf2",
+      "preserved_master_sha256": "673ed5a3b4b969f27a2ab41727de4110be4171caf53ba26378380102d6ab338c",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/debrider.svg",
@@ -9243,7 +9243,7 @@
       "label": "PikPak",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "9223a2df0543ecdb67a935ebb2f12df1a98f937235aa175b384ed77316d1bb4e",
+      "preserved_master_sha256": "176bf6eeabadc86458cdf2b94d3fc18c376a9dd0998e172a04a56d79138d7b4e",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/pikpak.png",
@@ -9258,7 +9258,7 @@
       "label": "Seedr",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "f94e269f478eeb6296964a465622a189d8be60697680cd48d43b297c496bf963",
+      "preserved_master_sha256": "bbf5649906bb5dc449db950c73638a281b50796ea5cfcab16b2e958f9f0ff838",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/seedr.svg",
@@ -9273,7 +9273,7 @@
       "label": "NzbDAV",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "99af1b89492edb13684dbfda99559e136ec02fc126f6e20f641b055437b6b7f1",
+      "preserved_master_sha256": "ab028b34937d258ef4a1cc1ba5fffacea5042060970b51c57d412ad0586142c9",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/nzbdav.svg",
@@ -9288,7 +9288,7 @@
       "label": "AltMount",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "b1cac91d632061a31f34c7f482aac2b46e4fb03854243d5337df9cfa897939fd",
+      "preserved_master_sha256": "76e07f16ace9de0bbd272ffcebc82868aae60d799e2a02e39265b3cfecd69701",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/altmount.png",
@@ -9303,7 +9303,7 @@
       "label": "Stremio NNTP",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "1c4c928912719db8ff4b30277091f85ce170d6f9f03792f4247a3497536f8d56",
+      "preserved_master_sha256": "77441d3e31326b767ade399fa6091e6e0710e292a2228db57e4a571dc716d9bf",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/stremio-nntp.png",
@@ -9318,7 +9318,7 @@
       "label": "StremThru Newz",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "e2ad63c4caae5646628e80c7ccdd43cad0de077037afd180f7ac483af7597bef",
+      "preserved_master_sha256": "ab7c55f7c9c64cd016bb6a2672ec1813b7e686944c8c1cc84ed0c809c080e20c",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/stremthru-newz.png",
@@ -9333,7 +9333,7 @@
       "label": "AIOStreams",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "23fae4976ca588a37af45c257d8f51b1f77f7f31bec2dfab0856f9716127b5b9",
+      "preserved_master_sha256": "79d1c7762f80c2e97a0c4ec84eb66b218f659e6ef893da474d1f01993f8efd5f",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/aiostreams.png",
@@ -9348,7 +9348,7 @@
       "label": "Torrin",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "580fc62521451a8ffa7bb7e11e63ec550ce98d7d6671be18cfc5f283f5f4ef91",
+      "preserved_master_sha256": "98e0b8014679714cf733e95532cb81b46778f297e3a12238385547a63affdd26",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/torrin.png",
@@ -9887,7 +9887,7 @@
       "label": "Nickelodeon",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "1304a616e5dcea67a997b0a16964d3dd5f456dc9a8f1e6401dbab731d42e4120",
+      "preserved_master_sha256": "bcd6d0d991694b91f40bef02d46d9162f91d7abcfd60e62e66d9689def58e1ed",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/nickelodeon.svg",
@@ -9902,7 +9902,7 @@
       "label": "Disney",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "413ecbd636bc98b49f4342b38a262c444199d540c13efc5e1660382a0b12a59f",
+      "preserved_master_sha256": "821cefdf80e208507aa479b2091b76072788be2a40f988a1b71eb5edc50e5c63",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/disney.svg",
@@ -9917,7 +9917,7 @@
       "label": "HBO",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "2473f8d9d7a7076b94d763a4a6a67715f94f7f36d716cb9fa3d7e3b16016573a",
+      "preserved_master_sha256": "1d4387d46f243867e419f8c64dd61fbc2db6a83545cee7543929077d0a3253a5",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/hbo.svg",
@@ -9932,7 +9932,7 @@
       "label": "Showtime",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "b560ec63f94320cdc784dbfa1ba700a535b09d5a00a139ac63f440e76dbb7201",
+      "preserved_master_sha256": "ed3766341e56b2f8c68d30f88f1f9182dabbe3fb7bc194ef67632ca8b7a5e46e",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/showtime.svg",
@@ -9947,7 +9947,7 @@
       "label": "Crave",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "27b0681e8e6ecec3786fe99ecd8db77c5b2d5b77569ed8fdf7a2231bdd86df13",
+      "preserved_master_sha256": "19d50fd9c2c8f0f8465febd4981c0caeda28acf58a85e643be78e724d4144ce2",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/crave.svg",
@@ -9962,7 +9962,7 @@
       "label": "AMC+",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "e1f4c315a38899bfe88ebbfb58d68f4924df87b7b839c37b71cfbf27dee5ebc9",
+      "preserved_master_sha256": "9b447c6ef36ddfb1a222830080765d425c2c20f7d775026558db23a5a7e5eb7f",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/amc-plus.png",
@@ -9977,7 +9977,7 @@
       "label": "Stan",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "938f3aef2f92b62caa368eb0f7a50b7755e90d3bddba7f6ed1f05abddf5bc0cf",
+      "preserved_master_sha256": "2bc823f89bee4a8633cb7f0dcf7e3b406d82aae071410df43a744874ac4f7a14",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/stan.png",
@@ -9992,7 +9992,7 @@
       "label": "iTunes",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "19a0c4b5f11dd3aaddb8d7046786f176d4dce351c2d911db5a86beda17bceed2",
+      "preserved_master_sha256": "2dc4d58cce3165a80ddd95dbefde406f56470464891beebee0b5a3803ea5d6a4",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/itunes.png",
@@ -10007,7 +10007,7 @@
       "label": "CBS",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "c71b7de1309ad3e6c78c0c0f736ffbe61daa867f011be5781a5c2033ddbd82c0",
+      "preserved_master_sha256": "835067c5a8eea75ac51c29751ad6622684a04d8215cdc6a26d5d98ddf66c8d38",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/cbs.svg",
@@ -10022,7 +10022,7 @@
       "label": "NBC",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "4f03a8aa62c99e921c3426d809d70d9ea56bc75aa3a328074a3b94c12d48cb1b",
+      "preserved_master_sha256": "5aca81e47d4d48782e1b51166ec187479803afec0304fd9a1988de491077fb96",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/nbc.svg",
@@ -10037,7 +10037,7 @@
       "label": "AMC",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "0efe3d856a8956e9bfd76c44e687212287e1c6fe709c1865b5b25613f641c046",
+      "preserved_master_sha256": "9c96af98ca169926d1761e80dc12bfba3739ed6a7ab391d5818569667f9d3267",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/amc.svg",
@@ -10052,7 +10052,7 @@
       "label": "PBS",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "af4be09df25ec00391e6fdc40d96921b3249cd4941e480dd7ce46b4fa91b114c",
+      "preserved_master_sha256": "9747d9bc88e2a0cfda615766874f02e65ada25e36de956ce03fffb2e236511f3",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/pbs.svg",
@@ -10067,7 +10067,7 @@
       "label": "VICE",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "168ec4c33e430d3a001fd686bba3427e57a89730e1339093f5a6d6992b47b7fa",
+      "preserved_master_sha256": "981343f855b869e73d76c5f9be94d02f8935da71a47f997ce7e8448b03a989cb",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/vice.png",
@@ -10082,7 +10082,7 @@
       "label": "Sony",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "f8fee1bc637135743b00d86f7965aa2fa04f12ffdf80cf31b393d0cbc6710e46",
+      "preserved_master_sha256": "26f57c9e4b2b8fdd26d016019ad7c48fc0c7191de1bf7075956522e97633f66e",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/sony.svg",
@@ -10097,7 +10097,7 @@
       "label": "Hallmark",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "de019b70867cc463ab482cac6fea532dd5c665a252abcf73c08a1267ec9504d8",
+      "preserved_master_sha256": "32eb30074bff16df4ed6eeefddb72b479943b770afefbc1fd132e9e6137981a5",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/hallmark.svg",
@@ -10112,7 +10112,7 @@
       "label": "Adult Swim",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "9e87d3617bab9f290a188fa210befc345869abcf1a20bae635974d3161d772da",
+      "preserved_master_sha256": "7f0481027b10613f2736d9980255ee33cc68352a44cb1f5560f499c849109285",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/adult-swim.svg",
@@ -10127,7 +10127,7 @@
       "label": "Animal Planet",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "c53ba4c84b004ab5a48d9a73986740c6089d41c43f8bb81be1f9dc43c306f1ab",
+      "preserved_master_sha256": "e4342871ba1a2d66cdcfb5eafc2533463fe7e1c95a9d4edb2ce1f5455c5b0046",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/animal-planet.svg",
@@ -10142,7 +10142,7 @@
       "label": "Cartoon Network",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "65b53ef10bdcbed03a0d6ede94ff35948c341d5be5793733aa4cafae26e28fbb",
+      "preserved_master_sha256": "20bb86b7d29f6dba293882799008f8d1965c585f2f23f353e54e1d1cbe2f4b5b",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/cartoon-network.svg",
@@ -11511,5 +11511,9 @@
         "note": "Neutral metadata label; no exact issuer logo used or implied."
       }
     }
+  ],
+  "delivery_master_dimensions": [
+    1280,
+    720
   ]
 }

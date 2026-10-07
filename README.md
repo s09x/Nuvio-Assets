@@ -30,7 +30,7 @@ Custom artwork and hosted collection assets for Nuvio.
 
 [`collections/hosted`](collections/hosted) contains 714 original image files: title logos, hero backdrops, and the remaining streaming-service, studio, and anime covers and hover images. Files are grouped by collection in `discover`, `streaming-services`, `genres`, `moods`, `studios`, `by-year`, `anime`, and `film-collections`.
 
-These assets retain their original file contents, dimensions, and transparency in PNG, JPEG, WebP, or SVG format. The [manifest](collections/hosted/manifest.json) records each file's source, format, dimensions, checksum, and collection references.
+Oversized raster assets are downsampled with Lanczos to fit 1920 × 1080 pixels (1080 × 1920 for portrait images), preserving their aspect ratios, formats and transparency. Smaller files and SVGs retain their original bytes. The [manifest](collections/hosted/manifest.json) records each file's source, delivered format, dimensions, checksum, and collection references, with separate original-source metadata for resized files.
 
 ## Using the images
 
@@ -47,13 +47,13 @@ For example, these fields configure the Action folder's images:
 }
 ```
 
-The custom covers and hover variants are supplied as WebP files. Landscape cards are 3840 × 2160 pixels. Portrait posters retain their original aspect ratio with a 3840-pixel long edge. Their directories include a `manifest.json` with asset names, dimensions, and checksums. Original assets in `collections/hosted` retain their source resolution; SVG files are scalable.
+The custom covers and hover variants are supplied as WebP files. Landscape cards are 1920 × 1080 pixels. Portrait posters retain their original aspect ratio within 1080 × 1920 pixels; for example, a 2:3 poster is 1080 × 1620. Their directories include a `manifest.json` with asset names, dimensions, and checksums. Legacy `-4k` filenames and existing URLs are retained for compatibility and no longer describe the delivered resolution. SVG files are scalable.
 
 URLs using `main` follow the current version; replace `main` with a commit SHA to reference a fixed version.
 
 ## Stream badges
 
-[`badges`](badges) contains the approved 1,037-badge stream library: 4K masters, smaller app images, original brand graphics and 50 flat flag language badges. Release 2.0 uses original marks and neutral borderless typography, displays 4K for the 2160p alias, and preserves the approved centered DE/EN flags. The selected flag-language series excludes India mappings.
+[`badges`](badges) contains the approved 1,037-badge stream library: 1280 × 720 masters, smaller app images, original brand graphics and 50 flat flag language badges. Release 2.0 uses original marks and neutral borderless typography, displays 4K for the 2160p alias, and preserves the approved centered DE/EN flag design. The selected flag-language series excludes India mappings. Existing app images remain unchanged because they already fit 720p bounds. Review sheets are also reduced to fit 720p bounds; original artwork and approved source templates in `badges/sources` are retained separately.
 
 Use this URL in **Settings > Streams > Stream badge URLs** in Nuvio:
 

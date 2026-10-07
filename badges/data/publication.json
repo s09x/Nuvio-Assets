@@ -11,5 +11,13 @@
   "status": "published-and-verified",
   "asset_publication_commit": "1aca4f876e7140a3501b4826f13d6fc078b9ae99",
   "manifest_version": "2.0.0",
-  "manifest_http_status": 200
+  "manifest_http_status": 200,
+  "evidence_scope": "Historical publication of release 2.0.0 before the local 720p resize. HTTP and remote checks below were not rerun for the resized files.",
+  "pending_resolution_change": {
+    "master_dimensions": [
+      1280,
+      720
+    ],
+    "published": false
+  }
 }
