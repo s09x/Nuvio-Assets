@@ -394,15 +394,16 @@
       "provenance": {
         "classification": "user-approved derivative; not an issuer-provided official HDR10 logo",
         "source": "sources/approved-borderless/source-reference.png",
-        "source_sha256": "b8f998774bd35016459474edbe4de2431f7e7e4325877eb71c9acc4103361243",
+        "source_sha256": "9bd6f34ba56feeea752d0d5dc272d58899ff2c4eb60d95a2d5d00effbd72dfe9",
         "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/HDR10%2B_Logo.png",
         "model": "gpt-image-2.5-sunburst",
-        "details": "sources/approved-borderless/hdr10-edit-details.json"
+        "details": "sources/approved-borderless/hdr10-edit-details.json",
+        "upstream_sha256": "b8f998774bd35016459474edbe4de2431f7e7e4325877eb71c9acc4103361243"
       },
       "seed_master": "sources/approved-borderless/hdr10-final-4k.png",
-      "seed_master_sha256": "b30809c2051429afa125bc26e947a48f05b027d7b196467bb1d5c23448daa986",
+      "seed_master_sha256": "ba487bef2f2ddf6f7ff0026aa52b0e1b1397ed89c96cb6d07edf36d2fe50b1c5",
       "seed_web": "sources/approved-borderless/hdr10-final-app.webp",
-      "seed_web_sha256": "333fe0f2916bbb060e3c5bc14efca6f3fbe2c4d63fdf00717e41c0804e08596f"
+      "seed_web_sha256": "03afbc29f88984ab024964616428046dc6a30f736da2cdc6de54f6426ff3b0ad"
     },
     {
       "id": "dynamic-range/hlg",
@@ -582,10 +583,11 @@
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/av1-original.png",
-        "source_sha256": "bb23eb38cf5fbbcbb18796a2bf904a4c8f51f9afdcae9d41a057ae7e54864aa5",
+        "source_sha256": "598db39fa8f80283a4d820ff89d20da96c528e848cdc50c82bf7bab39b2205cd",
         "url": "https://aomedia.org/assets/images/specifications/av1_logo_rgb_002.png",
         "source_page": "https://aomedia.org/specifications/av1/",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "bb23eb38cf5fbbcbb18796a2bf904a4c8f51f9afdcae9d41a057ae7e54864aa5"
       },
       "seed_master": "sources/approved-borderless/av1-master.webp",
       "seed_master_sha256": "d7e89a642cb9aff9adf0e0ae1b041c75a1a585d8486a865d3b95b51ab814066b",
@@ -710,17 +712,18 @@
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/theora-original.png",
-        "source_sha256": "c6d7639a109903ecae748994a53ebf063f118fd2ebe97590c826a19b542570bc",
+        "source_sha256": "7ba74cd8d68e33efd522ee94e58a79d873ad525a8aeba326dec599967ddfcbf1",
         "url": "https://theora.org/images/logos/fish_theora_org.png",
         "source_page": "https://www.theora.org/",
         "native_dimensions": [
           256,
           64
         ],
-        "native_detail": "Original raster enlarged uniformly; no new source detail claimed."
+        "native_detail": "Original raster enlarged uniformly; no new source detail claimed.",
+        "upstream_sha256": "c6d7639a109903ecae748994a53ebf063f118fd2ebe97590c826a19b542570bc"
       },
       "image": "sources/brands/theora-original.png",
-      "image_sha256": "c6d7639a109903ecae748994a53ebf063f118fd2ebe97590c826a19b542570bc"
+      "image_sha256": "7ba74cd8d68e33efd522ee94e58a79d873ad525a8aeba326dec599967ddfcbf1"
     },
     {
       "id": "video-codec/h-263",
@@ -1056,9 +1059,9 @@
         "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
       },
       "seed_master": "sources/approved-borderless/opus-master.webp",
-      "seed_master_sha256": "69f92edaae593fc8a357f88cec1326e2f52e7721edfb05ea522c2365f19d6557",
+      "seed_master_sha256": "d8ef3bed6ca66318c51c9101abc301d589c0e48dcc527cbd5392b34c06378bbc",
       "seed_web": "sources/approved-borderless/opus-web.webp",
-      "seed_web_sha256": "091a12b0d159395ce846a4bae049a2367ecae4469edbd8efe9875cb8ced27afd"
+      "seed_web_sha256": "1202da17b0e2a670fd53371173f12c73d52357a138117d26594d52888fe0f28d"
     },
     {
       "id": "audio-codec/vorbis",
@@ -1188,17 +1191,18 @@
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/speex-original.png",
-        "source_sha256": "f498bf01ceb93363b80b1eb75e2705bba2bba96a05839a98ba9f39a842e94994",
+        "source_sha256": "1c84499f8a31a44338d3947c52a0a3415c8667779d338aa7f7a1f29dbcb77629",
         "url": "https://www.speex.org/images/logos/parrot_speex_org-3.png",
         "source_page": "https://www.speex.org/",
         "native_dimensions": [
           181,
           80
         ],
-        "native_detail": "Original raster enlarged uniformly; no new source detail claimed."
+        "native_detail": "Original raster enlarged uniformly; no new source detail claimed.",
+        "upstream_sha256": "f498bf01ceb93363b80b1eb75e2705bba2bba96a05839a98ba9f39a842e94994"
       },
       "image": "sources/brands/speex-original.png",
-      "image_sha256": "f498bf01ceb93363b80b1eb75e2705bba2bba96a05839a98ba9f39a842e94994"
+      "image_sha256": "1c84499f8a31a44338d3947c52a0a3415c8667779d338aa7f7a1f29dbcb77629"
     },
     {
       "id": "audio-codec/dca",
@@ -4934,7 +4938,7 @@
       },
       "country_code": "BG",
       "field": "sources/flag-fields/bg.webp",
-      "field_sha256": "c2c086336492bfef01712f42046bdecfe53e9caca5a579f310bd4b4333f285c1",
+      "field_sha256": "a395d81084753792d42d412eb73348bf587c0f2b78c7657741655f1672a3493d",
       "text_color": "#101820"
     },
     {
@@ -5302,7 +5306,7 @@
       },
       "country_code": "ES",
       "field": "sources/flag-fields/es.webp",
-      "field_sha256": "fd349cc4a9374aac8cf3ffeccdc8456241e09b94aa7f3fc95219894137367e6f",
+      "field_sha256": "fa703069a836c4939ce2a6f61702f7e12feb8ee4809bf001b3da094ad414ab92",
       "text_color": "#101820"
     },
     {
@@ -5432,7 +5436,7 @@
       },
       "country_code": "FR",
       "field": "sources/flag-fields/fr.webp",
-      "field_sha256": "83015fb89de984dd61099f927de0817186985f2f47d8af625e7a876274117dd8",
+      "field_sha256": "019228db5889958bb35d7d54d83b92eff102ef46f8d7b14ca1964f599249097d",
       "text_color": "#101820"
     },
     {
@@ -5482,7 +5486,7 @@
       },
       "country_code": "ES-GA",
       "field": "sources/flag-fields/gl.webp",
-      "field_sha256": "de2007aea1f0c17032ebf163d3739b09f6d7087b832983f337c532eab015a418",
+      "field_sha256": "d4a99a19927e0dba9754d935ae5d36790b93915013707674dc57a38a88cc4ebf",
       "text_color": "#101820"
     },
     {
@@ -5582,7 +5586,7 @@
       },
       "country_code": "HR",
       "field": "sources/flag-fields/hr.webp",
-      "field_sha256": "081f6451dffa71cd37e9ac9a72f8c88423e1e92d06a05aacd53b40d4f2d01def",
+      "field_sha256": "52a0e45b6ab45e88bbcc9e721ebfee10ee1e97918c22c5a5d9ef35a55e5a6fa9",
       "text_color": "#101820"
     },
     {
@@ -5632,7 +5636,7 @@
       },
       "country_code": "AM",
       "field": "sources/flag-fields/hy.webp",
-      "field_sha256": "66b46638332f7d720cf205a47b8225a0c8d425bd93999a5f8421176f5fef3669",
+      "field_sha256": "30435df44878e1f1b2d05b6c062fefa607d55a95ecafef81d69144d6b640ce83",
       "text_color": "#FFFFFF"
     },
     {
@@ -5762,7 +5766,7 @@
       },
       "country_code": "IT",
       "field": "sources/flag-fields/it.webp",
-      "field_sha256": "0c59444f546e848df1c239c858d6d7846da2bccd8c000fd943598c5101810e3d",
+      "field_sha256": "6ac1ee6a8940255b90829cb9ddaa87bebb204a3c20f0aa3cdff8d6f21f1b500c",
       "text_color": "#101820"
     },
     {
@@ -5912,7 +5916,7 @@
       },
       "country_code": "KR",
       "field": "sources/flag-fields/ko.webp",
-      "field_sha256": "9a97e7e1aa7cc91bc99b15b388001e86679802dea9abe31c17df0abec9f3848f",
+      "field_sha256": "3a95f4979c395e4b87245512a1f8acb802d955a718cb1368186ca9bc2ce3c70d",
       "text_color": "#101820"
     },
     {
@@ -6272,7 +6276,7 @@
       },
       "country_code": "NL",
       "field": "sources/flag-fields/nl.webp",
-      "field_sha256": "32c08f304b489277a929ddd5bd1829589a2e9ab4c19bd9f0af9f353a6c9ed72a",
+      "field_sha256": "a0e34646f2ffb806587933f15105e71a2d308e9a5d1b6de6f794984f4d6fa7bf",
       "text_color": "#101820"
     },
     {
@@ -6452,7 +6456,7 @@
       },
       "country_code": "PT",
       "field": "sources/flag-fields/pt.webp",
-      "field_sha256": "6dd37dc9342bb9bef740da0d25c54cb917f2c40fc3cc4062934d696295cc7e14",
+      "field_sha256": "7c637c646436598ed7804a947d9eb9010d9bd8f979207d47eee9dbdb43a4bae6",
       "text_color": "#101820"
     },
     {
@@ -6503,7 +6507,7 @@
       },
       "country_code": "RO",
       "field": "sources/flag-fields/ro.webp",
-      "field_sha256": "eaa5e7f984eb64fd703c9d23a67dc81636203e58ec46033f37babb931dfe7c4d",
+      "field_sha256": "ce443e281676ef3dec39371c59a4d9a2f245360281d9c24addc848b817570f55",
       "text_color": "#101820"
     },
     {
@@ -6644,7 +6648,7 @@
       },
       "country_code": "SI",
       "field": "sources/flag-fields/sl.webp",
-      "field_sha256": "bbc9fdef39cad2ea4d68a27d12c1d8cefa658c29f1b0a220da448c82bded43f8",
+      "field_sha256": "bc6df9372ef0a09eeddbd09f17844e279bf7826e12c44160bfa58fa3777a3792",
       "text_color": "#FFFFFF"
     },
     {
@@ -6714,7 +6718,7 @@
       },
       "country_code": "RS",
       "field": "sources/flag-fields/sr.webp",
-      "field_sha256": "46812594a3cb680bccce13dd25087c8d52300f4c7d792d103a6748e6b28468fa",
+      "field_sha256": "1909f19f93f6ceec96c60015f925f0100991f0edc330489adb8ec7d4bc983aa2",
       "text_color": "#FFFFFF"
     },
     {
@@ -7713,7 +7717,7 @@
       "label": "Dolby",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "ef186a7ba01cb7b1551e8d242b6b42e0dbbf77e03edc112c684d213009ef6432",
+      "preserved_master_sha256": "e55a16282a042a4cf634ab010ad963fe8077963b45720937e2ea6a4760d34727",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/dolby.svg",
@@ -7728,7 +7732,7 @@
       "label": "Dolby Atmos",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "bca898490d03731bbe56434186caf318fb5479392b2e057a2885a75942d54636",
+      "preserved_master_sha256": "59de5264735d42acbb31c78980d084747bddd76081e4294f41173b65bb90efd6",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/dolby-atmos.svg",
@@ -7747,7 +7751,7 @@
       "label": "Dolby Digital",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "04f38fe6fe12b412ef2a021091241a817c5e764e1b5025cd1bf6e9abb8e2c01a",
+      "preserved_master_sha256": "c348e9846667371919a60222cc7b166883c1ab96c3b9b43a060bca0de0f30c5c",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/dolby-digital.svg",
@@ -7762,7 +7766,7 @@
       "label": "Dolby Digital Plus",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "7db13e336c20d5b15930d4686fac14c26477a6b5138818baed017eb0c3f3cf31",
+      "preserved_master_sha256": "62c98fa0255a65ef881bb1fc6ceac5b5f3d875f5ae27fd62755cd188ce308d7c",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/dolby-digital-plus.svg",
@@ -7777,7 +7781,7 @@
       "label": "Dolby TrueHD",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "75a98e9cb54ef0628dfc1b8d9a24f26c3cf3230e1ce716d1739a84a7932b2912",
+      "preserved_master_sha256": "9f6247f657a8c0fbe22570baf01b0e9e719954a45d7e9b4138a30c4b6c50dfc5",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/dolby-truehd.svg",
@@ -7792,7 +7796,7 @@
       "label": "DTS",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "1259b43985c1e5139365e52c96937dabe80c22dd6364dcbb4e6e671d2a42fe39",
+      "preserved_master_sha256": "3e95885103a1524eec317a9c65f58a6bcd6a7f625fc55580c92c0e47472d3cba",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/dts.svg",
@@ -7811,7 +7815,7 @@
       "label": "DTS-HD Master Audio",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "d783230649dec5e851c2786e305d4111156268d9b7ce00f60c52a8b95336fc09",
+      "preserved_master_sha256": "fa0258d7f292d13a38905fda655e702eeb4ded10d6ea50634d08f42088e62ca7",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/dts-hd-ma.svg",
@@ -7845,33 +7849,35 @@
       "label": "HDR10+",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "ac99dcab40aca69bb49e5ebbc540dce1425b2abb15e984e89604f29ed9c3cb9c",
+      "preserved_master_sha256": "831c502e04f23b782d91305814c068dd1d19c65ae0b6b31599570825c8b869ff",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/hdr10plus.png",
-        "source_sha256": "b179e72d889f23eec7cfbb471d8df1d8312839fa034ac387edcbeffd9219acff",
+        "source_sha256": "8569796e6f60cd3ce2e4384dc1aed5538c8f77d4d31933bfabdcdfda50ac36fc",
         "url": "https://hdr10plus.org/wp-content/uploads/2023/10/cropped-header_logo.png",
         "evidence": "documented original brand source",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "b179e72d889f23eec7cfbb471d8df1d8312839fa034ac387edcbeffd9219acff"
       },
       "seed_master": "sources/approved-borderless/hdr10plus-master.webp",
       "seed_master_sha256": "f6c775454ad05665d92ab5282d325fb1ca70c856896081b801117aa679c20605",
       "seed_web": "sources/approved-borderless/hdr10plus-web.webp",
-      "seed_web_sha256": "fe8a5a7f2d9751a5c4861aab19204c850b772832722ca2cfd8fb14e87d8080b2"
+      "seed_web_sha256": "f9f4a28b0db60d73fdb4e420a850bb7ecd5b4121070f3b03547d2fb1601e4a8d"
     },
     {
       "id": "picture-brand/hdr10plus-advanced",
       "label": "HDR10+ Advanced",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "1f8c2346c8d8a82681547c50648f805481af50b493b6135f1b4c096c94c1db40",
+      "preserved_master_sha256": "50b50c2ad89d23f49e189ec8ce9642fab60b234c5a006f45cac621cdc5591472",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/hdr10plus-advanced.png",
-        "source_sha256": "49be0373edaa628ed2e6ea3d229fd094515ba1c29424f476e6329fb429743798",
+        "source_sha256": "79bdc499ac86df0361b2d37cc74e7fd50bd557e0ea53036c0894d58cfc8c5265",
         "url": "https://hdr10plus.org/wp-content/uploads/2026/04/cropped-header_logo_advanced.png",
         "evidence": "documented original brand source",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "49be0373edaa628ed2e6ea3d229fd094515ba1c29424f476e6329fb429743798"
       }
     },
     {
@@ -7879,14 +7885,15 @@
       "label": "HDR10+ Gaming",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "642fcb205269d1b6564850f794f9ec35038728b5314c48c83a74fca25d211245",
+      "preserved_master_sha256": "2574fce64f1b00dd0e24f90a952e516af89a63caa1abcb9f471089d5c1a39c72",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/hdr10plus-gaming.png",
-        "source_sha256": "4154cdc8de7e1e7b54e75278597fae216d34a73ba0d84ce30f76832c0dc7fcf1",
+        "source_sha256": "3cce70f4cf138de2caf7295669c946f675cf1004c2d629cc8910485e55117e0a",
         "url": "https://hdr10plus.org/wp-content/uploads/2026/04/hdr10_gaming.png",
         "evidence": "documented original brand source",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "4154cdc8de7e1e7b54e75278597fae216d34a73ba0d84ce30f76832c0dc7fcf1"
       }
     },
     {
@@ -8007,10 +8014,11 @@
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/netflix.png",
-        "source_sha256": "78190e7e6650291d5366ec7eb2df4e1b01617b1668ddac381c0461f8fd441503",
+        "source_sha256": "1d73512cad7b4cd250f358ae7463941c9086231fb3857401a14049c3ba17ca0e",
         "url": "https://hdr10plus.org/wp-content/uploads/2025/04/Netflix_logo_white.png",
         "evidence": "documented original brand source",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "78190e7e6650291d5366ec7eb2df4e1b01617b1668ddac381c0461f8fd441503"
       }
     },
     {
@@ -8022,10 +8030,11 @@
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/disney-plus.png",
-        "source_sha256": "0762101fc520aad6328704f376c231ddf67760ed8ca366929088bb78661835a2",
+        "source_sha256": "09c4e5022d2fef9d94738b4196af5fc27656ec5c15c295fb6a2d6d296482ceed",
         "url": "https://hdr10plus.org/wp-content/uploads/2025/10/DisneyLogo_2024_VECTOR_White_RGB-scaled.png",
         "evidence": "documented original brand source",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "0762101fc520aad6328704f376c231ddf67760ed8ca366929088bb78661835a2"
       }
     },
     {
@@ -8033,14 +8042,15 @@
       "label": "Prime Video",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "4e097260ec39d8758d3a76f8f0b094ace4c26cfc3f0c029d53ffa4549f6f9974",
+      "preserved_master_sha256": "2b8b096a4773688bf18a5af4bdc5727bf404449efba51d481d0c3bd37083b672",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/prime-video.png",
-        "source_sha256": "0ae92aff1eb445f117272c0649fcd7d85f8157123a99e8baf9ddd9543de8e9dd",
+        "source_sha256": "85c9c850a448ac835b846c6d23d8ba80884e63d53cb04dbf5708fc3bca202b0a",
         "url": "https://hdr10plus.org/wp-content/uploads/2023/12/prime.png",
         "evidence": "documented original brand source",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "0ae92aff1eb445f117272c0649fcd7d85f8157123a99e8baf9ddd9543de8e9dd"
       }
     },
     {
@@ -8052,10 +8062,11 @@
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/paramount-plus.png",
-        "source_sha256": "2e2e5283856ea2894db81fde1059cfa309dcd7552e4789fd9e827845cf6e1a0b",
+        "source_sha256": "5c4cdf37aa1ae16a346ffb6e891192f538352232c5a266ee836fc928e0d3b329",
         "url": "https://hdr10plus.org/wp-content/uploads/2023/12/paramount.png",
         "evidence": "documented original brand source",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "2e2e5283856ea2894db81fde1059cfa309dcd7552e4789fd9e827845cf6e1a0b"
       }
     },
     {
@@ -8063,14 +8074,15 @@
       "label": "Hulu",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "b816ff26eb2a3950b3c1d7f208e57891de84d71d042531e39ab13bfca8a70845",
+      "preserved_master_sha256": "cce67578a6cbc28050c31c204f8bc0c611bdaf0092fe1ab2f90c2082f0dd6e30",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/hulu.png",
-        "source_sha256": "7ee1bce0fac393f5d2a74dc403e2dd408a4092d8f10d2b6d5afc4ee2c6369af3",
+        "source_sha256": "33ee6ccdb5cef0c5b717ce6f922375dee263b0bb466289a77a999f990b2c5068",
         "url": "https://hdr10plus.org/wp-content/uploads/2023/12/hulu.png",
         "evidence": "documented original brand source",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "7ee1bce0fac393f5d2a74dc403e2dd408a4092d8f10d2b6d5afc4ee2c6369af3"
       }
     },
     {
@@ -8082,10 +8094,11 @@
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/magenta-tv.png",
-        "source_sha256": "d1f90d2b1d83a5d2f4c85db49217d5ca2aad494adfd57d150fbf8917a2c47698",
+        "source_sha256": "e0c1d91c183d75df0235cc429863e86586d3cac3c5606da1fcdb26775554372a",
         "url": "https://hdr10plus.org/wp-content/uploads/2023/12/magenta-tv.png",
         "evidence": "documented original brand source",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "d1f90d2b1d83a5d2f4c85db49217d5ca2aad494adfd57d150fbf8917a2c47698"
       }
     },
     {
@@ -8093,14 +8106,15 @@
       "label": "Rakuten TV",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "7781d12126827d0bd9fd41e1af3d7a8827a1429346d8a33c565423573daf7244",
+      "preserved_master_sha256": "ab7ac37e043201337e0e2eda154f782c8a6624d9a9439e8dc654ae246b31aa4f",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/rakuten-tv.png",
-        "source_sha256": "74ab145531e58dea64fa35b6e35014ed554d4309c594b022322fb3b19ffff5c4",
+        "source_sha256": "6118434af9f66b3fcebf81e1b6d73c636a81ac6c5e23073c244a1f01ee78a94a",
         "url": "https://hdr10plus.org/wp-content/uploads/2023/12/rakuten-tv.png",
         "evidence": "documented original brand source",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "74ab145531e58dea64fa35b6e35014ed554d4309c594b022322fb3b19ffff5c4"
       }
     },
     {
@@ -8108,14 +8122,15 @@
       "label": "YouTube",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "9b83d10be1916a76d00a7be4650fd360c94172936052783cfcaa8f7e7896bec8",
+      "preserved_master_sha256": "cdbe5b95c0a585c2b5df0913b98b6eff78cc2322454337a973fb103d749f2c3d",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/youtube.png",
-        "source_sha256": "77091fe487d653f79dfd2e38462a44aa754e6810bd995795d9cda2cb956532c0",
+        "source_sha256": "898d966c9f7440ef3970d53a1cc643e6d6b18606db91aa8e3c9cca7afe7c869d",
         "url": "https://hdr10plus.org/wp-content/uploads/2023/12/youtube.png",
         "evidence": "documented original brand source",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "77091fe487d653f79dfd2e38462a44aa754e6810bd995795d9cda2cb956532c0"
       }
     },
     {
@@ -8127,10 +8142,11 @@
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/ivi.png",
-        "source_sha256": "d48114ac38d1a2290140d4cbd12922a6b576d1d1e563312de92f89db2a07610c",
+        "source_sha256": "561797843686ddd1d709d0359ef30abcc83cb5cb2dd513ff9535c81a82c2dfc7",
         "url": "https://hdr10plus.org/wp-content/uploads/2023/12/IVI_logo_crop.png",
         "evidence": "documented original brand source",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "d48114ac38d1a2290140d4cbd12922a6b576d1d1e563312de92f89db2a07610c"
       }
     },
     {
@@ -8138,14 +8154,15 @@
       "label": "MEGOGO",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "b165c98952f86c2a052d14a040d42d91067b65d3826bd7bbfcf2377432312865",
+      "preserved_master_sha256": "76627693f0385e4a19e17b6b3c142f7c81035dc27edf82e86c0ee37e06f55972",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/megogo.png",
-        "source_sha256": "11e365ea23664d9e2ebd5c0a3ccd0f95234c646c04b01129b53d5ae49e6157bf",
+        "source_sha256": "ff17ab7feb5d7f0866dc7417da3df83c85ad99e954c59aa9f4a241bdc63dc923",
         "url": "https://hdr10plus.org/wp-content/uploads/2023/12/megogo.png",
         "evidence": "documented original brand source",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "11e365ea23664d9e2ebd5c0a3ccd0f95234c646c04b01129b53d5ae49e6157bf"
       }
     },
     {
@@ -8153,14 +8170,15 @@
       "label": "WATCHA",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "b32117053946d7295a1d654e86ba5f3e734c98817d27f381d82bdee05f93f49f",
+      "preserved_master_sha256": "d0fc3796354a00f7d40b3b89fa9d8ef4dce939038bbfff5b0c45244b72efa569",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/watcha.png",
-        "source_sha256": "f5fb2341ee38f91644faee5586759c645da779777377c1a5b406990816ac7b12",
+        "source_sha256": "9700cd38747da3cf5a0eb9ca33137a1c424fe84f8d7878a17ee08d5dbc07928b",
         "url": "https://hdr10plus.org/wp-content/uploads/2023/12/watcha.png",
         "evidence": "documented original brand source",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "f5fb2341ee38f91644faee5586759c645da779777377c1a5b406990816ac7b12"
       }
     },
     {
@@ -8172,10 +8190,11 @@
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/tving.png",
-        "source_sha256": "4acdec1d619d29f9b81243ad45d80797cf044f484c2de66da12384adc8fd9e44",
+        "source_sha256": "3a7d6b5c516ae812fbc26b566c7d075d8053e69c1d4132391b7c85227b7053be",
         "url": "https://hdr10plus.org/wp-content/uploads/2023/12/tving.png",
         "evidence": "documented original brand source",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "4acdec1d619d29f9b81243ad45d80797cf044f484c2de66da12384adc8fd9e44"
       }
     },
     {
@@ -8198,14 +8217,15 @@
       "label": "DTS:X",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "28586ce6f550762e829616550778e34353ac0948ce9194acf551215a1a0901c0",
+      "preserved_master_sha256": "42da2b4471f227cbf76d233634b3e200c2cfc90527e41395a0b917aeb7d4bdd9",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/dts-x.png",
-        "source_sha256": "f0ba9a6afbd138f3581de97101656aedc57442ab5c8835781af6b50e8b501488",
+        "source_sha256": "14307d6cf547c47a9247c9f529d0f072dd6ce7abee50e9d10d634fdc93fc3000",
         "url": "https://dts.com/wp-content/uploads/2023/11/dtsx_132x132.png",
         "evidence": "official-site",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "f0ba9a6afbd138f3581de97101656aedc57442ab5c8835781af6b50e8b501488"
       }
     },
     {
@@ -8228,7 +8248,7 @@
       "label": "Peacock",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "cfebbc1c71b63b89c141ce8d0d945f37b9c5228bbeeffbcaa5f421141f1ed04d",
+      "preserved_master_sha256": "24ff4e5381d20529d2b1de7e32ecd3ca479776608c3285653696c02aa9f16839",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/peacock.svg",
@@ -8247,10 +8267,11 @@
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/crunchyroll.png",
-        "source_sha256": "1fc93d35b40b0dbc703b26192cd42695badb504f30a8a26dc902c1bf42447672",
+        "source_sha256": "4248d623d3a586bf5c6b5a0680e9768def25769183c777019f1a3afc86632df6",
         "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Crunchyroll_logo_2024.png",
         "evidence": "documented-brand-artwork-mirror",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "1fc93d35b40b0dbc703b26192cd42695badb504f30a8a26dc902c1bf42447672"
       }
     },
     {
@@ -8258,7 +8279,7 @@
       "label": "Discovery+",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "db07e1e6e90ce3cdf5fc2d682208eeb670e0716ac2c184d5de88dcddffd8bd19",
+      "preserved_master_sha256": "c0fc8450ea473a0241f05d93056fd2d488749fcb090b81b6b18be99bec6992f3",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/discovery-plus.svg",
@@ -8288,7 +8309,7 @@
       "label": "Plex",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "5e5ccbd377c2c0ed22fbc2202006aae484c28f5840ff0dc672a8bb2817f41072",
+      "preserved_master_sha256": "1b81aa9708b86b67e3b6f272081841b32e432a128e81537b5bfde30e18c0fce8",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/plex.svg",
@@ -8408,7 +8429,7 @@
       "label": "WOW",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "854e1ea45d1f590c9b61d15c2b920af2ee12c497ee028cfacd1ff4934e33007a",
+      "preserved_master_sha256": "14158a9ec64c0bc862e041dd3e682908f1c065eac36882f204cba3e2d6061cde",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/wow.svg",
@@ -8438,7 +8459,7 @@
       "label": "Sky",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "6d8dd2d7eaf79b60a5a7b2fb2fea1e648f7b34666d6fd7efe5e58ebf5ea0d665",
+      "preserved_master_sha256": "abc8de87f49cc2184af5935b47b22ff1e9c48e6ebf5d3e8b9def1a71231cfe71",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/sky.svg",
@@ -8453,7 +8474,7 @@
       "label": "NOW",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "a0776848b4eb8b7e3e2e29dacb8425f0e4b67b83ef05b3d38b67b6f45f86ffea",
+      "preserved_master_sha256": "af96717e64a424b1f3102ac70e54daed1c7494d1f6c04281df964694a07acad0",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/now.svg",
@@ -8468,7 +8489,7 @@
       "label": "CANAL+",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "34a4b352f2813ab4c2f97075532354ca4e3d8c58008fa6e7b4be7d715116e005",
+      "preserved_master_sha256": "b20e0c110c96d0fac611b4e063a4d1e320b48c7bfcaa306538c47dba7827e3aa",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/canal-plus.svg",
@@ -8498,7 +8519,7 @@
       "label": "Premiumize",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "b24610c69cc9486b47f009fa32913355e4e0fb3f81f68f4ee5708150ea1ad42f",
+      "preserved_master_sha256": "b31fddf6b78fc8a8a0e75c300255357feae8ff0a689e0acf427417aea57010f5",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/premiumize.svg",
@@ -8517,10 +8538,11 @@
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/real-debrid.png",
-        "source_sha256": "b001f407c3d37011814262645f012511e24364ffc69b44b285b26992ad3e37e3",
+        "source_sha256": "52a03dae2c53b5bc1c69b0afb79a8d08a2b008eaaa43aaf950f489a9fb92a1bf",
         "url": "https://cdn.jsdelivr.net/gh/selfhst/icons/png/real-debrid.png",
         "evidence": "upstream-configured-logo",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "b001f407c3d37011814262645f012511e24364ffc69b44b285b26992ad3e37e3"
       }
     },
     {
@@ -8562,10 +8584,11 @@
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/easynews.png",
-        "source_sha256": "abc95455868cfebfc2fa35fec017659bfd48655c37fd7894b3fb8aa094fffeaa",
+        "source_sha256": "38f9cab735da8a7b55ba805669753b658e758455ff57c7c550971648e6abcea6",
         "url": "https://raw.githubusercontent.com/Viren070/AIOStreams/f67d00ac6cd6d4efdde01f5d6f59bf1dbee95854/packages/frontend/public/assets/easynews_logo.png",
         "evidence": "upstream-configured-logo",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "abc95455868cfebfc2fa35fec017659bfd48655c37fd7894b3fb8aa094fffeaa"
       }
     },
     {
@@ -8588,14 +8611,15 @@
       "label": "Offcloud",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "27ee2e0168b033dd2efa66ba1a4b213e9fe429491d6d2a29b53840db3ff85033",
+      "preserved_master_sha256": "2c3760097782fbb63436f12bce6fa5f3cf1d3861f539452e98ae7483a703430e",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/offcloud.png",
-        "source_sha256": "f223351f478347129cc64debcf78331ad73e00b9f084778f28d9a77bb66fb35c",
+        "source_sha256": "3d645d476f1dc5534b8144e5265b996b84daf974132d29187e69b0fd5edc9a2c",
         "url": "https://offcloud.com/images/logo-blue-short-lg.png",
         "evidence": "upstream-configured-logo",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "f223351f478347129cc64debcf78331ad73e00b9f084778f28d9a77bb66fb35c"
       }
     },
     {
@@ -9213,14 +9237,15 @@
       "label": "EasyDebrid",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "e732bb83e4da547b1e1592acb8fa46faff814a4247eee72cfa22b6bff52409d8",
+      "preserved_master_sha256": "401bcc8d919a31328e6521d641a3c70229ce53557ad0238c8247ae48960c9429",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/easydebrid.png",
-        "source_sha256": "1818066cfccf45455e34b16a6e306f26e041c2d2ef4db8bae8b8fa13263e3cc1",
+        "source_sha256": "4fcda162c6ad877efa2426c0c5ea6b228ba6987576934f7d403fe62c2fd583c4",
         "url": "https://paradise-cloud.com/apple-touch-icon.png",
         "evidence": "upstream-configured-logo",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "1818066cfccf45455e34b16a6e306f26e041c2d2ef4db8bae8b8fa13263e3cc1"
       }
     },
     {
@@ -9243,14 +9268,15 @@
       "label": "PikPak",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "176bf6eeabadc86458cdf2b94d3fc18c376a9dd0998e172a04a56d79138d7b4e",
+      "preserved_master_sha256": "d6528a640ba83bad17535433cab17f3385811aec16d87f5b639a0eafbdaeb6ce",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/pikpak.png",
-        "source_sha256": "c73796c91af6cfed34bf42feadad2d0a0a26ef151ace4646c9635da8f7fc0a8a",
+        "source_sha256": "6461e3cdd55092aa581bd02ef128e81b45b83746277ecfcf57c4938c5ebb5895",
         "url": "https://mypikpak.com/apple-touch-icon.png",
         "evidence": "upstream-configured-logo",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "c73796c91af6cfed34bf42feadad2d0a0a26ef151ace4646c9635da8f7fc0a8a"
       }
     },
     {
@@ -9258,7 +9284,7 @@
       "label": "Seedr",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "bbf5649906bb5dc449db950c73638a281b50796ea5cfcab16b2e958f9f0ff838",
+      "preserved_master_sha256": "7e590f89ec660f6e5e1fdc5e2dc547883dd50bbc564d5d577d6c02d7f4c45f06",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/seedr.svg",
@@ -9273,7 +9299,7 @@
       "label": "NzbDAV",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "ab028b34937d258ef4a1cc1ba5fffacea5042060970b51c57d412ad0586142c9",
+      "preserved_master_sha256": "3ce5859ac0b612aa7f0fff153f77aac42d0accbb9955b830c1c610a2a687b6a8",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/nzbdav.svg",
@@ -9288,14 +9314,15 @@
       "label": "AltMount",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "76e07f16ace9de0bbd272ffcebc82868aae60d799e2a02e39265b3cfecd69701",
+      "preserved_master_sha256": "a4a1bfa3a3a24036c0f062c978113ee626ffbaf7644b1f3ce384ae577675c6a3",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/altmount.png",
-        "source_sha256": "21337312636fb46fb9f968b3d54c2da1638f767afb78f04a2d408fb1e91b995e",
+        "source_sha256": "620133290bc712a58981c3980c251b4de8576d87fc9cdba2c402d163e93358a4",
         "url": "https://raw.githubusercontent.com/javi11/altmount/refs/heads/main/docs/static/img/logo.png",
         "evidence": "upstream-configured-logo",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "21337312636fb46fb9f968b3d54c2da1638f767afb78f04a2d408fb1e91b995e"
       }
     },
     {
@@ -9307,10 +9334,11 @@
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/stremio-nntp.png",
-        "source_sha256": "6064892dee30843cb11c762a3709e706cdcfa86ecc200831394f5a7f12ecab17",
+        "source_sha256": "da27ff2e29af9fe51202af1c1edb663bde23d9a53b2e3c2abd32cd4916ed40f8",
         "url": "https://raw.githubusercontent.com/Stremio/stremio-brand/refs/heads/master/logos/PNG/stremio-logo-800px.png",
         "evidence": "upstream-configured-logo",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "6064892dee30843cb11c762a3709e706cdcfa86ecc200831394f5a7f12ecab17"
       }
     },
     {
@@ -9318,14 +9346,15 @@
       "label": "StremThru Newz",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "ab7c55f7c9c64cd016bb6a2672ec1813b7e686944c8c1cc84ed0c809c080e20c",
+      "preserved_master_sha256": "cb442e6ca05b4a137278dd44a96c7d2807a7da6dd90d3c8e39d477ccb078d093",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/stremthru-newz.png",
-        "source_sha256": "843fd6a11a44eadd389e508ef691db5dbfbe07c3dc67c29ba408945be1cd08cf",
+        "source_sha256": "daeaff97cd2600d254128696b88f927fc452287ad8f365d6e4c85fcae3e3ed67",
         "url": "https://emojiapi.dev/api/v1/sparkles/256.png",
         "evidence": "upstream-configured-logo",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "843fd6a11a44eadd389e508ef691db5dbfbe07c3dc67c29ba408945be1cd08cf"
       }
     },
     {
@@ -9337,10 +9366,11 @@
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/aiostreams.png",
-        "source_sha256": "ae98e0d095b58e497da9cb9ebbbc7d29bb91b409deed02ba470a2e3ad56bfc12",
+        "source_sha256": "fb98c45630372b3c3a51291279aa43654eec31960de6949246c2bb4873710148",
         "url": "https://raw.githubusercontent.com/Viren070/AIOStreams/f67d00ac6cd6d4efdde01f5d6f59bf1dbee95854/packages/frontend/public/logo.png",
         "evidence": "upstream-configured-logo",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "ae98e0d095b58e497da9cb9ebbbc7d29bb91b409deed02ba470a2e3ad56bfc12"
       }
     },
     {
@@ -9352,10 +9382,11 @@
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/torrin.png",
-        "source_sha256": "3c2afd996a3f784d0594231aee2e01b24fa4eb0ade20afb098209cea0f65c269",
+        "source_sha256": "00a1ea672edb636b47db2f81cb04a6fdf16fa2e8dce4272837ab98b802560f51",
         "url": "https://torrin.app/favicon.png",
         "evidence": "upstream-configured-logo",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "3c2afd996a3f784d0594231aee2e01b24fa4eb0ade20afb098209cea0f65c269"
       }
     },
     {
@@ -9902,7 +9933,7 @@
       "label": "Disney",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "821cefdf80e208507aa479b2091b76072788be2a40f988a1b71eb5edc50e5c63",
+      "preserved_master_sha256": "b3c83e96f7454962636acfbef9ed35e8e2e156d62d8724fa9832791a97bacd91",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/disney.svg",
@@ -9947,7 +9978,7 @@
       "label": "Crave",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "19d50fd9c2c8f0f8465febd4981c0caeda28acf58a85e643be78e724d4144ce2",
+      "preserved_master_sha256": "44427788a8ede425c359f900ddf4131514d3ac0c959451cb7ef6b2bf52b2ae23",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/crave.svg",
@@ -9962,14 +9993,15 @@
       "label": "AMC+",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "9b447c6ef36ddfb1a222830080765d425c2c20f7d775026558db23a5a7e5eb7f",
+      "preserved_master_sha256": "96ee40d9e72b3ae757ae513394301c2a9e539b12cc53875412e94b1c0cff12d9",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/amc-plus.png",
-        "source_sha256": "a7e7b7bb42a99101a65426ad6acb5bf2c32ee406f854474730a82054794f5f45",
+        "source_sha256": "19d50b399cb720180285c4e93246cf9c870a8a5257f3cb6e490105772012c9d6",
         "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/AMC%2B_logo.png",
         "evidence": "documented-brand-artwork-mirror",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "a7e7b7bb42a99101a65426ad6acb5bf2c32ee406f854474730a82054794f5f45"
       }
     },
     {
@@ -9981,10 +10013,11 @@
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/stan.png",
-        "source_sha256": "5fc7c9b5d9bbe433fbae3d740c0c4a5f567fa65fa1d150b1f7ceae46412a3e64",
+        "source_sha256": "a74aee02438f97f459df874700fa2c2d2091bde917b9ecc6467c6900be344061",
         "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Stan_logo.png",
         "evidence": "documented-brand-artwork-mirror",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "5fc7c9b5d9bbe433fbae3d740c0c4a5f567fa65fa1d150b1f7ceae46412a3e64"
       }
     },
     {
@@ -9992,14 +10025,15 @@
       "label": "iTunes",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "2dc4d58cce3165a80ddd95dbefde406f56470464891beebee0b5a3803ea5d6a4",
+      "preserved_master_sha256": "46bbb9546a7457170c2fcbe21933c62bce6d1a7b88e246c0fd9dc5ac85fd0caa",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/itunes.png",
-        "source_sha256": "d85561f327a019a418dcbf87b71e5399257bffc320444eedc437d1e62e782ed9",
+        "source_sha256": "dde827abb2bf7f4c93814f85812c814857b61fb2a589c31a916531b970ce0495",
         "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/ITunes_12.2_logo.png",
         "evidence": "documented-brand-artwork-mirror",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "d85561f327a019a418dcbf87b71e5399257bffc320444eedc437d1e62e782ed9"
       }
     },
     {
@@ -10022,7 +10056,7 @@
       "label": "NBC",
       "kind": "original-logo",
       "recommended_background": "light",
-      "preserved_master_sha256": "5aca81e47d4d48782e1b51166ec187479803afec0304fd9a1988de491077fb96",
+      "preserved_master_sha256": "4280873502a64354fb6f11593ddb6659f09ea9bb139359c9e9287ba150e90868",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/nbc.svg",
@@ -10067,14 +10101,15 @@
       "label": "VICE",
       "kind": "original-logo",
       "recommended_background": "dark",
-      "preserved_master_sha256": "981343f855b869e73d76c5f9be94d02f8935da71a47f997ce7e8448b03a989cb",
+      "preserved_master_sha256": "d270311af098669a424aee74f53d5beacbee74a4b5ba7ebae5a77c13addc6341",
       "provenance": {
         "classification": "original-logo",
         "source": "sources/brands/vice.png",
-        "source_sha256": "b490e408428e487ac893738eb7376934a65a652aafb2f2f3399276a316f09f1b",
+        "source_sha256": "5ee8f026a801d55b8f6e76c8ad23e58646354b8ed9b829a166dbd2cd1c228fef",
         "url": "https://www.vice.com/wp-content/uploads/sites/2/2024/06/vice-logo_white@2x.png",
         "evidence": "official-site",
-        "native_detail": "Original source resolution retained; 4K canvas does not add source detail."
+        "native_detail": "Original source resolution retained; 4K canvas does not add source detail.",
+        "upstream_sha256": "b490e408428e487ac893738eb7376934a65a652aafb2f2f3399276a316f09f1b"
       }
     },
     {

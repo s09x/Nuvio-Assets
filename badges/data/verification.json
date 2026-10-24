@@ -12,11 +12,23 @@
   "all_master_dimensions_verified": true,
   "all_master_alpha_ranges_verified": true,
   "lossless_encode_decode_verified": true,
-  "app_images_byte_identical": true,
-  "archived_sources_byte_identical": true,
-  "import_manifest_byte_identical": true,
+  "app_images_byte_identical": false,
+  "archived_sources_byte_identical": false,
+  "import_manifest_byte_identical": false,
   "renderer_seed_exports_verified": 16,
   "device_test_performed": false,
   "historical_checks": "Existing flag source geometry and unchanged app-layout evidence remain applicable. Earlier publication reports refer to the pre-resize remote release.",
-  "renderer_full_font_rebuild": "Not performed; approved external font is not supplied in the repository."
+  "renderer_full_font_rebuild": "Not performed; approved external font is not supplied in the repository.",
+  "lossless_optimization": {
+    "baseline_commit": "0b6c9ab393975abf44b33506ccc7e991ed940c80",
+    "image_files_checked": 3436,
+    "raster_pixel_comparisons": 3328,
+    "optimized_image_files": 1045,
+    "all_dimensions_unchanged": true,
+    "all_decoded_pixels_unchanged": true,
+    "all_rendering_metadata_unchanged": true,
+    "all_image_paths_and_formats_unchanged": true,
+    "external_upstream_hashes_preserved_separately": true,
+    "scope": "Lossless encoding stage before the later collection-only 720p resize. Identity claims apply to that encoding stage; badge files are unchanged by the collection resize."
+  }
 }

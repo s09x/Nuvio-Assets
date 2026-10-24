@@ -1,6 +1,6 @@
 # Language flags
 
-The selected 50 film and series languages retain their established mappings. This is a curated selection, not a measured popularity ranking. India assignments are excluded. Language codes are centered in 3200 x 1600 static flag fields, without added frames, outlines, shadows or fabric effects. DE and EN use the exact approved sample files.
+The selected 50 film and series languages retain their established mappings. This is a curated selection, not a measured popularity ranking. India assignments are excluded. Language codes are centered in 3200 x 1600 static flag fields, without added frames, outlines, shadows or fabric effects. DE and EN retain the approved sample pixels and dimensions, with losslessly optimized encodings.
 
 Flags express the selected language-display convention; a language is not identical to a nationality. Stripe fields preserve every band; solid fields preserve symbol proportions; Greece retains its nine-band grid. Other patterns use uniform centered cover.
 

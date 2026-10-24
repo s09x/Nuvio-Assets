@@ -12,9 +12,9 @@
       "heading": "ACTION",
       "subtitle": "RASANTE SPANNUNG & BLOCKBUSTER",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/action/v2/action-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "2e10aaa2919a428f1f1fc01272c681ef5bba6ce5b295b45b73425673ec620fbc"
+      "width": 1280,
+      "height": 720,
+      "sha256": "ab1afdfde7b60b1c9883e7a3070d5a83d03ea419c463330dc8190e3fec7c7815"
     },
     {
       "slug": "action",
@@ -26,9 +26,9 @@
       "heading": "ACTION",
       "subtitle": "RASANTE SPANNUNG & BLOCKBUSTER",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/action/v2/action-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "0b5899c8cdbeff781291ae38ba72cc5d26148bdcd8411028cde342c36f3e4d77"
+      "width": 1280,
+      "height": 720,
+      "sha256": "3f36e3d932d5da27def94b7a6cd0f9619c16414a1f66888acd21fd30ee808cda"
     },
     {
       "slug": "adventure",
@@ -40,9 +40,9 @@
       "heading": "ABENTEUER",
       "subtitle": "EPISCHE ABENTEUER & REISEN UM DIE WELT",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/adventure/v2/adventure-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "e7ee5779c691afa254b9ada2ef6017d3ddcbcb494cf6b89e550de57cdfc29ed8"
+      "width": 1280,
+      "height": 720,
+      "sha256": "27ec9b6ea8a705676a5253aed5fd397417857f69724c6dd3a9a834cebb75e45d"
     },
     {
       "slug": "adventure",
@@ -54,9 +54,9 @@
       "heading": "ABENTEUER",
       "subtitle": "EPISCHE ABENTEUER & REISEN UM DIE WELT",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/adventure/v2/adventure-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "a1779ff1c9537b517e804c7cca4263939ab5283a952402c70b32d416c29a8921"
+      "width": 1280,
+      "height": 720,
+      "sha256": "7758915d2d304aeb90c8c357647815d70124c8db0828743de34c76ecf8c75745"
     },
     {
       "slug": "animation",
@@ -68,9 +68,9 @@
       "heading": "ANIMATION",
       "subtitle": "ZEITLOSE KLASSIKER & MODERNE MEISTERWERKE",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/animation/v2/animation-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "42e048e1106b41ec53f91477573e993cd8983ac099a426a24df17568fb26fc6e"
+      "width": 1280,
+      "height": 720,
+      "sha256": "2fac2fe9a5afd987bad88dbbdd9743f2a425f9d43ac99b3732714b21ae5b1e77"
     },
     {
       "slug": "animation",
@@ -82,9 +82,9 @@
       "heading": "ANIMATION",
       "subtitle": "ZEITLOSE KLASSIKER & MODERNE MEISTERWERKE",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/animation/v2/animation-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "57e208807ab30ef8773402fbabaf4734ac6c26497e5d93276066fc451cbe0f99"
+      "width": 1280,
+      "height": 720,
+      "sha256": "9e3d857679611e3944731e210d712818677f8935858759409120a7193c87e138"
     },
     {
       "slug": "anime",
@@ -96,9 +96,9 @@
       "heading": "ANIME",
       "subtitle": "VISIONÄRE WELTEN AUS JAPAN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/anime/v2/anime-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "a5633dbd1857ec780100ccf0d5a29543c290dc3c631b528322ee5184d813fb22"
+      "width": 1280,
+      "height": 720,
+      "sha256": "979c73fef9f96d2f6935d11178dc4699490692806d8cc24f4f99728314b77663"
     },
     {
       "slug": "anime",
@@ -110,9 +110,9 @@
       "heading": "ANIME",
       "subtitle": "VISIONÄRE WELTEN AUS JAPAN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/anime/v2/anime-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "f90c1731a511aaacec4ce40df240d725a3957f45f8d3142176542d20a3be9fa1"
+      "width": 1280,
+      "height": 720,
+      "sha256": "314a1ce0e642ac65dd63bd1998d88de268f93b76a91dc4d8ed5b308b2f7f23bb"
     },
     {
       "slug": "comedy",
@@ -124,9 +124,9 @@
       "heading": "KOMÖDIE",
       "subtitle": "LIEBLINGSKOMÖDIEN & SATIRE ZUM LOSLACHEN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/comedy/v2/comedy-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "12e52cfc47cd63cef6c3b05b6f8ef04da73e0da87a16ba4ce4a8b5f4c95f4225"
+      "width": 1280,
+      "height": 720,
+      "sha256": "ded2c85d366cd7943c7578f4c0e643df9672f80127ee8842c75f1e7f1dc8cf1f"
     },
     {
       "slug": "comedy",
@@ -138,9 +138,9 @@
       "heading": "KOMÖDIE",
       "subtitle": "LIEBLINGSKOMÖDIEN & SATIRE ZUM LOSLACHEN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/comedy/v2/comedy-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "4376d971ce20c1dc23e29329572e2950f2ed9107db02965fd11d2dd4587961a3"
+      "width": 1280,
+      "height": 720,
+      "sha256": "b005d6461ba2891e1c5be7d80c477d600a420304d808d222cf5276ba4af08515"
     },
     {
       "slug": "crime",
@@ -152,9 +152,9 @@
       "heading": "KRIMI",
       "subtitle": "HARTE RAUBZÜGE, GANGSTER & ERMITTLER",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/crime/v2/crime-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "703c887e10e5e09fe3341ca7a18f8c87500d41e32e322bfc813292f2b933b56d"
+      "width": 1280,
+      "height": 720,
+      "sha256": "bb4c1f81c56e0225ea79a0a0a33fb2993a72b2a0001ab336bdef578565d1ec1f"
     },
     {
       "slug": "crime",
@@ -166,9 +166,9 @@
       "heading": "KRIMI",
       "subtitle": "HARTE RAUBZÜGE, GANGSTER & ERMITTLER",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/crime/v2/crime-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "b2f94c1441e1b1e21612ebdafad33ade1595429d70337bd03847638aeac09fee"
+      "width": 1280,
+      "height": 720,
+      "sha256": "a12ff4bc971d3bea96bc4dd60a351f89d55c62b0dcb723a6d10bbb2501e47660"
     },
     {
       "slug": "documentary",
@@ -180,9 +180,9 @@
       "heading": "DOKUMENTATION",
       "subtitle": "WAHRE GESCHICHTEN, DIE DEN BLICK VERÄNDERN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/documentary/v2/documentary-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "efff2f9f73410902338590553e6b85a8cffe6cb708f89055e0e9b42b5bc8e97a"
+      "width": 1280,
+      "height": 720,
+      "sha256": "b615fec3d04bc0a6bdfde72aeb0d63252eb67303ff8803eca27bb1f81a520344"
     },
     {
       "slug": "documentary",
@@ -194,9 +194,9 @@
       "heading": "DOKUMENTATION",
       "subtitle": "WAHRE GESCHICHTEN, DIE DEN BLICK VERÄNDERN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/documentary/v2/documentary-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "6fdd39238c1bec30086d5224d3fd9e2397d1fd92bc334c6e240a74827d802d8d"
+      "width": 1280,
+      "height": 720,
+      "sha256": "44493709caa5a7120fc03008e392ca45f448229f6c68a10221886593c6e87c78"
     },
     {
       "slug": "drama",
@@ -208,9 +208,9 @@
       "heading": "DRAMA",
       "subtitle": "STARKE AUFTRITTE & MENSCHLICHE GESCHICHTEN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/drama/v2/drama-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "afbd007e43dc97f0986d94518bb0b13c7b882d4150e82a40fd51657179673dc4"
+      "width": 1280,
+      "height": 720,
+      "sha256": "adf1ef8c8216836d6f6f58114c4ab49e5fb0eefab36e7097063cdfa61049a618"
     },
     {
       "slug": "drama",
@@ -222,9 +222,9 @@
       "heading": "DRAMA",
       "subtitle": "STARKE AUFTRITTE & MENSCHLICHE GESCHICHTEN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/drama/v2/drama-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "7c4fe483ef2fe0c13efc63bd9514612cd2119fb0f5fa7a31542f11a7680fbdc3"
+      "width": 1280,
+      "height": 720,
+      "sha256": "431e21768539ed1048a01f6059ea4f5b55a1b05676fd78ff8de61d5cb83e9f94"
     },
     {
       "slug": "family",
@@ -236,9 +236,9 @@
       "heading": "FAMILIE",
       "subtitle": "FILME FÜR GEMEINSAME ABENDE",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/family/v2/family-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "568ce80b94319a9f57e9b65e076c0481bf562582f82ef6b8fc49160f388796a7"
+      "width": 1280,
+      "height": 720,
+      "sha256": "48715327fa97010075f60b05b1d1e56c45fa3767cc33be22ca65c8748828bea4"
     },
     {
       "slug": "family",
@@ -250,9 +250,9 @@
       "heading": "FAMILIE",
       "subtitle": "FILME FÜR GEMEINSAME ABENDE",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/family/v2/family-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "d1a51893adacb62c951c23c2187a7611013862b3124681faf660dbdf371d6cd6"
+      "width": 1280,
+      "height": 720,
+      "sha256": "44bc71045e771c80614689309a0ab36f82ee09f3716623c105219b322a9846c7"
     },
     {
       "slug": "fantasy",
@@ -264,9 +264,9 @@
       "heading": "FANTASY",
       "subtitle": "MYTHEN, MAGIE & FANTASTISCHE REICHE",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/fantasy/v2/fantasy-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "bba49ddefb5aa45358622a4c635c5290c3777bd244961b0499791f3a8773ce46"
+      "width": 1280,
+      "height": 720,
+      "sha256": "31244f79d5b451d0e28e3e37a314cb24a85822efb702589effcf41ef137fb099"
     },
     {
       "slug": "fantasy",
@@ -278,9 +278,9 @@
       "heading": "FANTASY",
       "subtitle": "MYTHEN, MAGIE & FANTASTISCHE REICHE",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/fantasy/v2/fantasy-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "36fe833d5566ba667e9d5e52ef550daa15153769ddaa6aa069cfe922d081549c"
+      "width": 1280,
+      "height": 720,
+      "sha256": "c5303c65b9340c31b01cd6e13b573422e2e73309139dc8809c40618c83cddf99"
     },
     {
       "slug": "history",
@@ -292,9 +292,9 @@
       "heading": "GESCHICHTE",
       "subtitle": "IMPERIEN, LEGENDEN & LEBENDIGE VERGANGENHEIT",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/history/v2/history-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "4445883763fc527b4bd9a7f9e0cc55097652e3e334e6d036bae2f10f87b31a46"
+      "width": 1280,
+      "height": 720,
+      "sha256": "eac397dcbc99d1dce412ccbd2ee63dfa0a9e3bb6496caf551154ba2cc9092279"
     },
     {
       "slug": "history",
@@ -306,9 +306,9 @@
       "heading": "GESCHICHTE",
       "subtitle": "IMPERIEN, LEGENDEN & LEBENDIGE VERGANGENHEIT",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/history/v2/history-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "4a8a8d08a66f1ee03291cf37b07fd8ab59adb653c02c3aaceb86544d97accc73"
+      "width": 1280,
+      "height": 720,
+      "sha256": "4ae51198da1c3127f437d95b6b6aa22d53da367cc65c213940bf10d5ac475dd4"
     },
     {
       "slug": "horror",
@@ -320,9 +320,9 @@
       "heading": "HORROR",
       "subtitle": "BEKLEMMENDER TERROR & ÜBERNATÜRLICHER SCHRECKEN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/horror/v2/horror-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "2a2c03f520207f01b4a9ad8885f6734f18d35afd957de6ff6e58d0947de40a95"
+      "width": 1280,
+      "height": 720,
+      "sha256": "5a45e345e8acb050e3e748b1451afc128d36d19d8f32f7b64b9328bb13395bb4"
     },
     {
       "slug": "horror",
@@ -334,9 +334,9 @@
       "heading": "HORROR",
       "subtitle": "BEKLEMMENDER TERROR & ÜBERNATÜRLICHER SCHRECKEN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/horror/v2/horror-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "a8b1f8b49aeaccf4684a0846490b208de3ff74ffaf10fb2e348339cdd6464f6c"
+      "width": 1280,
+      "height": 720,
+      "sha256": "637dc46e7760a642459f8f8bd529a3cdacdd7ff90dc5db0f56267644a68155b9"
     },
     {
       "slug": "k-drama",
@@ -348,9 +348,9 @@
       "heading": "K-DRAMA",
       "subtitle": "KOREANISCHE GESCHICHTEN MIT WELTWEITER FASZINATION",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/k-drama/v2/k-drama-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "6789eeb47b8ed73a2dc86008fb7bc31c0d0c846beff8dde6302e34f62a7c5fcb"
+      "width": 1280,
+      "height": 720,
+      "sha256": "8dc89a95a9eef5402708cb00bfd81442aa0399ced7765f6046787468e052bb99"
     },
     {
       "slug": "k-drama",
@@ -362,9 +362,9 @@
       "heading": "K-DRAMA",
       "subtitle": "KOREANISCHE GESCHICHTEN MIT WELTWEITER FASZINATION",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/k-drama/v2/k-drama-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "ab517e7885af792057b638dda7286e294deebe7aedee38f8e744a81ba6af838e"
+      "width": 1280,
+      "height": 720,
+      "sha256": "e5f2d681670862dbf5ead0ccb0cae4b57464a3e0c8a9ff6a83d7a2d708f6fa18"
     },
     {
       "slug": "martial-arts",
@@ -376,9 +376,9 @@
       "heading": "KAMPFSPORT",
       "subtitle": "DISZIPLIN, EHRE & KAMPFKUNST",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/martial-arts/v2/martial-arts-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "79e0e3454a56fa61d932094c6200d412ae56c548e7bc5afb9a7c5507fef5dd24"
+      "width": 1280,
+      "height": 720,
+      "sha256": "862194b6cf3040c1829d1794b3334848fbb619051741813f9b06844364b1a0ed"
     },
     {
       "slug": "martial-arts",
@@ -390,9 +390,9 @@
       "heading": "KAMPFSPORT",
       "subtitle": "DISZIPLIN, EHRE & KAMPFKUNST",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/martial-arts/v2/martial-arts-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "430b20a300f3f4e4f7921751852e97ecd6c3e871f9454e38dc19c73d23e97443"
+      "width": 1280,
+      "height": 720,
+      "sha256": "7580392c0a125cff28954eefd3d60d331a8da3eab2c18caa71e4c00722675d25"
     },
     {
       "slug": "music-musical",
@@ -404,9 +404,9 @@
       "heading": "MUSIK",
       "subtitle": "RHYTHMUS, BÜHNENLICHT & FILMMUSIK MIT SEELE",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/music-musical/v2/music-musical-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "92598820d286611d49b0f2383d0ff163678ae78105ae88787791f2f1dbab308f"
+      "width": 1280,
+      "height": 720,
+      "sha256": "4d119058734553ccd70772e8da8e3cd2cf45b857966beeb180550219e844f0e8"
     },
     {
       "slug": "music-musical",
@@ -418,9 +418,9 @@
       "heading": "MUSIK",
       "subtitle": "RHYTHMUS, BÜHNENLICHT & FILMMUSIK MIT SEELE",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/music-musical/v2/music-musical-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "8417118b9c7667f4720fc56e8515d252e200b8624a3821c6904076ddef9189d2"
+      "width": 1280,
+      "height": 720,
+      "sha256": "dac69196461689528507a70d18e70ea30c53b0075540c499437feb2688414a6b"
     },
     {
       "slug": "mystery",
@@ -432,9 +432,9 @@
       "heading": "MYSTERY",
       "subtitle": "GEHEIMNISSE, SPUREN & UNERWARTETE WENDUNGEN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/mystery/v2/mystery-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "e554a7ae6e7fbd1c367b19f4db1bad5edf51dd472b234c8af91f5e359d0ad3e1"
+      "width": 1280,
+      "height": 720,
+      "sha256": "228da5aca061e0288d6e44718482c6a154dfc01556c4c0fab537df7a925d1fec"
     },
     {
       "slug": "mystery",
@@ -446,9 +446,9 @@
       "heading": "MYSTERY",
       "subtitle": "GEHEIMNISSE, SPUREN & UNERWARTETE WENDUNGEN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/mystery/v2/mystery-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "bc91778db0d4babe125843e7202109faa7b5d6ce187a72fab0ac27da726e1095"
+      "width": 1280,
+      "height": 720,
+      "sha256": "4757452a535294b0f1435419849921f47fc5a1fb054627b98786b938ef91f8d5"
     },
     {
       "slug": "romance",
@@ -460,9 +460,9 @@
       "heading": "ROMANTIK",
       "subtitle": "LIEBESGESCHICHTEN ZUM VERLIEBEN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/romance/v2/romance-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "4f77260b087e76f1a7b911007a1c0f4cc2e3c6cb8f2eca95fd1ee68516b0005b"
+      "width": 1280,
+      "height": 720,
+      "sha256": "62d43c11d6854c8895d2703cbb1d4ed20ba8a7f366bb0f9eb258fe29d2b7367d"
     },
     {
       "slug": "romance",
@@ -474,9 +474,9 @@
       "heading": "ROMANTIK",
       "subtitle": "LIEBESGESCHICHTEN ZUM VERLIEBEN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/romance/v2/romance-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "1d476fa8d4123f817c981dd5959a60150d3a3b5202d03a4c507f7d63b2166e67"
+      "width": 1280,
+      "height": 720,
+      "sha256": "93c01a9c419a8578eddf85879a4962de9cd77f9afc8c08b18310467113373c47"
     },
     {
       "slug": "romantic-comedy",
@@ -488,9 +488,9 @@
       "heading": "ROMANTISCHE KOMÖDIE",
       "subtitle": "CHARME, FUNKEN & ZAUBERHAFTE BEGEGNUNGEN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/romantic-comedy/v2/romantic-comedy-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "848834c272f95ab690ef66a37c6ef0e4cce34275865ba512ec04d3d2309b1a33"
+      "width": 1280,
+      "height": 720,
+      "sha256": "41ce5119c9cdf6e8ae35fdde82108efb8c0fc66d111a9648298a7d2e8f6f62d3"
     },
     {
       "slug": "romantic-comedy",
@@ -502,9 +502,9 @@
       "heading": "ROMANTISCHE KOMÖDIE",
       "subtitle": "CHARME, FUNKEN & ZAUBERHAFTE BEGEGNUNGEN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/romantic-comedy/v2/romantic-comedy-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "6cff20894812d00991430782992b32f8ecc78af4212f2f90ee3264e44d18069f"
+      "width": 1280,
+      "height": 720,
+      "sha256": "f71fcbf1f01743fdd3cceae31cfb02fe13258ac3d6cf79147e3330bc1a6d4ab0"
     },
     {
       "slug": "science-fiction",
@@ -516,9 +516,9 @@
       "heading": "SCIENCE-FICTION",
       "subtitle": "FUTURISTISCHE WELTEN & KOSMISCHE SAGAS",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/science-fiction/v2/science-fiction-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "343a47afc6eea518dec8916ce9bc922b4cf5c2677c6587e90b939d26ac35f172"
+      "width": 1280,
+      "height": 720,
+      "sha256": "e680a20fb8086725439ffaf61aaf2811edf00b47f4b1a1dd18b4dee35b04cd81"
     },
     {
       "slug": "science-fiction",
@@ -530,9 +530,9 @@
       "heading": "SCIENCE-FICTION",
       "subtitle": "FUTURISTISCHE WELTEN & KOSMISCHE SAGAS",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/science-fiction/v2/science-fiction-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "215731a17b596c0c3eb9e63a8b30af0e92fdbd6c16f99c23e5de2d2ab6c853c9"
+      "width": 1280,
+      "height": 720,
+      "sha256": "fa386938143f46371d3cbd14b2c2d4d77df916bae5865df91c4f6195f8175351"
     },
     {
       "slug": "sports",
@@ -544,9 +544,9 @@
       "heading": "SPORT",
       "subtitle": "AUSSENSEITER, RIVALEN & SPORTLICHER RUHM",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/sports/v2/sports-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "4c8020dd176a99251ae27abcdc36cde84a2c3d242ac2ba295cea475b5b37f5b0"
+      "width": 1280,
+      "height": 720,
+      "sha256": "881ab05d04628d1dc2a5543ee362bfa7683f4fcc71fb5a129ecce1c83acef88f"
     },
     {
       "slug": "sports",
@@ -558,9 +558,9 @@
       "heading": "SPORT",
       "subtitle": "AUSSENSEITER, RIVALEN & SPORTLICHER RUHM",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/sports/v2/sports-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "048be428bd40e718c7ba26473ccf5a3bf50ce19451c79c7cc55c38bbb66a6d09"
+      "width": 1280,
+      "height": 720,
+      "sha256": "f9528dac866b4d62f70a43daa8602c0e10e3e7b82993762186e52a144a5f199d"
     },
     {
       "slug": "stand-up-comedy",
@@ -572,9 +572,9 @@
       "heading": "STAND-UP",
       "subtitle": "KOMIKER, BÜHNENPROGRAMME & MITREISSENDE LIVE-SHOWS",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/stand-up-comedy/v2/stand-up-comedy-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "5119d14023d398ff368aaeca3b942c01233dc4775e8efe5febaa0b1ea4f108ee"
+      "width": 1280,
+      "height": 720,
+      "sha256": "7ad0bc28271b4402a027f096ace59635243853d0468939477654df18980948c3"
     },
     {
       "slug": "stand-up-comedy",
@@ -586,9 +586,9 @@
       "heading": "STAND-UP",
       "subtitle": "KOMIKER, BÜHNENPROGRAMME & MITREISSENDE LIVE-SHOWS",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/stand-up-comedy/v2/stand-up-comedy-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "47cb049547f2691dc396381e11696152beed0d59255d92f0770e0f3d4b6c1467"
+      "width": 1280,
+      "height": 720,
+      "sha256": "bede29a2e38a478c03ef1afe0fb4bed4dda4df3bf1ebf67378018f26d5571042"
     },
     {
       "slug": "superhero",
@@ -600,9 +600,9 @@
       "heading": "SUPERHELDEN",
       "subtitle": "UMHÄNGE, SUPERKRÄFTE & COMIC-MYTHEN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/superhero/v2/superhero-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "1543d3a3fc66f4dcbfb85f276828ceabc43c88359d91f3b5f655636b5d5dbe44"
+      "width": 1280,
+      "height": 720,
+      "sha256": "dbb009b71047d5917c63470082e6f5bfb32c20bcca4655d2a07ae47d0ee8780f"
     },
     {
       "slug": "superhero",
@@ -614,9 +614,9 @@
       "heading": "SUPERHELDEN",
       "subtitle": "UMHÄNGE, SUPERKRÄFTE & COMIC-MYTHEN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/superhero/v2/superhero-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "f60bc30cb70fa4589ecb7c6f2152c2414f206e7835925f27f8643ad29367f1be"
+      "width": 1280,
+      "height": 720,
+      "sha256": "f3626bfd9d4db9d71c7d2e1346f3369a8c4edc4e473751cd4d1b6351421ea5dd"
     },
     {
       "slug": "thriller",
@@ -628,9 +628,9 @@
       "heading": "THRILLER",
       "subtitle": "SPANNUNG, DIE DICH NICHT LOSLÄSST",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/thriller/v2/thriller-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "a3bef72d5f357902258976035fb7718895124e61d7c0817f7842739df23cad03"
+      "width": 1280,
+      "height": 720,
+      "sha256": "30f429e05516143c951c4b71936ba3b27989a320f3832c94583edec842460f14"
     },
     {
       "slug": "thriller",
@@ -642,9 +642,9 @@
       "heading": "THRILLER",
       "subtitle": "SPANNUNG, DIE DICH NICHT LOSLÄSST",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/thriller/v2/thriller-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "c73fdf6fb27325d2b7290d5cfcd58959f578ba5cf12b8035c8907f85386220cf"
+      "width": 1280,
+      "height": 720,
+      "sha256": "565ee8fddf5906d73b37658e8d8d69be6a90e4001c2747c43f23c363b2034dd6"
     },
     {
       "slug": "war",
@@ -656,9 +656,9 @@
       "heading": "KRIEG",
       "subtitle": "SCHLACHTFELDER, KAMERADSCHAFT & OPFER",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/war/v2/war-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "b5827e6e1b93860081e710663296339dd013c1f4fd455899c3c055f1d0d55dac"
+      "width": 1280,
+      "height": 720,
+      "sha256": "14c20ca24feca2039f35da31d5b376e1f81e5be99da1be504b3c53cef34d4d09"
     },
     {
       "slug": "war",
@@ -670,9 +670,9 @@
       "heading": "KRIEG",
       "subtitle": "SCHLACHTFELDER, KAMERADSCHAFT & OPFER",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/war/v2/war-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "8fe3f11c6d7af2c808d3be2deebbf930f4bb8eeeb40cfc77f509b6e4f14bc957"
+      "width": 1280,
+      "height": 720,
+      "sha256": "34d0475f28906d8e995d6b6c51811a7eb4da37c0f23ca8dd1e2f246d1be2d3de"
     },
     {
       "slug": "western",
@@ -684,9 +684,9 @@
       "heading": "WESTERN",
       "subtitle": "STAUB, PULVERDAMPF & RECHT IM WILDEN WESTEN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/western/v2/western-cover.png",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "3b505c4000277cff2c9ddd7d585b3a752d408c5c356350464c8be9772a7e8ab4"
+      "width": 1280,
+      "height": 720,
+      "sha256": "cd9f0e37df74a6d64d3ebe5bc26fd266c1727fded3ccbee00dbdcb56614ae9cf"
     },
     {
       "slug": "western",
@@ -698,20 +698,20 @@
       "heading": "WESTERN",
       "subtitle": "STAUB, PULVERDAMPF & RECHT IM WILDEN WESTEN",
       "sourceUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/genres/western/v2/western-hover.gif",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "a28ebf98d35e11770a9eea0a99b1f0fa3f7f3ac3249a16360a4e0f60a5e64257"
+      "width": 1280,
+      "height": 720,
+      "sha256": "7bf0fa267cace43ebfb65811d3f9ad07793eea5c3c4080b80aaf831cb216bde0"
     }
   ],
   "delivery": {
-    "resolution": "1080p",
+    "resolution": "720p",
     "landscapeBounds": [
-      1920,
-      1080
+      1280,
+      720
     ],
     "portraitBounds": [
-      1080,
-      1920
+      720,
+      1280
     ],
     "resampling": "Lanczos",
     "aspectRatioPreserved": true,

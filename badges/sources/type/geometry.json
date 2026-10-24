@@ -3,7 +3,7 @@
   "family": "Nuvio Badge Geometry",
   "status": "template-review-required-before-series-production",
   "units_per_cap_height": 1000,
-  "reference_image_sha256": "880daf4b53fd7f61b89a03fee46e64678b5da3068e0d052db423551f8480c2f6",
+  "reference_image_sha256": "0f1e1cfca9931d39b8acba6fee42f07c7eec0404ec672303925c9aa6e79f7ae7",
   "reference_characters": [
     "0",
     "2",

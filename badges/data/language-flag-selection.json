@@ -118,7 +118,7 @@
       "master": "masters/language/fr.webp",
       "web": "web/language/fr.webp",
       "master_sha256": "e41b83cdf6f82dddfd7eb42d1a8ac0042b43ac9abad7214a6d85db4603abbb8e",
-      "web_sha256": "4e83378c0e515562c8475b58ad9a577cb9b109f923a05778356736105674c098",
+      "web_sha256": "79bc73e69970ea93a7d6603700d37b7b2aa037683f45f4a1302c1960dcfca137",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -154,7 +154,7 @@
       "master": "masters/language/es.webp",
       "web": "web/language/es.webp",
       "master_sha256": "417238429510c8c7a9984cd487dc8500e9d9bb022e2a5f7a06d932279220720e",
-      "web_sha256": "d6a57863f07c817921e2355ef98b9e83d930de99dc19a5ec92d7c503a5cf848b",
+      "web_sha256": "51e77fef85fcad98896cf6d26fd07f145ef5863fabb8cf2b9d5d990378a6c0fa",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -226,7 +226,7 @@
       "master": "masters/language/pt.webp",
       "web": "web/language/pt.webp",
       "master_sha256": "58c62b8e6bbe4a1a4bd0765fcb5bbca4125252bfe87da46fab6d12233b663493",
-      "web_sha256": "16c8c6928c90f91ef94e6716180e1fa09c2d92a2dbd640365d1fdb7f16d096dc",
+      "web_sha256": "73ca3a5c11f7a677756109a348327caadd7a3915336d2e1c17fba481d2c763bd",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -334,7 +334,7 @@
       "master": "masters/language/ko.webp",
       "web": "web/language/ko.webp",
       "master_sha256": "3dc53051d7db996608314a4d4b038c5d317ff6b8502dcc026ef36dca72039430",
-      "web_sha256": "569fcf106436db3aeff0a51e2f8ce067f16de68e1517181fb96c6444f332f544",
+      "web_sha256": "37338f933359f2a03ef9774c713ba0fa104875daeb9a83d86fb997a7793730b0",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -370,7 +370,7 @@
       "master": "masters/language/ru.webp",
       "web": "web/language/ru.webp",
       "master_sha256": "5aa156ef2a7a99e6bab6a127aa59b859e5fc1f9b7e01836573a66449b43f5a0d",
-      "web_sha256": "c4bb0cd609085277621bdfeafc2f2da8b3a4d90cdcb0ec6f84e7f0b963cd7b67",
+      "web_sha256": "5f5f9597258d14e94e2574b26a1751aa770a8100ddcb8d4a717bf4970717b518",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -406,7 +406,7 @@
       "master": "masters/language/ar.webp",
       "web": "web/language/ar.webp",
       "master_sha256": "8310bb0315007bcaabc883261519f24afcf9ad091857b9be05cbf05ff437fa15",
-      "web_sha256": "ee95f994d4f1abc68f82d7c0328ebbb4b5bb4b83374b3ccdb962a8aff11fee18",
+      "web_sha256": "c06205cbd9501b08e906ed9128c4c57972b166168a8e6b6a0b080bc08eedded8",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -442,7 +442,7 @@
       "master": "masters/language/bn.webp",
       "web": "web/language/bn.webp",
       "master_sha256": "e7bebf0880fe8fde6916b8b978cff7694b4ccba09d3163239ff81391342c2469",
-      "web_sha256": "71f33c3e9df47c406104362f8241e80bc5ea7f2b080e7a1c17395e43fa29400a",
+      "web_sha256": "ed769690dd0a94803cc71f445a61c733ce0617aaa79b298ba5009e5c31c6d8b0",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -550,7 +550,7 @@
       "master": "masters/language/id.webp",
       "web": "web/language/id.webp",
       "master_sha256": "51200707b6d281d9827949a2f0215990f3f64664af9c4a99cead2635046edd2a",
-      "web_sha256": "1fb329c55d81cc5dfea5e2e9749b93839c1c10229fac209383dc4e34d4cc973b",
+      "web_sha256": "31619e23f1cf201c59f8661b5fdc8b538391e97f5cb534cdec91948a053e59f9",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -586,7 +586,7 @@
       "master": "masters/language/tr.webp",
       "web": "web/language/tr.webp",
       "master_sha256": "b428714f25e35bbe080f797f5c698343cf2452d78b0f185ee39ac72b69cda590",
-      "web_sha256": "233f5f5466afa9ae1c700f0704190e92f8fe6800f3b0acf88b906307aab79866",
+      "web_sha256": "9b6556e776a42672c10852f7fb69810c398221334097be73c7c2519dcdd3d7ec",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -658,7 +658,7 @@
       "master": "masters/language/fa.webp",
       "web": "web/language/fa.webp",
       "master_sha256": "99eca4c7cd94f6a0d839656648c9eb421ccecccab4ffec3d904c79ce1adec43c",
-      "web_sha256": "729862b25929bee349358fbf1c208e45c4511f22f1cc4a9bd1bd1a5d02cedb8d",
+      "web_sha256": "d57a612eb9fee27f46955d69f698b0c25e63c55c4e7e3390fe8e4da53ddd298d",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -730,7 +730,7 @@
       "master": "masters/language/el.webp",
       "web": "web/language/el.webp",
       "master_sha256": "25eec5e7bf869edb4cc1e882024b0e28a6a61c26a7107c78ed28c28d70739b01",
-      "web_sha256": "15a790daa685afea2de576b054f9cadb037bb0958f5e883cc39ad3e05b9cfb42",
+      "web_sha256": "fec65c0026cfed3751154096409e5c13e9b7cf5923de6f2744893e521c4f6bed",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -802,7 +802,7 @@
       "master": "masters/language/lv.webp",
       "web": "web/language/lv.webp",
       "master_sha256": "7856d5a8eea77aefcbfc73f2a55016ff67c90d2773b8defa8aa17bede38e1557",
-      "web_sha256": "acf1cbcb32044a6d139ac3a40b12ef6b2b9b8c5768c4b5f7f04225109e55398f",
+      "web_sha256": "119c30c902ca69f94c26bed952e266301eb380d46be9cba0a02d41e8187e99d7",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -874,7 +874,7 @@
       "master": "masters/language/pl.webp",
       "web": "web/language/pl.webp",
       "master_sha256": "8cc8fa79092301adf6b88ec95f21427e3095525dde954b3a9499d682cfae685d",
-      "web_sha256": "0c2c5f77a610c621c1cfa67050e972da5db7273ff5f85bf99dbbe7796504e97a",
+      "web_sha256": "ca11ab9aeda5979649171abe2ffea6637c9e7710ca2e0ba29e37dbe87d494b1f",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -910,7 +910,7 @@
       "master": "masters/language/cs.webp",
       "web": "web/language/cs.webp",
       "master_sha256": "1858ccdf09aa90627579d70c35be7fbfb0f169faeca3f253d61e9e5cb66adcda",
-      "web_sha256": "714b00c6624f3e04f0134f1172a6c5ecd46bf93e67828f8482453ca39773fbd9",
+      "web_sha256": "7c4b2d00aa78a50f0932f1ff76dddc44f3a40e916eee7e1fa8be7baeaf0661f1",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -946,7 +946,7 @@
       "master": "masters/language/sk.webp",
       "web": "web/language/sk.webp",
       "master_sha256": "d0d31dd6288453a2c0bfc0bd0fba77cd5da4030f075be8bb2bd61d6098764e63",
-      "web_sha256": "350d4a656001f4702c54042e5e43b4313f20ea97c0eea037c125c95d217162c2",
+      "web_sha256": "607b8a9ad6344356ab7bcb6349cb1ca0c086d3353073df7d04f38d29a3e033b2",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -982,7 +982,7 @@
       "master": "masters/language/hu.webp",
       "web": "web/language/hu.webp",
       "master_sha256": "53e2b184d09e6511a08ceb2bcbdf1563cdf4b120d384ee5520dd705dd4c9bd84",
-      "web_sha256": "e91b315c0f2350961c69aac38b6bb6cf185e43502e7c28542fdc1a7a6f388101",
+      "web_sha256": "b408947ddf884a2790874cd52ea402fcbea80a7b1051e7ce5bae946e6c1d4678",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -1054,7 +1054,7 @@
       "master": "masters/language/bg.webp",
       "web": "web/language/bg.webp",
       "master_sha256": "2df003fa3f6e173c4c3dd0cf8c2cec39da471eef9b1c6712d0c1208724d95f47",
-      "web_sha256": "4d43b69a8664b3db55fede48941f02c2034826c99300fb782a3bfab881daaa48",
+      "web_sha256": "b4e88187a6149b718f09e6a811a5a889d195ae641b1bc70b14b8f83565f4dbea",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -1090,7 +1090,7 @@
       "master": "masters/language/sr.webp",
       "web": "web/language/sr.webp",
       "master_sha256": "33e78fd2d546ba2b388b3f89aec68fffd32e9f8d5a2358237a154db93cbdb89a",
-      "web_sha256": "9bc2603e459b9b83902769b7b116a495209089114f1b197ffe80c3718f97825e",
+      "web_sha256": "1d9700cc2b28daa0fb8078147a35f95e939c5b0b66b2a404fac8f21323a0099c",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -1126,7 +1126,7 @@
       "master": "masters/language/hr.webp",
       "web": "web/language/hr.webp",
       "master_sha256": "e3da8d232fb3020ae8091c4d54315077fd1a0db43d6848f9c04bb2cf0337e5de",
-      "web_sha256": "c2036a525d1b66ec353ecd676d6716d42c726b40af3bc3121d8cef8bbbd5693d",
+      "web_sha256": "a86bd105497e93c9fa6906c7d703f4152b6dafc6cb500ad150363d2b5b312db7",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -1162,7 +1162,7 @@
       "master": "masters/language/sl.webp",
       "web": "web/language/sl.webp",
       "master_sha256": "8325592275783137c317e582babfabd83c2cc1006ed05f85296343f8ad84b9cb",
-      "web_sha256": "587ab0564215dbce3512e15b24fa095d76bcc604ed3f5c0c861cb771c172253b",
+      "web_sha256": "8e7abef91bf42c5fc3ab9735dd8f3232ed38d94e3ea3141735a495fcb7e5e48a",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -1198,7 +1198,7 @@
       "master": "masters/language/nl.webp",
       "web": "web/language/nl.webp",
       "master_sha256": "f3c5e00a7bd6830593662abe9370edf6e350da33ce8466eb94700918c6d106d4",
-      "web_sha256": "6e1f632d757c41f8d3ead89a32d13738b2df53a6b25e2622181d8a889b722937",
+      "web_sha256": "af77904995d606b781b2784115486c71c599eb6023b9821f9bb76c99595dbf9a",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -1414,7 +1414,7 @@
       "master": "masters/language/ur.webp",
       "web": "web/language/ur.webp",
       "master_sha256": "eaa14cbfb8d5dd58eee7a1344cd617f041f54cd9a62d9306e3dd4c6e2cddfa61",
-      "web_sha256": "4228b53912674cf37c67cc00f9e37f4cb22a2fac5706564e2de9075699e1ede0",
+      "web_sha256": "9c8d72abb7fbf5d25d555264225e4cfd3eb4b06c728f8c1ff4dea208185577ad",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -1450,7 +1450,7 @@
       "master": "masters/language/tl.webp",
       "web": "web/language/tl.webp",
       "master_sha256": "81de1369378c68d18eca4a83780f48dcf4cc3b4b2cb0c44d559b03923aba785b",
-      "web_sha256": "0f83cb40c2e0abf2f1fba2cc83c630dc6c8c3d40371532ae9082437a5db36f68",
+      "web_sha256": "2dfa50623b097d40f77202e7edfca8535e8b422a6abf55a0c4ec567218ecc97a",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -1486,7 +1486,7 @@
       "master": "masters/language/is.webp",
       "web": "web/language/is.webp",
       "master_sha256": "dab5f04d1d69aaeb922903a6eece495adc80f48332b53912ad0c8f8432c3a862",
-      "web_sha256": "06aabefeda4767d1d2909c92b052a275499c060995d0ac02d3a396927e371681",
+      "web_sha256": "50807339e2b2570793a4a23cad60170a095584e38b392a37fe10c338680f794e",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -1594,7 +1594,7 @@
       "master": "masters/language/mk.webp",
       "web": "web/language/mk.webp",
       "master_sha256": "87c139f807f0e8429886ec5e0a9c6f6a5bc3e12cc1333377c9a04a1a62208fd4",
-      "web_sha256": "3d36307d5a3a6fd70a8b7eeda27ecd2b8b657b42ea9642a4df5dfba07381785d",
+      "web_sha256": "ddc03a30410d1f198016d9d08eaf73bda6a6a79ffb0ca6c92f10fafb01efd6a0",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -1630,7 +1630,7 @@
       "master": "masters/language/ca.webp",
       "web": "web/language/ca.webp",
       "master_sha256": "2d55ddebc94bed17033337a77492f9adb72a961db4d84ef136a14bd48f763964",
-      "web_sha256": "f65c9e1637f752dfdd36fb8bbcebfc9c18519663bf188de157bf30fb435eae3b",
+      "web_sha256": "1061c180105b6e3d0c1f6185d12a5c24c6fe5fa2ed26d685f3ada676526df666",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -1702,7 +1702,7 @@
       "master": "masters/language/gl.webp",
       "web": "web/language/gl.webp",
       "master_sha256": "45205b36cebdac8f7cec87aa0a01d1ac77a4534284b51479aec2a1fb4bd20311",
-      "web_sha256": "7dbe7433025530ad4cfe289ce0baaf9dab7710cf1107a778828759c46dcba38c",
+      "web_sha256": "2257dd3947ec04390f0ebc23ca4cf8d6ba2822be5c37c4dac5dd0082faf868fa",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
@@ -1810,7 +1810,7 @@
       "master": "masters/language/yue.webp",
       "web": "web/language/yue.webp",
       "master_sha256": "107033b78d02d63bf5959da62ed0d775c66718daf9894402f9db5c570a7d5d97",
-      "web_sha256": "4da651027b2c068731234ebc474a3cc4c9099a4251b5061db49e80610a1e80e2",
+      "web_sha256": "336fe5fe088034ecd5c0a84c80ccadf816f7b5a0eebd0c45d48bbdb19b41a848",
       "design_revision": "2.0.0",
       "alignment": {
         "field_size": [
