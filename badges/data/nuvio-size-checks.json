@@ -131,26 +131,6 @@
       "flag_field_clipping_expected": false
     },
     {
-      "id": "resolution/2160p",
-      "density": 1,
-      "image_area_dp": [
-        34,
-        16
-      ],
-      "opaque_ink_pixels_clipped": 0,
-      "flag_field_clipping_expected": false
-    },
-    {
-      "id": "resolution/2160p",
-      "density": 2,
-      "image_area_dp": [
-        34,
-        16
-      ],
-      "opaque_ink_pixels_clipped": 0,
-      "flag_field_clipping_expected": false
-    },
-    {
       "id": "resolution/4k",
       "density": 1,
       "image_area_dp": [

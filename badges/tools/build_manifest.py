@@ -63,7 +63,7 @@ LANGUAGE_ALIASES = {
 }
 
 EXTRA_ALIASES = {
-    "resolution/4k": ["4K UHD", "UHD", "DCI 4K"],
+    "resolution/4k": ["2160p", "4K UHD", "UHD", "DCI 4K"],
     "resolution/1440p": ["2K", "QHD", "WQHD"],
     "resolution/1080p": ["FHD", "Full HD"],
     "dynamic-range/upscaled": ["AI Upscale", "AI Upscaled"],
@@ -134,6 +134,8 @@ def bounded(values):
 
 
 def explicit(identifier):
+    if identifier == "resolution/4k":
+        return r"\[\s*badge\s*:\s*resolution/(?:4k|2160p)\s*\]"
     return r"\[\s*badge\s*:\s*" + re.escape(identifier) + r"\s*\]"
 
 

@@ -2,7 +2,7 @@
   "status": "passed",
   "schema": "Nuvio/Fusion filters and groups, checked against the inspected Kotlin model",
   "version": "2.1.0",
-  "filter_count": 137,
+  "filter_count": 136,
   "group_count": 15,
   "distinct_app_images": 136,
   "all_image_paths_resolve_locally": true,

@@ -14,51 +14,14 @@
   },
   "items": [
     {
-      "id": "resolution/2160p",
-      "category": "resolution",
-      "label": "4K",
-      "name": "4K",
-      "kind": "neutral-text",
-      "aliases": [
-        "2160p"
-      ],
-      "evidence": [
-        "AIOStreams.RESOLUTIONS"
-      ],
-      "master": "masters/resolution/2160p.webp",
-      "web": "web/resolution/2160p.webp",
-      "status": "approved-for-publication",
-      "width": 1280,
-      "height": 720,
-      "web_size": [
-        900,
-        489
-      ],
-      "sha256": "be497c5568b0172270b64b9b35e24321b982a316ef81769e7296c297991793f5",
-      "web_sha256": "d4b725e7b8b9ab01dbeed98cc929022ac80ee5ace831590cec073ecf560f26f9",
-      "bytes": 10794,
-      "recommended_background": "dark",
-      "alignment": null,
-      "added_frame": false,
-      "added_shadow": false,
-      "added_material_effects": false,
-      "lossless_output_verified": true,
-      "alias_of": "resolution/4k",
-      "provenance": {
-        "classification": "neutral-text",
-        "note": "Neutral metadata label; no exact issuer logo used or implied."
-      },
-      "design_revision": "2.0.0",
-      "delivery_resolution": "720p"
-    },
-    {
       "id": "resolution/4k",
       "category": "resolution",
       "label": "4K",
       "name": "4K",
       "kind": "neutral-text",
       "aliases": [
-        "4k"
+        "4k",
+        "2160p"
       ],
       "evidence": [
         "PTT.resolution"
@@ -332,12 +295,12 @@
       "height": 720,
       "web_size": [
         900,
-        153
+        157
       ],
-      "sha256": "0f65b7e2a7a3ff9a04cad14901304cd7301a9135f2a92d5a31ca52e852575de9",
-      "web_sha256": "589c74393bf06b3697995eab38efb4ca58912c37c13e2f6f70a20421a9cc463a",
-      "bytes": 25982,
-      "recommended_background": "light",
+      "sha256": "5d1b749bd3ea8ba8b6fec1d2b5a8f11a1330e7ade1a004dc00da6d74eb155fca",
+      "web_sha256": "fff9c78733f06b3d4b013d23bd7f89f42ecf2c0307fe6dbefae6e0d129367313",
+      "bytes": 17598,
+      "recommended_background": "dark",
       "source_url": "https://www.dolby.com/Static/Core/Images/dolby-vision-logo.svg",
       "source_page": null,
       "provenance": {
@@ -465,7 +428,7 @@
       "sha256": "32d16fb0e54a7b67fc536176055eca865d79e22402ef5b4e59286561507d29fb",
       "web_sha256": "6588c7ddf3dd4a0d8b7829c0fcdbfca94d121780c9ffcf2a0e52b75f20400351",
       "bytes": 19534,
-      "recommended_background": "light",
+      "recommended_background": "dark",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/IMAX_blue_logo.svg",
       "source_page": "https://commons.wikimedia.org/wiki/File:IMAX_blue_logo.svg",
       "provenance": {
@@ -503,12 +466,12 @@
       "height": 720,
       "web_size": [
         900,
-        227
+        232
       ],
-      "sha256": "9cb5c84b23d7bec5fac5b951e95d4a940046d41682d2c7d87d0afa58675d58fe",
-      "web_sha256": "03afbc29f88984ab024964616428046dc6a30f736da2cdc6de54f6426ff3b0ad",
-      "bytes": 94132,
-      "recommended_background": "light",
+      "sha256": "54937a549f8419fff2d981bbf39f27fbe139d82f8398e6fb6acc84e2ea6c858f",
+      "web_sha256": "58aa7f763467b80754cf44d443c6ffe7b228c54f75ac3d17e9a6b7e4fcbc0e2a",
+      "bytes": 97876,
+      "recommended_background": "dark",
       "alignment": null,
       "added_frame": false,
       "added_shadow": false,
@@ -735,12 +698,12 @@
       "height": 720,
       "web_size": [
         900,
-        490
+        492
       ],
-      "sha256": "a44c4af72e485d80add40f6f28dd9d87e57807fba560f4ce6fa2c2ce2cdb0a5d",
-      "web_sha256": "f729d6cbc07b090561b0f2f02902953a9e258d886ad8afab080c3c77c91f5775",
-      "bytes": 35130,
-      "recommended_background": "light",
+      "sha256": "5e374d6e0d4e4dcd6d890a3f01a6b9d9ee25113b1bbb6ef4122997c4d811d3b3",
+      "web_sha256": "3e895acbf03a84588fbeec1a37de6520746ebf781544145526c2c283b2c5dfea",
+      "bytes": 35312,
+      "recommended_background": "dark",
       "alignment": null,
       "added_frame": false,
       "added_shadow": false,
@@ -993,12 +956,12 @@
       "height": 720,
       "web_size": [
         900,
-        240
+        244
       ],
-      "sha256": "64f6deedbd2a38ac9edb99218c22007b5bdc3c1c6d92d6df4fff9d567263e145",
-      "web_sha256": "e238bbf8e59a9dd8d1b0ee38adc659638e29bef7c408944a208a331be3714b5b",
-      "bytes": 47416,
-      "recommended_background": "light",
+      "sha256": "756b93840d895e0961fa1e4b904916213b7bce42615483cc954283ac6557c5cd",
+      "web_sha256": "3cf5eef7291f75b6df41b1d1f2b7e7b753559694f40458fd5d508518b4257ae9",
+      "bytes": 35380,
+      "recommended_background": "dark",
       "alignment": null,
       "added_frame": false,
       "added_shadow": false,
@@ -1039,12 +1002,12 @@
       "height": 720,
       "web_size": [
         900,
-        147
+        150
       ],
-      "sha256": "59de5264735d42acbb31c78980d084747bddd76081e4294f41173b65bb90efd6",
-      "web_sha256": "7211b53f828ca1a9ff63c4e671aa620b2d3839a2d3781d34af5fe31c89cdfce8",
-      "bytes": 25688,
-      "recommended_background": "light",
+      "sha256": "97e3d8e91da834a3510f4f242cb8e14d405729efb93c923dfee4752a7411e88f",
+      "web_sha256": "1163de638ae8f2da98b3e48aed3ea34ebc0ac927f9efead8286673cb7e4c006e",
+      "bytes": 17436,
+      "recommended_background": "dark",
       "source_url": "https://www.dolby.com/Static/Core/Images/dolby-atmos-logo.svg",
       "source_page": null,
       "provenance": {
@@ -1083,12 +1046,12 @@
       "height": 720,
       "web_size": [
         900,
-        249
+        252
       ],
-      "sha256": "9f6247f657a8c0fbe22570baf01b0e9e719954a45d7e9b4138a30c4b6c50dfc5",
-      "web_sha256": "0152d563a2b86984488b0510907f82fd8c8838c0f8da87a521d871b6b3aefb7a",
-      "bytes": 14938,
-      "recommended_background": "light",
+      "sha256": "44c6d3e3463888fced8e2a516200deb289f517f135c1f24ef75c34b7facb5a64",
+      "web_sha256": "cc01d3641922a5ebff901dd3d2c1da7e5d7c96f159f4ff52cf80e30ce2144093",
+      "bytes": 14314,
+      "recommended_background": "dark",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Dolby_TrueHD.svg",
       "source_page": null,
       "provenance": {
@@ -1128,12 +1091,12 @@
       "height": 720,
       "web_size": [
         900,
-        240
+        244
       ],
-      "sha256": "62c98fa0255a65ef881bb1fc6ceac5b5f3d875f5ae27fd62755cd188ce308d7c",
-      "web_sha256": "aa063208bb95ed49b15fd10e4da3bc9fcc34b1b3eb0020ccc6bb6d95a01390ed",
-      "bytes": 14958,
-      "recommended_background": "light",
+      "sha256": "7f800cad33888b4765d51f5c0cd723f3f39f2f2256fbc11b3a193ba35c98a869",
+      "web_sha256": "498c6c7b3b87700c2c068bf3672039c324fe3b050cd95219e44b6ee67fcffaaf",
+      "bytes": 15010,
+      "recommended_background": "dark",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Dolby-Digital-Plus.svg",
       "source_page": "https://commons.wikimedia.org/wiki/File:Dolby-Digital-Plus.svg",
       "provenance": {
@@ -1172,12 +1135,12 @@
       "height": 720,
       "web_size": [
         900,
-        334
+        336
       ],
-      "sha256": "c348e9846667371919a60222cc7b166883c1ab96c3b9b43a060bca0de0f30c5c",
-      "web_sha256": "33ca3f25fe61a5cfef23aafc85929d1de600338292869c8ab3a1ba6a5119379e",
-      "bytes": 15486,
-      "recommended_background": "light",
+      "sha256": "cd791e17306f20e45dc4691484e4b45084a139934230060e28057974c00b61cd",
+      "web_sha256": "22bd79050bf1db15c6660473b11374aaf723d3f991a84da4f07d959d9e0679c4",
+      "bytes": 15616,
+      "recommended_background": "dark",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Logo_Dolby-Digital_2011.svg",
       "source_page": null,
       "provenance": {
@@ -1259,12 +1222,12 @@
       "height": 720,
       "web_size": [
         900,
-        291
+        295
       ],
-      "sha256": "fa0258d7f292d13a38905fda655e702eeb4ded10d6ea50634d08f42088e62ca7",
-      "web_sha256": "3430fcaf5850385986da62df3ead6e5f1c589f859408a37ee5b7f4fe2bbec013",
-      "bytes": 48074,
-      "recommended_background": "light",
+      "sha256": "2bebc7c65a575616be5ad1539bb6287c45d7f732a54b6e96710b06b5b5167e62",
+      "web_sha256": "9265743c7778af52f0404f1af5c7256063cc63d48c7cb6f6e5838f7c1ed23c81",
+      "bytes": 46872,
+      "recommended_background": "dark",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/DTS-HD-MA.svg",
       "source_page": "https://commons.wikimedia.org/wiki/File:DTS-HD-MA.svg",
       "provenance": {
@@ -1420,12 +1383,12 @@
       "height": 720,
       "web_size": [
         900,
-        447
+        440
       ],
-      "sha256": "8cb92a906281fabfb9e5e3b4df45bfbe0a2fa5394c9b9db2a41c5ba66c0e0e1d",
-      "web_sha256": "a7fab2881019486d8048c8d7f9be07e27c05ff99e5a53693502e2086ebb1de25",
-      "bytes": 118352,
-      "recommended_background": "light",
+      "sha256": "cf5f29cdef3e2b456e691c981df7b6cf9afee3d52d031c0314dc665e86e6ee8d",
+      "web_sha256": "e0789bd4a5f7897a0879b4832ee0e4a8c7f7f95b272a9eb643361504e3a056f7",
+      "bytes": 97318,
+      "recommended_background": "dark",
       "alignment": null,
       "added_frame": false,
       "added_shadow": false,
@@ -1466,12 +1429,12 @@
       "height": 720,
       "web_size": [
         900,
-        499
+        501
       ],
-      "sha256": "fdbc8b544cc38df5c7373cc21b9aead048ea3cad88e7363f7b72cb37e068e5ba",
-      "web_sha256": "1202da17b0e2a670fd53371173f12c73d52357a138117d26594d52888fe0f28d",
-      "bytes": 38932,
-      "recommended_background": "light",
+      "sha256": "17bed535e3626b70d0a9094d1ef02a0c3837f3be4b000712596e66900a1dfbc5",
+      "web_sha256": "22ef87b4535fce6e96a2073e50736bf32c90ab160a0ca533f44a0f0d61162d5f",
+      "bytes": 27474,
+      "recommended_background": "dark",
       "alignment": null,
       "added_frame": false,
       "added_shadow": false,
@@ -1810,7 +1773,7 @@
       "sha256": "e3d87b55b39de42c0eaf533d620ff9e126d8fee1ab42e377c608d5930556f2ba",
       "web_sha256": "733b8aacf68e141bb0464cf62a22c15a35f00d0f627eb3f7ebdc19a7f08cd3b6",
       "bytes": 45632,
-      "recommended_background": "light",
+      "recommended_background": "dark",
       "source_url": "https://us.blu-raydisc.com/wp-content/themes/blu-ray-wordpress-theme-demo/images/logos/blu-ray_HD.svg",
       "source_page": null,
       "provenance": {
@@ -1848,12 +1811,12 @@
       "height": 720,
       "web_size": [
         900,
-        405
+        408
       ],
-      "sha256": "b907b33248d97c978c7c340598b341e3a28eef4d61d477a75e378d2f1f61ceda",
-      "web_sha256": "ddf3fa40a0af244259ee6466f5a8f77116d4900a4b4da9f1889182f5a9b8a698",
-      "bytes": 22852,
-      "recommended_background": "light",
+      "sha256": "5fcb0a49d806e06ccbb8b1e655454514ae76e55b36a1e30d9a54bea511198ecc",
+      "web_sha256": "47bd59aeb5dc5e5c94eca6f5211105fe4c55b3e621def146669e3e361161589e",
+      "bytes": 22858,
+      "recommended_background": "dark",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/DVD_logo.svg",
       "source_page": "https://commons.wikimedia.org/wiki/File:DVD_logo.svg",
       "provenance": {
@@ -10880,15 +10843,15 @@
     }
   },
   "statistics": {
-    "catalog_assets": 137,
+    "catalog_assets": 136,
     "kinds": {
-      "neutral-text": 69,
+      "neutral-text": 68,
       "original-logo": 17,
       "user-edited-logo": 1,
       "flat-language-flag": 50
     },
     "categories": {
-      "resolution": 8,
+      "resolution": 7,
       "picture-brand": 4,
       "dynamic-range": 5,
       "color": 1,

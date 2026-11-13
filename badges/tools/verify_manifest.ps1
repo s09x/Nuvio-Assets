@@ -24,8 +24,7 @@ foreach ($filter in $manifest.filters) {
     $compiled[$filter.id] = [System.Text.RegularExpressions.Regex]::new($filter.pattern, [System.Text.RegularExpressions.RegexOptions]::CultureInvariant, [TimeSpan]::FromMilliseconds(500))
 }
 $fourK = $manifest.filters | Where-Object id -eq 'resolution/4k'
-$legacy4K = $manifest.filters | Where-Object id -eq 'resolution/2160p'
-if ($legacy4K.name -ne '4K' -or $legacy4K.imageURL -ne $fourK.imageURL) { throw '2160p must display and deduplicate as 4K.' }
+if (-not $fourK -or $fourK.name -ne '4K') { throw 'resolution/4k must exist and display as 4K.' }
 if ($manifest.version -ne '2.1.0') { throw 'Unexpected design release version.' }
 $failures = [System.Collections.Generic.List[object]]::new()
 $results = [System.Collections.Generic.List[object]]::new()

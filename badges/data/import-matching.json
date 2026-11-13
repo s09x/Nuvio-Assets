@@ -3,11 +3,6 @@
   "matching_notes": "Nuvio searches available stream text. Missing metadata cannot be inferred. Every asset also supports [badge:category/id].",
   "filters": [
     {
-      "id": "resolution/2160p",
-      "matching": "metadata label and contextual aliases",
-      "image_path": "web/resolution/4k.webp"
-    },
-    {
       "id": "resolution/4k",
       "matching": "metadata label and contextual aliases",
       "image_path": "web/resolution/4k.webp"

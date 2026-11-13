@@ -1,23 +1,14 @@
 {
   "name": "Nuvio Stream Badges",
   "version": "2.1.0",
-  "description": "137 curated borderless badges across 15 categories: original marks, neutral metadata labels, an approved HDR10 derivative and 50 centered flat flag languages.",
+  "description": "136 curated borderless badges across 15 categories: original marks, neutral metadata labels, an approved HDR10 derivative and 50 centered flat flag languages.",
   "homepage": "https://github.com/s09x/Nuvio-Assets/tree/main/badges",
   "filters": [
-    {
-      "id": "resolution/2160p",
-      "groupId": "resolution",
-      "name": "4K",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*resolution/2160p\\s*\\]|(?<![\\p{L}\\p{N}])(?:2160p|4K)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:resolution|quality|video)[ \\t]*[:=][ \\t]*(?:2160p|4K)(?![\\p{L}\\p{N}+]))",
-      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/resolution/4k.webp?v=d4b725e7b8b9ab01",
-      "isEnabled": true,
-      "type": "filter"
-    },
     {
       "id": "resolution/4k",
       "groupId": "resolution",
       "name": "4K",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*resolution/4k\\s*\\]|(?<![\\p{L}\\p{N}])(?:4K[ ._-]+UHD|DCI[ ._-]+4K|UHD|4K|4k)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:resolution|quality|video)[ \\t]*[:=][ \\t]*(?:DCI[ ._-]+4K|4K[ ._-]+UHD|UHD|4K|4k)(?![\\p{L}\\p{N}+]))",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*resolution/(?:4k|2160p)\\s*\\]|(?<![\\p{L}\\p{N}])(?:4K[ ._-]+UHD|DCI[ ._-]+4K|2160p|UHD|4K|4k)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:resolution|quality|video)[ \\t]*[:=][ \\t]*(?:DCI[ ._-]+4K|4K[ ._-]+UHD|2160p|UHD|4k|4K)(?![\\p{L}\\p{N}+]))",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/resolution/4k.webp?v=d4b725e7b8b9ab01",
       "isEnabled": true,
       "type": "filter"
@@ -81,7 +72,7 @@
       "groupId": "picture-brand",
       "name": "Dolby Vision",
       "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*picture\\-brand/dolby\\-vision\\s*\\]|(?<![\\p{L}\\p{N}])(?:DOLBY[ ._-]*VISION|DOVI|DV)(?![\\p{L}\\p{N}+]))",
-      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/picture-brand/dolby-vision.webp?v=589c74393bf06b36",
+      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/picture-brand/dolby-vision.webp?v=fff9c78733f06b3d",
       "isEnabled": true,
       "type": "filter"
     },
@@ -117,7 +108,7 @@
       "groupId": "dynamic-range",
       "name": "HDR10",
       "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*dynamic\\-range/hdr10\\s*\\]|(?<![\\p{L}\\p{N}])HDR[ ._-]*10(?![\\p{L}\\p{N}+]|[ ._-]*(?:PLUS|ADVANCED|GAMING)))",
-      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/dynamic-range/hdr10.webp?v=03afbc29f88984ab",
+      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/dynamic-range/hdr10.webp?v=58aa7f763467b807",
       "isEnabled": true,
       "type": "filter"
     },
@@ -170,8 +161,8 @@
       "id": "video-codec/av1",
       "groupId": "video-codec",
       "name": "AV1",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*video\\-codec/av1\\s*\\]|(?<![\\p{L}\\p{N}])(?:AV1|av1)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:video|codec|format)[ \\t]*[:=][ \\t]*(?:AV1|av1)(?![\\p{L}\\p{N}+]))",
-      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/video-codec/av1.webp?v=f729d6cbc07b0905",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*video\\-codec/av1\\s*\\]|(?<![\\p{L}\\p{N}])(?:AV1|av1)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:video|codec|format)[ \\t]*[:=][ \\t]*(?:av1|AV1)(?![\\p{L}\\p{N}+]))",
+      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/video-codec/av1.webp?v=3e895acbf03a8458",
       "isEnabled": true,
       "type": "filter"
     },
@@ -179,7 +170,7 @@
       "id": "video-codec/hevc",
       "groupId": "video-codec",
       "name": "HEVC",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*video\\-codec/hevc\\s*\\]|(?<![\\p{L}\\p{N}])(?:H\\.265|H265|HEVC|hevc|x265)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:video|codec|format)[ \\t]*[:=][ \\t]*(?:H\\.265|x265|hevc|HEVC|H265)(?![\\p{L}\\p{N}+]))",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*video\\-codec/hevc\\s*\\]|(?<![\\p{L}\\p{N}])(?:H\\.265|H265|HEVC|hevc|x265)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:video|codec|format)[ \\t]*[:=][ \\t]*(?:H\\.265|x265|hevc|H265|HEVC)(?![\\p{L}\\p{N}+]))",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/video-codec/hevc.webp?v=f66cfdc4db8b357e",
       "isEnabled": true,
       "type": "filter"
@@ -234,7 +225,7 @@
       "groupId": "video-codec",
       "name": "DIVX",
       "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*video\\-codec/divx\\s*\\]|(?<![\\p{L}\\p{N}])(?:DIVX|DivX)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:video|codec|format)[ \\t]*[:=][ \\t]*(?:DIVX|DivX)(?![\\p{L}\\p{N}+]))",
-      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/video-codec/divx.webp?v=e238bbf8e59a9dd8",
+      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/video-codec/divx.webp?v=3cf5eef7291f75b6",
       "isEnabled": true,
       "type": "filter"
     },
@@ -243,7 +234,7 @@
       "groupId": "audio-brand",
       "name": "Dolby Atmos",
       "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*audio\\-brand/dolby\\-atmos\\s*\\]|(?<![\\p{L}\\p{N}])(?:Dolby[ ._-]+Atmos|Atmos)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:audio|codec|format)[ \\t]*[:=][ \\t]*(?:Dolby[ ._-]+Atmos|Atmos)(?![\\p{L}\\p{N}+]))",
-      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/audio-brand/dolby-atmos.webp?v=7211b53f828ca1a9",
+      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/audio-brand/dolby-atmos.webp?v=1163de638ae8f2da",
       "isEnabled": true,
       "type": "filter"
     },
@@ -252,7 +243,7 @@
       "groupId": "audio-brand",
       "name": "Dolby TrueHD",
       "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*audio\\-brand/dolby\\-truehd\\s*\\]|(?<![\\p{L}\\p{N}])(?:Dolby[ ._-]+TrueHD|TrueHD)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:audio|codec|format)[ \\t]*[:=][ \\t]*(?:Dolby[ ._-]+TrueHD|TrueHD)(?![\\p{L}\\p{N}+]))",
-      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/audio-brand/dolby-truehd.webp?v=0152d563a2b86984",
+      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/audio-brand/dolby-truehd.webp?v=cc01d3641922a5eb",
       "isEnabled": true,
       "type": "filter"
     },
@@ -261,7 +252,7 @@
       "groupId": "audio-brand",
       "name": "Dolby Digital Plus",
       "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*audio\\-brand/dolby\\-digital\\-plus\\s*\\]|(?<![\\p{L}\\p{N}])(?:DOLBY[ ._-]*DIGITAL(?:[ ._-]*PLUS|\\+)|E[ ._-]*AC[ ._-]*3|EAC3|E-AC3|DDP|DD\\+)(?![\\p{L}]))",
-      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/audio-brand/dolby-digital-plus.webp?v=aa063208bb95ed49",
+      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/audio-brand/dolby-digital-plus.webp?v=498c6c7b3b87700c",
       "isEnabled": true,
       "type": "filter"
     },
@@ -270,7 +261,7 @@
       "groupId": "audio-brand",
       "name": "Dolby Digital",
       "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*audio\\-brand/dolby\\-digital\\s*\\]|(?<![\\p{L}\\p{N}])(?:(?<!E[ ._-])AC[ ._-]*3|DOLBY[ ._-]*DIGITAL|DD)(?![\\p{L}+]|[ ._-]*PLUS))",
-      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/audio-brand/dolby-digital.webp?v=33ca3f25fe61a5cf",
+      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/audio-brand/dolby-digital.webp?v=22bd79050bf1db15",
       "isEnabled": true,
       "type": "filter"
     },
@@ -288,7 +279,7 @@
       "groupId": "audio-brand",
       "name": "DTS-HD Master Audio",
       "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*audio\\-brand/dts\\-hd\\-ma\\s*\\]|(?<![\\p{L}\\p{N}])DTS[ ._-]*HD[ ._-]*(?:MA|MASTER[ ._-]*AUDIO)(?![\\p{L}\\p{N}+]))",
-      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/audio-brand/dts-hd-ma.webp?v=3430fcaf58503859",
+      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/audio-brand/dts-hd-ma.webp?v=9265743c7778af52",
       "isEnabled": true,
       "type": "filter"
     },
@@ -324,7 +315,7 @@
       "groupId": "audio-codec",
       "name": "FLAC",
       "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*audio\\-codec/flac\\s*\\]|(?<![\\p{L}\\p{N}])(?:FLAC)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:audio|codec|format)[ \\t]*[:=][ \\t]*(?:FLAC)(?![\\p{L}\\p{N}+]))",
-      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/audio-codec/flac.webp?v=a7fab2881019486d",
+      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/audio-codec/flac.webp?v=e0789bd4a5f7897a",
       "isEnabled": true,
       "type": "filter"
     },
@@ -333,7 +324,7 @@
       "groupId": "audio-codec",
       "name": "OPUS",
       "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*audio\\-codec/opus\\s*\\]|(?<![\\p{L}\\p{N}])(?:OPUS)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:audio|codec|format)[ \\t]*[:=][ \\t]*(?:OPUS)(?![\\p{L}\\p{N}+]))",
-      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/audio-codec/opus.webp?v=1202da17b0e2a670",
+      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/audio-codec/opus.webp?v=22ef87b4535fce6e",
       "isEnabled": true,
       "type": "filter"
     },
@@ -423,7 +414,7 @@
       "groupId": "disc-brand",
       "name": "DVD",
       "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*disc\\-brand/dvd\\s*\\]|(?<![\\p{L}\\p{N}])(?:DVD)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:source|quality|format|disc)[ \\t]*[:=][ \\t]*(?:DVD)(?![\\p{L}\\p{N}+]))",
-      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/disc-brand/dvd.webp?v=ddf3fa40a0af2442",
+      "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/disc-brand/dvd.webp?v=47bd59aeb5dc5e5c",
       "isEnabled": true,
       "type": "filter"
     },
@@ -476,7 +467,7 @@
       "id": "source/hdrip",
       "groupId": "source",
       "name": "HDRIP",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*source/hdrip\\s*\\]|(?<![\\p{L}\\p{N}])(?:UHDRip|HDRIP|HDRip)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:source|quality|format)[ \\t]*[:=][ \\t]*(?:UHDRip|HDRip|HDRIP)(?![\\p{L}\\p{N}+]))",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*source/hdrip\\s*\\]|(?<![\\p{L}\\p{N}])(?:UHDRip|HDRIP|HDRip)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:source|quality|format)[ \\t]*[:=][ \\t]*(?:UHDRip|HDRIP|HDRip)(?![\\p{L}\\p{N}+]))",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/source/hdrip.webp?v=493ba02f5bd35ea7",
       "isEnabled": true,
       "type": "filter"
@@ -485,7 +476,7 @@
       "id": "source/dvdrip",
       "groupId": "source",
       "name": "DVDRIP",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*source/dvdrip\\s*\\]|(?<![\\p{L}\\p{N}])(?:DVDRIP|DVDRip)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:source|quality|format)[ \\t]*[:=][ \\t]*(?:DVDRIP|DVDRip)(?![\\p{L}\\p{N}+]))",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*source/dvdrip\\s*\\]|(?<![\\p{L}\\p{N}])(?:DVDRIP|DVDRip)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:source|quality|format)[ \\t]*[:=][ \\t]*(?:DVDRip|DVDRIP)(?![\\p{L}\\p{N}+]))",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/source/dvdrip.webp?v=d538b21a236fb085",
       "isEnabled": true,
       "type": "filter"
@@ -566,7 +557,7 @@
       "id": "edition/remastered",
       "groupId": "edition",
       "name": "REMASTERED",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*edition/remastered\\s*\\]|(?<![\\p{L}\\p{N}])(?:REMASTERED|Remastered)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:edition|cut|version)[ \\t]*[:=][ \\t]*(?:REMASTERED|Remastered)(?![\\p{L}\\p{N}+]))",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*edition/remastered\\s*\\]|(?<![\\p{L}\\p{N}])(?:REMASTERED|Remastered)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:edition|cut|version)[ \\t]*[:=][ \\t]*(?:Remastered|REMASTERED)(?![\\p{L}\\p{N}+]))",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/edition/remastered.webp?v=5687c6d3aead5950",
       "isEnabled": true,
       "type": "filter"
@@ -638,7 +629,7 @@
       "id": "language/ar",
       "groupId": "language",
       "name": "Arabic",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/ar\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Arabic|ara|ar|AR)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:العربية|Arabic|ARA)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:العربية|Arabic|ARA)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:العربية|Arabic|ARA)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*AR[ \\t]*[\\])}]|🇸🇦)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/ar\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Arabic|ara|AR|ar)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:العربية|Arabic|ARA)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:العربية|Arabic|ARA)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:العربية|Arabic|ARA)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*AR[ \\t]*[\\])}]|🇸🇦)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/ar.webp?v=c06205cbd9501b08",
       "isEnabled": true,
       "type": "filter"
@@ -647,7 +638,7 @@
       "id": "language/bg",
       "groupId": "language",
       "name": "Bulgarian",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/bg\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Bulgarian|bul|bg|BG)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Български|Bulgarian|BUL)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Bulgarian|Български|BUL)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Bulgarian|Български|BUL)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*BG[ \\t]*[\\])}]|🇧🇬)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/bg\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Bulgarian|bul|bg|BG)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Bulgarian|Български|BUL)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Bulgarian|Български|BUL)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Bulgarian|Български|BUL)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*BG[ \\t]*[\\])}]|🇧🇬)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/bg.webp?v=b4e88187a6149b71",
       "isEnabled": true,
       "type": "filter"
@@ -665,7 +656,7 @@
       "id": "language/bs",
       "groupId": "language",
       "name": "Bosnian",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/bs\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Bosnian|bos|BS|bs)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Bosanski|Bosnian|BOS)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Bosanski|Bosnian|BOS)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Bosanski|Bosnian|BOS)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*BS[ \\t]*[\\])}]|🇧🇦)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/bs\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Bosnian|bos|bs|BS)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Bosanski|Bosnian|BOS)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Bosanski|Bosnian|BOS)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Bosanski|Bosnian|BOS)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*BS[ \\t]*[\\])}]|🇧🇦)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/bs.webp?v=5aab1aa94f044014",
       "isEnabled": true,
       "type": "filter"
@@ -674,7 +665,7 @@
       "id": "language/ca",
       "groupId": "language",
       "name": "Catalan",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/ca\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Catalan|cat|ca|CA)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Catalan|Català|CAT)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Catalan|Català|CAT)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Catalan|Català|CAT)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*CA[ \\t]*[\\])}])",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/ca\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Catalan|cat|CA|ca)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Catalan|Català|CAT)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Catalan|Català|CAT)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Catalan|Català|CAT)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*CA[ \\t]*[\\])}])",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/ca.webp?v=1061c180105b6e3d",
       "isEnabled": true,
       "type": "filter"
@@ -683,7 +674,7 @@
       "id": "language/cs",
       "groupId": "language",
       "name": "Czech",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/cs\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Czech|ces|cs|CS)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Čeština|Czech|CES|CZE)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Čeština|Czech|CZE|CES)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Čeština|Czech|CES|CZE)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*CS[ \\t]*[\\])}]|🇨🇿)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/cs\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Czech|ces|CS|cs)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Čeština|Czech|CZE|CES)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Čeština|Czech|CZE|CES)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Čeština|Czech|CES|CZE)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*CS[ \\t]*[\\])}]|🇨🇿)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/cs.webp?v=7c4b2d00aa78a50f",
       "isEnabled": true,
       "type": "filter"
@@ -692,7 +683,7 @@
       "id": "language/da",
       "groupId": "language",
       "name": "Danish",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/da\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Danish|dan|DA|da)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Danish|Dansk|DAN)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Danish|Dansk|DAN)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Danish|Dansk|DAN)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*DA[ \\t]*[\\])}]|🇩🇰)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/da\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Danish|dan|da|DA)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Danish|Dansk|DAN)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Danish|Dansk|DAN)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Danish|Dansk|DAN)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*DA[ \\t]*[\\])}]|🇩🇰)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/da.webp?v=9e811562b08a6868",
       "isEnabled": true,
       "type": "filter"
@@ -701,7 +692,7 @@
       "id": "language/de",
       "groupId": "language",
       "name": "German",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/de\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:German|deu|DE|de)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Deutsch|German|GER|DEU)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Deutsch|German|GER|DEU)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Deutsch|German|DEU|GER)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*DE[ \\t]*[\\])}]|🇩🇪)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/de\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:German|deu|de|DE)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Deutsch|German|DEU|GER)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Deutsch|German|GER|DEU)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Deutsch|German|DEU|GER)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*DE[ \\t]*[\\])}]|🇩🇪)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/de.webp?v=0fc014965a3e93c3",
       "isEnabled": true,
       "type": "filter"
@@ -728,7 +719,7 @@
       "id": "language/es",
       "groupId": "language",
       "name": "Spanish",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/es\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Spanish|spa|es|ES)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Spanish|Español|SPA)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Spanish|Español|SPA)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Español|Spanish|SPA)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*ES[ \\t]*[\\])}]|🇪🇸)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/es\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Spanish|spa|es|ES)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Español|Spanish|SPA)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Spanish|Español|SPA)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Español|Spanish|SPA)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*ES[ \\t]*[\\])}]|🇪🇸)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/es.webp?v=51e77fef85fcad98",
       "isEnabled": true,
       "type": "filter"
@@ -746,7 +737,7 @@
       "id": "language/eu",
       "groupId": "language",
       "name": "Basque",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/eu\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Basque|eus|eu|EU)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Euskara|Basque|EUS|BAQ)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Euskara|Basque|BAQ|EUS)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Euskara|Basque|BAQ|EUS)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*EU[ \\t]*[\\])}])",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/eu\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Basque|eus|EU|eu)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Euskara|Basque|BAQ|EUS)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Euskara|Basque|BAQ|EUS)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Euskara|Basque|BAQ|EUS)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*EU[ \\t]*[\\])}])",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/eu.webp?v=44c59875d195dea7",
       "isEnabled": true,
       "type": "filter"
@@ -773,7 +764,7 @@
       "id": "language/fr",
       "groupId": "language",
       "name": "French",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/fr\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:French|fra|fr|FR)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Français|French|FRE|FRA)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Français|French|FRE|FRA)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Français|French|FRA|FRE)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*FR[ \\t]*[\\])}]|🇫🇷)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/fr\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:French|fra|FR|fr)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Français|French|FRE|FRA)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Français|French|FRE|FRA)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Français|French|FRA|FRE)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*FR[ \\t]*[\\])}]|🇫🇷)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/fr.webp?v=79bc73e69970ea93",
       "isEnabled": true,
       "type": "filter"
@@ -800,7 +791,7 @@
       "id": "language/hr",
       "groupId": "language",
       "name": "Croatian",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/hr\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Croatian|hrv|HR|hr)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Hrvatski|Croatian|HRV)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Croatian|Hrvatski|HRV)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Croatian|Hrvatski|HRV)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*HR[ \\t]*[\\])}]|🇭🇷)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/hr\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Croatian|hrv|hr|HR)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Hrvatski|Croatian|HRV)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Croatian|Hrvatski|HRV)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Croatian|Hrvatski|HRV)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*HR[ \\t]*[\\])}]|🇭🇷)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/hr.webp?v=a86bd105497e93c9",
       "isEnabled": true,
       "type": "filter"
@@ -809,7 +800,7 @@
       "id": "language/hu",
       "groupId": "language",
       "name": "Hungarian",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/hu\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Hungarian|hun|HU|hu)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Hungarian|Magyar|HUN)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Hungarian|Magyar|HUN)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Hungarian|Magyar|HUN)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*HU[ \\t]*[\\])}]|🇭🇺)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/hu\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Hungarian|hun|hu|HU)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Hungarian|Magyar|HUN)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Hungarian|Magyar|HUN)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Hungarian|Magyar|HUN)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*HU[ \\t]*[\\])}]|🇭🇺)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/hu.webp?v=b408947ddf884a27",
       "isEnabled": true,
       "type": "filter"
@@ -818,7 +809,7 @@
       "id": "language/hy",
       "groupId": "language",
       "name": "Armenian",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/hy\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Armenian|hye|HY|hy)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Armenian|Հայերեն|HYE|ARM)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Armenian|Հայերեն|ARM|HYE)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Armenian|Հայերեն|ARM|HYE)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*HY[ \\t]*[\\])}]|🇦🇲)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/hy\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Armenian|hye|hy|HY)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Armenian|Հայերեն|HYE|ARM)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Armenian|Հայերեն|ARM|HYE)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Armenian|Հայերեն|ARM|HYE)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*HY[ \\t]*[\\])}]|🇦🇲)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/hy.webp?v=e1f28caf17695f90",
       "isEnabled": true,
       "type": "filter"
@@ -836,7 +827,7 @@
       "id": "language/is",
       "groupId": "language",
       "name": "Icelandic",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/is\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Icelandic|isl|is|IS)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Icelandic|Íslenska|ISL|ICE)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Icelandic|Íslenska|ICE|ISL)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Icelandic|Íslenska|ICE|ISL)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*IS[ \\t]*[\\])}]|🇮🇸)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/is\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Icelandic|isl|IS|is)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Icelandic|Íslenska|ICE|ISL)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Icelandic|Íslenska|ICE|ISL)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Icelandic|Íslenska|ICE|ISL)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*IS[ \\t]*[\\])}]|🇮🇸)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/is.webp?v=50807339e2b25707",
       "isEnabled": true,
       "type": "filter"
@@ -854,7 +845,7 @@
       "id": "language/ja",
       "groupId": "language",
       "name": "Japanese",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/ja\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Japanese|jpn|JA|ja)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Japanese|JPN|日本語)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Japanese|日本語|JPN)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Japanese|JPN|日本語)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*JA[ \\t]*[\\])}]|🇯🇵)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/ja\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Japanese|jpn|ja|JA)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Japanese|日本語|JPN)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Japanese|日本語|JPN)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Japanese|JPN|日本語)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*JA[ \\t]*[\\])}]|🇯🇵)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/ja.webp?v=b464728b085bd573",
       "isEnabled": true,
       "type": "filter"
@@ -863,7 +854,7 @@
       "id": "language/ka",
       "groupId": "language",
       "name": "Georgian",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/ka\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Georgian|kat|KA|ka)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Georgian|ქართული|KAT|GEO)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Georgian|ქართული|GEO|KAT)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Georgian|ქართული|GEO|KAT)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*KA[ \\t]*[\\])}]|🇬🇪)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/ka\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Georgian|kat|ka|KA)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Georgian|ქართული|GEO|KAT)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Georgian|ქართული|GEO|KAT)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Georgian|ქართული|GEO|KAT)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*KA[ \\t]*[\\])}]|🇬🇪)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/ka.webp?v=38b329b631d2df72",
       "isEnabled": true,
       "type": "filter"
@@ -899,7 +890,7 @@
       "id": "language/mk",
       "groupId": "language",
       "name": "Macedonian",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/mk\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Macedonian|mkd|MK|mk)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Македонски|Macedonian|MAC|MKD)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Macedonian|Македонски|MAC|MKD)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Macedonian|Македонски|MAC|MKD)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*MK[ \\t]*[\\])}]|🇲🇰)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/mk\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Macedonian|mkd|MK|mk)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Macedonian|Македонски|MKD|MAC)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Macedonian|Македонски|MAC|MKD)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Macedonian|Македонски|MAC|MKD)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*MK[ \\t]*[\\])}]|🇲🇰)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/mk.webp?v=ddc03a30410d1f19",
       "isEnabled": true,
       "type": "filter"
@@ -908,7 +899,7 @@
       "id": "language/ms",
       "groupId": "language",
       "name": "Malay (macrolanguage)",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/ms\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Malay[ ._-]+\\(macrolanguage\\)|Malay|msa|MS|ms)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Bahasa[ ._-]+Melayu|Malay|MAY|MSA)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Bahasa[ ._-]+Melayu|Malay|MAY|MSA)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Bahasa[ ._-]+Melayu|Malay|MAY|MSA)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*MS[ \\t]*[\\])}]|🇲🇾)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/ms\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Malay[ ._-]+\\(macrolanguage\\)|Malay|msa|ms|MS)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Bahasa[ ._-]+Melayu|Malay|MAY|MSA)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Bahasa[ ._-]+Melayu|Malay|MAY|MSA)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Bahasa[ ._-]+Melayu|Malay|MAY|MSA)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*MS[ \\t]*[\\])}]|🇲🇾)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/ms.webp?v=c1332e97f12a13b4",
       "isEnabled": true,
       "type": "filter"
@@ -917,7 +908,7 @@
       "id": "language/nl",
       "groupId": "language",
       "name": "Dutch",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/nl\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Dutch;[ ._-]+Flemish|Dutch|nld|NL|nl)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Nederlands|Dutch|DUT|NLD)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Nederlands|Dutch|DUT|NLD)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Nederlands|Dutch|DUT|NLD)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*NL[ \\t]*[\\])}]|🇳🇱)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/nl\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Dutch;[ ._-]+Flemish|Dutch|nld|NL|nl)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Nederlands|Dutch|NLD|DUT)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Nederlands|Dutch|DUT|NLD)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Nederlands|Dutch|DUT|NLD)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*NL[ \\t]*[\\])}]|🇳🇱)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/nl.webp?v=af77904995d606b7",
       "isEnabled": true,
       "type": "filter"
@@ -926,7 +917,7 @@
       "id": "language/no",
       "groupId": "language",
       "name": "Norwegian",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/no\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Norwegian|nor|NO|no)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Norwegian|Norsk|NOR)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Norwegian|Norsk|NOR)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Norwegian|Norsk|NOR)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*NO[ \\t]*[\\])}]|🇳🇴)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/no\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Norwegian|nor|no|NO)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Norwegian|Norsk|NOR)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Norwegian|Norsk|NOR)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Norwegian|Norsk|NOR)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*NO[ \\t]*[\\])}]|🇳🇴)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/no.webp?v=6b61aaa789a132bc",
       "isEnabled": true,
       "type": "filter"
@@ -935,7 +926,7 @@
       "id": "language/pl",
       "groupId": "language",
       "name": "Polish",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/pl\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Polish|pol|PL|pl)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Polish|Polski|POL)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Polish|Polski|POL)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Polish|Polski|POL)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*PL[ \\t]*[\\])}]|🇵🇱)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/pl\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Polish|pol|pl|PL)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Polski|Polish|POL)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Polish|Polski|POL)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Polish|Polski|POL)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*PL[ \\t]*[\\])}]|🇵🇱)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/pl.webp?v=ca11ab9aeda59796",
       "isEnabled": true,
       "type": "filter"
@@ -944,7 +935,7 @@
       "id": "language/pt",
       "groupId": "language",
       "name": "Portuguese",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/pt\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Portuguese|por|pt|PT)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Portuguese|Português|POR)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Portuguese|Português|POR)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Portuguese|Português|POR)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*PT[ \\t]*[\\])}]|🇵🇹)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/pt\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Portuguese|por|PT|pt)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Portuguese|Português|POR)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Portuguese|Português|POR)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Portuguese|Português|POR)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*PT[ \\t]*[\\])}]|🇵🇹)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/pt.webp?v=73ca3a5c11f7a677",
       "isEnabled": true,
       "type": "filter"
@@ -953,7 +944,7 @@
       "id": "language/ro",
       "groupId": "language",
       "name": "Romanian",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/ro\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Romanian|ron|RO|ro)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Romanian|Română|RON|RUM)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Romanian|Română|RUM|RON)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Romanian|Română|RON|RUM)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*RO[ \\t]*[\\])}]|🇷🇴)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/ro\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Romanian|ron|ro|RO)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Romanian|Română|RUM|RON)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Romanian|Română|RUM|RON)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Romanian|Română|RON|RUM)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*RO[ \\t]*[\\])}]|🇷🇴)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/ro.webp?v=b417b1248e6b2094",
       "isEnabled": true,
       "type": "filter"
@@ -962,7 +953,7 @@
       "id": "language/ru",
       "groupId": "language",
       "name": "Russian",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/ru\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Russian|rus|ru|RU)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Russian|Русский|RUS)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Russian|Русский|RUS)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Russian|Русский|RUS)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*RU[ \\t]*[\\])}]|🇷🇺)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/ru\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Russian|rus|ru|RU)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Русский|Russian|RUS)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Russian|Русский|RUS)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Russian|Русский|RUS)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*RU[ \\t]*[\\])}]|🇷🇺)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/ru.webp?v=5f5f9597258d14e9",
       "isEnabled": true,
       "type": "filter"
@@ -971,7 +962,7 @@
       "id": "language/sk",
       "groupId": "language",
       "name": "Slovak",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/sk\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Slovak|slk|sk|SK)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Slovenčina|Slovak|SLK|SLO)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Slovenčina|Slovak|SLO|SLK)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Slovenčina|Slovak|SLK|SLO)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*SK[ \\t]*[\\])}]|🇸🇰)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/sk\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Slovak|slk|sk|SK)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Slovenčina|Slovak|SLO|SLK)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Slovenčina|Slovak|SLO|SLK)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Slovenčina|Slovak|SLK|SLO)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*SK[ \\t]*[\\])}]|🇸🇰)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/sk.webp?v=607b8a9ad6344356",
       "isEnabled": true,
       "type": "filter"
@@ -980,7 +971,7 @@
       "id": "language/sl",
       "groupId": "language",
       "name": "Slovenian",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/sl\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Slovenian|slv|sl|SL)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Slovenščina|Slovenian|SLV)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Slovenščina|Slovenian|SLV)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Slovenščina|Slovenian|SLV)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*SL[ \\t]*[\\])}]|🇸🇮)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/sl\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Slovenian|slv|SL|sl)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Slovenščina|Slovenian|SLV)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Slovenščina|Slovenian|SLV)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Slovenščina|Slovenian|SLV)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*SL[ \\t]*[\\])}]|🇸🇮)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/sl.webp?v=8e7abef91bf42c5f",
       "isEnabled": true,
       "type": "filter"
@@ -989,7 +980,7 @@
       "id": "language/sq",
       "groupId": "language",
       "name": "Albanian",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/sq\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Albanian|sqi|sq|SQ)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Albanian|Shqip|SQI|ALB)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Albanian|Shqip|ALB|SQI)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Albanian|Shqip|ALB|SQI)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*SQ[ \\t]*[\\])}]|🇦🇱)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/sq\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Albanian|sqi|SQ|sq)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Albanian|Shqip|ALB|SQI)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Albanian|Shqip|ALB|SQI)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Albanian|Shqip|ALB|SQI)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*SQ[ \\t]*[\\])}]|🇦🇱)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/sq.webp?v=7fb9664bbf8e4567",
       "isEnabled": true,
       "type": "filter"
@@ -998,7 +989,7 @@
       "id": "language/sr",
       "groupId": "language",
       "name": "Serbian",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/sr\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Serbian|srp|sr|SR)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Serbian|Српски|SRP)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Serbian|Српски|SRP)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Serbian|Српски|SRP)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*SR[ \\t]*[\\])}]|🇷🇸)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/sr\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Serbian|srp|SR|sr)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Serbian|Српски|SRP)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Serbian|Српски|SRP)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Serbian|Српски|SRP)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*SR[ \\t]*[\\])}]|🇷🇸)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/sr.webp?v=1d9700cc2b28daa0",
       "isEnabled": true,
       "type": "filter"
@@ -1007,7 +998,7 @@
       "id": "language/sv",
       "groupId": "language",
       "name": "Swedish",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/sv\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Swedish|swe|sv|SV)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Svenska|Swedish|SWE)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Swedish|Svenska|SWE)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Svenska|Swedish|SWE)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*SV[ \\t]*[\\])}]|🇸🇪)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/sv\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Swedish|swe|SV|sv)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Swedish|Svenska|SWE)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Swedish|Svenska|SWE)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Svenska|Swedish|SWE)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*SV[ \\t]*[\\])}]|🇸🇪)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/sv.webp?v=5401a29630fdb76e",
       "isEnabled": true,
       "type": "filter"
@@ -1016,7 +1007,7 @@
       "id": "language/th",
       "groupId": "language",
       "name": "Thai",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/th\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Thai|tha|TH|th)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Thai|THA|ไทย)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Thai|ไทย|THA)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Thai|THA|ไทย)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*TH[ \\t]*[\\])}]|🇹🇭)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/th\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Thai|tha|th|TH)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Thai|THA|ไทย)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Thai|ไทย|THA)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Thai|THA|ไทย)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*TH[ \\t]*[\\])}]|🇹🇭)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/th.webp?v=fc99c5ce0e5fbf79",
       "isEnabled": true,
       "type": "filter"
@@ -1025,7 +1016,7 @@
       "id": "language/tl",
       "groupId": "language",
       "name": "Tagalog",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/tl\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Tagalog|tgl|tl|TL)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Filipino|Tagalog|FIL|TGL)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Filipino|Tagalog|TGL|FIL)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Filipino|Tagalog|FIL|TGL)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*TL[ \\t]*[\\])}]|🇵🇭)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/tl\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Tagalog|tgl|TL|tl)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Filipino|Tagalog|TGL|FIL)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Filipino|Tagalog|TGL|FIL)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Filipino|Tagalog|FIL|TGL)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*TL[ \\t]*[\\])}]|🇵🇭)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/tl.webp?v=2dfa50623b097d40",
       "isEnabled": true,
       "type": "filter"
@@ -1034,7 +1025,7 @@
       "id": "language/tr",
       "groupId": "language",
       "name": "Turkish",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/tr\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Turkish|tur|tr|TR)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Turkish|Türkçe|TUR)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Turkish|Türkçe|TUR)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Turkish|Türkçe|TUR)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*TR[ \\t]*[\\])}]|🇹🇷)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/tr\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Turkish|tur|TR|tr)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Turkish|Türkçe|TUR)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Turkish|Türkçe|TUR)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Turkish|Türkçe|TUR)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*TR[ \\t]*[\\])}]|🇹🇷)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/tr.webp?v=9b6556e776a42672",
       "isEnabled": true,
       "type": "filter"
@@ -1052,7 +1043,7 @@
       "id": "language/ur",
       "groupId": "language",
       "name": "Urdu",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/ur\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Urdu|urd|UR|ur)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Urdu|اردو|URD)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Urdu|اردو|URD)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Urdu|اردو|URD)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*UR[ \\t]*[\\])}]|🇵🇰)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/ur\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Urdu|urd|ur|UR)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:اردو|Urdu|URD)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Urdu|اردو|URD)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Urdu|اردو|URD)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*UR[ \\t]*[\\])}]|🇵🇰)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/ur.webp?v=9c8d72abb7fbf5d2",
       "isEnabled": true,
       "type": "filter"
@@ -1070,7 +1061,7 @@
       "id": "language/zh",
       "groupId": "language",
       "name": "Chinese",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/zh\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Chinese|ZH|zh)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Mandarin|Chinese|ZHO|CHI|中文)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Mandarin|Chinese|CHI|ZHO|中文)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Mandarin|Chinese|CHI|ZHO|中文)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*ZH[ \\t]*[\\])}]|🇨🇳)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/zh\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Chinese|zh|ZH)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Mandarin|Chinese|ZHO|CHI|中文)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Mandarin|Chinese|CHI|ZHO|中文)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Mandarin|Chinese|CHI|ZHO|中文)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*ZH[ \\t]*[\\])}]|🇨🇳)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/zh.webp?v=09f43cf91ac15bc1",
       "isEnabled": true,
       "type": "filter"
@@ -1079,7 +1070,7 @@
       "id": "language/yue",
       "groupId": "language",
       "name": "Yue Chinese",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/yue\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Yue[ ._-]+Chinese|YUE)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Cantonese|YUE|粤语|粵語)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Cantonese|YUE|粵語|粤语)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Cantonese|YUE|粤语|粵語)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*YUE[ \\t]*[\\])}]|🇭🇰)",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language/yue\\s*\\]|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Yue[ ._-]+Chinese|YUE)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|sprache|sprachen)[ \\t]*[:=][ \\t]*(?:Cantonese|YUE|粵語|粤语)(?![\\p{L}\\p{N}+])|(?:^|[|/,;\\[({\\r\\n])[ \\t]*(?:Cantonese|YUE|粵語|粤语)[ \\t]*(?=$|[|/,;\\])}\\r\\n])|(?<![\\p{L}\\p{N}])(?:(?:19|20)\\d{2}|S\\d{1,3}E\\d{1,3}|\\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)(?![\\p{L}\\p{N}+])[^\\r\\n]{0,240}?(?<![\\p{L}\\p{N}])(?:Cantonese|YUE|粤语|粵語)(?![\\p{L}\\p{N}+])|[\\[({][ \\t]*YUE[ \\t]*[\\])}]|🇭🇰)",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language/yue.webp?v=336fe5fe088034ec",
       "isEnabled": true,
       "type": "filter"
@@ -1097,7 +1088,7 @@
       "id": "language-mode/dual-audio",
       "groupId": "language-mode",
       "name": "DUAL AUDIO",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language\\-mode/dual\\-audio\\s*\\]|(?<![\\p{L}\\p{N}])(?:DUAL[ ._-]+AUDIO|Dual[ ._-]+Audio|dual[ ._-]+audio)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|mode)[ \\t]*[:=][ \\t]*(?:dual[ ._-]+audio|Dual[ ._-]+Audio|DUAL[ ._-]+AUDIO)(?![\\p{L}\\p{N}+]))",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language\\-mode/dual\\-audio\\s*\\]|(?<![\\p{L}\\p{N}])(?:DUAL[ ._-]+AUDIO|Dual[ ._-]+Audio|dual[ ._-]+audio)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|mode)[ \\t]*[:=][ \\t]*(?:DUAL[ ._-]+AUDIO|dual[ ._-]+audio|Dual[ ._-]+Audio)(?![\\p{L}\\p{N}+]))",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language-mode/dual-audio.webp?v=a4e1bf10e6b7d736",
       "isEnabled": true,
       "type": "filter"
@@ -1106,7 +1097,7 @@
       "id": "language-mode/original",
       "groupId": "language-mode",
       "name": "ORIGINAL",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language\\-mode/original\\s*\\]|(?<![\\p{L}\\p{N}])(?:ORIGINAL|Original)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|mode)[ \\t]*[:=][ \\t]*(?:Original|ORIGINAL)(?![\\p{L}\\p{N}+]))",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language\\-mode/original\\s*\\]|(?<![\\p{L}\\p{N}])(?:ORIGINAL|Original)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|mode)[ \\t]*[:=][ \\t]*(?:ORIGINAL|Original)(?![\\p{L}\\p{N}+]))",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language-mode/original.webp?v=6c0aa121f0d3859a",
       "isEnabled": true,
       "type": "filter"
@@ -1133,7 +1124,7 @@
       "id": "language-mode/dubbed",
       "groupId": "language-mode",
       "name": "DUBBED",
-      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language\\-mode/dubbed\\s*\\]|(?<![\\p{L}\\p{N}])(?:DUBBED|Dubbed)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|mode)[ \\t]*[:=][ \\t]*(?:DUBBED|Dubbed)(?![\\p{L}\\p{N}+]))",
+      "pattern": "(?i)(?:\\[\\s*badge\\s*:\\s*language\\-mode/dubbed\\s*\\]|(?<![\\p{L}\\p{N}])(?:DUBBED|Dubbed)(?![\\p{L}\\p{N}+])|(?<![\\p{L}\\p{N}])(?:lang(?:uage)?s?|audio|mode)[ \\t]*[:=][ \\t]*(?:Dubbed|DUBBED)(?![\\p{L}\\p{N}+]))",
       "imageURL": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/web/language-mode/dubbed.webp?v=cb83db97c78f7004",
       "isEnabled": true,
       "type": "filter"

@@ -5,7 +5,7 @@
       "Example.Movie.2026.2160p.WEB-DL.HDR10+.DoVi.HEVC.DDP5.1.Atmos.GERMAN.ENG.mkv"
     ],
     "required": [
-      "resolution/2160p",
+      "resolution/4k",
       "source/web-dl",
       "picture-brand/hdr10plus",
       "picture-brand/dolby-vision",
@@ -77,7 +77,7 @@
     "forbidden": [
       "resolution/720p",
       "resolution/1080p",
-      "resolution/2160p",
+      "resolution/4k",
       "disc-brand/dvd"
     ]
   },
@@ -166,13 +166,12 @@
     "forbidden": []
   },
   {
-    "name": "Literal 4K, UHD and legacy 2160p resolve to the same visible 4K artwork",
+    "name": "Literal 4K, UHD and legacy 2160p resolve to the single 4K badge",
     "candidates": [
       "Example.2026.UHD.4K.2160p.REMUX"
     ],
     "required": [
       "resolution/4k",
-      "resolution/2160p",
       "source/remux"
     ],
     "forbidden": [
@@ -186,7 +185,7 @@
       "[badge:resolution/2160p]"
     ],
     "required": [
-      "resolution/2160p"
+      "resolution/4k"
     ],
     "forbidden": [
       "resolution/1080p",
@@ -220,7 +219,6 @@
     ],
     "required": [
       "resolution/4k",
-      "resolution/2160p",
       "picture-brand/dolby-vision",
       "dynamic-range/hdr10",
       "color/10-bit",

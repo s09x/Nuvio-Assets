@@ -5,9 +5,9 @@
   "asset_root_url": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/",
   "manifest_format": "Nuvio/Fusion filters and groups",
   "version": "2.1.0",
-  "design": "Curated borderless original logos, neutral typography and 50 flat language flags",
+  "design": "Curated borderless dark-mode logos, neutral typography and 50 flat language flags",
   "status": "curated-local-verified",
-  "filter_count": 137,
+  "filter_count": 136,
   "group_count": 15,
   "master_dimensions": [
     1280,

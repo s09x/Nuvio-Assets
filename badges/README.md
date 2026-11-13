@@ -1,6 +1,6 @@
 # Nuvio stream badges
 
-Release **2.1.0** contains **137 curated badges in 15 categories**: 19 original-logo assets, 67 neutral text labels, 50 static language flags and one user-approved HDR10 derivative. Every entry has a **1280 x 720 lossless WebP RGBA master** and a smaller app image.
+Release **2.1.0** contains **136 curated badges in 15 categories**: 18 original-logo assets, 67 neutral text labels, 50 static language flags and one user-approved HDR10 derivative (with crisp white text/ink adapted for dark mode). Every entry has a **1280 x 720 lossless WebP RGBA master** and a smaller app image.
 
 ## Import into Nuvio
 
@@ -10,7 +10,7 @@ Open **Settings > Streams > Stream badge URLs**, add or refresh this URL and act
 https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/manifest.json
 ```
 
-`2160p` and `4k` share a single **4K** image URL for Nuvio deduplication and match `2160p`, `4K`, `4K UHD`, `UHD`, and `DCI 4K`. Matching runs in category priority order:
+`4k` matches `2160p`, `4K`, `4K UHD`, `UHD`, `DCI 4K`, and `[badge:resolution/2160p]`. Matching runs in category priority order:
 
 1. `resolution` (360p – 4K)
 2. `picture-brand` (Dolby Vision, HDR10+, IMAX, IMAX Enhanced)
@@ -43,8 +43,8 @@ python badges/tools/build_manifest.py
 pwsh -File badges/tools/verify_manifest.ps1
 ```
 
-- `manifest.json`: curated Nuvio import (137 filters in 15 groups).
-- `masters/` and `web/`: 274 approved WebP artwork files.
+- `manifest.json`: curated Nuvio import (136 filters in 15 groups).
+- `masters/` and `web/`: 272 approved WebP artwork files.
 - `index.html`: offline searchable gallery.
 - `previews/`: contact sheets for all 15 categories and overview.
 - `data/catalog.json`: artwork paths, checksums and provenance.

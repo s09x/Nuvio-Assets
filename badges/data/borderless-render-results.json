@@ -1,26 +1,9 @@
 {
   "version": "2.1.0",
   "status": "passed",
-  "unique_renders": 135,
-  "assets": 137,
+  "unique_renders": 136,
+  "assets": 136,
   "items": [
-    {
-      "id": "resolution/2160p",
-      "kind": "neutral-text",
-      "sha256": "be497c5568b0172270b64b9b35e24321b982a316ef81769e7296c297991793f5",
-      "web_sha256": "d4b725e7b8b9ab01dbeed98cc929022ac80ee5ace831590cec073ecf560f26f9",
-      "web_size": [
-        900,
-        489
-      ],
-      "bytes": 10794,
-      "alignment": null,
-      "added_frame": false,
-      "added_shadow": false,
-      "added_material_effects": false,
-      "lossless_output_verified": true,
-      "alias_of": "resolution/4k"
-    },
     {
       "id": "resolution/4k",
       "kind": "neutral-text",

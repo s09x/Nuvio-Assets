@@ -3,18 +3,6 @@
   "font_sha256": "f80b4f9da5682df6b451e4fc02062a2ca80405039aa31fdec517b1f092f43421",
   "items": [
     {
-      "id": "resolution/2160p",
-      "label": "4K",
-      "kind": "neutral-text",
-      "recommended_background": "dark",
-      "provenance": {
-        "classification": "neutral-text",
-        "note": "Neutral metadata label; no exact issuer logo used or implied."
-      },
-      "name": "4K",
-      "alias_of": "resolution/4k"
-    },
-    {
       "id": "resolution/4k",
       "label": "4K",
       "kind": "neutral-text",

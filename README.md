@@ -53,7 +53,7 @@ URLs using `main` follow the current version; replace `main` with a commit SHA t
 
 ## Stream badges
 
-[`badges`](badges) contains the curated **137-badge** stream library across **15 categories**: 1280 × 720 lossless WebP RGBA masters, smaller app images, 19 original brand marks, 67 neutral text labels, 50 flat flag language badges and one user-approved HDR10 derivative. Release **2.1.0** trims out streaming services, debrid/usenet providers, transport/proxy tags, field labels, legacy formats and unflagged minor languages to keep Nuvio stream cards fast and clutter-free, while fixing duplicate triggers (e.g. codec/HDR/DTS synonyms) and ordering badges cleanly left-to-right.
+[`badges`](badges) contains the curated **136-badge** stream library across **15 categories**: 1280 × 720 lossless WebP RGBA masters, smaller app images, 18 original brand marks, 67 neutral text labels, 50 flat flag language badges and one user-approved HDR10 derivative (all adapted with crisp white ink/wordmarks for dark mode). Release **2.1.0** trims out streaming services, debrid/usenet providers, transport/proxy tags, field labels, legacy formats and unflagged minor languages to keep Nuvio stream cards fast and clutter-free, while fixing duplicate triggers (including merging `2160p` into `4K` and codec/HDR/DTS synonyms) and ordering badges cleanly left-to-right.
 
 Use this URL in **Settings > Streams > Stream badge URLs** in Nuvio:
 
@@ -61,4 +61,4 @@ Use this URL in **Settings > Streams > Stream badge URLs** in Nuvio:
 https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/manifest.json
 ```
 
-The import contains 137 rules in 15 groups. See the [badge documentation](badges/README.md), [language overview](badges/previews/language-flags.png) and [source catalog](badges/data/catalog.json) for the complete inventory, matching behavior and attributions.
+The import contains 136 rules in 15 groups. See the [badge documentation](badges/README.md), [language overview](badges/previews/language-flags.png) and [source catalog](badges/data/catalog.json) for the complete inventory, matching behavior and attributions.
