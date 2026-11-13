@@ -7,7 +7,7 @@ $fixtures = Get-Content -LiteralPath (Join-Path $PSScriptRoot 'import-fixtures.j
 $baseUrl = 'https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/'
 $compiled = @{}
 $groupIds = @($manifest.groups | ForEach-Object { $_.id })
-if ($manifest.filters.Count -ne 1037 -or $manifest.groups.Count -ne 37) { throw 'Incomplete import catalog.' }
+if ($manifest.filters.Count -ne $catalog.items.Count -or $manifest.groups.Count -eq 0) { throw 'Incomplete import catalog.' }
 $expectedIds = @($catalog.items | ForEach-Object { $_.id } | Sort-Object)
 $actualIds = @($manifest.filters | ForEach-Object { $_.id } | Sort-Object)
 if (Compare-Object $expectedIds $actualIds) { throw 'Import IDs differ from the artwork catalog.' }
@@ -26,7 +26,7 @@ foreach ($filter in $manifest.filters) {
 $fourK = $manifest.filters | Where-Object id -eq 'resolution/4k'
 $legacy4K = $manifest.filters | Where-Object id -eq 'resolution/2160p'
 if ($legacy4K.name -ne '4K' -or $legacy4K.imageURL -ne $fourK.imageURL) { throw '2160p must display and deduplicate as 4K.' }
-if ($manifest.version -ne '2.0.0') { throw 'Unexpected design release version.' }
+if ($manifest.version -ne '2.1.0') { throw 'Unexpected design release version.' }
 $failures = [System.Collections.Generic.List[object]]::new()
 $results = [System.Collections.Generic.List[object]]::new()
 $started = [System.Diagnostics.Stopwatch]::StartNew()

@@ -1,32 +1,16 @@
 {
   "repository": "s09x/Nuvio-Assets",
   "branch": "main",
-  "user_approved_publication": true,
   "import_url": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/manifest.json",
   "asset_root_url": "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/",
   "manifest_format": "Nuvio/Fusion filters and groups",
-  "version": "2.0.0",
-  "design": "Approved borderless original logos and neutral typography",
-  "status": "published-and-verified",
-  "image_use": "Cropped app images for stream chips; lossless 720p masters retained separately.",
-  "asset_publication_commit": "f29eb7e5b5834a5b1d57739311cef1936eac9374",
-  "manifest_version": "2.0.0",
-  "manifest_http_status": 200,
+  "version": "2.1.0",
+  "design": "Curated borderless original logos, neutral typography and 50 flat language flags",
+  "status": "curated-local-verified",
+  "filter_count": 137,
+  "group_count": 15,
   "master_dimensions": [
     1280,
     720
-  ],
-  "archived_sources_preserved": true,
-  "anonymous_http_checks": 48,
-  "anonymous_image_downloads_verified": 26,
-  "all_git_tree_blobs_match": true,
-  "verified_asset_tree_sha": "7ec05d3f5057217595dc721981bea29373514743",
-  "previous_publication": {
-    "asset_publication_commit": "1aca4f876e7140a3501b4826f13d6fc078b9ae99",
-    "master_dimensions": [
-      3840,
-      2160
-    ]
-  },
-  "evidence_scope": "Checks verify the asset publication commit and main at publication time. A subsequent metadata-only commit records these results."
+  ]
 }

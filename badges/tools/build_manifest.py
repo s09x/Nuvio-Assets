@@ -1,6 +1,5 @@
-"""Build a Nuvio/Fusion-compatible badge import from the verified catalog."""
+"""Build a curated, deduplicated Nuvio/Fusion-compatible badge import from catalog.json."""
 from pathlib import Path
-from collections import Counter
 import hashlib
 import json
 import re
@@ -11,27 +10,30 @@ BASE_URL = "https://raw.githubusercontent.com/s09x/Nuvio-Assets/main/badges/"
 LEFT = r"(?<![\p{L}\p{N}])"
 RIGHT = r"(?![\p{L}\p{N}+])"
 SEP = r"[ ._-]*"
-CONTEXT_ONLY = {"country", "region", "content", "availability", "general", "language-region", "metadata-field"}
+
 CONTEXTS = {
     "resolution": "resolution|quality|video",
-    "source": "source|quality|format",
+    "picture-brand": "hdr|range|video|picture",
     "dynamic-range": "hdr|range|video",
+    "color": "color|bit|video",
     "video-codec": "video|codec|format",
+    "audio-brand": "audio|codec|format",
     "audio-codec": "audio|codec|format",
     "audio-channel": "channels?|audio|layout",
-    "container": "container|extension|format",
+    "disc-brand": "source|quality|format|disc",
+    "source": "source|quality|format",
+    "edition": "edition|cut|version",
     "language": "lang(?:uage)?s?|audio|sprache|sprachen",
-    "language-region": "lang(?:uage)?s?|locale|region",
-    "service": "service|network|streaming",
-    "provider": "provider|debrid",
-    "country": "country|land",
-    "region": "region|territory",
-    "content": "type|content|media",
-    "availability": "status|availability|cache",
-    "general": "status|type",
-    "metadata-field": "field|metadata",
+    "language-mode": "lang(?:uage)?s?|audio|mode",
+    "subtitles": "subtitles?|subs?",
+    "container": "container|extension|format",
 }
-COMMON_SHORT = {"AVC", "AV1", "VP8", "VP9", "AAC", "MP2", "MP3", "PCM", "DCA", "MLP", "DTS", "HLG", "SDR", "HFR", "CFR", "VFR", "SBS", "TAB", "OV", "OMU", "DUB", "SUBS", "SDH", "CC", "PGS", "HDR", "4K", "8K", "2K", "5K", "6K", "12K", "16K"}
+
+COMMON_SHORT = {
+    "AVC", "AV1", "VP9", "AAC", "MP3", "PCM", "DTS", "HLG", "SDR",
+    "OV", "OMU", "SUBS", "SDH", "HDR", "4K", "2K", "UHD", "FHD", "DVD",
+}
+
 LANGUAGE_ALIASES = {
     "de": ["German", "Deutsch", "GER", "DEU"], "en": ["English", "ENG"],
     "fr": ["French", "Français", "FRE", "FRA"], "es": ["Spanish", "Español", "SPA"],
@@ -59,37 +61,63 @@ LANGUAGE_ALIASES = {
     "gl": ["Galician", "Galego", "GLG"], "ka": ["Georgian", "ქართული", "GEO", "KAT"],
     "hy": ["Armenian", "Հայերեն", "ARM", "HYE"], "yue": ["Cantonese", "粵語", "粤语", "YUE"],
 }
+
 EXTRA_ALIASES = {
-    "video-codec/h-264": ["H264"], "video-codec/h-265": ["H265"], "video-codec/h-266": ["H266"],
-    "audio-codec/ac-3": ["AC3"], "audio-codec/e-ac-3": ["EAC3", "E-AC3"],
-    "service/netflix": ["NF"], "service/prime-video": ["AMZN"], "service/disney-plus": ["DSNP", "Disney Plus"],
-    "service/hbo-max": ["HMAX", "HBOMAX", "MAX"], "service/apple-tv": ["ATVP", "ATV+", "Apple TV+"],
-    "service/paramount-plus": ["PMTP", "Paramount Plus"], "service/peacock": ["PCOK"],
-    "service/crunchyroll": ["CR"], "service/discovery-plus": ["DSCP", "Discovery Plus"],
-    "service/rtl-plus": ["RTL Plus"], "service/canal-plus": ["Canal Plus"],
-    "audio-brand/dolby-digital-plus": ["Dolby Digital+"],
-    "audio-brand/dolby-vision": ["DoVi"], "picture-brand/dolby-vision": ["DoVi"],
-    "source/web-dl": ["WEBDL"], "source/webrip": ["WEB-Rip"],
-    "disc-brand/blu-ray": ["Blu-ray"], "disc-brand/uhd-blu-ray": ["UHD BluRay", "UHD Blu-ray"],
+    "resolution/4k": ["4K UHD", "UHD", "DCI 4K"],
+    "resolution/1440p": ["2K", "QHD", "WQHD"],
+    "resolution/1080p": ["FHD", "Full HD"],
+    "dynamic-range/upscaled": ["AI Upscale", "AI Upscaled"],
+    "video-codec/avc": ["H.264", "H264", "x264"],
+    "video-codec/hevc": ["H.265", "H265", "x265"],
+    "audio-brand/dolby-digital": ["AC-3", "AC3"],
+    "audio-brand/dolby-digital-plus": ["Dolby Digital+", "E-AC-3", "EAC3", "E-AC3"],
+    "audio-codec/pcm": ["LPCM"],
+    "audio-channel/2-0": ["Stereo"],
+    "audio-channel/1-0": ["Mono"],
+    "disc-brand/blu-ray": ["Blu-ray", "UHD BluRay", "UHD Blu-ray"],
+    "source/remux": ["BluRay REMUX", "UHD REMUX", "BDREMUX"],
+    "source/web-dl": ["WEBDL", "UHD WEB-DL"],
+    "source/webrip": ["WEB-Rip"],
+    "source/bdrip": ["BRRip", "UHD BDRip"],
+    "source/hdrip": ["UHDRip"],
+    "edition/director-cut": ["Directors Cut"],
+    "language-mode/multi": ["Multi Audio", "Multilingual"],
+    "subtitles/multi-subs": ["Multi-Subs", "Multiple Subtitle", "Multiple Subtitles", "MultiSub", "MultiSubs"],
+    "subtitles/hardsub": ["Hardsubs", "Hardcoded"],
 }
+
+LINE_START = r"(?:^|[\r\n])"
+
 SPECIAL = {
-    "audio-codec/aac": LEFT+r"AAC(?![\p{L}]|[ ._-]*LC)",
-    "audio-codec/ac-3": LEFT+r"(?<!E[ ._-])AC[ ._-]*3(?![\p{L}])",
-    "dynamic-range/hdr": LEFT+r"HDR"+RIGHT+r"(?![ ._-]*(?:ONLY|PQ|TO|\+|DOLBY))",
-    "dynamic-range/hdr10": LEFT+r"HDR[ ._-]*10(?![\p{L}\p{N}+]|[ ._-]*(?:PLUS|ADVANCED|GAMING))",
-    "picture-brand/hdr10plus": LEFT+r"HDR[ ._-]*10(?:\+|[ ._-]*PLUS)"+RIGHT+r"(?![ ._-]*(?:ADVANCED|GAMING))",
-    "audio-brand/dolby": r"(?:^|[\[({])\s*DOLBY\s*(?:$|[\])}])",
-    "audio-brand/dolby-digital": LEFT+r"(?:DOLBY[ ._-]*DIGITAL|DD)(?![\p{L}+]|[ ._-]*PLUS)",
-    "audio-brand/dolby-digital-plus": LEFT+r"(?:DOLBY[ ._-]*DIGITAL(?:[ ._-]*PLUS|\+)|DDP|DD\+)(?![\p{L}])",
-    "audio-brand/dts": LEFT+r"DTS"+RIGHT+r"(?![ ._:-]*(?:HD|ES|X|LOSSLESS|LOSSY))",
-    "audio-brand/dts-hd": LEFT+r"DTS[ ._-]*HD"+RIGHT+r"(?![ ._-]*(?:MA|MASTER))",
-    "audio-brand/dts-hd-ma": LEFT+r"DTS[ ._-]*HD[ ._-]*(?:MA|MASTER[ ._-]*AUDIO)"+RIGHT,
-    "audio-brand/dts-x": LEFT+r"DTS[ ._:-]*X"+RIGHT,
-    "picture-brand/imax": LEFT+r"IMAX"+RIGHT+r"(?![ ._-]*(?:ENHANCED|RATIO))",
-    "picture-brand/dolby-vision": LEFT+r"(?:DOLBY[ ._-]*VISION|DOVI|DV)"+RIGHT+r"(?![ ._-]*ONLY)",
-    "service/disney": LEFT+r"DISNEY"+RIGHT+r"(?![ ._-]*PLUS)",
-    "service/hbo": LEFT+r"HBO"+RIGHT+r"(?![ ._-]*MAX)",
-    "service/amc": LEFT+r"AMC"+RIGHT,
+    "audio-codec/aac": LEFT + r"(?:x?HE[ ._-]*)?AAC(?![\p{L}])",
+    "dynamic-range/hdr": (
+        LINE_START + r"(?![^\r\n]*?" + LEFT + r"(?:HDR[ ._-]*10|HLG)(?![\p{L}\p{N}]))"
+        + r"[^\r\n]*?" + LEFT + r"HDR" + RIGHT + r"(?![ ._-]*(?:10|HLG|ONLY|PQ|TO|\+|DOLBY))"
+    ),
+    "dynamic-range/hdr10": LEFT + r"HDR[ ._-]*10(?![\p{L}\p{N}+]|[ ._-]*(?:PLUS|ADVANCED|GAMING))",
+    "picture-brand/hdr10plus": LEFT + r"HDR[ ._-]*10(?:\+|[ ._-]*PLUS)" + RIGHT,
+    "picture-brand/imax": (
+        LINE_START + r"(?![^\r\n]*?" + LEFT + r"IMAX[ ._-]*(?:ENHANCED|RATIO)(?![\p{L}\p{N}]))"
+        + r"[^\r\n]*?" + LEFT + r"IMAX" + RIGHT + r"(?![ ._-]*(?:ENHANCED|RATIO))"
+    ),
+    "picture-brand/dolby-vision": LEFT + r"(?:DOLBY[ ._-]*VISION|DOVI|DV)" + RIGHT,
+    "audio-brand/dolby-digital": LEFT + r"(?:(?<!E[ ._-])AC[ ._-]*3|DOLBY[ ._-]*DIGITAL|DD)(?![\p{L}+]|[ ._-]*PLUS)",
+    "audio-brand/dolby-digital-plus": LEFT + r"(?:DOLBY[ ._-]*DIGITAL(?:[ ._-]*PLUS|\+)|E[ ._-]*AC[ ._-]*3|EAC3|E-AC3|DDP|DD\+)(?![\p{L}])",
+    "audio-brand/dts": (
+        LINE_START + r"(?![^\r\n]*?" + LEFT + r"DTS[ ._:-]*(?:HD|ES|X)(?![\p{L}\p{N}]))"
+        + r"[^\r\n]*?" + LEFT + r"DTS" + RIGHT + r"(?![ ._:-]*(?:HD|ES|X|LOSSLESS|LOSSY))"
+    ),
+    "audio-brand/dts-hd": (
+        LINE_START + r"(?![^\r\n]*?" + LEFT + r"DTS[ ._-]*HD[ ._-]*(?:MA|MASTER)(?![\p{L}\p{N}]))"
+        + r"[^\r\n]*?" + LEFT + r"DTS[ ._-]*HD" + RIGHT + r"(?![ ._-]*(?:MA|MASTER))"
+    ),
+    "audio-brand/dts-hd-ma": LEFT + r"DTS[ ._-]*HD[ ._-]*(?:MA|MASTER[ ._-]*AUDIO)" + RIGHT,
+    "audio-brand/dts-x": LEFT + r"DTS[ ._:-]*X" + RIGHT,
+    "language-mode/multi": LEFT + r"MULTI(?:[ ._-]*(?:AUDIO|LINGUAL))?" + RIGHT + r"(?![ ._-]*SUBS?)",
+    "subtitles/subs": (
+        LINE_START + r"(?![^\r\n]*?" + LEFT + r"(?:MULTI|DUAL|NO|FULL|OCR)[ ._-]*SUBS?(?![\p{L}\p{N}]))"
+        + r"[^\r\n]*?" + LEFT + r"SUBS" + RIGHT
+    ),
 }
 
 
@@ -127,7 +155,7 @@ def compile_pattern(item, flags):
         language_values = LANGUAGE_ALIASES.get(code)
         parts.append(context(category, [label, *values]))
         if language_values:
-            language_terms = "(?:" + "|".join(token(value) for value in sorted(language_values,key=lambda value:-len(value))) + ")"
+            language_terms = "(?:" + "|".join(token(value) for value in sorted(language_values, key=lambda value: -len(value))) + ")"
             parts.append(context(category, language_values))
             parts.append(r"(?:^|[|/,;\[({\r\n])[ \t]*" + language_terms + r"[ \t]*(?=$|[|/,;\])}\r\n])")
             release_context = LEFT + r"(?:(?:19|20)\d{2}|S\d{1,3}E\d{1,3}|\d{3,4}[pi]|WEB[ ._-]*DL|BLU[ ._-]*RAY|REMUX)" + RIGHT
@@ -138,43 +166,26 @@ def compile_pattern(item, flags):
                 parts.append("".join(chr(127397 + ord(character)) for character in country))
             mode = "selected language names, ISO-639-2 aliases, explicit language codes and flag markers"
         else:
-            mode = "explicit language metadata; outside the selected 50-language series"
-    elif category in CONTEXT_ONLY:
-        parts.append(context(category, values))
-        if category == "metadata-field":
-            parts.append(LEFT + "(?:" + "|".join(token(value) for value in values) + r")[ \t]*[:=]")
-        mode = "explicit metadata context"
+            mode = "explicit language metadata"
     elif identifier in SPECIAL:
         parts.append(SPECIAL[identifier])
     elif category == "audio-channel" and re.fullmatch(r"\d+(?:\.\d+)+", label):
         number = re.escape(label)
         suffix = r"(?![\p{L}\p{N}]|[._]\d)"
+        extra_words = [value for value in values if value != label]
         parts.extend([
             r"^[ \t]*" + number + r"[ \t]*$",
-            context(category, [label]),
-            LEFT + r"(?:AAC|AC[ ._-]?3|E[ ._-]?AC[ ._-]?3|DDP|DD\+|DD|DTS(?:[ ._-]*HD(?:[ ._-]*MA)?)?|TRUEHD|FLAC|PCM)[ ._-]*" + number + suffix,
+            context(category, values),
+            LEFT + r"(?:(?:x?HE[ ._-]*)?AAC|E?[ ._-]*AC[ ._-]?3|DDP|DD\+|DD|DTS(?:[ ._:-]*(?:X|ES|HD(?:[ ._-]*(?:MA|HRA|HR))?))?|TRUEHD|ATMOS|FLAC|OPUS|L?PCM|MP3)(?:[ ._-]*ATMOS)?[ ._-]*" + number + suffix,
             LEFT + number + r"[ ._-]*(?:CH(?:ANNELS?)?|SURROUND)" + RIGHT,
         ])
+        if extra_words:
+            parts.append(bounded(extra_words))
         mode = "channel metadata or audio codec context"
-    elif category in {"container", "extension"}:
+    elif category == "container":
         parts.append(r"\." + "(?:" + "|".join(re.escape(value.lstrip(".")) for value in values) + r")(?:$|[\s\]})?#])")
         parts.append(context("container", values))
         mode = "file extension or container metadata"
-    elif category == "provider":
-        long_values = [value for value in values if len(value) > 3 and value.casefold() not in {"usenet", "native usenet", "nzb"}]
-        if long_values:
-            parts.append(bounded(long_values))
-        parts.append(context(category, values))
-        mode = "provider names; short provider codes require provider context"
-    elif category == "service":
-        risky = {"WOW", "NOW", "MAX", "SKY", "STAN", "VICE", "SONY", "SHOWTIME", "CRAVE", "ADULT SWIM", "ANIMAL PLANET"}
-        automatic = [value for value in values if value.upper() not in risky]
-        if automatic:
-            parts.append(bounded(automatic))
-        parts.append(context(category, values))
-        for value in risky & {value.upper() for value in values}:
-            parts.append(LEFT + re.escape(value) + r"[ ._-]+(?:WEB[ ._-]*DL|WEBRIP|\d{3,4}[pi])" + RIGHT)
-        mode = "network names and release abbreviations; ordinary words require service context"
     else:
         automatic = [value for value in values if len(value) > 3 or value.upper() in COMMON_SHORT]
         if automatic:
@@ -198,7 +209,7 @@ def main():
     canonical_images = {four_k["web_sha256"]: four_k["web"]}
     for item in catalog["items"]:
         image = ROOT / item["web"]
-        assert hashlib.sha256(image.read_bytes()).hexdigest() == item["web_sha256"]
+        assert hashlib.sha256(image.read_bytes()).hexdigest() == item["web_sha256"], item["id"]
         # Nuvio deduplicates by image URL. Byte-identical aliases share a URL.
         image_path = canonical_images.setdefault(item["web_sha256"], item["web"])
         pattern, mode = compile_pattern(item, selected_flags)
@@ -209,15 +220,15 @@ def main():
     groups = [{"id": category, "name": category.replace("-", " ").title(), "color": "#9EB3D1", "isExpanded": True} for category in categories]
     payload = {
         "name": "Nuvio Stream Badges",
-        "version": "2.0.0",
-        "description": "1,037 borderless badges: original logos, neutral metadata labels, an approved HDR10 derivative and 50 centered flat flag languages.",
+        "version": "2.1.0",
+        "description": f"{len(filters)} curated borderless badges across {len(groups)} categories: original marks, neutral metadata labels, an approved HDR10 derivative and 50 centered flat flag languages.",
         "homepage": "https://github.com/s09x/Nuvio-Assets/tree/main/badges",
         "filters": filters,
         "groups": groups,
     }
-    assert len(filters) == len({row["id"] for row in filters}) == 1037
+    assert len(filters) == len({row["id"] for row in filters}) == len(catalog["items"])
     (ROOT / "manifest.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    (ROOT / "data/import-matching.json").write_text(json.dumps({"schema": "Nuvio/Fusion filters and groups", "matching_notes": "Nuvio searches available stream text. Ambiguous fields require explicit metadata context; missing metadata cannot be inferred. Every asset also supports [badge:category/id].", "filters": modes}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (ROOT / "data/import-matching.json").write_text(json.dumps({"schema": "Nuvio/Fusion filters and groups", "matching_notes": "Nuvio searches available stream text. Missing metadata cannot be inferred. Every asset also supports [badge:category/id].", "filters": modes}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"filters": len(filters), "groups": len(groups), "distinct_app_images": len(canonical_images), "flag_languages": len(selected_flags), "manifest_bytes": (ROOT / "manifest.json").stat().st_size, "import_url": BASE_URL + "manifest.json"}), flush=True)
 
 

@@ -1,8 +1,8 @@
 {
   "status": "passed",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "static_links": 12,
   "missing_links": [],
   "inline_javascript_syntax": "node --check passed",
-  "interactive_browser_check": "not performed; prior browser URL policy block was not bypassed"
+  "contact_sheets": 16
 }

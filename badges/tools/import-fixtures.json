@@ -20,8 +20,7 @@
     "forbidden": [
       "dynamic-range/hdr10",
       "dynamic-range/hdr",
-      "audio-brand/dolby-digital",
-      "provider/easynews"
+      "audio-brand/dolby-digital"
     ]
   },
   {
@@ -35,7 +34,7 @@
       "source/remux",
       "audio-brand/dts-hd-ma",
       "audio-channel/7-1",
-      "video-codec/x264"
+      "video-codec/avc"
     ],
     "forbidden": [
       "audio-brand/dts",
@@ -44,36 +43,23 @@
     ]
   },
   {
-    "name": "E-AC-3 stays distinct from AC-3",
+    "name": "E-AC-3 maps cleanly to Dolby Digital Plus without triggering AC-3",
     "candidates": [
       "Example.2026.720p.WEB-DL.HDR10.E-AC-3.5.1.x265.mkv"
     ],
     "required": [
       "resolution/720p",
+      "source/web-dl",
       "dynamic-range/hdr10",
-      "audio-codec/e-ac-3",
+      "audio-brand/dolby-digital-plus",
       "audio-channel/5-1",
-      "video-codec/x265"
+      "video-codec/hevc",
+      "container/mkv"
     ],
     "forbidden": [
       "picture-brand/hdr10plus",
-      "audio-codec/ac-3",
+      "audio-brand/dolby-digital",
       "dynamic-range/hdr"
-    ]
-  },
-  {
-    "name": "Object-audio layout does not also produce the shorter channel badge",
-    "candidates": [
-      "Example.2026.2160p.TrueHD.7.1.4.Atmos.mkv"
-    ],
-    "required": [
-      "audio-brand/dolby-truehd",
-      "audio-brand/dolby-atmos",
-      "audio-channel/7-1-4"
-    ],
-    "forbidden": [
-      "audio-channel/7-1",
-      "audio-channel/1-0"
     ]
   },
   {
@@ -91,136 +77,59 @@
     "forbidden": [
       "resolution/720p",
       "resolution/1080p",
-      "resolution/2160p"
+      "resolution/2160p",
+      "disc-brand/dvd"
     ]
   },
   {
-    "name": "English language code is not the Easynews provider code",
+    "name": "English and Turkish codes match their languages without provider collisions",
     "candidates": [
-      "[EN]"
+      "[EN] [TR]"
     ],
     "required": [
-      "language/en"
-    ],
-    "forbidden": [
-      "provider/easynews"
-    ]
-  },
-  {
-    "name": "Explicit provider abbreviation uses its provider context",
-    "candidates": [
-      "provider: EN"
-    ],
-    "required": [
-      "provider/easynews"
-    ],
-    "forbidden": [
-      "language/en"
-    ]
-  },
-  {
-    "name": "Selected flag marker matches its language",
-    "candidates": [
-      "\ud83c\udde9\ud83c\uddea"
-    ],
-    "required": [
-      "language/de"
-    ],
-    "forbidden": [
       "language/en",
-      "language/nl",
-      "country/uk"
-    ]
+      "language/tr"
+    ],
+    "forbidden": []
   },
   {
-    "name": "Ukrainian language marker is not United Kingdom country metadata",
+    "name": "Selected flag markers match their languages",
     "candidates": [
-      "\ud83c\uddfa\ud83c\udde6"
+      "\ud83c\udde9\ud83c\uddea \ud83c\uddfa\ud83c\udde6"
     ],
     "required": [
+      "language/de",
       "language/uk"
     ],
     "forbidden": [
-      "country/uk",
-      "language/en"
-    ]
-  },
-  {
-    "name": "Country field does not select Ukrainian",
-    "candidates": [
-      "country: UK"
-    ],
-    "required": [
-      "country/uk"
-    ],
-    "forbidden": [
-      "language/uk",
-      "language/en"
-    ]
-  },
-  {
-    "name": "Provider and language abbreviations are separated",
-    "candidates": [
-      "[TR]"
-    ],
-    "required": [
-      "language/tr"
-    ],
-    "forbidden": [
-      "provider/torrin"
-    ]
-  },
-  {
-    "name": "Filename network abbreviations select original logos",
-    "candidates": [
-      "Example.Series.S01E02.1080p.NF.WEB-DL.DDP5.1.H264.mkv"
-    ],
-    "required": [
-      "service/netflix",
-      "video-codec/h-264",
-      "audio-brand/dolby-digital-plus"
-    ],
-    "forbidden": [
-      "service/prime-video",
-      "audio-brand/dolby-digital"
-    ]
-  },
-  {
-    "name": "Disney Plus does not also select the generic Disney logo",
-    "candidates": [
-      "Example.2026.Disney+.1080p.WEB-DL.mkv"
-    ],
-    "required": [
-      "service/disney-plus"
-    ],
-    "forbidden": [
-      "service/disney"
-    ]
-  },
-  {
-    "name": "Ordinary title words do not infer providers, countries or network names",
-    "candidates": [
-      "We Are in the Park Now",
-      "The Sky Is Quiet",
-      "A Walk to the Sea",
-      "Us",
-      "Johnny English"
-    ],
-    "required": [],
-    "forbidden": [
-      "provider/easynews",
-      "provider/altmount",
-      "service/now",
-      "service/sky",
-      "country/uk",
       "language/en",
-      "language/it",
-      "language/no",
+      "language/nl"
+    ]
+  },
+  {
+    "name": "Ordinary title words do not infer false technical badges",
+    "candidates": [
+      "Live Die Repeat 2014 1080p BluRay x264",
+      "Max 2015 1080p WEB-DL DD5.1 H264",
+      "Direct Contact 2009 1080p BluRay",
+      "We Are in the Park Now",
+      "Us"
+    ],
+    "required": [
+      "resolution/1080p",
+      "disc-brand/blu-ray",
+      "video-codec/avc",
+      "source/web-dl",
+      "audio-brand/dolby-digital",
+      "audio-channel/5-1"
+    ],
+    "forbidden": [
+      "language/en",
       "language/de"
     ]
   },
   {
-    "name": "Channel numbers are not extracted from an episode number",
+    "name": "Channel numbers are not extracted from episode or version numbers",
     "candidates": [
       "Episode 5.1",
       "Software v7.1.4"
@@ -228,8 +137,7 @@
     "required": [],
     "forbidden": [
       "audio-channel/5-1",
-      "audio-channel/7-1",
-      "audio-channel/7-1-4"
+      "audio-channel/7-1"
     ]
   },
   {
@@ -245,45 +153,6 @@
     ]
   },
   {
-    "name": "Explicit catalog selector supports a rare badge without guessing",
-    "candidates": [
-      "[badge:language/aa]"
-    ],
-    "required": [
-      "language/aa"
-    ],
-    "forbidden": [
-      "language/en",
-      "language/de"
-    ]
-  },
-  {
-    "name": "HDR10+ Gaming uses the specific logo",
-    "candidates": [
-      "HDR10+ Gaming"
-    ],
-    "required": [
-      "picture-brand/hdr10plus-gaming"
-    ],
-    "forbidden": [
-      "picture-brand/hdr10plus",
-      "dynamic-range/hdr10",
-      "dynamic-range/hdr"
-    ]
-  },
-  {
-    "name": "Cached and uncached require status context and remain distinct",
-    "candidates": [
-      "status: UNCACHED"
-    ],
-    "required": [
-      "availability/uncached"
-    ],
-    "forbidden": [
-      "availability/cached"
-    ]
-  },
-  {
     "name": "Native language labels and metadata lists",
     "candidates": [
       "Languages: Deutsch / English",
@@ -294,18 +163,17 @@
       "language/en",
       "language/fr"
     ],
-    "forbidden": [
-      "provider/easynews"
-    ]
+    "forbidden": []
   },
   {
-    "name": "Literal 4K and legacy 2160p resolve to the same visible artwork",
+    "name": "Literal 4K, UHD and legacy 2160p resolve to the same visible 4K artwork",
     "candidates": [
-      "Example.2026.4K.2160p.REMUX"
+      "Example.2026.UHD.4K.2160p.REMUX"
     ],
     "required": [
       "resolution/4k",
-      "resolution/2160p"
+      "resolution/2160p",
+      "source/remux"
     ],
     "forbidden": [
       "resolution/480p",
@@ -323,6 +191,51 @@
     "forbidden": [
       "resolution/1080p",
       "resolution/720p"
+    ]
+  },
+  {
+    "name": "Anime Dual-Audio and Multi-Subs do not trigger redundant SUBS or MULTI audio",
+    "candidates": [
+      "[Judas] Jujutsu Kaisen - S01E01 [1080p][HEVC x265 10bit][Dual-Audio][Multi-Subs].mkv",
+      "SeaDex",
+      "AIOStreams"
+    ],
+    "required": [
+      "resolution/1080p",
+      "video-codec/hevc",
+      "color/10-bit",
+      "language-mode/dual-audio",
+      "subtitles/multi-subs",
+      "container/mkv"
+    ],
+    "forbidden": [
+      "language-mode/multi",
+      "subtitles/subs"
+    ]
+  },
+  {
+    "name": "Nuvio player decoder text emits no duplicate HDR, codec or DTS badges",
+    "candidates": [
+      "2160p 4K UHD HEVC H.265 H265 x265 DV DoVi Dolby Vision HDR HDR10 10bit DD+ DDP EAC3 Atmos 5.1 DTS DTS-HD DTS-HD MA German"
+    ],
+    "required": [
+      "resolution/4k",
+      "resolution/2160p",
+      "picture-brand/dolby-vision",
+      "dynamic-range/hdr10",
+      "color/10-bit",
+      "video-codec/hevc",
+      "audio-brand/dolby-atmos",
+      "audio-brand/dolby-digital-plus",
+      "audio-brand/dts-hd-ma",
+      "audio-channel/5-1",
+      "language/de"
+    ],
+    "forbidden": [
+      "dynamic-range/hdr",
+      "audio-brand/dolby-digital",
+      "audio-brand/dts",
+      "audio-brand/dts-hd"
     ]
   }
 ]
